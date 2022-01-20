@@ -4,9 +4,11 @@
 
 ## Declaration des images
 
-### pb balises <label> & <caption>
 
-mémo : Label doit contenir son "identitiant littéraire : Figure 2" et caption la légende, laquelle peut contenir un titre avec `<title>` [voir exemple JATS4R](Example-JATS4R-image-avec-DOI)
+### pb balises `<label>` & `<caption>`
+
+mémo : Label doit contenir son "identitiant littéraire : Figure 2" et caption la légende, laquelle peut contenir un titre avec `<title>` [voir exemple JATS4R](#example-jats4r-image-avec-doi)
+
 
 Article Kernbach
 ```xml
@@ -21,7 +23,7 @@ Figure 1.</p>
  > Figure 1. devrait être à l'intérieur de `<label>` et `Meta-topologies in primary brain tumors` dans `<caption>`
 
 
-### Présence de la balise <caption>
+### Présence de la balise `<caption>`
 
 Liu 
 ```xml
