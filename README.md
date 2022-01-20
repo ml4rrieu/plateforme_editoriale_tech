@@ -69,32 +69,8 @@ Article Kernbach
 </fig>
 ```
 
+
 <br />
-<br />
-
-## Déclaration et référence des table
-
-
-> Erwan : Dans l'article Kernbach il est fait référence à 4 tables mais il n'y a qu'une table de déclarée en tant que telle sous la balise `<table>`, les autres tables étant introduites comme des images de table, sous la balise `<graphic>` donc, ce qui est très problématique...
-
-Reference
-```xml
-<xref rid="table1">
-    <underline>Table 1</underline>
-</xref>
-```
-
-Declaration
-```xml
-<table-wrap specific-use="frame">
-    <table id="Tableau1">
-        [...]
-    </table>
-</table-wrap>
-<p content-type="table-caption">Table 1</p>
-<p content-type="table-legend">Table 1. Comparison of factors between the non-stenosis group and the atherosclerotic stenosis group.</p>
-```
-
 <br />
 
 ## Référence des images
@@ -133,6 +109,36 @@ Article Arnold
 ```
 
 
+
+<br />
+<br />
+
+## Déclaration et référence des table
+
+
+> Erwan : Dans l'article Kernbach il est fait référence à 4 tables mais il n'y a qu'une table de déclarée en tant que telle sous la balise `<table>`, les autres tables étant introduites comme des images de table, sous la balise `<graphic>` donc, ce qui est très problématique...
+
+Reference
+```xml
+<xref rid="table1">
+    <underline>Table 1</underline>
+</xref>
+```
+
+Declaration
+```xml
+<table-wrap specific-use="frame">
+    <table id="Tableau1">
+        [...]
+    </table>
+</table-wrap>
+<p content-type="table-caption">Table 1</p>
+<p content-type="table-legend">Table 1. Comparison of factors between the non-stenosis group and the atherosclerotic stenosis group.</p>
+```
+
+
+<br />
+<br />
 
 ----
 
