@@ -1,0 +1,1083 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article
+  PUBLIC '-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.2 20190208//EN'
+  'https://jats.nlm.nih.gov/publishing/1.2/JATS-journalpublishing1.dtd'>
+<article article-type="research-article" dtd-version="1.2" specific-use="ojs-display" xml:lang="en">
+    <front>
+        <journal-meta>
+            <journal-id journal-id-type="publisher">Université de Paris</journal-id>
+            <issn/>
+            <publisher>
+                <publisher-name>Université de Paris</publisher-name>
+            </publisher>
+        </journal-meta>
+        <article-meta>
+            <article-id pub-id-type="other"/>
+            <article-categories>
+                <subj-group subj-group-type="display-channel">
+                    <subject>Research article</subject>
+                </subj-group>
+            </article-categories>
+            <title-group>
+                <article-title>Longitudinal quantitative MRI evaluation of muscle involvement in amyotrophic lateral sclerosis</article-title>
+                <trans-title-group xml:lang="fr">
+                    <trans-title>Evaluation MRI quantitative longitudinale de l’implication des muscles dans la sclérose latérale amyotropique</trans-title>
+                </trans-title-group>
+            </title-group>
+            <contrib-group>
+                <contrib contrib-type="author">
+                    <contrib-id contrib-id-type="ORCID">0000-0001-6042-1358</contrib-id>
+                    <name>
+                        <surname>Diamanti</surname>
+                        <given-names>Luca</given-names>
+                    </name>
+                    <aff>
+                        <xref ref-type="aff" rid="aff02"/>
+                        <xref ref-type="aff" rid="aff01"/>
+                    </aff>
+                </contrib>
+                <contrib contrib-type="author">
+                    <contrib-id contrib-id-type="ORCID">0000-0001-6017-3964</contrib-id>
+                    <name>
+                        <surname>I. Muzic</surname>
+                        <given-names>Shaun</given-names>
+                    </name>
+                    <aff>
+                        <xref ref-type="aff" rid="aff04"/>
+                        <xref ref-type="aff" rid="aff03"/>
+                    </aff>
+                </contrib>
+                <contrib contrib-type="author">
+                    <contrib-id contrib-id-type="ORCID">0000-0003-3217-8930</contrib-id>
+                    <name>
+                        <surname>Ballante</surname>
+                        <given-names>Elena</given-names>
+                    </name>
+                    <aff>
+                        <xref ref-type="aff" rid="aff06"/>
+                        <xref ref-type="aff" rid="aff05"/>
+                    </aff>
+                </contrib>
+                <contrib contrib-type="author">
+                    <contrib-id contrib-id-type="ORCID">0000-0002-6897-8270</contrib-id>
+                    <name>
+                        <surname>Solazzo</surname>
+                        <given-names>Francesca</given-names>
+                    </name>
+                    <aff>
+                        <xref ref-type="aff" rid="aff01"/>
+                    </aff>
+                </contrib>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Foppoli</surname>
+                        <given-names>Lia</given-names>
+                    </name>
+                    <aff>
+                        <xref ref-type="aff" rid="aff03"/>
+                    </aff>
+                </contrib>
+                <contrib contrib-type="author">
+                    <contrib-id contrib-id-type="ORCID">0000-0001-9968-223X</contrib-id>
+                    <name>
+                        <surname>Deligianni</surname>
+                        <given-names>Xeni</given-names>
+                    </name>
+                    <aff>
+                        <xref ref-type="aff" rid="aff08"/>
+                        <xref ref-type="aff" rid="aff07"/>
+                    </aff>
+                </contrib>
+                <contrib contrib-type="author">
+                    <contrib-id contrib-id-type="ORCID">0000-0001-6984-4816</contrib-id>
+                    <name>
+                        <surname>Santini</surname>
+                        <given-names>Francesco</given-names>
+                    </name>
+                    <aff>
+                        <xref ref-type="aff" rid="aff08"/>
+                        <xref ref-type="aff" rid="aff07"/>
+                    </aff>
+                </contrib>
+                <contrib contrib-type="author">
+                    <contrib-id contrib-id-type="IDREF">140385770</contrib-id>
+                    <contrib-id contrib-id-type="ISNI">000000005506474X</contrib-id>
+                    <contrib-id contrib-id-type="VIAF">http://viaf.org/viaf/78867391</contrib-id>
+                    <contrib-id contrib-id-type="ORCID">0000-0001-5756-7831</contrib-id>
+                    <name>
+                        <surname>Figini</surname>
+                        <given-names>Silvia</given-names>
+                    </name>
+                    <aff>
+                        <xref ref-type="aff" rid="aff09"/>
+                    </aff>
+                </contrib>
+                <contrib contrib-type="author">
+                    <contrib-id contrib-id-type="ORCID">0000-0002-7792-0433</contrib-id>
+                    <name>
+                        <surname>Bergsland</surname>
+                        <given-names>Niels</given-names>
+                    </name>
+                    <aff>
+                        <xref ref-type="aff" rid="aff11"/>
+                        <xref ref-type="aff" rid="aff10"/>
+                    </aff>
+                </contrib>
+                <contrib contrib-type="author">
+                    <contrib-id contrib-id-type="ORCID">0000-0002-5654-4088</contrib-id>
+                    <name>
+                        <surname>Pichiecchio</surname>
+                        <given-names>Anna</given-names>
+                    </name>
+                    <aff>
+                        <xref ref-type="aff" rid="aff01"/>
+                        <xref ref-type="aff" rid="aff03"/>
+                    </aff>
+                </contrib>
+                <aff id="aff01">
+                    <institution-wrap>
+                        <institution-id institution-id-type="ROR">04tfzc498</institution-id>
+                        <institution>Neuroradiology Department, Advanced Imaging and Radiomics Center, Istituto di Ricovero e Cura di Carattere Scientifico (IRCCS) Mondino Foundation, Pavia, Italy</institution>
+                    </institution-wrap>
+                </aff>
+                <aff id="aff02">
+                    <institution-wrap>
+                        <institution-id institution-id-type="ROR">04tfzc498</institution-id>
+                        <institution>Neuro-Oncology Unit, Istituto di Ricovero e Cura di Carattere Scientifico (IRCCS) Mondino Foundation, Pavia, Italy</institution>
+                    </institution-wrap>
+                </aff>
+                <aff id="aff03">
+                    <institution-wrap>
+                        <institution-id institution-id-type="ROR">00s6t1f81</institution-id>
+                        <institution>Department of Brain and Behavioral Sciences, University of Pavia, Pavia, Italy</institution>
+                    </institution-wrap>
+                </aff>
+                <aff id="aff04">
+                    <institution-wrap>
+                        <institution-id institution-id-type="ROR">04tfzc498</institution-id>
+                        <institution>Department of Radiology, Fondazione Istituto di Ricovero e Cura di Carattere Scientifico (IRCCS) Policlinico San Matteo, Medical School University of Pavia, Pavia, Italy</institution>
+                    </institution-wrap>
+                </aff>
+                <aff id="aff05">
+                    <institution-wrap>
+                        <institution-id institution-id-type="ROR">00s6t1f81</institution-id>
+                        <institution>Department of Mathematics, University of Pavia, Pavia, Italy</institution>
+                    </institution-wrap>
+                </aff>
+                <aff id="aff06">
+                    <institution-wrap>
+                        <institution-id institution-id-type="ROR">04tfzc498</institution-id>
+                        <institution>BioData Science Center, Istituto di Ricovero e Cura di Carattere Scientifico (IRCCS) Mondino Foundation, Pavia, Italy</institution>
+                    </institution-wrap>
+                </aff>
+                <aff id="aff07">
+                    <institution-wrap>
+                        <institution-id institution-id-type="ROR">04k51q396</institution-id>
+                        <institution>Radiology/Division of Radiological Physics, University Hospital of Basel, Basel, Switzerland</institution>
+                    </institution-wrap>
+                </aff>
+                <aff id="aff08">
+                    <institution-wrap>
+                        <institution-id institution-id-type="ROR">02s6k3f65</institution-id>
+                        <institution>Biomedical Engineering, University of Basel, Allschwil, Switzerland</institution>
+                    </institution-wrap>
+                </aff>
+                <aff id="aff09">
+                    <institution-wrap>
+                        <institution-id institution-id-type="ROR">00s6t1f81</institution-id>
+                        <institution>Department of Political and Social Sciences, University of Pavia, Pavia, Italy</institution>
+                    </institution-wrap>
+                </aff>
+                <aff id="aff10">
+                    <institution>Department of Neurology, Buffalo Neuroimaging Analysis Center, Jacobs School of Medicine and Biomedical Sciences, Buffalo, NY, United States</institution>
+                </aff>
+                <aff id="aff11">
+                    <institution-wrap>
+                        <institution-id institution-id-type="ROR">02e3ssq97</institution-id>
+                        <institution>IRCCS Fondazione Don Carlo Gnocchi Organizzazione non lucrativa di utilità sociale (ONLUS), Milan, Italy</institution>
+                    </institution-wrap>
+                </aff>
+            </contrib-group>
+            <pub-date>
+                <year/>
+            </pub-date>
+            <abstract>
+                <p>Background: Biomarkers of disease progression and outcome measures are still lacking for patients with amyotrophic lateral sclerosis (ALS). Muscle MRI can be a promising candidate to track longitudinal changes and to predict response to the therapy in clinical trials.</p>
+            </abstract>
+            <abstract>
+                <p>Objective: Our aim is to apply quantitative muscle MRI in the evaluation of disease progression, focusing on thigh and leg muscles of patients with ALS, and to explore the correlation between radiological and clinical scores.</p>
+            </abstract>
+            <abstract>
+                <p>Methods: We enrolled newly diagnosed patients with ALS, longitudinally scored using the ALS Functional Rating Scale-Revised (ALSFRS-R), who underwent a 3T muscle MRI protocol including a 6-point Dixon gradient-echo sequence and multi-echo turbo spin echo (TSE) T2-weighted sequence for quantification of fat fraction (FF), cross-sectional area (CSA), and water T2 (wT2). A total of 12 muscles of the thigh and six muscles of the leg were assessed by the manual drawing of 18 regions of interest (ROIs), for each side. A group of 11 age-matched healthy controls (HCs) was enrolled for comparison.</p>
+            </abstract>
+            <abstract>
+                <p>Results: 15 patients (M/F 8/7; mean age 62.2 years old, range 29–79) diagnosed with possible (n = 2), probable (n = 12), or definite (n = 1) ALS were enrolled. Eleven patients presented spinal onset, whereas four of them had initial bulbar involvement. All patients performed MRI at T0, nine of them at T1, and seven of them at T2. At baseline, wT2 was significantly elevated in ALS subjects compared to HCs for several muscles of the thigh and mainly for leg muscles. By contrast, FF was elevated in few muscles, and mainly at the level of the thigh. The applied mixed effects model showed that FF increased significantly in the leg muscles over time (mainly in the triceps surae) and that wT2 decreased significantly in line with worsening in the leg subscore of ALSFRS-R, mainly at the leg level and in the anterior and medial compartment of the thigh.</p>
+            </abstract>
+            <abstract>
+                <p>Conclusions: Quantitative MRI represents a non-invasive tool that is able to outline the trajectory of pathogenic modifications at the muscle level in ALS. In particular, wT2 was found to be increased early in the clinical history of ALS and also tended to decrease over time, also showing a positive correlation with leg subscore of ALSFRS-R.</p>
+            </abstract>
+            <trans-abstract xml:lang="fr">
+                <p>
+                    <bold>Contexte</bold>
+                </p>
+            </trans-abstract>
+            <trans-abstract xml:lang="fr">
+                <p>Victus universis caro ferina est lactisque abundans copia qua sustentantur, et herbae multiplices et siquae alites capi per aucupium possint, et plerosque mos vidimus frumenti usum et vini penitus ignorantes.</p>
+            </trans-abstract>
+            <trans-abstract xml:lang="fr">
+                <p>
+                    <bold>Méthodes</bold>
+                </p>
+            </trans-abstract>
+            <trans-abstract xml:lang="fr">
+                <p>Haec subinde Constantius audiens et quaedam referente Thalassio doctus, quem eum odisse iam conpererat lege communi, scribens ad Caesarem blandius adiumenta paulatim illi subtraxit, sollicitari se simulans ne, uti est militare otium fere tumultuosum, in eius perniciem conspiraret, solisque scholis iussit esse contentum palatinis et protectorum cum Scutariis et Gentilibus, et mandabat Domitiano, ex comite largitionum, praefecto ut cum in Syriam venerit, Gallum, quem crebro acciverat, ad Italiam properare blande hortaretur et verecunde.</p>
+            </trans-abstract>
+            <trans-abstract xml:lang="fr">
+                <p>
+                    <bold>Résultats</bold>
+                </p>
+            </trans-abstract>
+            <trans-abstract xml:lang="fr">
+                <p>Huic Arabia est conserta, ex alio latere Nabataeis contigua; opima varietate conmerciorum castrisque oppleta validis et castellis, quae ad repellendos gentium vicinarum excursus sollicitudo pervigil veterum per oportunos saltus erexit et cautos. haec quoque civitates habet inter oppida quaedam ingentes Bostram et Gerasam atque Philadelphiam murorum firmitate cautissimas. hanc provinciae inposito nomine rectoreque adtributo obtemperare legibus nostris Traianus conpulit imperator incolarum tumore saepe contunso cum glorioso marte Mediam urgeret et Parthos.</p>
+            </trans-abstract>
+            <trans-abstract xml:lang="fr">
+                <p>
+                    <bold>Conclusions</bold>
+                </p>
+            </trans-abstract>
+            <trans-abstract xml:lang="fr">
+                <p>Post hanc adclinis Libano monti Phoenice, regio plena gratiarum et venustatis, urbibus decorata magnis et pulchris; in quibus amoenitate celebritateque nominum Tyros excellit, Sidon et Berytus isdemque pares Emissa et Damascus saeculis condita priscis.</p>
+            </trans-abstract>
+            <kwd-group kwd-group-type="author-keywords" xml:lang="en">
+                <kwd>MRI evaluation</kwd>
+                <kwd>Amyotrophic lateral sclerosis</kwd>
+                <kwd>Biomarkers</kwd>
+                <kwd>radiological score</kwd>
+                <kwd>Clinical score</kwd>
+            </kwd-group>
+            <kwd-group kwd-group-type="author-keywords" xml:lang="fr">
+                <kwd>Evaluation MRI</kwd>
+                <kwd>Sclérose latérale amyotropique</kwd>
+                <kwd>Marqueurs biologiques</kwd>
+                <kwd>Score radiologique</kwd>
+                <kwd>Score clinique</kwd>
+            </kwd-group>
+        </article-meta>
+    </front>
+    <body>
+        <bold>Mots-clés</bold>: Evaluation MRI, Sclérose latérale amyotropique, Marqueurs biologiques, Score radiologique, Score clinique
+        <p>
+            <bold>Funding.</bold>
+            This work was supported by the Italian Ministry of Health (RC 2017–2021).</p>
+        <p>
+            <bold>Data Availability Statement.</bold>The original contributions presented in the study are publicly available. Raw MRI data are available in the Zenodo repository: https://zenodo.org/record/5575243#.</p>
+        <p>
+            <bold>Ethics Statement.</bold>The studies involving human participants were reviewed and approved by Comitato Etico Pavia. The patients/participants provided their written informed consent to participate in this study.</p>
+        <p>
+            <bold>Author Contributions.</bold>LD, MP, and AP contributed to study design, data analysis, writing of the manuscript, and critical revision of the manuscript. XD, FSa, and NB contributed to data acquisition and analysis, and critical revision of the manuscript. FSo, SM, and LF contributed to data analysis. EB and SF contributed to statistical analysis. All authors gave important contributions to the final form of the manuscript.</p>
+        <p>
+            <bold>Conflict of Interest.</bold>The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.</p>
+        <p>
+            <bold>Acknowledgments.</bold>The authors thank the study participants and families for participation.</p>
+        <sec>
+            <title>Introduction</title>
+            <p>Amyotrophic lateral sclerosis (ALS) is a neurodegenerative disease that targets motor neurons, though other cells (including muscle cells) may be affected as well. Muscle involvement in ALS is traditionally considered to be secondary to neuronal damage, and this line of reasoning is recently being proven on qualitative and quantitative MRI (qMRI) sequences 
+                <xref ref-type="bibr" rid="bibl01">[1-7]</xref>
+                .</p>
+            <p>The precise and efficient evaluation and tracking of changes related to the evolution of the disease, beyond the traditional clinical measures (i.e., the revised ALS functional rating scale, ALSFRS-R), is a major difficulty in ALS. Quantitative muscle MRI has been proposed and successfully used to provide biomarkers for tracking disease evolution and, when available, assess response to treatment in neuromuscular disorders 
+                <xref ref-type="bibr" rid="bibl08">[8-11]</xref>
+                and for ALS specifically 
+                <xref ref-type="bibr" rid="bibl12">[12]</xref>
+                . Longitudinal studies investigating the role of muscle MRI as a biomarker of ALS progression are few and heterogeneous in terms of evaluated MRI studies.</p>
+            <p>As for T2 times, a study by Jenkins et al. found that T2 signal was increased in ALS subjects compared to controls, with muscle differences as low as 0.6% (for right trapezius) and as high as 71.4% for tibialis anterior (TA); T2 signal also increased over time in ALS subjects at 4-month follow-up for TA 
+                <xref ref-type="bibr" rid="bibl03">[3]</xref>
+                . In a more recent study, additionally, T2 also increased at 12-month follow-up for right TA, right quadriceps, bilateral hamstrings, and gastrocnemius/soleus (by a 14–29%) 
+                <xref ref-type="bibr" rid="bibl04">[4]</xref>
+                . They also found that increase in T2 signal after 1 year correlated with progressive weakness and with the loss of motor units at EMG 
+                <xref ref-type="bibr" rid="bibl04">[4]</xref>
+                .</p>
+            <p>In the present study, our aim was to assess changes in trophicity, fat replacement, and intramuscular edema of lower limbs in the early phases of ALS, and to explore the eventual correlation with clinical scores, with a longitudinal approach. Measurements of FF, cross-sectional area (CSA), and water T2 (wT2) were performed to evaluate the intramuscular changes at baseline and follow-up.</p>
+        </sec>
+        <sec>
+            <title>Materials and methods</title>
+            <sec>
+                <title>Subjects</title>
+                <p>Patients newly diagnosed with ALS using the El Escorial Criteria (14) were recruited into this longitudinal study from patients who attended the motor neuron disease clinic at our Institution. Exclusion criteria consisted of an inability to give informed consent, concomitant neuromuscular diseases, respiratory failure impairing ability to lie still in the scanner, and safety-related MRI contraindications. We scored clinical severity by using the subitems of the ALSFRS-R (15), indicating lower limb motor function (walking and climbing stairs). Each patient underwent a full clinical assessment, including the taking of medical history and an evaluation of clinical and neurologic conditions. Patients were clinically evaluated at each time point (baseline, t1 after 6 months, and t2 after 12 months). Eleven healthy controls (HCs) were enrolled for comparison.</p>
+                <p>All subjects gave written informed consent for participation in this study, which was approved by the local Ethical Committee.</p>
+            </sec>
+            <sec>
+                <title>Imaging protocol</title>
+                <p>At each clinical time point (t0, t1, and t2), subjects underwent a quantitative muscle MRI protocol (3T Skyra scanner, Siemens Healthcare, Erlangen, Germany) with an 18-channel phased-array coil applied on thighs and legs. The acquisition protocol included two quantitative sequences acquired in the axial plane both for the thigh and the leg: a 6-point Dixon gradient-echo (GRE) sequence (voxel size: 1 mm × 1 mm × 5 mm; slice thickness: 5 mm, TR: 35 ms, TE: 1.73 ms) and a multi-echo turbo spin echo (TSE) T2 sequence (voxel size: 1.2 mm × 1.2 mm × 10 mm; slice thickness: 10 mm, TR: 4,100 ms, TE: 10.90 ms, 17 echoes). Vitamin E capsules were placed upon the skin of the patient as positioning markers to allow cross-sectional intra-cohort reproducibility and longitudinal intra-subject reproducibility. The total duration of muscle MRI protocol was approximately 45 min. Some patients were lost to longitudinal follow-ups due to physical inability (major clinical impairment) to perform the muscle MRI protocol and logistic/personal issues linked to the COVID-19 pandemic. In the end, a total of 15 ALS subjects underwent muscle MRI at t0, nine at t1, and seven at t2. HCs only underwent a single muscle MRI examination.</p>
+            </sec>
+            <sec>
+                <title>MRI data post-processing</title>
+                <p>The segmentation of thigh and leg muscles was performed through the region of interest (ROI) drawing by a single expert operator (with 5 years of experience in muscle segmentation), blinded to clinical data, using the open-source software ITK-SNAP (16). A total of 12 thigh and six calf muscle ROIs for each side (left and right) were evaluated (
+                    <xref rid="fig1">
+                        <underline>Figure 1</underline></xref>).</p>
+                <fig>
+                    <label>Figure 1.</label>
+                    <caption>
+                        <p>Example of ROIs obtained during manual (A) thigh and (B) leg muscle segmentation superimposed on a T2w GRE image. The color code indicates all 12 thigh ROIs and six leg ROIs that were considered, which were drawn on both the left and right thigh, with the corresponding muscle indicated in the figure with its respective initials, as follows: (A) Thigh muscles: VL, vastus lateralis; VM, vastus medialis; VI, vastus intermedius; RF, rectus femoris; Sa, sartorius; G, gracilis; AM, adductor magnus; SM, semimembranosus; ST, semitendinosus; BFL, long head of biceps femoris; BFS, short head of biceps femoris; AL, adductor longus. The anterior compartment includes VL, VM, VI, and RF; medial compartment includes Sa, G, AM, and AL; the posterior compartment includes SM, ST, BFL, and BFS. (B) Leg muscles: TA, tibialis anterior; ELD, extensor digitorum longus; PE, peroneus; S, soleus; GM, medial head of the gastrocnemius; GL, lateral head of the gastrocnemius. The anterior compartment includes TA, ELD, and PE; the posterior compartment includes S, GM, and GL.</p>
+                    </caption>
+                    <graphic xlink:href="data/emergneurol_01_04_paoletti_fig01.jpg" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+                </fig>
+                <p>Muscle ROIs were drawn without including non-muscle tissues, such as fat tissue, fascia, or blood vessels. Muscle perimeter was outlined approximately 1 mm inside the borders of the perimuscular fascia. ROIs were initially drawn on a single median slice of the first echo image of the multi-echo T2 sequence. The ROIs were then registered on the seven most median slices of the GRE images using linear and non-linear transformations. These were subsequently manually revised and corrected by the same operator to avoid registration errors.</p>
+                <p>The average fat fraction (FF) was calculated for every muscle from the 6-point Dixon GRE images, applying the publicly available post-processing algorithm FattyRiot (17). Accordingly, the global T2 value was calculated from the multi-echo T2 images. wT2 was then calculated from the multi-echo spin-echo T2 acquisition using a two-compartment extended-phase-graph fitting (18, 19). CSA was also calculated for each ROI and used for analysis.</p>
+            </sec>
+            <sec>
+                <title>Statistical analysis</title>
+                <p>Statistical analyses were performed using R 4.0.2 (20). Descriptive statistics present continuous variables as mean and SD, or median and range where appropriate, whereas categorical variables are shown as row counts and percentages. The level of significance was set at p &lt; 0.05. The comparison between patients and HCs at baseline was performed using the Wilcoxon test for independent samples.</p>
+                <p>In order to include all the available data in the analysis of time influence on variables involved, linear mixed models were implemented where time was included as a numeric explanatory variable. The evaluation of correlation with the clinical scale was performed through linear mixed models where time and clinical scale were included as numeric explanatory variables.</p>
+                <p>Furthermore, a principal component analysis (PCA) was performed to aggregate information of muscle groups (anterior, medial, and posterior compartment of the thigh, anterior, and posterior compartment of the leg) for FF, wT2, and CSA. For subdivision into compartments of the thigh and for the leg, refer to the legend of Figure 1. The Pearson correlation analysis was performed between the first principal component of each group and the clinical scale. The analyses were performed on timepoints 0 and 1 and the differences.</p>
+            </sec>
+        </sec>
+        <sec>
+            <title>Results</title>
+            <sec>
+                <title>Demographics and clinical findings</title>
+                <p>About 15 patients with ALS (M/F = 8/7; average age 62.2 years old, range 29–79 years) newly diagnosed with possible (n = 2), probable (n = 12), or definite (n = 1) ALS were enrolled for this study. All patients presented sporadic ALS. Eleven patients presented spinal onset, whereas four of them had initial bulbar involvement. Mean diagnostic delay (time from symptoms onset to diagnosis) was 12.6 months (range, 3–30), and the mean ALSFRS-R score was 43.4 (range, 38–47). Mean ALSFRS-R score of subitems related to leg involvement were 6.6 (range, 2–8) at T0, 5.4 (range, 3–8) at T1, and 5.1 (range, 1–8) at T2. Clinical data for each patient are reported in 
+                    <xref rid="tab1">
+                        <underline>Table 1</underline></xref>. HCs (M/F = 4/7) had an average age of 52.8 years (range 42–72).</p>
+                <table-wrap specific-use="frame">
+                    <table id="Tableau1">
+                        <tr>
+                            <td>
+                                <bold>Patient ID (sex, age at onset—years)</bold>
+                            </td>
+                            <td>
+                                <bold>El Escorial Category</bold>
+                            </td>
+                            <td>
+                                <bold>Site of onset</bold>
+                            </td>
+                            <td>
+                                <bold>Type of involvement</bold>
+                            </td>
+                            <td>
+                                <bold>ALSFRS-R score at diagnosis (leg subscore)</bold>
+                            </td>
+                            <td>
+                                <bold>ALSFRS-R score at T1 (leg subscore)</bold>
+                            </td>
+                            <td>
+                                <bold>ALSFRS-R score at T2 (leg subscore)</bold>
+                            </td>
+                            <td>
+                                <bold>Predominant UMN/LMN</bold>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <bold>#1 (F, 55)</bold>
+                            </td>
+                            <td>Probable</td>
+                            <td>Spinal</td>
+                            <td>Distal left LL</td>
+                            <td>44 (7)</td>
+                            <td>–</td>
+                            <td>36 (5)</td>
+                            <td>LMN</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <bold>#2 (F, 39)</bold>
+                            </td>
+                            <td>Definite</td>
+                            <td>Spinal</td>
+                            <td>Proximal left and right LL</td>
+                            <td>38 (6)</td>
+                            <td>35 (4)</td>
+                            <td>33 (4)</td>
+                            <td>UMN</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <bold>#3 (M, 29)</bold>
+                            </td>
+                            <td>Probable</td>
+                            <td>Spinal</td>
+                            <td>Distal left UL</td>
+                            <td>47 (8)</td>
+                            <td>45 (7)</td>
+                            <td>–</td>
+                            <td>LMN</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <bold>#4 (M, 63)</bold>
+                            </td>
+                            <td>Probable</td>
+                            <td>Spinal</td>
+                            <td>Proximal and distal left LL</td>
+                            <td>41 (4)</td>
+                            <td>36 (3)</td>
+                            <td>31 (1)</td>
+                            <td>LMN</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <bold>#5 (M, 75)</bold>
+                            </td>
+                            <td>Possible</td>
+                            <td>Spinal</td>
+                            <td>Proximal left UL</td>
+                            <td>46 (8)</td>
+                            <td>–</td>
+                            <td>–</td>
+                            <td>LMN</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <bold>#6 (M, 74)</bold>
+                            </td>
+                            <td>Possible</td>
+                            <td>Spinal</td>
+                            <td>Proximal left and right UL</td>
+                            <td>45 (7)</td>
+                            <td>39 (3)</td>
+                            <td>34 (2)</td>
+                            <td>LMN</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <bold>#7 (F, 66)</bold>
+                            </td>
+                            <td>Probable</td>
+                            <td>Bulbar</td>
+                            <td>–</td>
+                            <td>40 (8)</td>
+                            <td>38 (8)</td>
+                            <td>37 (8)</td>
+                            <td>LMN</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <bold>#8 (M, 56)</bold>
+                            </td>
+                            <td>Probable</td>
+                            <td>Spinal</td>
+                            <td>Proximal-distal, left-right UL-LL</td>
+                            <td>45 (2)</td>
+                            <td>–</td>
+                            <td>–</td>
+                            <td>LMN</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <bold>#9 (M, 79)</bold>
+                            </td>
+                            <td>Probable</td>
+                            <td>Spinal</td>
+                            <td>Distal left LL</td>
+                            <td>43 (5)</td>
+                            <td>37 (4)</td>
+                            <td>–</td>
+                            <td>LMN</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <bold>#10 (M, 73)</bold>
+                            </td>
+                            <td>Probable</td>
+                            <td>Bulbar</td>
+                            <td>–</td>
+                            <td>44 (8)</td>
+                            <td>–</td>
+                            <td>40 (8)</td>
+                            <td>LMN</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <bold>#11 (F, 63)</bold>
+                            </td>
+                            <td>Probable</td>
+                            <td>Bulbar</td>
+                            <td>–</td>
+                            <td>44 (8)</td>
+                            <td>41 (7)</td>
+                            <td>–</td>
+                            <td>LMN</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <bold>#12 (F, 76)</bold>
+                            </td>
+                            <td>Probable</td>
+                            <td>Bulbar</td>
+                            <td>–</td>
+                            <td>42 (8)</td>
+                            <td>40 (8)</td>
+                            <td>–</td>
+                            <td>LMN</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <bold>#13 (M, 69)</bold>
+                            </td>
+                            <td>Probable</td>
+                            <td>Spinal</td>
+                            <td>Distal right LL</td>
+                            <td>45 (7)</td>
+                            <td>40 (5)</td>
+                            <td>–</td>
+                            <td>LMN</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <bold>#14 (F, 64)</bold>
+                            </td>
+                            <td>Probable</td>
+                            <td>Spinal</td>
+                            <td>Distal right UL</td>
+                            <td>42 (6)</td>
+                            <td>–</td>
+                            <td>–</td>
+                            <td>LMN</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <bold>#15 (F, 52)</bold>
+                            </td>
+                            <td>Probable</td>
+                            <td>Spinal</td>
+                            <td>Proximal right LL</td>
+                            <td>45 (8)</td>
+                            <td>–</td>
+                            <td>39 (8)</td>
+                            <td>UMN</td>
+                        </tr>
+                    </table>
+                </table-wrap>
+            </sec>
+            <sec>
+                <title>qMRI measures differences between ALS and healthy controls</title>
+                <p>At baseline, compared to HCs, wT2 was significantly increased in ALS subjects in several muscles of the thigh, including anterior, medial, and posterior compartment; at the level of the leg, wT2 was increased in ALS subjects for TA, triceps surae, extensor longus digitorum, and peroneal muscles (
+                    <xref rid="tab2">
+                        <underline>Table 2</underline></xref>). CSA was decreased for ALS subjects only for semimembranosus muscle; by contrast, FF was increased in ALS subjects mainly at the level of the anterior and medial compartment of the thigh and in ELD and TA at the leg level (
+                    <xref rid="tab2">
+                        <underline>Table 2</underline></xref>).</p>
+                <table-wrap specific-use="frame">
+                    <table id="Tableau2">
+                        <tr>
+                            <td>
+                                <bold>ALS vs. HCs</bold>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <bold>Variables</bold>
+                            </td>
+                            <td>Mean difference</td>
+                            <td>Median difference</td>
+                            <td>p-value</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <bold>wT2</bold>
+                            </td>
+                            <td>VL_left-right*</td>
+                            <td>+2.809572</td>
+                            <td>+3.063086</td>
+                            <td>0.00371575</td>
+                        </tr>
+                        <tr>
+                            <td>VI_left-right*</td>
+                            <td>+2.897702</td>
+                            <td>+1.696587</td>
+                            <td>0.00211737</td>
+                        </tr>
+                        <tr>
+                            <td>RF_left-right*</td>
+                            <td>+2.289581</td>
+                            <td>+1.427143</td>
+                            <td>0.02141274</td>
+                        </tr>
+                        <tr>
+                            <td>AM_left-right*</td>
+                            <td>+2.879314</td>
+                            <td>+3.131731</td>
+                            <td>0.00173943</td>
+                        </tr>
+                        <tr>
+                            <td>SM_left-right*</td>
+                            <td>+3.784083</td>
+                            <td>+4.275337</td>
+                            <td>0.00256606</td>
+                        </tr>
+                        <tr>
+                            <td>ST_left-right</td>
+                            <td>+2.339892</td>
+                            <td>+3.364537</td>
+                            <td>0.01192037</td>
+                        </tr>
+                        <tr>
+                            <td>ST_left</td>
+                            <td>+2.483095</td>
+                            <td>+3.026519</td>
+                            <td>0.01020843</td>
+                        </tr>
+                        <tr>
+                            <td>BFL_left-right*</td>
+                            <td>+3.796152</td>
+                            <td>+2.774935</td>
+                            <td>0.00740422</td>
+                        </tr>
+                        <tr>
+                            <td>BFS_left-right</td>
+                            <td>+4.148411</td>
+                            <td>+4.909326</td>
+                            <td>0.01020843</td>
+                        </tr>
+                        <tr>
+                            <td>BFS_left</td>
+                            <td>+5.796794</td>
+                            <td>+4.527675</td>
+                            <td>0.00309437</td>
+                        </tr>
+                        <tr>
+                            <td>So_left-right*</td>
+                            <td>+7.020631</td>
+                            <td>+5.605596</td>
+                            <td>0.00000771</td>
+                        </tr>
+                        <tr>
+                            <td>MG_left-right*</td>
+                            <td>+10.8707</td>
+                            <td>+9.009979</td>
+                            <td>0.00000081</td>
+                        </tr>
+                        <tr>
+                            <td>LG_left-right*</td>
+                            <td>+11.80878</td>
+                            <td>+13.24945</td>
+                            <td>0.00000771</td>
+                        </tr>
+                        <tr>
+                            <td>TA_left-right*</td>
+                            <td>+8.202594</td>
+                            <td>+6.730464</td>
+                            <td>0.00001116</td>
+                        </tr>
+                        <tr>
+                            <td>ELD_left-right*</td>
+                            <td>+8.375868</td>
+                            <td>+8.214133</td>
+                            <td>0.00004280</td>
+                        </tr>
+                        <tr>
+                            <td>Pe_left-right*</td>
+                            <td>+8.861914</td>
+                            <td>+8.65537</td>
+                            <td>0.00002243</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <bold>CSA</bold>
+                            </td>
+                            <td>SM_left-right</td>
+                            <td>−374.509</td>
+                            <td>−464.145</td>
+                            <td>0.02814128</td>
+                        </tr>
+                        <tr>
+                            <td>SM_left-right</td>
+                            <td>−202.811</td>
+                            <td>−246.28</td>
+                            <td>0.01371954</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <bold>FF</bold>
+                            </td>
+                            <td>RF_left-right</td>
+                            <td>+0.033108</td>
+                            <td>+0.037</td>
+                            <td>0.00228725</td>
+                        </tr>
+                        <tr>
+                            <td>VM_left</td>
+                            <td>+0.021782</td>
+                            <td>+0.02615</td>
+                            <td>0.04686635</td>
+                        </tr>
+                        <tr>
+                            <td>RF_left</td>
+                            <td>+0.032167</td>
+                            <td>+0.03425</td>
+                            <td>0.01114513</td>
+                        </tr>
+                        <tr>
+                            <td>Sa_left</td>
+                            <td>+0.041602</td>
+                            <td>+0.04835</td>
+                            <td>0.01858989</td>
+                        </tr>
+                        <tr>
+                            <td>AM_left</td>
+                            <td>+0.037055</td>
+                            <td>+0.0384</td>
+                            <td>0.03211220</td>
+                        </tr>
+                        <tr>
+                            <td>VI_right</td>
+                            <td>+0.018415</td>
+                            <td>+0.01955</td>
+                            <td>0.03376167</td>
+                        </tr>
+                        <tr>
+                            <td>BFS_right</td>
+                            <td>+0.119552</td>
+                            <td>+0.14275</td>
+                            <td>0.01608458</td>
+                        </tr>
+                        <tr>
+                            <td>ELD_left-right</td>
+                            <td>+0.036058</td>
+                            <td>+0.0259</td>
+                            <td>0.03806963</td>
+                        </tr>
+                        <tr>
+                            <td>TA_left</td>
+                            <td>+0.031363</td>
+                            <td>+0.02125</td>
+                            <td>0.02814128</td>
+                        </tr>
+                        <tr>
+                            <td>ELD_left</td>
+                            <td>+0.0409</td>
+                            <td>+0.0258</td>
+                            <td>0.04143832</td>
+                        </tr>
+                    </table>
+                </table-wrap>
+            </sec>
+            <sec>
+                <title>Longitudinal evolution of qMRI measures and correlation to leg subscore of ALSFRS-R</title>
+                <p>When evaluating the evolution of qMRI measures over time, we found that wT2 decreased significantly over time only in the gemellus medialis and peroneal muscles. By contrast, FF increased over time in gemellus medialis, soleus, and TA. No significant change of FF was found over time for thigh muscles (
+                    <xref rid="tab3">
+                        <underline>Table 3</underline></xref>). No significant change was observed for CSA overall.</p>
+                <table-wrap specific-use="frame">
+                    <table id="Tableau3">
+                        <tr>
+                            <td>
+                                <bold>Variables</bold>
+                            </td>
+                            <td>
+                                <bold>Coefficients</bold>
+                            </td>
+                            <td>
+                                <bold>Std errors</bold>
+                            </td>
+                            <td>
+                                <bold>
+                                    <italic>P-value</italic>
+                                </bold>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <bold>wT2</bold>
+                            </td>
+                            <td>MG_left</td>
+                            <td>−0.17168</td>
+                            <td>0.0765288</td>
+                            <td>0.0404</td>
+                        </tr>
+                        <tr>
+                            <td>Pe_right</td>
+                            <td>−0.38271</td>
+                            <td>0.159210</td>
+                            <td>0.0296</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <bold>FF</bold>
+                            </td>
+                            <td>So_left-right</td>
+                            <td>+0.00294898</td>
+                            <td>0.001113378</td>
+                            <td>0.0182</td>
+                        </tr>
+                        <tr>
+                            <td>So_left</td>
+                            <td>+0.00328409</td>
+                            <td>0.00148746</td>
+                            <td>0.0432</td>
+                        </tr>
+                        <tr>
+                            <td>So_right</td>
+                            <td>+0.00259289</td>
+                            <td>0.001047599</td>
+                            <td>0.0257</td>
+                        </tr>
+                        <tr>
+                            <td>MG_left-right</td>
+                            <td>+0.00318101</td>
+                            <td>0.001027389</td>
+                            <td>0.0074</td>
+                        </tr>
+                        <tr>
+                            <td>MG_right</td>
+                            <td>+0.00366893</td>
+                            <td>0.001304145</td>
+                            <td>0.0131</td>
+                        </tr>
+                        <tr>
+                            <td>TA_left</td>
+                            <td>+0.00137111</td>
+                            <td>0.000594534</td>
+                            <td>0.0358</td>
+                        </tr>
+                    </table>
+                </table-wrap>
+                <p content-type="table-legend">ALSFRS-R scale is the explanatory variable of the model, with time considered as adjustment for longitudinal data. Only water-T2 mainly showed a modest positive correlation with the clinical scale. Coefficients, standard errors and p-values are reported.</p>
+                <p>In an attempt to correlate qMRI measures and ALSFRS-R scale scores, with time considered as adjustment for longitudinal data, we found that neither FF nor CSA showed any significant correlation. By contrast, wT2 showed a positive correlation with the clinical scale in several muscles of the thigh including the anterior, medial, and posterior compartment (i.e., the higher the muscle wT2, the higher the ALSFRS-R scale) (
+                    <xref rid="tab4">
+                        <underline>Table 4</underline></xref>).</p>
+                <table-wrap specific-use="frame">
+                    <table id="Tableau4">
+                        <tr>
+                            <td>
+                                <bold>Variables</bold>
+                            </td>
+                            <td>
+                                <bold>Coefficients</bold>
+                            </td>
+                            <td>
+                                <bold>Std Error</bold>
+                            </td>
+                            <td>
+                                <bold>p-value</bold>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <bold>wT2</bold>
+                            </td>
+                            <td>VM_left</td>
+                            <td>+0.241773</td>
+                            <td>0.110780</td>
+                            <td>0.0480</td>
+                        </tr>
+                        <tr>
+                            <td>RF_left-right</td>
+                            <td>+0.243178</td>
+                            <td>0.092209</td>
+                            <td>0.0205</td>
+                        </tr>
+                        <tr>
+                            <td>RF_right</td>
+                            <td>+0.240500</td>
+                            <td>0.087082</td>
+                            <td>0.0162</td>
+                        </tr>
+                        <tr>
+                            <td>Sa_left-right</td>
+                            <td>+0.1569837</td>
+                            <td>0.0544809</td>
+                            <td>0.0129</td>
+                        </tr>
+                        <tr>
+                            <td>Sa_left</td>
+                            <td>+0.1264864</td>
+                            <td>0.0447453</td>
+                            <td>0.0143</td>
+                        </tr>
+                        <tr>
+                            <td>Sa_right</td>
+                            <td>+0.1300158</td>
+                            <td>0.0507045</td>
+                            <td>0.0236</td>
+                        </tr>
+                        <tr>
+                            <td>G_left-right</td>
+                            <td>+0.254595</td>
+                            <td>0.078055</td>
+                            <td>0.0062</td>
+                        </tr>
+                        <tr>
+                            <td>G_left</td>
+                            <td>+0.1422255</td>
+                            <td>0.0639267</td>
+                            <td>0.0444</td>
+                        </tr>
+                        <tr>
+                            <td>G_right</td>
+                            <td>+0.321866</td>
+                            <td>0.083583</td>
+                            <td>0.0020</td>
+                        </tr>
+                        <tr>
+                            <td>AM_left</td>
+                            <td>+0.325993</td>
+                            <td>0.119467</td>
+                            <td>0.0172</td>
+                        </tr>
+                        <tr>
+                            <td>ST_left-right</td>
+                            <td>+0.326414</td>
+                            <td>0.119586</td>
+                            <td>0.0172</td>
+                        </tr>
+                        <tr>
+                            <td>ST_left</td>
+                            <td>+0.321915</td>
+                            <td>0.122695</td>
+                            <td>0.0210</td>
+                        </tr>
+                        <tr>
+                            <td>ST_right</td>
+                            <td>+0.248465</td>
+                            <td>0.103604</td>
+                            <td>0.0322</td>
+                        </tr>
+                    </table>
+                </table-wrap>
+                <p>The PCA was performed to aggregate information of muscle compartments (see 
+                    <xref rid="fig1">
+                        <underline>Figure 1</underline></xref>) for either FF, wT2, or CSA and did not show any significant result (p &gt; 0.05).</p>
+            </sec>
+        </sec>
+        <sec>
+            <title>Discussion</title>
+            <p>In the present study, we performed quantitative muscle MRI of lower limbs in a monocentric cohort of early-onset ALS subjects, assessing fat infiltration, trophicity, and intramuscular edema.</p>
+            <p>In the cross-sectional analysis, we showed that the wT2 signal was increased in ALS subjects for several muscles of both thigh and leg as early as the diagnostic phase of the disease. FF, and especially CSA, did not show any significant changes. In the longitudinal follow-up, we found that the wT2 signal decreased and FF increased in some leg muscles; no significant changes were found in thigh muscles. Furthermore, no changes were found for CSA over time both for thigh and leg muscles.</p>
+            <p>In our cohort, the median time between symptoms onset and diagnosis was 12.6 months, in accordance with the literature data. Thus, we assumed that enrolled ALS subjects were in the initial phases of muscle involvement when the denervation process was evident, trophicity was still relatively preserved, and fatty replacement was absent. Our finding of increased wT2 confirmed the ability of qMRI to depict consequences of denervation in muscles, as already showed by Klickovic et al. (13). This finding is also consistent with the pathological process of muscle in patients with ALS, both in the early stages and during the trajectory of the disease (13).</p>
+            <p>The changes in wT2 in FF found in this study can be considered as rather symmetric and extensive throughout the lower limbs. Although we did not include other muscles of the body (or apply whole-body MRI) in our qMRI study, we agree with Jenkins et al. that lower limbs can be regarded as highly representative of the whole picture of muscle involvement in ALS (4). The relative degree of symmetry found in our study was also somehow inconsistent with the asymmetry of the clinical phenotype of the disease. We presume that MRI might be able to mirror the pathogenic pattern of ALS (i.e., diffuse involvement of all muscles, even at different time points), as it quantifies subtle changes in the fat and free water component. By contrast, the clinical assessment is likely influenced by several factors (such as the number of motor neurons involved, which may be different for each muscle).</p>
+            <p>When we attempted to correlate qMRI measurements with clinical measures of disease severity, we found a positive correlation between wT2 and ALSFRS-R leg subitems of walking and climbing stairs (i.e., leg subscore). At first sight, this finding may be confounding, as it seems to confirm that functional impairment of patients with ALS is mild when the denervation is predominant. However, we expected this finding, and we explain it with the fact that clinical impairment is not prominent in the first phases of the disease (where active denervation and wT2 increase occurs), whereas when the ability to walk and climb stairs decreases (i.e., ALSFRS-R leg subscore decreases) wT2 is reduced. By contrast, FF increases over time only in leg muscles and not in thigh muscles. The ALS subjects included in this study presented with predominant involvement of distal leg muscles (e.g., Patrikios subtype, refer to Table 1); in parallel, we can assume that FF increased earlier in the leg muscles than in the thigh muscles. Furthermore, our imaging follow-up can be considered quite short (up to 12 months) and presumably FF was not yet altered in the thigh muscles due to the slow progression of this subtype of ALS.</p>
+            <p>As for existing literature on fat replacement and edema-like changes in the muscle of ALS subjects, the former approaches involved conventional wT1 and Short tau inversion recovery (STIR) sequences. Even recently, Klickovic et al. proposed a mixed qualitative and quantitative MRI analysis of bulbar and lower limb muscles in order to differentiate ALS and spinal bulbar muscular atrophy (SBMA), applying FF calculation, in addition to a semiquantitative evaluation of T1-weighted and STIR sequences (13). With specific regard to the second point, the authors demonstrated an extensive involvement of the lower limb muscles in ALS, reflecting edema-like changes, which are signs of denervation processes, observed as areas of STIR hyperintensity (13, 21, 22).</p>
+            <p>Already in 1998, Bryan et al. approached T1 and T2 relaxometry in a cohort of 11 ALS subjects, demonstrating a robust negative correlation between T2 relaxation time and maximal voluntary isometric contraction (MVIC) and compound muscle action potential amplitude (CMAPa) (1).</p>
+            <p>A recent study by Jenkins et al. showed that the T2 signal in the TA increased over time in ALS subjects (3). The same group, using whole-body qMRI, showed in 2020 that leg muscles T2 changes were the most effective biomarkers in their cohort of ALS subjects, independent of the clinical onset location, and that slow progressor (i.e., patients with a slow disease) had detectable changes over time when assessing T2 signal (4).</p>
+            <p>The technical approach that was employed, nonetheless, was limited by the fact that no FF measurements, or calculation of real edematous changes in the muscle, were performed (i.e., wT2) separately from the fat signal (9, 23). The T2 relaxation time is in fact influenced by both intramuscular edema and fat replacement, making it difficult to distinguish the most prominent ongoing pathological manifestation in the muscle structure at the moment of MRI assessment (i.e., when edematous changes or rather a fat infiltration prevails over the other).</p>
+            <p>In our opinion, the technical approach used by these two experiences, which included T2 relaxation time (i.e., a global T2 time), did not fully allow the understanding of edematous or edema-like changes in the muscle, as fat components presumably had an impact on the results. On the contrary, with the robust technical approach we used in this study, which allowed us to depurate the fat component from the T2 signal of the muscle, we showed that wT2 was increased in ALS subjects, with a decrease over time and that it also had a positive correlation with clinical status as expressed by the ALSFRS-R.</p>
+            <p>We also recognize, however, that our study protocol can be physically challenging to endure for ALS subjects, and for this reason, we decided to concentrate only on lower limb muscles, due to the fact that simultaneous evaluation of FF and wT2 significantly prolong scanning time for each site.</p>
+            <sec>
+                <title>Study limitations</title>
+                <p>The current study is limited in some regards. First, our data is limited by the small number of subjects enrolled for the MRI examination; such a number has been influenced by the rarity of the disease and by our intent to perform a comprehensive and robust (though quite long) quantitative muscle MRI protocol on the same scanner. The SARS-COVID-19 epidemic had also an impact on the enrollment of research patients during 2020.</p>
+                <p>Second, due to the difficulty of acquiring MRI scans in a cohort of ALS subjects, despite enrolling patients at their clinical onset, we lost many of them at follow-up appointments. This happened due to clinical reasons, the impossibility to maintain the position for the adequate time for scanning, and also for the death of the subject.</p>
+                <p>Third, the lack of a recognized connection between the qMRI data and the currently used clinical scales (e.g., the leg subscore of the ALSFRS-R score used in this study) may have at least partially limited the possibility to extend the validity of the presented data. This issue, however, can be considered as a minor element, due to the recently recognized importance and significance of quantitative muscle MRI features (as FF, wT2, etc.) in neuromuscular diseases and other pathologies. We are also planning to expand the current data with a correlation between qMRI and electromyography (EMG) to gain a deeper insight into the pathology.</p>
+            </sec>
+        </sec>
+        <sec>
+            <title>Conclusions</title>
+            <p>In conclusion, despite the small cohort examined, our study demonstrated that wT2 was increased in the early phases of ALS. Furthermore, wT2 correlated positively with the leg subscore of the ALSFRS-R and decreased over time. Such results encourage us to continue applying qMRI in the assessment of muscle damage in ALS. Future studies with larger cohorts are needed to confirm and expand these preliminary data.</p>
+        </sec>
+        <sec>
+            <title>References</title>
+            <p content-type="bibl">[1] Brotman RG, Moreno-Escobar MC, Joseph J, Pawar G. Amyotrophic Lateral Sclerosis. StatPearls: StatPearls Publishing (2021).</p>
+            <p content-type="bibl">[2] Xu L, Liu T, Liu L, Yao X, Chen L, Fan D, et al. Global variation in prevalence and incidence of amyotrophic lateral sclerosis: a systematic review and meta-analysis. J Neurol. 2020;267:944–53. 
+                <ext-link xlink:href="https://doi.org/10.1007/s00415-019-09652-y" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <underline>https://doi.org/10.1007/s00415-019-09652-y</underline></ext-link>
+            </p>
+            <p content-type="bibl">[3] Masrori P, Van Damme P. Amyotrophic lateral sclerosis: a clinical review. Euro J Neurol. 2020;27:1918–29. 
+                <ext-link xlink:href="https://doi.org/10.1111/ene.14393" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <underline>https://doi.org/10.1111/ene.14393</underline></ext-link>
+            </p>
+            <p content-type="bibl">[4] Al-Chalabi A, Calvo A, Chio A, Colville S, Ellis CM, Hardiman O, et al. Analysis of amyotrophic lateral sclerosis as a multistep process: A population-based modelling study. Lancet Neurol. 2014;13:1108– 13. 
+                <ext-link xlink:href="https://doi.org/10.1016/S1474-4422(14)70219-4" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <underline>https://doi.org/10.1016/S1474-4422(14)70219-4</underline></ext-link>
+            </p>
+            <p content-type="bibl">[5] Chiò A, Battistini S, Calvo A, Caponnetto C, Conforti FL, Corbo M, et al. Genetic counselling in ALS: Facts, uncertainties and clinical suggestions. J Neurol Neurosurg Psychiatry. 2014;85:478–85. 
+                <ext-link xlink:href="https://doi.org/10.1136/jnnp-2013-305546" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <underline>https://doi.org/10.1136/jnnp-2013-305546</underline></ext-link>
+            </p>
+            <p content-type="bibl">[6] Ellison D. Neuropathology E-Book: A Reference Text of CNS Pathology. Elsevier Health Sciences (2021).</p>
+            <p content-type="bibl">[7] Arai T, HasegawaM, Akiyama H, Ikeda K, Nonaka T,Mori H, et al. TDP-43 is a component of ubiquitin-positive tau-negative inclusions in frontotemporal lobar degeneration and amyotrophic lateral sclerosis. Biochem Biophys Res Commun. 2006;351:602–11. 
+                <ext-link xlink:href="https://doi.org/10.1016/j.bbrc.2006.10.093" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <underline>https://doi.org/10.1016/j.bbrc.2006.10.093</underline></ext-link>
+            </p>
+            <p content-type="bibl">[8] Bensimon G, Lacomblez L, Meininger V. A controlled trial of riluzole in amyotrophic lateral sclerosis. N Engl J Med. 1994;330:585–91. 
+                <ext-link xlink:href="https://doi.org/10.1056/NEJM199403033300901" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <underline>https://doi.org/10.1056/NEJM199403033300901</underline></ext-link>
+            </p>
+            <p content-type="bibl">[9] Hinchcliffe M, Smith A. Riluzole: real-world evidence supports significant extension of median survival times in patients with amyotrophic lateral sclerosis. Degener Neurol Neuromuscul Dis. 2017;7:61–70. 
+                <ext-link xlink:href="https://doi.org/10.2147/DNND.S135748" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <underline>https://doi.org/10.2147/DNND.S135748</underline></ext-link>
+            </p>
+            <p content-type="bibl">[10] Abe K, Itoyama Y, Sobue G, Tsuji S, Aoki M, Doyu M, et al. Confirmatory double-blind, parallel-group, placebo-controlled study of efficacy and safety of edaravone (MCI-186) in amyotrophic lateral sclerosis patients. Amyotroph Lateral Scler Front Degener. 2014;15:610–7. 
+                <ext-link xlink:href="https://doi.org/10.3109/21678421.2014.959024" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <underline>https://doi.org/10.3109/21678421.2014.959024</underline></ext-link>
+            </p>
+            <p content-type="bibl">[11] Beers DR, Appel SH. Immune dysregulation in amyotrophic lateral sclerosis: mechanisms and emerging therapies. Lancet Neurol. 2019;18:211–20. 
+                <ext-link xlink:href="https://doi.org/10.1016/S1474-4422(18)30394-6" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <underline>https://doi.org/10.1016/S1474-4422(18)30394-6</underline></ext-link>
+            </p>
+            <p content-type="bibl">[12] Lunn JS, Sakowski SA, Feldman EL. Concise review: Stem cell therapies for amyotrophic lateral sclerosis: Recent advances and prospects for the future. Stem Cells. 2014;32:1099–109. 
+                <ext-link xlink:href="https://doi.org/10.1002/stem.1628" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <underline>https://doi.org/10.1002/stem.1628</underline></ext-link>
+            </p>
+        </sec>
+    </body>
+    <back>
+        <app-group/>
+        <ref-list>
+            <title>References</title>
+            <ref id="bibl01">
+                <mixed-citation>[1] Brotman RG, Moreno-Escobar MC, Joseph J, Pawar G. Amyotrophic Lateral Sclerosis. StatPearls: StatPearls Publishing (2021).</mixed-citation>
+            </ref>
+            <ref id="bibl02">
+                <mixed-citation>[2] Xu L, Liu T, Liu L, Yao X, Chen L, Fan D, et al. Global variation in prevalence and incidence of amyotrophic lateral sclerosis: a systematic review and meta-analysis. J Neurol. 2020;267:944–53. 
+                    <ext-link xlink:href="https://doi.org/10.1007/s00415-019-09652-y" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <underline>https://doi.org/10.1007/s00415-019-09652-y</underline></ext-link>
+                </mixed-citation>
+            </ref>
+            <ref id="bibl03">
+                <mixed-citation>[3] Masrori P, Van Damme P. Amyotrophic lateral sclerosis: a clinical review. Euro J Neurol. 2020;27:1918–29. 
+                    <ext-link xlink:href="https://doi.org/10.1111/ene.14393" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <underline>https://doi.org/10.1111/ene.14393</underline></ext-link>
+                </mixed-citation>
+            </ref>
+            <ref id="bibl04">
+                <mixed-citation>[4] Al-Chalabi A, Calvo A, Chio A, Colville S, Ellis CM, Hardiman O, et al. Analysis of amyotrophic lateral sclerosis as a multistep process: A population-based modelling study. Lancet Neurol. 2014;13:1108– 13. 
+                    <ext-link xlink:href="https://doi.org/10.1016/S1474-4422(14)70219-4" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <underline>https://doi.org/10.1016/S1474-4422(14)70219-4</underline></ext-link>
+                </mixed-citation>
+            </ref>
+            <ref id="bibl05">
+                <mixed-citation>[5] Chiò A, Battistini S, Calvo A, Caponnetto C, Conforti FL, Corbo M, et al. Genetic counselling in ALS: Facts, uncertainties and clinical suggestions. J Neurol Neurosurg Psychiatry. 2014;85:478–85. 
+                    <ext-link xlink:href="https://doi.org/10.1136/jnnp-2013-305546" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <underline>https://doi.org/10.1136/jnnp-2013-305546</underline></ext-link>
+                </mixed-citation>
+            </ref>
+            <ref id="bibl06">
+                <mixed-citation>[6] Ellison D. Neuropathology E-Book: A Reference Text of CNS Pathology. Elsevier Health Sciences (2021).</mixed-citation>
+            </ref>
+            <ref id="bibl07">
+                <mixed-citation>[7] Arai T, HasegawaM, Akiyama H, Ikeda K, Nonaka T,Mori H, et al. TDP-43 is a component of ubiquitin-positive tau-negative inclusions in frontotemporal lobar degeneration and amyotrophic lateral sclerosis. Biochem Biophys Res Commun. 2006;351:602–11. 
+                    <ext-link xlink:href="https://doi.org/10.1016/j.bbrc.2006.10.093" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <underline>https://doi.org/10.1016/j.bbrc.2006.10.093</underline></ext-link>
+                </mixed-citation>
+            </ref>
+            <ref id="bibl08">
+                <mixed-citation>[8] Bensimon G, Lacomblez L, Meininger V. A controlled trial of riluzole in amyotrophic lateral sclerosis. N Engl J Med. 1994;330:585–91. 
+                    <ext-link xlink:href="https://doi.org/10.1056/NEJM199403033300901" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <underline>https://doi.org/10.1056/NEJM199403033300901</underline></ext-link>
+                </mixed-citation>
+            </ref>
+            <ref id="bibl09">
+                <mixed-citation>[9] Hinchcliffe M, Smith A. Riluzole: real-world evidence supports significant extension of median survival times in patients with amyotrophic lateral sclerosis. Degener Neurol Neuromuscul Dis. 2017;7:61–70. 
+                    <ext-link xlink:href="https://doi.org/10.2147/DNND.S135748" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <underline>https://doi.org/10.2147/DNND.S135748</underline></ext-link>
+                </mixed-citation>
+            </ref>
+            <ref id="bibl10">
+                <mixed-citation>[10] Abe K, Itoyama Y, Sobue G, Tsuji S, Aoki M, Doyu M, et al. Confirmatory double-blind, parallel-group, placebo-controlled study of efficacy and safety of edaravone (MCI-186) in amyotrophic lateral sclerosis patients. Amyotroph Lateral Scler Front Degener. 2014;15:610–7. 
+                    <ext-link xlink:href="https://doi.org/10.3109/21678421.2014.959024" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <underline>https://doi.org/10.3109/21678421.2014.959024</underline></ext-link>
+                </mixed-citation>
+            </ref>
+            <ref id="bibl11">
+                <mixed-citation>[11] Beers DR, Appel SH. Immune dysregulation in amyotrophic lateral sclerosis: mechanisms and emerging therapies. Lancet Neurol. 2019;18:211–20. 
+                    <ext-link xlink:href="https://doi.org/10.1016/S1474-4422(18)30394-6" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <underline>https://doi.org/10.1016/S1474-4422(18)30394-6</underline></ext-link>
+                </mixed-citation>
+            </ref>
+            <ref id="bibl12">
+                <mixed-citation>[12] Lunn JS, Sakowski SA, Feldman EL. Concise review: Stem cell therapies for amyotrophic lateral sclerosis: Recent advances and prospects for the future. Stem Cells. 2014;32:1099–109. 
+                    <ext-link xlink:href="https://doi.org/10.1002/stem.1628" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <underline>https://doi.org/10.1002/stem.1628</underline></ext-link>
+                </mixed-citation>
+            </ref>
+        </ref-list>
+    </back>
+</article>

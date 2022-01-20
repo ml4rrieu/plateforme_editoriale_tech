@@ -55,6 +55,10 @@ Liu
 
 ### Problème mineur : une balise autofermante inutile 
 
+également : 
+- `Figure 4` dans label 
+- `Brain tumor  ...` dans caption
+- balise `<graphic ` à placer à l'intérieur de `<fig>`
 
 Article Kernbach
 ```xml
@@ -116,7 +120,7 @@ Article Arnold
 ## Déclaration et référence des table
 
 
-> Erwan : Dans l'article Kernbach il est fait référence à 4 tables mais il n'y a qu'une table de déclarée en tant que telle sous la balise `<table>`, les autres tables étant introduites comme des images de table, sous la balise `<graphic>` donc, ce qui est très problématique...
+Dans l'article Liu il est fait référence à 4 tables. La première est bien déclarée (cf infra); la seconde est par contre absente, sans déclaration, et les deux suivantes le sont en tant que figure.
 
 Reference
 ```xml

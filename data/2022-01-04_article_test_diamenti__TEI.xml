@@ -1,0 +1,989 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI change="metopes_publication#jats" xmlns="http://www.tei-c.org/ns/1.0" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Longitudinal quantitative MRI evaluation of muscle involvement in amyotrophic lateral sclerosis</title>
+                <title type="alt" xml:lang="fr">Evaluation MRI quantitative longitudinale de l’implication des muscles dans la sclérose latérale amyotropique</title>
+                <author role="aut">
+                    <name>Luca Diamanti</name>
+                    <affiliation>
+                        <ref target="#aff01" type="affiliation"/>
+                    </affiliation>
+                </author>
+                <author role="aut">
+                    <name>Shaun I. Muzic</name>
+                    <affiliation>
+                        <ref target="#aff04" type="affiliation"/>
+                    </affiliation>
+                    <affiliation>
+                        <ref target="#aff03" type="affiliation"/>
+                    </affiliation>
+                </author>
+                <author role="aut">
+                    <name>Elena Ballante</name>
+                    <affiliation>
+                        <ref target="#aff06" type="affiliation"/>
+                    </affiliation>
+                    <affiliation>
+                        <ref target="#aff05" type="affiliation"/>
+                    </affiliation>
+                </author>
+                <author role="aut">
+                    <name>Francesca Solazzo</name>
+                    <affiliation>
+                        <ref target="#aff01" type="affiliation"/>
+                    </affiliation>
+                </author>
+                <author role="aut">
+                    <name>Lia Foppoli</name>
+                    <affiliation>
+                        <ref target="#aff03" type="affiliation"/>
+                    </affiliation>
+                </author>
+                <author role="aut">
+                    <name>Xeni Deligianni</name>
+                    <affiliation>
+                        <ref target="#aff08" type="affiliation"/>
+                    </affiliation>
+                    <affiliation>
+                        <ref target="#aff07" type="affiliation"/>
+                    </affiliation>
+                </author>
+                <author role="aut">
+                    <name>Francesco Santini</name>
+                    <affiliation>
+                        <ref target="#aff08" type="affiliation"/>
+                    </affiliation>
+                    <affiliation>
+                        <ref target="#aff07" type="affiliation"/>
+                    </affiliation>
+                </author>
+                <author role="aut">
+                    <name>Silvia Figini</name>
+                    <affiliation>
+                        <ref target="#aff09" type="affiliation"/>
+                    </affiliation>
+                    <idno type="IDREF">140385770</idno>
+                    <idno type="ISNI">000000005506474X</idno>
+                    <idno type="VIAF">http://viaf.org/viaf/78867391</idno>
+                </author>
+                <author role="aut">
+                    <name>Niels Bergsland</name>
+                    <affiliation>
+                        <ref target="#aff11" type="affiliation"/>
+                    </affiliation>
+                    <affiliation>
+                        <ref target="#aff10" type="affiliation"/>
+                    </affiliation>
+                </author>
+                <author role="aut">
+                    <name>Anna Pichiecchio</name>
+                    <affiliation>
+                        <ref target="#aff01" type="affiliation"/>
+                    </affiliation>
+                    <affiliation>
+                        <ref target="#aff03" type="affiliation"/>
+                    </affiliation>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021-12-02T11:01:00</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Université de Paris</publisher>
+                <ab type="papier">
+                    <dimensions>
+                        <dim type="pagination"/>
+                    </dimensions>
+                    <date/>
+                </ab>
+                <idno type="book"/>
+                <ab type="lodel">
+                    <date>01/04/2022</date>
+                </ab>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Version Métopes : 3.0</p>
+                <p>Written by OpenOffice</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <tagsDecl>
+                <rendition scheme="css" xml:id="Cell1.A1">border-bottom:0.5pt solid #7f7f7f;border-left:none;border-right:none;border-top:0.5pt solid #7f7f7f;</rendition>
+                <rendition scheme="css" xml:id="Cell1.A3">border:none;</rendition>
+                <rendition scheme="css" xml:id="Cell2.A1">border-bottom:0.5pt solid #7f7f7f;border-left:none;border-right:none;border-top:0.5pt solid #7f7f7f;</rendition>
+                <rendition scheme="css" xml:id="Cell2.A3">border:none;</rendition>
+                <rendition scheme="css" xml:id="Cell2.A21">border-bottom:0.5pt solid #7f7f7f;border-left:none;border-right:none;border-top:none;</rendition>
+                <rendition scheme="css" xml:id="Cell3.A1">border-bottom:0.5pt solid #7f7f7f;border-left:none;border-right:none;border-top:0.5pt solid #7f7f7f;</rendition>
+                <rendition scheme="css" xml:id="Cell3.A2">border-bottom:none;border-left:none;border-right:none;border-top:0.5pt solid #7f7f7f;</rendition>
+                <rendition scheme="css" xml:id="Cell3.A3">border:none;</rendition>
+                <rendition scheme="css" xml:id="Cell3.A9">border-bottom:0.5pt solid #7f7f7f;border-left:none;border-right:none;border-top:none;</rendition>
+                <rendition scheme="css" xml:id="Cell4.A1">border-bottom:0.5pt solid #7f7f7f;border-left:none;border-right:none;border-top:0.5pt solid #7f7f7f;</rendition>
+                <rendition scheme="css" xml:id="Cell4.A3">border:none;</rendition>
+            </tagsDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en-EN"/>
+            </langUsage>
+            <textClass>
+                <keywords scheme="keyword" xml:lang="en">
+                    <list>
+                        <item>MRI evaluation</item>
+                        <item>Amyotrophic lateral sclerosis</item>
+                        <item>Biomarkers</item>
+                        <item>radiological score</item>
+                        <item>Clinical score</item>
+                    </list>
+                </keywords>
+                <keywords scheme="keyword" xml:lang="fr">
+                    <list>
+                        <item>Evaluation MRI</item>
+                        <item>Sclérose latérale amyotropique</item>
+                        <item>Marqueurs biologiques</item>
+                        <item>Score radiologique</item>
+                        <item>Score clinique</item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2022-01-03T14:46:00" who="agentup">Révision</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:id="text">
+        <front>
+            <titlePage>
+                <docTitle>
+                    <titlePart style="T_3_Article" type="main">Longitudinal quantitative MRI evaluation of muscle involvement in amyotrophic lateral sclerosis</titlePart>
+                    <titlePart style="T_0_Article_UK" type="alt">Evaluation MRI quantitative longitudinale de l’implication des muscles dans la sclérose latérale amyotropique</titlePart>
+                </docTitle>
+                <docAuthor style="txt_auteur">Luca Diamanti</docAuthor>
+                <byline style="auteur_Courriel">
+                    <email>
+                        <ref target="mailto:Email: luca.diamanti@mondino.it">Email: luca.diamanti@mondino.it</ref>
+                    </email>
+                </byline>
+                <docAuthor style="txt_auteur">Shaun I. Muzic</docAuthor>
+                <docAuthor style="txt_auteur">Elena Ballante</docAuthor>
+                <docAuthor style="txt_auteur">Francesca Solazzo</docAuthor>
+                <docAuthor style="txt_auteur">Lia Foppoli</docAuthor>
+                <docAuthor style="txt_auteur">Xeni Deligianni</docAuthor>
+                <docAuthor style="txt_auteur">Francesco Santini</docAuthor>
+                <docAuthor style="txt_auteur">Silvia Figini</docAuthor>
+                <docAuthor style="txt_auteur">Niels Bergsland</docAuthor>
+                <docAuthor style="txt_auteur">Anna Pichiecchio</docAuthor>
+                <byline style="auteur_Institution">
+                    <affiliation xml:id="aff01">Neuroradiology Department, Advanced Imaging and Radiomics Center, Istituto di Ricovero e Cura di Carattere Scientifico (IRCCS) Mondino Foundation, Pavia, Italy</affiliation>
+                </byline>
+                <byline style="auteur_Institution">
+                    <affiliation xml:id="aff02">Neuro-Oncology Unit, Istituto di Ricovero e Cura di Carattere Scientifico (IRCCS) Mondino Foundation, Pavia, Italy</affiliation>
+                </byline>
+                <byline style="auteur_Institution">
+                    <affiliation xml:id="aff03">Department of Brain and Behavioral Sciences, University of Pavia, Pavia, Italy</affiliation>
+                </byline>
+                <byline style="auteur_Institution">
+                    <affiliation xml:id="aff04">Department of Radiology, Fondazione Istituto di Ricovero e Cura di Carattere Scientifico (IRCCS) Policlinico San Matteo, Medical School University of Pavia, Pavia, Italy</affiliation>
+                </byline>
+                <byline style="auteur_Institution">
+                    <affiliation xml:id="aff05">Department of Mathematics, University of Pavia, Pavia, Italy</affiliation>
+                </byline>
+                <byline style="auteur_Institution">
+                    <affiliation xml:id="aff06">BioData Science Center, Istituto di Ricovero e Cura di Carattere Scientifico (IRCCS) Mondino Foundation, Pavia, Italy</affiliation>
+                </byline>
+                <byline style="auteur_Institution">
+                    <affiliation xml:id="aff07">Radiology/Division of Radiological Physics, University Hospital of Basel, Basel, Switzerland</affiliation>
+                </byline>
+                <byline style="auteur_Institution">
+                    <affiliation xml:id="aff08">Biomedical Engineering, University of Basel, Allschwil, Switzerland</affiliation>
+                </byline>
+                <byline style="auteur_Institution">
+                    <affiliation xml:id="aff09">Department of Political and Social Sciences, University of Pavia, Pavia, Italy</affiliation>
+                </byline>
+                <byline style="auteur_Institution">
+                    <affiliation xml:id="aff10">Department of Neurology, Buffalo Neuroimaging Analysis Center, Jacobs School of Medicine and Biomedical Sciences, Buffalo, NY, United States</affiliation>
+                </byline>
+                <byline style="auteur_Institution">
+                    <affiliation xml:id="aff11">IRCCS Fondazione Don Carlo Gnocchi Organizzazione non lucrativa di utilità sociale (ONLUS), Milan, Italy</affiliation>
+                </byline>
+            </titlePage>
+            <div type="resume_motscles">
+                <p style="txt_Resume">Background: Biomarkers of disease progression and outcome measures are still lacking for patients with amyotrophic lateral sclerosis (ALS). Muscle MRI can be a promising candidate to track longitudinal changes and to predict response to the therapy in clinical trials.</p>
+                <p style="txt_Resume">Objective: Our aim is to apply quantitative muscle MRI in the evaluation of disease progression, focusing on thigh and leg muscles of patients with ALS, and to explore the correlation between radiological and clinical scores.</p>
+                <p style="txt_Resume">Methods: We enrolled newly diagnosed patients with ALS, longitudinally scored using the ALS Functional Rating Scale-Revised (ALSFRS-R), who underwent a 3T muscle MRI protocol including a 6-point Dixon gradient-echo sequence and multi-echo turbo spin echo (TSE) T2-weighted sequence for quantification of fat fraction (FF), cross-sectional area (CSA), and water T2 (wT2). A total of 12 muscles of the thigh and six muscles of the leg were assessed by the manual drawing of 18 regions of interest (ROIs), for each side. A group of 11 age-matched healthy controls (HCs) was enrolled for comparison.</p>
+                <p style="txt_Resume">Results: 15 patients (M/F 8/7; mean age 62.2 years old, range 29–79) diagnosed with possible (n = 2), probable (n = 12), or definite (n = 1) ALS were enrolled. Eleven patients presented spinal onset, whereas four of them had initial bulbar involvement. All patients performed MRI at T0, nine of them at T1, and seven of them at T2. At baseline, wT2 was significantly elevated in ALS subjects compared to HCs for several muscles of the thigh and mainly for leg muscles. By contrast, FF was elevated in few muscles, and mainly at the level of the thigh. The applied mixed effects model showed that FF increased significantly in the leg muscles over time (mainly in the triceps surae) and that wT2 decreased significantly in line with worsening in the leg subscore of ALSFRS-R, mainly at the leg level and in the anterior and medial compartment of the thigh.</p>
+                <p style="txt_Resume">Conclusions: Quantitative MRI represents a non-invasive tool that is able to outline the trajectory of pathogenic modifications at the muscle level in ALS. In particular, wT2 was found to be increased early in the clinical history of ALS and also tended to decrease over time, also showing a positive correlation with leg subscore of ALSFRS-R.</p>
+                <p style="txt_Motclef">Keywords: MRI evaluation, Amyotrophic lateral sclerosis, Biomarkers, radiological score, Clinical score</p>
+                <p style="txt_Resume_italique" xml:lang="fr">
+                    <hi rend="bold" style="typo_gras">Contexte</hi>
+                </p>
+                <p style="txt_Resume_italique" xml:lang="fr">Victus universis caro ferina est lactisque abundans copia qua sustentantur, et herbae multiplices et siquae alites capi per aucupium possint, et plerosque mos vidimus frumenti usum et vini penitus ignorantes.</p>
+                <p style="txt_Resume_italique" xml:lang="fr">
+                    <hi rend="bold" style="typo_gras">Méthodes</hi>
+                </p>
+                <p style="txt_Resume_italique" xml:lang="fr">Haec subinde Constantius audiens et quaedam referente Thalassio doctus, quem eum odisse iam conpererat lege communi, scribens ad Caesarem blandius adiumenta paulatim illi subtraxit, sollicitari se simulans ne, uti est militare otium fere tumultuosum, in eius perniciem conspiraret, solisque scholis iussit esse contentum palatinis et protectorum cum Scutariis et Gentilibus, et mandabat Domitiano, ex comite largitionum, praefecto ut cum in Syriam venerit, Gallum, quem crebro acciverat, ad Italiam properare blande hortaretur et verecunde.</p>
+                <p style="txt_Resume_italique" xml:lang="fr">
+                    <hi rend="bold" style="typo_gras">Résultats</hi>
+                </p>
+                <p style="txt_Resume_italique" xml:lang="fr">Huic Arabia est conserta, ex alio latere Nabataeis contigua; opima varietate conmerciorum castrisque oppleta validis et castellis, quae ad repellendos gentium vicinarum excursus sollicitudo pervigil veterum per oportunos saltus erexit et cautos. haec quoque civitates habet inter oppida quaedam ingentes Bostram et Gerasam atque Philadelphiam murorum firmitate cautissimas. hanc provinciae inposito nomine rectoreque adtributo obtemperare legibus nostris Traianus conpulit imperator incolarum tumore saepe contunso cum glorioso marte Mediam urgeret et Parthos.</p>
+                <p style="txt_Resume_italique" xml:lang="fr">
+                    <hi rend="bold" style="typo_gras">Conclusions</hi>
+                </p>
+                <p style="txt_Resume_italique" xml:lang="fr">Post hanc adclinis Libano monti Phoenice, regio plena gratiarum et venustatis, urbibus decorata magnis et pulchris; in quibus amoenitate celebritateque nominum Tyros excellit, Sidon et Berytus isdemque pares Emissa et Damascus saeculis condita priscis.</p>
+                <p style="txt_Motclef_italique">
+                    <hi rend="bold" style="typo_gras">Mots-clés</hi>: Evaluation MRI, Sclérose latérale amyotropique, Marqueurs biologiques, Score radiologique, Score clinique</p>
+            </div>
+            <div type="partenaires">
+                <p n="94" style="org_part">
+                    <hi rend="bold" style="typo_gras">Funding.</hi>This work was supported by the Italian Ministry of Health (RC 2017–2021).</p>
+            </div>
+            <div type="prelim">
+                <p style="txt_remerciements">
+                    <hi rend="bold" style="typo_gras">Data Availability Statement.</hi>The original contributions presented in the study are publicly available. Raw MRI data are available in the Zenodo repository: https://zenodo.org/record/5575243#.</p>
+                <p style="txt_remerciements">
+                    <hi rend="bold" style="typo_gras">Ethics Statement.</hi>The studies involving human participants were reviewed and approved by Comitato Etico Pavia. The patients/participants provided their written informed consent to participate in this study.</p>
+                <p style="txt_remerciements">
+                    <hi rend="bold" style="typo_gras">Author Contributions.</hi>LD, MP, and AP contributed to study design, data analysis, writing of the manuscript, and critical revision of the manuscript. XD, FSa, and NB contributed to data acquisition and analysis, and critical revision of the manuscript. FSo, SM, and LF contributed to data analysis. EB and SF contributed to statistical analysis. All authors gave important contributions to the final form of the manuscript.</p>
+                <p style="txt_remerciements">
+                    <hi rend="bold" style="typo_gras">Conflict of Interest.</hi>The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.</p>
+                <p style="txt_remerciements">
+                    <hi rend="bold" style="typo_gras">Acknowledgments.</hi>The authors thank the study participants and families for participation.</p>
+            </div>
+        </front>
+        <body>
+            <div type="chapitre" xml:id="mainDiv">
+                <div type="section1">
+                    <head style="T_1" subtype="level1">Introduction</head>
+                    <p style="txt_Normal">Amyotrophic lateral sclerosis (ALS) is a neurodegenerative disease that targets motor neurons, though other cells (including muscle cells) may be affected as well. Muscle involvement in ALS is traditionally considered to be secondary to neuronal damage, and this line of reasoning is recently being proven on qualitative and quantitative MRI (qMRI) sequences 
+                        <ref target="#bibl01" type="bibl">[1-7]</ref>
+                        .</p>
+                    <p style="txt_Normal">The precise and efficient evaluation and tracking of changes related to the evolution of the disease, beyond the traditional clinical measures (i.e., the revised ALS functional rating scale, ALSFRS-R), is a major difficulty in ALS. Quantitative muscle MRI has been proposed and successfully used to provide biomarkers for tracking disease evolution and, when available, assess response to treatment in neuromuscular disorders 
+                        <ref target="#bibl08" type="bibl">[8-11]</ref>
+                        and for ALS specifically 
+                        <ref target="#bibl12" type="bibl">[12]</ref>
+                        . Longitudinal studies investigating the role of muscle MRI as a biomarker of ALS progression are few and heterogeneous in terms of evaluated MRI studies.</p>
+                    <p style="txt_Normal">As for T2 times, a study by Jenkins et al. found that T2 signal was increased in ALS subjects compared to controls, with muscle differences as low as 0.6% (for right trapezius) and as high as 71.4% for tibialis anterior (TA); T2 signal also increased over time in ALS subjects at 4-month follow-up for TA 
+                        <ref target="#bibl03" type="bibl">[3]</ref>
+                        . In a more recent study, additionally, T2 also increased at 12-month follow-up for right TA, right quadriceps, bilateral hamstrings, and gastrocnemius/soleus (by a 14–29%) 
+                        <ref target="#bibl04" type="bibl">[4]</ref>
+                        . They also found that increase in T2 signal after 1 year correlated with progressive weakness and with the loss of motor units at EMG 
+                        <ref target="#bibl04" type="bibl">[4]</ref>
+                        .</p>
+                    <p style="txt_Normal">In the present study, our aim was to assess changes in trophicity, fat replacement, and intramuscular edema of lower limbs in the early phases of ALS, and to explore the eventual correlation with clinical scores, with a longitudinal approach. Measurements of FF, cross-sectional area (CSA), and water T2 (wT2) were performed to evaluate the intramuscular changes at baseline and follow-up.</p>
+                </div>
+                <div type="section1">
+                    <head style="T_1" subtype="level1">Materials and methods</head>
+                    <div type="section2">
+                        <head style="T_2" subtype="level2">Subjects</head>
+                        <p style="txt_Normal">Patients newly diagnosed with ALS using the El Escorial Criteria (14) were recruited into this longitudinal study from patients who attended the motor neuron disease clinic at our Institution. Exclusion criteria consisted of an inability to give informed consent, concomitant neuromuscular diseases, respiratory failure impairing ability to lie still in the scanner, and safety-related MRI contraindications. We scored clinical severity by using the subitems of the ALSFRS-R (15), indicating lower limb motor function (walking and climbing stairs). Each patient underwent a full clinical assessment, including the taking of medical history and an evaluation of clinical and neurologic conditions. Patients were clinically evaluated at each time point (baseline, t1 after 6 months, and t2 after 12 months). Eleven healthy controls (HCs) were enrolled for comparison.</p>
+                        <p style="txt_Normal">All subjects gave written informed consent for participation in this study, which was approved by the local Ethical Committee.</p>
+                    </div>
+                    <div type="section2">
+                        <head style="T_2" subtype="level2">Imaging protocol</head>
+                        <p style="txt_Normal">At each clinical time point (t0, t1, and t2), subjects underwent a quantitative muscle MRI protocol (3T Skyra scanner, Siemens Healthcare, Erlangen, Germany) with an 18-channel phased-array coil applied on thighs and legs. The acquisition protocol included two quantitative sequences acquired in the axial plane both for the thigh and the leg: a 6-point Dixon gradient-echo (GRE) sequence (voxel size: 1 mm × 1 mm × 5 mm; slice thickness: 5 mm, TR: 35 ms, TE: 1.73 ms) and a multi-echo turbo spin echo (TSE) T2 sequence (voxel size: 1.2 mm × 1.2 mm × 10 mm; slice thickness: 10 mm, TR: 4,100 ms, TE: 10.90 ms, 17 echoes). Vitamin E capsules were placed upon the skin of the patient as positioning markers to allow cross-sectional intra-cohort reproducibility and longitudinal intra-subject reproducibility. The total duration of muscle MRI protocol was approximately 45 min. Some patients were lost to longitudinal follow-ups due to physical inability (major clinical impairment) to perform the muscle MRI protocol and logistic/personal issues linked to the COVID-19 pandemic. In the end, a total of 15 ALS subjects underwent muscle MRI at t0, nine at t1, and seven at t2. HCs only underwent a single muscle MRI examination.</p>
+                    </div>
+                    <div type="section2">
+                        <head style="T_2" subtype="level2">MRI data post-processing</head>
+                        <p style="txt_Normal">The segmentation of thigh and leg muscles was performed through the region of interest (ROI) drawing by a single expert operator (with 5 years of experience in muscle segmentation), blinded to clinical data, using the open-source software ITK-SNAP (16). A total of 12 thigh and six calf muscle ROIs for each side (left and right) were evaluated (
+                            <ref target="#fig1">
+                                <hi rend="underline" style="typo_souligne">Figure 1</hi></ref>).</p>
+                        <figure>
+                            <graphic url="../icono/br/emergneurol_01_04_paoletti_fig01.jpg"/>
+                            <head style="titre_figure">Figure 1.</head>
+                            <p style="txt_Legende">Example of ROIs obtained during manual (A) thigh and (B) leg muscle segmentation superimposed on a T2w GRE image. The color code indicates all 12 thigh ROIs and six leg ROIs that were considered, which were drawn on both the left and right thigh, with the corresponding muscle indicated in the figure with its respective initials, as follows: (A) Thigh muscles: VL, vastus lateralis; VM, vastus medialis; VI, vastus intermedius; RF, rectus femoris; Sa, sartorius; G, gracilis; AM, adductor magnus; SM, semimembranosus; ST, semitendinosus; BFL, long head of biceps femoris; BFS, short head of biceps femoris; AL, adductor longus. The anterior compartment includes VL, VM, VI, and RF; medial compartment includes Sa, G, AM, and AL; the posterior compartment includes SM, ST, BFL, and BFS. (B) Leg muscles: TA, tibialis anterior; ELD, extensor digitorum longus; PE, peroneus; S, soleus; GM, medial head of the gastrocnemius; GL, lateral head of the gastrocnemius. The anterior compartment includes TA, ELD, and PE; the posterior compartment includes S, GM, and GL.</p>
+                        </figure>
+                        <p style="txt_Normal">Muscle ROIs were drawn without including non-muscle tissues, such as fat tissue, fascia, or blood vessels. Muscle perimeter was outlined approximately 1 mm inside the borders of the perimuscular fascia. ROIs were initially drawn on a single median slice of the first echo image of the multi-echo T2 sequence. The ROIs were then registered on the seven most median slices of the GRE images using linear and non-linear transformations. These were subsequently manually revised and corrected by the same operator to avoid registration errors.</p>
+                        <p style="txt_Normal">The average fat fraction (FF) was calculated for every muscle from the 6-point Dixon GRE images, applying the publicly available post-processing algorithm FattyRiot (17). Accordingly, the global T2 value was calculated from the multi-echo T2 images. wT2 was then calculated from the multi-echo spin-echo T2 acquisition using a two-compartment extended-phase-graph fitting (18, 19). CSA was also calculated for each ROI and used for analysis.</p>
+                    </div>
+                    <div type="section2">
+                        <head style="T_2" subtype="level2">Statistical analysis</head>
+                        <p style="txt_Normal">Statistical analyses were performed using R 4.0.2 (20). Descriptive statistics present continuous variables as mean and SD, or median and range where appropriate, whereas categorical variables are shown as row counts and percentages. The level of significance was set at p &lt; 0.05. The comparison between patients and HCs at baseline was performed using the Wilcoxon test for independent samples.</p>
+                        <p style="txt_Normal">In order to include all the available data in the analysis of time influence on variables involved, linear mixed models were implemented where time was included as a numeric explanatory variable. The evaluation of correlation with the clinical scale was performed through linear mixed models where time and clinical scale were included as numeric explanatory variables.</p>
+                        <p style="txt_Normal">Furthermore, a principal component analysis (PCA) was performed to aggregate information of muscle groups (anterior, medial, and posterior compartment of the thigh, anterior, and posterior compartment of the leg) for FF, wT2, and CSA. For subdivision into compartments of the thigh and for the leg, refer to the legend of Figure 1. The Pearson correlation analysis was performed between the first principal component of each group and the clinical scale. The analyses were performed on timepoints 0 and 1 and the differences.</p>
+                    </div>
+                </div>
+                <div type="section1">
+                    <head style="T_1" subtype="level1">Results</head>
+                    <div type="section2">
+                        <head style="T_2" subtype="level2">Demographics and clinical findings</head>
+                        <p style="txt_Normal">About 15 patients with ALS (M/F = 8/7; average age 62.2 years old, range 29–79 years) newly diagnosed with possible (n = 2), probable (n = 12), or definite (n = 1) ALS were enrolled for this study. All patients presented sporadic ALS. Eleven patients presented spinal onset, whereas four of them had initial bulbar involvement. Mean diagnostic delay (time from symptoms onset to diagnosis) was 12.6 months (range, 3–30), and the mean ALSFRS-R score was 43.4 (range, 38–47). Mean ALSFRS-R score of subitems related to leg involvement were 6.6 (range, 2–8) at T0, 5.4 (range, 3–8) at T1, and 5.1 (range, 1–8) at T2. Clinical data for each patient are reported in 
+                            <ref target="#tab1">
+                                <hi rend="underline" style="typo_souligne">Table 1</hi></ref>. HCs (M/F = 4/7) had an average age of 52.8 years (range 42–72).</p>
+                        <p style="txt_Legende">LL, lower limb; UL, upper limb; LMN, lower motor neuron; UMN, upper motor neuron.</p>
+                        <table cols="8" rend="frame" rows="16" xml:id="Tableau1">
+                            <row>
+                                <cell rend="text-align:start;" rendition="#Cell1.A1">
+                                    <hi rend="bold" style="typo_gras">Patient ID (sex, age at onset—years)</hi>
+                                </cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A1">
+                                    <hi rend="bold" style="typo_gras">El Escorial Category</hi>
+                                </cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A1">
+                                    <hi rend="bold" style="typo_gras">Site of onset</hi>
+                                </cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A1">
+                                    <hi rend="bold" style="typo_gras">Type of involvement</hi>
+                                </cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A1">
+                                    <hi rend="bold" style="typo_gras">ALSFRS-R score at diagnosis (leg subscore)</hi>
+                                </cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A1">
+                                    <hi rend="bold" style="typo_gras">ALSFRS-R score at T1 (leg subscore)</hi>
+                                </cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A1">
+                                    <hi rend="bold" style="typo_gras">ALSFRS-R score at T2 (leg subscore)</hi>
+                                </cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A1">
+                                    <hi rend="bold" style="typo_gras">Predominant UMN/LMN</hi>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell rend="text-align:start;" rendition="#Cell1.A1">
+                                    <hi rend="bold" style="typo_gras">#1 (F, 55)</hi>
+                                </cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A1">Probable</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A1">Spinal</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A1">Distal left LL</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A1">44 (7)</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A1">–</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A1">36 (5)</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A1">LMN</cell>
+                            </row>
+                            <row>
+                                <cell rend="text-align:start;" rendition="#Cell1.A3">
+                                    <hi rend="bold" style="typo_gras">#2 (F, 39)</hi>
+                                </cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A3">Definite</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A3">Spinal</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A3">Proximal left and right LL</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A3">38 (6)</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A3">35 (4)</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A3">33 (4)</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A3">UMN</cell>
+                            </row>
+                            <row>
+                                <cell rend="text-align:start;" rendition="#Cell1.A1">
+                                    <hi rend="bold" style="typo_gras">#3 (M, 29)</hi>
+                                </cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A1">Probable</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A1">Spinal</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A1">Distal left UL</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A1">47 (8)</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A1">45 (7)</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A1">–</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A1">LMN</cell>
+                            </row>
+                            <row>
+                                <cell rend="text-align:start;" rendition="#Cell1.A3">
+                                    <hi rend="bold" style="typo_gras">#4 (M, 63)</hi>
+                                </cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A3">Probable</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A3">Spinal</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A3">Proximal and distal left LL</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A3">41 (4)</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A3">36 (3)</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A3">31 (1)</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A3">LMN</cell>
+                            </row>
+                            <row>
+                                <cell rend="text-align:start;" rendition="#Cell1.A1">
+                                    <hi rend="bold" style="typo_gras">#5 (M, 75)</hi>
+                                </cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A1">Possible</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A1">Spinal</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A1">Proximal left UL</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A1">46 (8)</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A1">–</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A1">–</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A1">LMN</cell>
+                            </row>
+                            <row>
+                                <cell rend="text-align:start;" rendition="#Cell1.A3">
+                                    <hi rend="bold" style="typo_gras">#6 (M, 74)</hi>
+                                </cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A3">Possible</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A3">Spinal</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A3">Proximal left and right UL</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A3">45 (7)</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A3">39 (3)</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A3">34 (2)</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A3">LMN</cell>
+                            </row>
+                            <row>
+                                <cell rend="text-align:start;" rendition="#Cell1.A1">
+                                    <hi rend="bold" style="typo_gras">#7 (F, 66)</hi>
+                                </cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A1">Probable</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A1">Bulbar</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A1">–</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A1">40 (8)</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A1">38 (8)</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A1">37 (8)</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A1">LMN</cell>
+                            </row>
+                            <row>
+                                <cell rend="text-align:start;" rendition="#Cell1.A3">
+                                    <hi rend="bold" style="typo_gras">#8 (M, 56)</hi>
+                                </cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A3">Probable</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A3">Spinal</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A3">Proximal-distal, left-right UL-LL</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A3">45 (2)</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A3">–</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A3">–</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A3">LMN</cell>
+                            </row>
+                            <row>
+                                <cell rend="text-align:start;" rendition="#Cell1.A1">
+                                    <hi rend="bold" style="typo_gras">#9 (M, 79)</hi>
+                                </cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A1">Probable</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A1">Spinal</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A1">Distal left LL</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A1">43 (5)</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A1">37 (4)</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A1">–</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A1">LMN</cell>
+                            </row>
+                            <row>
+                                <cell rend="text-align:start;" rendition="#Cell1.A3">
+                                    <hi rend="bold" style="typo_gras">#10 (M, 73)</hi>
+                                </cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A3">Probable</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A3">Bulbar</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A3">–</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A3">44 (8)</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A3">–</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A3">40 (8)</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A3">LMN</cell>
+                            </row>
+                            <row>
+                                <cell rend="text-align:start;" rendition="#Cell1.A1">
+                                    <hi rend="bold" style="typo_gras">#11 (F, 63)</hi>
+                                </cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A1">Probable</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A1">Bulbar</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A1">–</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A1">44 (8)</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A1">41 (7)</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A1">–</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A1">LMN</cell>
+                            </row>
+                            <row>
+                                <cell rend="text-align:start;" rendition="#Cell1.A3">
+                                    <hi rend="bold" style="typo_gras">#12 (F, 76)</hi>
+                                </cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A3">Probable</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A3">Bulbar</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A3">–</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A3">42 (8)</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A3">40 (8)</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A3">–</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A3">LMN</cell>
+                            </row>
+                            <row>
+                                <cell rend="text-align:start;" rendition="#Cell1.A1">
+                                    <hi rend="bold" style="typo_gras">#13 (M, 69)</hi>
+                                </cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A1">Probable</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A1">Spinal</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A1">Distal right LL</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A1">45 (7)</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A1">40 (5)</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A1">–</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A1">LMN</cell>
+                            </row>
+                            <row>
+                                <cell rend="text-align:start;" rendition="#Cell1.A3">
+                                    <hi rend="bold" style="typo_gras">#14 (F, 64)</hi>
+                                </cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A3">Probable</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A3">Spinal</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A3">Distal right UL</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A3">42 (6)</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A3">–</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A3">–</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A3">LMN</cell>
+                            </row>
+                            <row>
+                                <cell rend="text-align:start;" rendition="#Cell1.A1">
+                                    <hi rend="bold" style="typo_gras">#15 (F, 52)</hi>
+                                </cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A1">Probable</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A1">Spinal</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A1">Proximal right LL</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A1">45 (8)</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A1">–</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A1">39 (8)</cell>
+                                <cell rend="text-align:start;" rendition="#Cell1.A1">UMN</cell>
+                            </row>
+                        </table>
+                    </div>
+                    <div type="section2">
+                        <head style="T_2" subtype="level2">qMRI measures differences between ALS and healthy controls</head>
+                        <p style="txt_Normal">At baseline, compared to HCs, wT2 was significantly increased in ALS subjects in several muscles of the thigh, including anterior, medial, and posterior compartment; at the level of the leg, wT2 was increased in ALS subjects for TA, triceps surae, extensor longus digitorum, and peroneal muscles (
+                            <ref target="#tab2">
+                                <hi rend="underline" style="typo_souligne">Table 2</hi></ref>). CSA was decreased for ALS subjects only for semimembranosus muscle; by contrast, FF was increased in ALS subjects mainly at the level of the anterior and medial compartment of the thigh and in ELD and TA at the leg level (
+                            <ref target="#tab2">
+                                <hi rend="underline" style="typo_souligne">Table 2</hi></ref>).</p>
+                        <p style="txt_Legende">For mean and median values, positive values indicate ALS &gt; HCs, negative values indicate ALS &lt; HCs. Muscle abbreviated names as in Figure 1. *Only results related to the mean value are reported when difference of right, left and mean features are significant.</p>
+                        <table cols="5" rend="frame" rows="30" xml:id="Tableau2">
+                            <row>
+                                <cell cols="5" rend="text-align:start;" rendition="#Cell2.A1">
+                                    <hi rend="bold" style="typo_gras">ALS vs. HCs</hi>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell cols="2" rend="text-align:start;" rendition="#Cell2.A1">
+                                    <hi rend="bold" style="typo_gras">Variables</hi>
+                                </cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A1">Mean difference</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A1">Median difference</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A1">p-value</cell>
+                            </row>
+                            <row>
+                                <cell rend="text-align:start;" rendition="#Cell2.A3" rows="16">
+                                    <hi rend="bold" style="typo_gras">wT2</hi>
+                                </cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A3">VL_left-right*</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A3">+2.809572</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A3">+3.063086</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A3">0.00371575</cell>
+                            </row>
+                            <row>
+                                <cell rend="text-align:start;" rendition="#Cell2.A1">VI_left-right*</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A1">+2.897702</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A1">+1.696587</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A1">0.00211737</cell>
+                            </row>
+                            <row>
+                                <cell rend="text-align:start;" rendition="#Cell2.A3">RF_left-right*</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A3">+2.289581</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A3">+1.427143</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A3">0.02141274</cell>
+                            </row>
+                            <row>
+                                <cell rend="text-align:start;" rendition="#Cell2.A1">AM_left-right*</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A1">+2.879314</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A1">+3.131731</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A1">0.00173943</cell>
+                            </row>
+                            <row>
+                                <cell rend="text-align:start;" rendition="#Cell2.A3">SM_left-right*</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A3">+3.784083</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A3">+4.275337</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A3">0.00256606</cell>
+                            </row>
+                            <row>
+                                <cell rend="text-align:start;" rendition="#Cell2.A1">ST_left-right</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A1">+2.339892</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A1">+3.364537</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A1">0.01192037</cell>
+                            </row>
+                            <row>
+                                <cell rend="text-align:start;" rendition="#Cell2.A3">ST_left</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A3">+2.483095</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A3">+3.026519</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A3">0.01020843</cell>
+                            </row>
+                            <row>
+                                <cell rend="text-align:start;" rendition="#Cell2.A1">BFL_left-right*</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A1">+3.796152</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A1">+2.774935</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A1">0.00740422</cell>
+                            </row>
+                            <row>
+                                <cell rend="text-align:start;" rendition="#Cell2.A3">BFS_left-right</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A3">+4.148411</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A3">+4.909326</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A3">0.01020843</cell>
+                            </row>
+                            <row>
+                                <cell rend="text-align:start;" rendition="#Cell2.A1">BFS_left</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A1">+5.796794</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A1">+4.527675</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A1">0.00309437</cell>
+                            </row>
+                            <row>
+                                <cell rend="text-align:start;" rendition="#Cell2.A3">So_left-right*</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A3">+7.020631</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A3">+5.605596</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A3">0.00000771</cell>
+                            </row>
+                            <row>
+                                <cell rend="text-align:start;" rendition="#Cell2.A1">MG_left-right*</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A1">+10.8707</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A1">+9.009979</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A1">0.00000081</cell>
+                            </row>
+                            <row>
+                                <cell rend="text-align:start;" rendition="#Cell2.A3">LG_left-right*</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A3">+11.80878</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A3">+13.24945</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A3">0.00000771</cell>
+                            </row>
+                            <row>
+                                <cell rend="text-align:start;" rendition="#Cell2.A1">TA_left-right*</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A1">+8.202594</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A1">+6.730464</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A1">0.00001116</cell>
+                            </row>
+                            <row>
+                                <cell rend="text-align:start;" rendition="#Cell2.A3">ELD_left-right*</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A3">+8.375868</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A3">+8.214133</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A3">0.00004280</cell>
+                            </row>
+                            <row>
+                                <cell rend="text-align:start;" rendition="#Cell2.A1">Pe_left-right*</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A1">+8.861914</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A1">+8.65537</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A1">0.00002243</cell>
+                            </row>
+                            <row>
+                                <cell rend="text-align:start;" rendition="#Cell2.A3" rows="2">
+                                    <hi rend="bold" style="typo_gras">CSA</hi>
+                                </cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A3">SM_left-right</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A3">−374.509</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A3">−464.145</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A3">0.02814128</cell>
+                            </row>
+                            <row>
+                                <cell rend="text-align:start;" rendition="#Cell2.A1">SM_left-right</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A1">−202.811</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A1">−246.28</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A1">0.01371954</cell>
+                            </row>
+                            <row>
+                                <cell rend="text-align:start;" rendition="#Cell2.A21" rows="10">
+                                    <hi rend="bold" style="typo_gras">FF</hi>
+                                </cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A3">RF_left-right</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A3">+0.033108</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A3">+0.037</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A3">0.00228725</cell>
+                            </row>
+                            <row>
+                                <cell rend="text-align:start;" rendition="#Cell2.A1">VM_left</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A1">+0.021782</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A1">+0.02615</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A1">0.04686635</cell>
+                            </row>
+                            <row>
+                                <cell rend="text-align:start;" rendition="#Cell2.A3">RF_left</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A3">+0.032167</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A3">+0.03425</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A3">0.01114513</cell>
+                            </row>
+                            <row>
+                                <cell rend="text-align:start;" rendition="#Cell2.A1">Sa_left</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A1">+0.041602</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A1">+0.04835</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A1">0.01858989</cell>
+                            </row>
+                            <row>
+                                <cell rend="text-align:start;" rendition="#Cell2.A3">AM_left</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A3">+0.037055</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A3">+0.0384</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A3">0.03211220</cell>
+                            </row>
+                            <row>
+                                <cell rend="text-align:start;" rendition="#Cell2.A1">VI_right</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A1">+0.018415</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A1">+0.01955</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A1">0.03376167</cell>
+                            </row>
+                            <row>
+                                <cell rend="text-align:start;" rendition="#Cell2.A3">BFS_right</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A3">+0.119552</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A3">+0.14275</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A3">0.01608458</cell>
+                            </row>
+                            <row>
+                                <cell rend="text-align:start;" rendition="#Cell2.A1">ELD_left-right</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A1">+0.036058</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A1">+0.0259</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A1">0.03806963</cell>
+                            </row>
+                            <row>
+                                <cell rend="text-align:start;" rendition="#Cell2.A3">TA_left</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A3">+0.031363</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A3">+0.02125</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A3">0.02814128</cell>
+                            </row>
+                            <row>
+                                <cell rend="text-align:start;" rendition="#Cell2.A1">ELD_left</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A1">+0.0409</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A1">+0.0258</cell>
+                                <cell rend="text-align:start;" rendition="#Cell2.A1">0.04143832</cell>
+                            </row>
+                        </table>
+                    </div>
+                    <div type="section2">
+                        <head style="T_2" subtype="level2">Longitudinal evolution of qMRI measures and correlation to leg subscore of ALSFRS-R</head>
+                        <p style="txt_Normal">When evaluating the evolution of qMRI measures over time, we found that wT2 decreased significantly over time only in the gemellus medialis and peroneal muscles. By contrast, FF increased over time in gemellus medialis, soleus, and TA. No significant change of FF was found over time for thigh muscles (
+                            <ref target="#tab3">
+                                <hi rend="underline" style="typo_souligne">Table 3</hi></ref>). No significant change was observed for CSA overall.</p>
+                        <p style="txt_Legende">wT2 decreased over time for gemellus medialis and peroneal muscles; FF increased over time in gemellus medialis, soleus and tibialis anterior. No correlation was found for thigh muscles. Coefficients, standard errors and p-values are reported. Bar plot represents the magnitude of coefficients in the linear mixed model. Error bars represent the standard error of coefficients and the significance of the coefficient is reported on the bar. The height of each bar represent the influence of the time on the single variable, weighted with respect to the error, in the model that consider time as the explanatory variable. For each muscle acronym please see 
+                            <ref target="#fig1">
+                                <hi rend="underline" style="typo_souligne">Figure 1</hi></ref>.</p>
+                        <table cols="5" rend="frame" rows="9" xml:id="Tableau3">
+                            <row>
+                                <cell cols="2" rend="text-align:start;" rendition="#Cell3.A1">
+                                    <hi rend="bold" style="typo_gras">Variables</hi>
+                                </cell>
+                                <cell rend="text-align:start;" rendition="#Cell3.A1">
+                                    <hi rend="bold" style="typo_gras">Coefficients</hi>
+                                </cell>
+                                <cell rend="text-align:start;" rendition="#Cell3.A1">
+                                    <hi rend="bold" style="typo_gras">Std errors</hi>
+                                </cell>
+                                <cell rend="text-align:start;" rendition="#Cell3.A1">
+                                    <hi rend="bold" style="typo_gras">
+                                        <hi rend="italic" style="typo_Italique">P-value</hi>
+                                    </hi>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell rend="text-align:start;" rendition="#Cell3.A2" rows="2">
+                                    <hi rend="bold" style="typo_gras">wT2</hi>
+                                </cell>
+                                <cell rend="text-align:start;" rendition="#Cell3.A1">MG_left</cell>
+                                <cell rend="text-align:start;" rendition="#Cell3.A1">−0.17168</cell>
+                                <cell rend="text-align:start;" rendition="#Cell3.A1">0.0765288</cell>
+                                <cell rend="text-align:start;" rendition="#Cell3.A1">0.0404</cell>
+                            </row>
+                            <row>
+                                <cell rend="text-align:start;" rendition="#Cell3.A3">Pe_right</cell>
+                                <cell rend="text-align:start;" rendition="#Cell3.A3">−0.38271</cell>
+                                <cell rend="text-align:start;" rendition="#Cell3.A3">0.159210</cell>
+                                <cell rend="text-align:start;" rendition="#Cell3.A3">0.0296</cell>
+                            </row>
+                            <row>
+                                <cell rend="text-align:start;" rendition="#Cell3.A1" rows="6">
+                                    <hi rend="bold" style="typo_gras">FF</hi>
+                                </cell>
+                                <cell rend="text-align:start;" rendition="#Cell3.A1">So_left-right</cell>
+                                <cell rend="text-align:start;" rendition="#Cell3.A1">+0.00294898</cell>
+                                <cell rend="text-align:start;" rendition="#Cell3.A1">0.001113378</cell>
+                                <cell rend="text-align:start;" rendition="#Cell3.A1">0.0182</cell>
+                            </row>
+                            <row>
+                                <cell rend="text-align:start;" rendition="#Cell3.A3">So_left</cell>
+                                <cell rend="text-align:start;" rendition="#Cell3.A3">+0.00328409</cell>
+                                <cell rend="text-align:start;" rendition="#Cell3.A3">0.00148746</cell>
+                                <cell rend="text-align:start;" rendition="#Cell3.A3">0.0432</cell>
+                            </row>
+                            <row>
+                                <cell rend="text-align:start;" rendition="#Cell3.A1">So_right</cell>
+                                <cell rend="text-align:start;" rendition="#Cell3.A1">+0.00259289</cell>
+                                <cell rend="text-align:start;" rendition="#Cell3.A1">0.001047599</cell>
+                                <cell rend="text-align:start;" rendition="#Cell3.A1">0.0257</cell>
+                            </row>
+                            <row>
+                                <cell rend="text-align:start;" rendition="#Cell3.A3">MG_left-right</cell>
+                                <cell rend="text-align:start;" rendition="#Cell3.A3">+0.00318101</cell>
+                                <cell rend="text-align:start;" rendition="#Cell3.A3">0.001027389</cell>
+                                <cell rend="text-align:start;" rendition="#Cell3.A3">0.0074</cell>
+                            </row>
+                            <row>
+                                <cell rend="text-align:start;" rendition="#Cell3.A1">MG_right</cell>
+                                <cell rend="text-align:start;" rendition="#Cell3.A1">+0.00366893</cell>
+                                <cell rend="text-align:start;" rendition="#Cell3.A1">0.001304145</cell>
+                                <cell rend="text-align:start;" rendition="#Cell3.A1">0.0131</cell>
+                            </row>
+                            <row>
+                                <cell rend="text-align:start;" rendition="#Cell3.A9">TA_left</cell>
+                                <cell rend="text-align:start;" rendition="#Cell3.A9">+0.00137111</cell>
+                                <cell rend="text-align:start;" rendition="#Cell3.A9">0.000594534</cell>
+                                <cell rend="text-align:start;" rendition="#Cell3.A9">0.0358</cell>
+                            </row>
+                        </table>
+                        <p style="txt_Normal">In an attempt to correlate qMRI measures and ALSFRS-R scale scores, with time considered as adjustment for longitudinal data, we found that neither FF nor CSA showed any significant correlation. By contrast, wT2 showed a positive correlation with the clinical scale in several muscles of the thigh including the anterior, medial, and posterior compartment (i.e., the higher the muscle wT2, the higher the ALSFRS-R scale) (
+                            <ref target="#tab4">
+                                <hi rend="underline" style="typo_souligne">Table 4</hi></ref>).</p>
+                        <p style="txt_Legende">ALSFRS-R scale is the explanatory variable of the model, with time considered as adjustment for longitudinal data. Only water-T2 mainly showed a modest positive correlation with the clinical scale. Coefficients, standard errors and p-values are reported.</p>
+                        <p style="txt_Legende">Bar plot represents the magnitude of coefficients in the linear mixed model. Error bars represent the standard error of coefficients and the significance of the coefficient is reported on the bar. The height of each bar represent the influence of leg subscore of the ALSFRS-R scale on the single variable, weighted with respect to the error, in the model that consider the scale and the time as explanatory variables. For each muscle acronym please see Figure 1.</p>
+                        <table cols="5" rend="frame" rows="14" xml:id="Tableau4">
+                            <row>
+                                <cell cols="2" rend="text-align:start;" rendition="#Cell4.A1">
+                                    <hi rend="bold" style="typo_gras">Variables</hi>
+                                </cell>
+                                <cell rend="text-align:start;" rendition="#Cell4.A1">
+                                    <hi rend="bold" style="typo_gras">Coefficients</hi>
+                                </cell>
+                                <cell rend="text-align:start;" rendition="#Cell4.A1">
+                                    <hi rend="bold" style="typo_gras">Std Error</hi>
+                                </cell>
+                                <cell rend="text-align:start;" rendition="#Cell4.A1">
+                                    <hi rend="bold" style="typo_gras">p-value</hi>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell rend="text-align:start;" rendition="#Cell4.A1" rows="13">
+                                    <hi rend="bold" style="typo_gras">wT2</hi>
+                                </cell>
+                                <cell rend="text-align:start;" rendition="#Cell4.A1">VM_left</cell>
+                                <cell rend="text-align:start;" rendition="#Cell4.A1">+0.241773</cell>
+                                <cell rend="text-align:start;" rendition="#Cell4.A1">0.110780</cell>
+                                <cell rend="text-align:start;" rendition="#Cell4.A1">0.0480</cell>
+                            </row>
+                            <row>
+                                <cell rend="text-align:start;" rendition="#Cell4.A3">RF_left-right</cell>
+                                <cell rend="text-align:start;" rendition="#Cell4.A3">+0.243178</cell>
+                                <cell rend="text-align:start;" rendition="#Cell4.A3">0.092209</cell>
+                                <cell rend="text-align:start;" rendition="#Cell4.A3">0.0205</cell>
+                            </row>
+                            <row>
+                                <cell rend="text-align:start;" rendition="#Cell4.A1">RF_right</cell>
+                                <cell rend="text-align:start;" rendition="#Cell4.A1">+0.240500</cell>
+                                <cell rend="text-align:start;" rendition="#Cell4.A1">0.087082</cell>
+                                <cell rend="text-align:start;" rendition="#Cell4.A1">0.0162</cell>
+                            </row>
+                            <row>
+                                <cell rend="text-align:start;" rendition="#Cell4.A3">Sa_left-right</cell>
+                                <cell rend="text-align:start;" rendition="#Cell4.A3">+0.1569837</cell>
+                                <cell rend="text-align:start;" rendition="#Cell4.A3">0.0544809</cell>
+                                <cell rend="text-align:start;" rendition="#Cell4.A3">0.0129</cell>
+                            </row>
+                            <row>
+                                <cell rend="text-align:start;" rendition="#Cell4.A1">Sa_left</cell>
+                                <cell rend="text-align:start;" rendition="#Cell4.A1">+0.1264864</cell>
+                                <cell rend="text-align:start;" rendition="#Cell4.A1">0.0447453</cell>
+                                <cell rend="text-align:start;" rendition="#Cell4.A1">0.0143</cell>
+                            </row>
+                            <row>
+                                <cell rend="text-align:start;" rendition="#Cell4.A3">Sa_right</cell>
+                                <cell rend="text-align:start;" rendition="#Cell4.A3">+0.1300158</cell>
+                                <cell rend="text-align:start;" rendition="#Cell4.A3">0.0507045</cell>
+                                <cell rend="text-align:start;" rendition="#Cell4.A3">0.0236</cell>
+                            </row>
+                            <row>
+                                <cell rend="text-align:start;" rendition="#Cell4.A1">G_left-right</cell>
+                                <cell rend="text-align:start;" rendition="#Cell4.A1">+0.254595</cell>
+                                <cell rend="text-align:start;" rendition="#Cell4.A1">0.078055</cell>
+                                <cell rend="text-align:start;" rendition="#Cell4.A1">0.0062</cell>
+                            </row>
+                            <row>
+                                <cell rend="text-align:start;" rendition="#Cell4.A3">G_left</cell>
+                                <cell rend="text-align:start;" rendition="#Cell4.A3">+0.1422255</cell>
+                                <cell rend="text-align:start;" rendition="#Cell4.A3">0.0639267</cell>
+                                <cell rend="text-align:start;" rendition="#Cell4.A3">0.0444</cell>
+                            </row>
+                            <row>
+                                <cell rend="text-align:start;" rendition="#Cell4.A1">G_right</cell>
+                                <cell rend="text-align:start;" rendition="#Cell4.A1">+0.321866</cell>
+                                <cell rend="text-align:start;" rendition="#Cell4.A1">0.083583</cell>
+                                <cell rend="text-align:start;" rendition="#Cell4.A1">0.0020</cell>
+                            </row>
+                            <row>
+                                <cell rend="text-align:start;" rendition="#Cell4.A3">AM_left</cell>
+                                <cell rend="text-align:start;" rendition="#Cell4.A3">+0.325993</cell>
+                                <cell rend="text-align:start;" rendition="#Cell4.A3">0.119467</cell>
+                                <cell rend="text-align:start;" rendition="#Cell4.A3">0.0172</cell>
+                            </row>
+                            <row>
+                                <cell rend="text-align:start;" rendition="#Cell4.A1">ST_left-right</cell>
+                                <cell rend="text-align:start;" rendition="#Cell4.A1">+0.326414</cell>
+                                <cell rend="text-align:start;" rendition="#Cell4.A1">0.119586</cell>
+                                <cell rend="text-align:start;" rendition="#Cell4.A1">0.0172</cell>
+                            </row>
+                            <row>
+                                <cell rend="text-align:start;" rendition="#Cell4.A3">ST_left</cell>
+                                <cell rend="text-align:start;" rendition="#Cell4.A3">+0.321915</cell>
+                                <cell rend="text-align:start;" rendition="#Cell4.A3">0.122695</cell>
+                                <cell rend="text-align:start;" rendition="#Cell4.A3">0.0210</cell>
+                            </row>
+                            <row>
+                                <cell rend="text-align:start;" rendition="#Cell4.A1">ST_right</cell>
+                                <cell rend="text-align:start;" rendition="#Cell4.A1">+0.248465</cell>
+                                <cell rend="text-align:start;" rendition="#Cell4.A1">0.103604</cell>
+                                <cell rend="text-align:start;" rendition="#Cell4.A1">0.0322</cell>
+                            </row>
+                        </table>
+                        <p style="txt_Normal">The PCA was performed to aggregate information of muscle compartments (see 
+                            <ref target="#fig1">
+                                <hi rend="underline" style="typo_souligne">Figure 1</hi></ref>) for either FF, wT2, or CSA and did not show any significant result (p &gt; 0.05).</p>
+                    </div>
+                </div>
+                <div type="section1">
+                    <head style="T_1" subtype="level1">Discussion</head>
+                    <p style="txt_Normal">In the present study, we performed quantitative muscle MRI of lower limbs in a monocentric cohort of early-onset ALS subjects, assessing fat infiltration, trophicity, and intramuscular edema.</p>
+                    <p style="txt_Normal">In the cross-sectional analysis, we showed that the wT2 signal was increased in ALS subjects for several muscles of both thigh and leg as early as the diagnostic phase of the disease. FF, and especially CSA, did not show any significant changes. In the longitudinal follow-up, we found that the wT2 signal decreased and FF increased in some leg muscles; no significant changes were found in thigh muscles. Furthermore, no changes were found for CSA over time both for thigh and leg muscles.</p>
+                    <p style="txt_Normal">In our cohort, the median time between symptoms onset and diagnosis was 12.6 months, in accordance with the literature data. Thus, we assumed that enrolled ALS subjects were in the initial phases of muscle involvement when the denervation process was evident, trophicity was still relatively preserved, and fatty replacement was absent. Our finding of increased wT2 confirmed the ability of qMRI to depict consequences of denervation in muscles, as already showed by Klickovic et al. (13). This finding is also consistent with the pathological process of muscle in patients with ALS, both in the early stages and during the trajectory of the disease (13).</p>
+                    <p style="txt_Normal">The changes in wT2 in FF found in this study can be considered as rather symmetric and extensive throughout the lower limbs. Although we did not include other muscles of the body (or apply whole-body MRI) in our qMRI study, we agree with Jenkins et al. that lower limbs can be regarded as highly representative of the whole picture of muscle involvement in ALS (4). The relative degree of symmetry found in our study was also somehow inconsistent with the asymmetry of the clinical phenotype of the disease. We presume that MRI might be able to mirror the pathogenic pattern of ALS (i.e., diffuse involvement of all muscles, even at different time points), as it quantifies subtle changes in the fat and free water component. By contrast, the clinical assessment is likely influenced by several factors (such as the number of motor neurons involved, which may be different for each muscle).</p>
+                    <p style="txt_Normal">When we attempted to correlate qMRI measurements with clinical measures of disease severity, we found a positive correlation between wT2 and ALSFRS-R leg subitems of walking and climbing stairs (i.e., leg subscore). At first sight, this finding may be confounding, as it seems to confirm that functional impairment of patients with ALS is mild when the denervation is predominant. However, we expected this finding, and we explain it with the fact that clinical impairment is not prominent in the first phases of the disease (where active denervation and wT2 increase occurs), whereas when the ability to walk and climb stairs decreases (i.e., ALSFRS-R leg subscore decreases) wT2 is reduced. By contrast, FF increases over time only in leg muscles and not in thigh muscles. The ALS subjects included in this study presented with predominant involvement of distal leg muscles (e.g., Patrikios subtype, refer to Table 1); in parallel, we can assume that FF increased earlier in the leg muscles than in the thigh muscles. Furthermore, our imaging follow-up can be considered quite short (up to 12 months) and presumably FF was not yet altered in the thigh muscles due to the slow progression of this subtype of ALS.</p>
+                    <p style="txt_Normal">As for existing literature on fat replacement and edema-like changes in the muscle of ALS subjects, the former approaches involved conventional wT1 and Short tau inversion recovery (STIR) sequences. Even recently, Klickovic et al. proposed a mixed qualitative and quantitative MRI analysis of bulbar and lower limb muscles in order to differentiate ALS and spinal bulbar muscular atrophy (SBMA), applying FF calculation, in addition to a semiquantitative evaluation of T1-weighted and STIR sequences (13). With specific regard to the second point, the authors demonstrated an extensive involvement of the lower limb muscles in ALS, reflecting edema-like changes, which are signs of denervation processes, observed as areas of STIR hyperintensity (13, 21, 22).</p>
+                    <p style="txt_Normal">Already in 1998, Bryan et al. approached T1 and T2 relaxometry in a cohort of 11 ALS subjects, demonstrating a robust negative correlation between T2 relaxation time and maximal voluntary isometric contraction (MVIC) and compound muscle action potential amplitude (CMAPa) (1).</p>
+                    <p style="txt_Normal">A recent study by Jenkins et al. showed that the T2 signal in the TA increased over time in ALS subjects (3). The same group, using whole-body qMRI, showed in 2020 that leg muscles T2 changes were the most effective biomarkers in their cohort of ALS subjects, independent of the clinical onset location, and that slow progressor (i.e., patients with a slow disease) had detectable changes over time when assessing T2 signal (4).</p>
+                    <p style="txt_Normal">The technical approach that was employed, nonetheless, was limited by the fact that no FF measurements, or calculation of real edematous changes in the muscle, were performed (i.e., wT2) separately from the fat signal (9, 23). The T2 relaxation time is in fact influenced by both intramuscular edema and fat replacement, making it difficult to distinguish the most prominent ongoing pathological manifestation in the muscle structure at the moment of MRI assessment (i.e., when edematous changes or rather a fat infiltration prevails over the other).</p>
+                    <p style="txt_Normal">In our opinion, the technical approach used by these two experiences, which included T2 relaxation time (i.e., a global T2 time), did not fully allow the understanding of edematous or edema-like changes in the muscle, as fat components presumably had an impact on the results. On the contrary, with the robust technical approach we used in this study, which allowed us to depurate the fat component from the T2 signal of the muscle, we showed that wT2 was increased in ALS subjects, with a decrease over time and that it also had a positive correlation with clinical status as expressed by the ALSFRS-R.</p>
+                    <p style="txt_Normal">We also recognize, however, that our study protocol can be physically challenging to endure for ALS subjects, and for this reason, we decided to concentrate only on lower limb muscles, due to the fact that simultaneous evaluation of FF and wT2 significantly prolong scanning time for each site.</p>
+                    <div type="section2">
+                        <head style="T_2" subtype="level2">Study limitations</head>
+                        <p style="txt_Normal">The current study is limited in some regards. First, our data is limited by the small number of subjects enrolled for the MRI examination; such a number has been influenced by the rarity of the disease and by our intent to perform a comprehensive and robust (though quite long) quantitative muscle MRI protocol on the same scanner. The SARS-COVID-19 epidemic had also an impact on the enrollment of research patients during 2020.</p>
+                        <p style="txt_Normal">Second, due to the difficulty of acquiring MRI scans in a cohort of ALS subjects, despite enrolling patients at their clinical onset, we lost many of them at follow-up appointments. This happened due to clinical reasons, the impossibility to maintain the position for the adequate time for scanning, and also for the death of the subject.</p>
+                        <p style="txt_Normal">Third, the lack of a recognized connection between the qMRI data and the currently used clinical scales (e.g., the leg subscore of the ALSFRS-R score used in this study) may have at least partially limited the possibility to extend the validity of the presented data. This issue, however, can be considered as a minor element, due to the recently recognized importance and significance of quantitative muscle MRI features (as FF, wT2, etc.) in neuromuscular diseases and other pathologies. We are also planning to expand the current data with a correlation between qMRI and electromyography (EMG) to gain a deeper insight into the pathology.</p>
+                    </div>
+                </div>
+                <div type="section1">
+                    <head style="T_1" subtype="level1">Conclusions</head>
+                    <p style="txt_Normal">In conclusion, despite the small cohort examined, our study demonstrated that wT2 was increased in the early phases of ALS. Furthermore, wT2 correlated positively with the leg subscore of the ALSFRS-R and decreased over time. Such results encourage us to continue applying qMRI in the assessment of muscle damage in ALS. Future studies with larger cohorts are needed to confirm and expand these preliminary data.</p>
+                </div>
+            </div>
+        </body>
+        <back>
+            <div type="bibliographie">
+                <head style="T_1">References</head>
+                <listBibl>
+                    <bibl style="txt_Bibliographie" type="orig" xml:id="bibl01">[1] Brotman RG, Moreno-Escobar MC, Joseph J, Pawar G. Amyotrophic Lateral Sclerosis. StatPearls: StatPearls Publishing (2021).</bibl>
+                    <bibl style="txt_Bibliographie" type="orig" xml:id="bibl02">[2] Xu L, Liu T, Liu L, Yao X, Chen L, Fan D, et al. Global variation in prevalence and incidence of amyotrophic lateral sclerosis: a systematic review and meta-analysis. J Neurol. 2020;267:944–53. 
+                        <ref target="https://doi.org/10.1007/s00415-019-09652-y">
+                            <hi rend="underline" style="typo_souligne">https://doi.org/10.1007/s00415-019-09652-y</hi></ref>
+                    </bibl>
+                    <bibl style="txt_Bibliographie" type="orig" xml:id="bibl03">[3] Masrori P, Van Damme P. Amyotrophic lateral sclerosis: a clinical review. Euro J Neurol. 2020;27:1918–29. 
+                        <ref target="https://doi.org/10.1111/ene.14393">
+                            <hi rend="underline" style="typo_souligne">https://doi.org/10.1111/ene.14393</hi></ref>
+                    </bibl>
+                    <bibl style="txt_Bibliographie" type="orig" xml:id="bibl04">[4] Al-Chalabi A, Calvo A, Chio A, Colville S, Ellis CM, Hardiman O, et al. Analysis of amyotrophic lateral sclerosis as a multistep process: A population-based modelling study. Lancet Neurol. 2014;13:1108– 13. 
+                        <ref target="https://doi.org/10.1016/S1474-4422(14)70219-4">
+                            <hi rend="underline" style="typo_souligne">https://doi.org/10.1016/S1474-4422(14)70219-4</hi></ref>
+                    </bibl>
+                    <bibl style="txt_Bibliographie" type="orig" xml:id="bibl05">[5] Chiò A, Battistini S, Calvo A, Caponnetto C, Conforti FL, Corbo M, et al. Genetic counselling in ALS: Facts, uncertainties and clinical suggestions. J Neurol Neurosurg Psychiatry. 2014;85:478–85. 
+                        <ref target="https://doi.org/10.1136/jnnp-2013-305546">
+                            <hi rend="underline" style="typo_souligne">https://doi.org/10.1136/jnnp-2013-305546</hi></ref>
+                    </bibl>
+                    <bibl style="txt_Bibliographie" type="orig" xml:id="bibl06">[6] Ellison D. Neuropathology E-Book: A Reference Text of CNS Pathology. Elsevier Health Sciences (2021).</bibl>
+                    <bibl style="txt_Bibliographie" type="orig" xml:id="bibl07">[7] Arai T, HasegawaM, Akiyama H, Ikeda K, Nonaka T,Mori H, et al. TDP-43 is a component of ubiquitin-positive tau-negative inclusions in frontotemporal lobar degeneration and amyotrophic lateral sclerosis. Biochem Biophys Res Commun. 2006;351:602–11. 
+                        <ref target="https://doi.org/10.1016/j.bbrc.2006.10.093">
+                            <hi rend="underline" style="typo_souligne">https://doi.org/10.1016/j.bbrc.2006.10.093</hi></ref>
+                    </bibl>
+                    <bibl style="txt_Bibliographie" type="orig" xml:id="bibl08">[8] Bensimon G, Lacomblez L, Meininger V. A controlled trial of riluzole in amyotrophic lateral sclerosis. N Engl J Med. 1994;330:585–91. 
+                        <ref target="https://doi.org/10.1056/NEJM199403033300901">
+                            <hi rend="underline" style="typo_souligne">https://doi.org/10.1056/NEJM199403033300901</hi></ref>
+                    </bibl>
+                    <bibl style="txt_Bibliographie" type="orig" xml:id="bibl09">[9] Hinchcliffe M, Smith A. Riluzole: real-world evidence supports significant extension of median survival times in patients with amyotrophic lateral sclerosis. Degener Neurol Neuromuscul Dis. 2017;7:61–70. 
+                        <ref target="https://doi.org/10.2147/DNND.S135748">
+                            <hi rend="underline" style="typo_souligne">https://doi.org/10.2147/DNND.S135748</hi></ref>
+                    </bibl>
+                    <bibl style="txt_Bibliographie" type="orig" xml:id="bibl10">[10] Abe K, Itoyama Y, Sobue G, Tsuji S, Aoki M, Doyu M, et al. Confirmatory double-blind, parallel-group, placebo-controlled study of efficacy and safety of edaravone (MCI-186) in amyotrophic lateral sclerosis patients. Amyotroph Lateral Scler Front Degener. 2014;15:610–7. 
+                        <ref target="https://doi.org/10.3109/21678421.2014.959024">
+                            <hi rend="underline" style="typo_souligne">https://doi.org/10.3109/21678421.2014.959024</hi></ref>
+                    </bibl>
+                    <bibl style="txt_Bibliographie" type="orig" xml:id="bibl11">[11] Beers DR, Appel SH. Immune dysregulation in amyotrophic lateral sclerosis: mechanisms and emerging therapies. Lancet Neurol. 2019;18:211–20. 
+                        <ref target="https://doi.org/10.1016/S1474-4422(18)30394-6">
+                            <hi rend="underline" style="typo_souligne">https://doi.org/10.1016/S1474-4422(18)30394-6</hi></ref>
+                    </bibl>
+                    <bibl style="txt_Bibliographie" type="orig" xml:id="bibl12">[12] Lunn JS, Sakowski SA, Feldman EL. Concise review: Stem cell therapies for amyotrophic lateral sclerosis: Recent advances and prospects for the future. Stem Cells. 2014;32:1099–109. 
+                        <ref target="https://doi.org/10.1002/stem.1628">
+                            <hi rend="underline" style="typo_souligne">https://doi.org/10.1002/stem.1628</hi></ref>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>
