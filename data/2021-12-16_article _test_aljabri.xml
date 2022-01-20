@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article
+  PUBLIC '-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.2 20190208//EN'
+  'https://jats.nlm.nih.gov/publishing/1.2/JATS-journalpublishing1.dtd'>
+<article article-type="research-article" dtd-version="1.2" specific-use="ojs-display" xml:lang="en">
+    <front>
+        <journal-meta>
+            <journal-id journal-id-type="publisher"/>
+            <issn/>
+            <publisher>
+                <publisher-name/>
+            </publisher>
+        </journal-meta>
+        <article-meta>
+            <article-id pub-id-type="other"/>
+            <article-categories>
+                <subj-group subj-group-type="display-channel">
+                    <subject>Research article</subject>
+                </subj-group>
+            </article-categories>
+            <title-group>
+                <article-title>The Safety and Efficacy of Stem Cell Therapy as an Emerging Therapy for ALS: A Systematic Review of Controlled Clinical Trials</article-title>
+                <trans-title-group xml:lang="fr">
+                    <trans-title>La sécurité et l'efficacité de la thérapie par cellules souches en tant que thérapie émergente pour la SLA : une étude systématique des essais cliniques contrôlés</trans-title>
+                </trans-title-group>
+            </title-group>
+            <contrib-group>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Aljabri</surname>
+                        <given-names>Ammar</given-names>
+                    </name>
+                    <aff/>
+                </contrib>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Halawani</surname>
+                        <given-names>Alhussain</given-names>
+                    </name>
+                    <aff/>
+                </contrib>
+                <contrib contrib-type="author">
+                    <contrib-id contrib-id-type="ORCID">0000-0002-7509-4158</contrib-id>
+                    <name>
+                        <surname>Bin Lajdam</surname>
+                        <given-names>Ghassan</given-names>
+                    </name>
+                    <aff/>
+                </contrib>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Labban</surname>
+                        <given-names>Suhail</given-names>
+                    </name>
+                    <aff/>
+                </contrib>
+                <contrib contrib-type="author">
+                    <contrib-id contrib-id-type="ORCID">0000-0002-3668-4905</contrib-id>
+                    <name>
+                        <surname>Alshehri</surname>
+                        <given-names>Samah</given-names>
+                    </name>
+                    <aff/>
+                </contrib>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Felemban</surname>
+                        <given-names>Razaz</given-names>
+                    </name>
+                    <aff>
+                        <xref ref-type="aff" rid="aff01"/>
+                        <xref ref-type="aff" rid="aff02"/>
+                        <xref ref-type="aff" rid="aff03"/>
+                    </aff>
+                </contrib>
+                <aff id="aff01">
+                    <institution>1. College of Medicine, King Saud Bin Abdulaziz University for Health Sciences, Jeddah, Saudi Arabia</institution>
+                </aff>
+                <aff id="aff02">
+                    <institution>2. King Abdullah International Medical Research Center, Jeddah, Saudi Arabia</institution>
+                </aff>
+                <aff id="aff03">
+                    <institution>3. Department of Clinical Pharmacy, College of Pharmacy, King Abdulaziz University, Jeddah, Saudi Arabia</institution>
+                </aff>
+            </contrib-group>
+            <pub-date>
+                <year/>
+            </pub-date>
+            <abstract>
+                <p>Amyotrophic lateral sclerosis (ALS) is a neurodegenerative disease with a heterogeneous course that ultimately leads to death. Currently, there is no cure, and new treatments that can slow the progression of the disease are needed. Stem cell (SC) transplantation is an emerging therapy that has shown a lot of potential in recent clinical trials. This review is aimed to examine the results of various clinical trials on this topic, thus assessing the safety and efficacy of SC transplantation as a potential treatment for ALS. We identified 748 studies in our search, of which 134 full-text studies were assessed for eligibility. Six studies met the inclusion criteria and were included in this review. Although some of the included studies showed the positive effect of SC transplantation, other studies found that there was no significant difference compared to the control group. We observed more positive effects with bone marrow mesenchymal stem cells (BM-MSC) treatments than Granulocyte colony-stimulating factor (G-CSF) ones. However, other factors, such as route of administration, number of doses, and number of cells per dose, could also play a role in this discrepancy. Based on this information, we conclude that more properly conducted clinical trials are needed to appreciate the benefit of this treatment.</p>
+            </abstract>
+            <trans-abstract xml:lang="fr">
+                <p>La sclérose latérale amyotrophique (SLA) est une maladie neurodégénérative à l'évolution hétérogène qui conduit finalement à la mort. À l'heure actuelle, il n'existe aucun traitement curatif, et de nouveaux traitements capables de ralentir la progression de la maladie sont nécessaires. La transplantation de cellules souches (CS) est une thérapie émergente qui a montré un grand potentiel dans les essais cliniques récents. Cette revue a pour but d'examiner les résultats de divers essais cliniques sur ce sujet, afin d'évaluer la sécurité et l'efficacité de la transplantation de cellules souches comme traitement potentiel de la SLA. Nous avons identifié 748 études dans notre recherche, dont 134 études en texte intégral ont été évaluées pour leur éligibilité. Six études répondaient aux critères d'inclusion et ont été incluses dans cette revue. Bien que certaines des études incluses aient montré l'effet positif de la transplantation de CS, d'autres études ont montré qu'il n'y avait pas de différence significative par rapport au groupe témoin. Nous avons observé des effets plus positifs avec les traitements à base de cellules souches mésenchymateuses de la moelle osseuse (BM-MSC) qu'avec ceux à base de facteur de stimulation des colonies de granulocytes (G-CSF). Cependant, d'autres facteurs, tels que la voie d'administration, le nombre de doses et le nombre de cellules par dose, pourraient également jouer un rôle dans cette divergence. Sur la base de ces informations, nous concluons que des essais cliniques mieux conduits sont nécessaires pour apprécier le bénéfice de ce traitement.</p>
+            </trans-abstract>
+            <kwd-group kwd-group-type="author-keywords" xml:lang="en">
+                <kwd>amyotrophic lateral sclerosis</kwd>
+                <kwd>stem cell therapies</kwd>
+                <kwd>systematic (literature) review</kwd>
+                <kwd>motor neuron disease</kwd>
+                <kwd>regenerative medicine</kwd>
+                <kwd>controlled trials</kwd>
+            </kwd-group>
+            <kwd-group kwd-group-type="author-keywords" xml:lang="fr">
+                <kwd>sclérose latérale amyotrophique</kwd>
+                <kwd>thérapies par cellules souches</kwd>
+                <kwd>revue systématique (de la littérature)</kwd>
+                <kwd>maladie du motoneurone</kwd>
+                <kwd>médecine régénérative</kwd>
+                <kwd>essais contrôlés.</kwd>
+            </kwd-group>
+        </article-meta>
+    </front>
+    <body>Mots clés : sclérose latérale amyotrophique, thérapies par cellules souches, revue systématique (de la littérature), maladie du motoneurone, médecine régénérative, essais contrôlés.
+        <sec>
+            <title>Introduction</title>
+            <p>
+                Amyotrophic lateral sclerosis (ALS) is a progressive neurodegenerative disease characterized by loss of upper and lower motor neurons, resulting in worsening weakness of voluntary muscles. ALS inevitably leads to paralysis, respiratory insufficiency, and eventually death 
+                <xref ref-type="bibr" rid="bibl01">[1]</xref>
+                . The overall prevalence and incidence of ALS are estimated at 4.42 per 100,000 and 1.59 per 100,000, respectively. The median survival time was estimated to be 4.32 years from the time of onset for the eastern European population 
+                <xref ref-type="bibr" rid="bibl02">[2]</xref>
+                .</p>
+            <p>Amyotrophic lateral sclerosis can be hereditarily classified into a familial (FALS) and a sporadic form with the latter constituting ~90% of all cases 
+                <xref ref-type="bibr" rid="bibl03">[3]</xref>
+                . The underlying pathophysiological mechanisms for ALS have been a topic of extensive research. Genetic and environmental interactions lead to the development of ALS in a potentially consecutive six-step manner 
+                <xref ref-type="bibr" rid="bibl04">[4]</xref>
+                . More than 30 genes have been identified as a major risk for the development of ALS, 4 of which account for 70% of all FALS cases, which include C9orf72, TARDBP, SOD1, and FUS 
+                <xref ref-type="bibr" rid="bibl05">[5]</xref>
+                . Moreover, brain microscopic changes in ALS depict neuronal and axonal losses. There is both reduction and loss of motor neurons, mainly in the anterior horn of the spinal cord and lower cranial motor nuclei in the brainstem 
+                <xref ref-type="bibr" rid="bibl06">[6]</xref>
+                . The key pathological hallmark of ALS is ubiquitinated bodies, which are mostly composed of TAR DNA binding protein 43 (TDP-43) proteins found in the degenerating neurons 
+                <xref ref-type="bibr" rid="bibl07">[7]</xref>
+                .</p>
+            <p>Glutamate neurotoxicity has also been implicated in the pathogenesis of ALS. Riluzole, an antiglutamatergic drug, remains the only disease-modifying therapy that successfully slows the progression of ALS and prolongs the mean patient survival by 3–6 months 
+                <xref ref-type="bibr" rid="bibl08">[8]</xref>
+                <xref ref-type="bibr" rid="bibl09">[9]</xref>
+                . Although Riluzole slows the progression and improves survival, symptoms still appear and make the therapy more complex. In addition, non-motor symptoms, such as cognitive impairment and psychiatric illnesses, may be seen. In addition to Riluzole, a free radical scavenger known as Edaravone is used. In a study conducted in Japan, Edaravone caused a smaller decline in the revised ALS Functional Rating Scale (ALSFRS-R) in the treatment group compared to the placebo. However, the study failed to demonstrate significant efficacy 
+                <xref ref-type="bibr" rid="bibl10">[10]</xref>
+                .</p>
+            <p>Stem cell (SC) therapy is considered one of the most promising therapeutic approaches for ALS. With this therapy, various pathogenic mechanisms could be targeted to slow the progression of the disease. SC therapy could provide both trophic and immunomodulatory support and potentially allow for the regeneration of motor neurons 
+                <xref ref-type="bibr" rid="bibl11">[11]</xref>
+                . The use of SC therapy to slow the progression of ALS has been supported in many preclinical animal models 
+                <xref ref-type="bibr" rid="bibl12">[12]</xref>
+                . Many phase 1 and phase 2 trials aimed to assess feasibility and safety, with some looking at clinical benefits reflected through parameters, such as ALSFRS-R and respiratory function. However, these trials have failed to show significant results, which could be attributed to factors, such as limited sample size and lack of a control group. Furthermore, controlled studies provide a higher level of evidence. Many studies have included a control group to highlight the true benefit of SC therapy. Therefore, given the need for alternative therapy, we decided to conduct a systematic review of controlled clinical trials to determine the efficacy of SC therapy in the treatment of ALS.</p>
+        </sec>
+        <sec>
+            <title>Methods</title>
+            <p>We selected controlled clinical trials, including randomized controlled trials (RCTs), quasi-randomized trials, and non-randomized clinical trials (
+                <xref rid="table1">
+                    <underline>Table 1</underline></xref>). Patients with ALS included in the study were diagnosed using the El Escorial criteria with no age restriction. Studies were included regardless of the type of SCs used. We excluded animal studies and uncontrolled clinical trials from this study. The primary outcome for this review is the change in the rate of functional impairment measured using the ALSFRS-R. The ALSFRS-R is a questionnaire-based scale that assesses the physical ability of patients with ALS to perform activities of daily living (ADL). The questions in the scale assess four domains: gross, fine motor tasks, bulbar, and respiratory functions. Each question is scored from 0 (fully impaired) to 4 (normal) with a total of 12 questions and 48 scores 
+                <xref ref-type="bibr" rid="bibl19">[19]</xref>
+                . ALSFRS-R can be either reported solely as a score or as a slope that is interpreted as the rate of change in the ALSFRS-R score. The ALSFRS-R slope is of widespread recognition as a critical indicator of prognosis in patients with ALS 
+                <xref ref-type="bibr" rid="bibl20">[20]</xref>
+                . Secondary outcomes include respiratory function reflected by forced vital capacity (FVC), overall mortality, and adverse effects of SC therapy. For trials that used invasive sham procedures, ethical concerns regarding safety should be considered.</p>
+            <table-wrap specific-use="frame">
+                <table id="Tableau1">
+                    <tr>
+                        <td>References</td>
+                        <td>Type</td>
+                        <td>Patients (n)</td>
+                        <td>Cell type</td>
+                        <td>Flow cytometry</td>
+                        <td>Dose: cells x 106 x times</td>
+                        <td>Administration route</td>
+                    </tr>
+                    <tr>
+                        <td>Martinez et al. 
+                            <xref ref-type="bibr" rid="bibl13">[13]</xref></td>
+                        <td>Non-randomized controlled trial</td>
+                        <td>Control: 10</td>
+                        <td>BM-MSC</td>
+                        <td>CD133+</td>
+                        <td>2.5–7.5 × 105</td>
+                        <td>Subcutaneous</td>
+                    </tr>
+                    <tr>
+                        <td/>
+                        <td/>
+                        <td>Treatment: 10</td>
+                        <td/>
+                        <td/>
+                        <td/>
+                        <td/>
+                    </tr>
+                    <tr>
+                        <td>Nefussy et al. 
+                            <xref ref-type="bibr" rid="bibl14">[14]</xref></td>
+                        <td>RCT</td>
+                        <td>Control: 18</td>
+                        <td>G-CSF</td>
+                        <td>CD34+</td>
+                        <td>5 mg/kg/day x 4 days</td>
+                        <td>Subcutaneous</td>
+                    </tr>
+                    <tr>
+                        <td/>
+                        <td/>
+                        <td>Treatment: 39</td>
+                        <td/>
+                        <td/>
+                        <td/>
+                        <td/>
+                    </tr>
+                    <tr>
+                        <td>Amirzagar et al. 
+                            <xref ref-type="bibr" rid="bibl15">[15]</xref></td>
+                        <td>RCT</td>
+                        <td>Control: 20</td>
+                        <td>G-CSF</td>
+                        <td>CD34+/CD133+</td>
+                        <td>5 μg/kg/q12h x 5 days</td>
+                        <td>Subcutaneous</td>
+                    </tr>
+                    <tr>
+                        <td/>
+                        <td/>
+                        <td>Treatment: 20</td>
+                        <td/>
+                        <td/>
+                        <td/>
+                        <td/>
+                    </tr>
+                    <tr>
+                        <td>Rushkevich et al. 
+                            <xref ref-type="bibr" rid="bibl16">[16]</xref></td>
+                        <td>Non-randomized controlled trial</td>
+                        <td>Control: 15</td>
+                        <td>1. Intact BM-MSC 2. Neural induced BM-MSC</td>
+                        <td>CD29+, CD44+, CD73+, CD105+ CD34–, CD45–</td>
+                        <td>Intact: 0.5–1.5 × 106/kg body weight (42–102 × 106 cells) Neural induced: 5.0–9.7 × 106 cells</td>
+                        <td>Intravenous and intralumbar (L3-L4)</td>
+                    </tr>
+                    <tr>
+                        <td/>
+                        <td/>
+                        <td>Treatment: 10</td>
+                        <td/>
+                        <td/>
+                        <td/>
+                        <td/>
+                    </tr>
+                    <tr>
+                        <td>Oh et al. 
+                            <xref ref-type="bibr" rid="bibl17">[17]</xref></td>
+                        <td>RCT</td>
+                        <td>Control: 31</td>
+                        <td>BM-MSC</td>
+                        <td>CD29+, CD44+, CD49+, CD73+, CD105+ CD34–, CD45–</td>
+                        <td>1/kg × 2 (1 month apart) in CSF</td>
+                        <td>Intrathecal (L2–L4)</td>
+                    </tr>
+                    <tr>
+                        <td/>
+                        <td/>
+                        <td>Treatment: 33</td>
+                        <td/>
+                        <td/>
+                        <td/>
+                        <td/>
+                    </tr>
+                    <tr>
+                        <td>Berry et al. 
+                            <xref ref-type="bibr" rid="bibl18">[18]</xref></td>
+                        <td>RCT</td>
+                        <td>Control: 12</td>
+                        <td>MSC-NTF</td>
+                        <td>-</td>
+                        <td>Combined IT (125 × 106 MSC-NTF cells in a 5-mL syringe, using a 20-G spinal needle) administration and 24 IM (48 × 106 MSC-NTF cells)</td>
+                        <td>Intrathecal and intramuscular</td>
+                    </tr>
+                    <tr>
+                        <td/>
+                        <td/>
+                        <td>Treatment: 48</td>
+                        <td/>
+                        <td/>
+                        <td/>
+                        <td/>
+                    </tr>
+                </table>
+            </table-wrap>
+            <p content-type="table-caption">Table 1.</p>
+            <p content-type="table-legend">Model for study and stem cell characteristics.</p>
+            <p>We searched the following databases on April 12, 2021: Medline and Embase. In addition, we searched the US National Institutes of Health Clinical Trials Registry (
+                <ext-link xlink:href="www.clinicaltrials.gov" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <underline>www.clinicaltrials.gov</underline></ext-link>). The first round of searching involved screening based on titles and abstracts. Four independent reviewers assessed each study for relevancy based on the eligibility criteria. Only full-text studies published in English and that reported numerical data for ALSFRS were included. Studies that were not excluded after the first round of searching were reassessed in a second round based on the context presented in the full article. Disagreement between the reviewers was resolved by consensus. Consultation by a third party was not needed for issue resolution. Sufficient details of the selection process were documented using a PRISMA diagram (
+                <xref rid="fig1">
+                    <underline>Figure 1</underline></xref>).</p>
+            <p>
+                <graphic xlink:href="data/neuro_01_07_fig1.jpg" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+            </p>
+            <fig>
+                <label>Figure 1.</label>
+            </fig>
+            <sec>
+                <title>Data Extraction</title>
+                <p>Two models for data extraction were made. The first model included information about the type of study, number of patients, type of SC, administration route, and other SC descriptors (
+                    <xref rid="table1">
+                        <underline>Table 1</underline></xref>). In the second model, numerical data of ALSFRS are provided and include mean baseline values and mean values at various follow-up points after SC therapy (
+                    <xref rid="table2">
+                        <underline>Table 2</underline></xref>). Two reviewers extracted the outcome data from the studies, and two other reviewers revised the data. Disagreements were solved by discussion and consensus.</p>
+                <table-wrap specific-use="frame">
+                    <table id="Tableau2">
+                        <tr>
+                            <th>
+                                <bold>References</bold>
+                            </th>
+                            <th>
+                                <bold>Mean baseline ALSFRS-R score (points) or slope (points/month)</bold>
+                            </th>
+                            <th>
+                                <bold>At 1 month</bold>
+                            </th>
+                            <th>
+                                <bold>At 3 months</bold>
+                            </th>
+                            <th>
+                                <bold>At 4 month</bold>
+                            </th>
+                            <th>
+                                <bold>At 6 months</bold>
+                            </th>
+                            <th>
+                                <bold>At 12 months</bold>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>Martinez et al. 
+                                <xref ref-type="bibr" rid="bibl13">[13]</xref></td>
+                            <td>Treatment = 24.6 Control = 31.4</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>Treatment = 27.9 Control = 25.1</td>
+                            <td>Treatment = 24 Control = 15.7</td>
+                        </tr>
+                        <tr>
+                            <td>Nefussy et al. 
+                                <xref ref-type="bibr" rid="bibl14">[14]</xref></td>
+                            <td>Treatment: 36.1 Control: 34.6</td>
+                            <td>-</td>
+                            <td>Treatment: 32.8 Control: 30.6</td>
+                            <td>-</td>
+                            <td>Treatment: 31.4 Control: 28.1</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>Rushkevich et al. 
+                                <xref ref-type="bibr" rid="bibl16">[16]</xref></td>
+                            <td>Treatment = 40 Control = 41</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>Treatment = 34 Control = 16</td>
+                        </tr>
+                        <tr>
+                            <td>Amirzagar et al. 
+                                <xref ref-type="bibr" rid="bibl15">[15]</xref></td>
+                            <td>Treatment: 33.3 Control: 36.6</td>
+                            <td>Treatment: 31.5 Control: 34.8</td>
+                            <td>Treatment: 29.0 Control: 32.5</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>Oh et al. 
+                                <xref ref-type="bibr" rid="bibl17">[17]</xref></td>
+                            <td>Treatment = 35.5 Control = 34.7</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>Treatment = 33.8 Control = 30</td>
+                            <td>Treatment = 32.4 Control = 28.22</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>Berry et al. 
+                                <xref ref-type="bibr" rid="bibl18">[18]</xref></td>
+                            <td>Treatment = 38 Control = 38.6</td>
+                            <td>Treatment = +0.6 points/month Control = −0.03 points/month</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                    </table>
+                </table-wrap>
+                <p content-type="table-caption">Table 2.</p>
+                <p content-type="table-legend">Model for ALSFRS-R mean baseline scores/slopes and mean scores/slopes after stem cell therapy at different follow-up points.</p>
+            </sec>
+        </sec>
+        <sec>
+            <title>Results</title>
+            <sec>
+                <title>Efficacy</title>
+                <p>We examined six studies analyzing the efficacy of SC transplantation in patients with ALS. Efficacy was measured using the ALSFRS-R, which ranged from 48 (normal) to 0 (fully impaired). Included studies used the following routes of administration: subcutaneous 
+                    <xref ref-type="bibr" rid="bibl13">[13]</xref>
+                    <xref ref-type="bibr" rid="bibl14">[14]</xref>
+                    <xref ref-type="bibr" rid="bibl15">[15]</xref>
+                    , combined intrathecal and intramuscular approach 
+                    <xref ref-type="bibr" rid="bibl18">[18]</xref>
+                    , intravenous followed by intralumbar injections 
+                    <xref ref-type="bibr" rid="bibl16">[16]</xref>
+                    , and intrathecal approach 
+                    <xref ref-type="bibr" rid="bibl17">[17]</xref>
+                    . Out of the six studies, three used Granulocyte colony-stimulating factor (G-CSF) 
+                    <xref ref-type="bibr" rid="bibl13">[13]</xref>
+                    <xref ref-type="bibr" rid="bibl14">[14]</xref>
+                    <xref ref-type="bibr" rid="bibl15">[15]</xref>
+                    , and the remaining used bone marrow mesenchymal stem cells (BM-MSC) 
+                    <xref ref-type="bibr" rid="bibl16">[16]</xref>
+                    <xref ref-type="bibr" rid="bibl17">[17]</xref>
+                    <xref ref-type="bibr" rid="bibl18">[18]</xref>
+                    .</p>
+                <p>Two studies conducted trials of a 6-month follow-up period. Oh et al. observed a slower decline in ALSFRS-R with 2 BM-MSCs injections, which demonstrated clinical benefit during the period of the study 
+                    <xref ref-type="bibr" rid="bibl17">[17]</xref>
+                    . They also noted a significant difference in the ALSFRS-R slope between MSCs and control groups. Berry et al. observed early improvements in ALS clinical scores after a single dose with ≥1.5 points/month ALSFRS-R slope improvement in the treatment group at all times during the study 
+                    <xref ref-type="bibr" rid="bibl18">[18]</xref>
+                    .</p>
+                <p>The other four studies followed patients for 12 months. Rushkevich et al. demonstrated significant improvement in the mean ALSFRS-R in the treatment group 
+                    <xref ref-type="bibr" rid="bibl16">[16]</xref>
+                    . Similarly, Martinez et al. found that the ALSFRS-R score was significantly improved throughout the follow-up period compared to baseline 
+                    <xref ref-type="bibr" rid="bibl13">[13]</xref>
+                    . However, both Nefussy et al. and Amirzagara et al. did not observe a significant difference in the efficacy between treatment and placebo groups after the injections 
+                    <xref ref-type="bibr" rid="bibl14">[14]</xref>
+                    <xref ref-type="bibr" rid="bibl15">[15]</xref>
+                    . Mean ALSFRS-R scores for each study are provided (
+                    <xref rid="table2">
+                        <underline>Table 2</underline></xref>).</p>
+            </sec>
+            <sec>
+                <title>Respiratory Function</title>
+                <p>Out of the six studies included in the review, only three reported changes in respiratory function potentially related to SC therapy 
+                    <xref ref-type="bibr" rid="bibl13">[13]</xref>
+                    <xref ref-type="bibr" rid="bibl14">[14]</xref>
+                    <xref ref-type="bibr" rid="bibl17">[17]</xref>
+                    . Oh et al. found that the FVC was decreased by a mean of 11.28 (10.06) in the treatment group and 10.75 (8.40) in the control group at the 4-month follow-up point 
+                    <xref ref-type="bibr" rid="bibl17">[17]</xref>
+                    . However, there was no significant difference between the two groups 
+                    <xref ref-type="bibr" rid="bibl17">[17]</xref>
+                    . Nefussy et al. reported similar results. At the 6-month follow-up point, there was a decrease in FVC by a mean of 12.25 (15.9) in the treatment group and 10.9 (20.4) in the control group 
+                    <xref ref-type="bibr" rid="bibl14">[14]</xref>
+                    . The difference between the groups was also not statistically significant 
+                    <xref ref-type="bibr" rid="bibl14">[14]</xref>
+                    . In the study of Martinez et al. a statistical comparison of FVC between the two arms could not be performed due to three cases of required ventilatory support and three cases of death in the control group 
+                    <xref ref-type="bibr" rid="bibl13">[13]</xref>
+                    . However, FVC remained stable at the 1-year follow-up point in the treatment group except for two patients who could not complete the functional respiratory test 
+                    <xref ref-type="bibr" rid="bibl13">[13]</xref>
+                    .</p>
+            </sec>
+            <sec>
+                <title>Adverse Events</title>
+                <p>The safety of SC transplantation was assessed based on the occurrence of treatment-related adverse events and mortality. Oh et al. recorded the incidence of adverse events during 4- and 6-month follow-up points and found that there were no significant differences between the two groups 
+                    <xref ref-type="bibr" rid="bibl17">[17]</xref>
+                    . Influenza-like illness was the most commonly observed AE in the MSC group (N = 7). Four incidences of adverse drug reactions (ADRs) were observed throughout the study in the MSC group, which included headaches, pyrexia, and pain. The incidence of severe adverse events in the MSC group was not considered treatment related. Four deaths occurred in the study: one in the MSC group and three in the control group 
+                    <xref ref-type="bibr" rid="bibl17">[17]</xref>
+                    . Berry et al. observed 16 is serious adverse events (SAEs): 9 in the MSC-NTF group and 2 in the placebo group 
+                    <xref ref-type="bibr" rid="bibl18">[18]</xref>
+                    . All treatment-related SAEs were considered to be due to the disease progression and not the treatment. There were no deaths during the study 
+                    <xref ref-type="bibr" rid="bibl18">[18]</xref>
+                    .</p>
+                <p>Rushkevich et al. found no serious side effects. However, one patient experienced a fever that normalized after 2 h following intravenous injections of MSC 
+                    <xref ref-type="bibr" rid="bibl16">[16]</xref>
+                    . Additionally, two patients experienced post-puncture headache syndromes after transplantation 
+                    <xref ref-type="bibr" rid="bibl16">[16]</xref>
+                    . Seven out of 15 patients in the control group were died due to respiratory insufficiency. Martinez et al. reported a total of five deaths at the 1-year follow-up point: two occurred in the treatment group and three in the control group 
+                    <xref ref-type="bibr" rid="bibl13">[13]</xref>
+                    . These deaths were deemed to be because of respiratory insufficiency 
+                    <xref ref-type="bibr" rid="bibl13">[13]</xref>
+                    . Nefussy et al. found that the only side effects related to the drug were bone marrow and muscle pain 
+                    <xref ref-type="bibr" rid="bibl14">[14]</xref>
+                    . Two patients reported these side effects: one in the treatment group and one in the control group. The SAEs reported in the study included the following: dysphagia and respiratory distress, which were considered typical for disease progression and were comparable in both groups 
+                    <xref ref-type="bibr" rid="bibl14">[14]</xref>
+                    . No deaths were reported in the study. In the Amirzagar et al. study, only one patient experienced transient fever and chills on day 4 of treatment 
+                    <xref ref-type="bibr" rid="bibl15">[15]</xref>
+                    . No deaths were reported in the study.</p>
+            </sec>
+        </sec>
+        <sec>
+            <title>Discussion</title>
+            <p>Stem cell therapy is one of the most promising new approaches in the treatment of ALS. It is proposed to target various mechanisms to slow disease progression and improve the overall quality of life. Here, we conducted a systematic review to determine the efficacy and safety of SC therapy in improving outcomes for patients with ALS. First, the change in ALSFRS-R was used to determine the efficacy of SC therapy, which is considered to decline linearly for the majority of diseases 
+                <xref ref-type="bibr" rid="bibl21">[21]</xref>
+                . For all included studies, SC therapy had a positive effect in slowing the progression of the disease, as evidenced by the difference in the ALSFRS-R score between the treatment and control groups. However, for two of the studies, the effect was not statistically significant.</p>
+            <p>All three studies that administered BM-MSC observed a significant decrease in the progression of disease burden with an overall slower decline in the ALSFRS-R score. Two studies that used G-CSF did not observe a significant benefit. Although Martinez et al. observed a significant effect of G-CSF administration, the study included only 10 patients in the treatment group and a drop out of 50%. Moreover, positive outcomes were seen in studies that involved the intrathecal administration of SCs. Both studies that did not observe significant results used subcutaneous injections. Lastly, included studies used various follow-up periods. All studies that followed patients for 6 months observed significant differences in ALSFRS-R between the treatment and control arms. One of which noted that changes in the ALSFRS-R slopes between treatment groups were similar after the first 2 months of the study. For the other four studies where the follow-up period was 12 months, three of which did not provide reliable evidence of the clinical benefit of SC therapy. Therefore, SC therapy demonstrated a transient benefit in slowing the progression of the illness, particularly, intrathecal-administered MSCs. This is supported by a recent meta-analysis that included 11 studies that showed that SC therapy demonstrated a short-term benefit 
+                <xref ref-type="bibr" rid="bibl22">[22]</xref>
+                . It is imperative to consider the limitation of included studies in determining the efficacy of SC therapy. First, the follow-up period is short, making it difficult to determine the long-term effects of such therapy. Second, the long-term benefits of the intervention must be interpreted with caution due to the loss of patients during follow-up and thus excluded from the final analysis.</p>
+            <p>The original notion behind the use of SCs to treat ALS was to employ SCs or neural progenitor cells to generate motor neurons lost with disease progression. However, this concept was difficult to implement 
+                <xref ref-type="bibr" rid="bibl23">[23]</xref>
+                <xref ref-type="bibr" rid="bibl24">[24]</xref>
+                . For this theory to work, injected SCs need to generate motor neurons to be integrated with the pre-existing neural circuit and project axons and synapse with other neurons and muscles. The beneficial role of SCs in ALS could be explained by the “neighborhood” theory where SCs target the toxicity of neighboring cells. Moreover, transplanted cells take on a supportive role by secreting neurotrophic factors and improving the motor microenvironment of neurons, thereby delaying the disease progression.</p>
+            <p>There are many sources of SCs used in ALS trials. This review only included G-CSF-induced peripheral blood SCs and BM-MSCs. Firstly, G-CSF works by mobilizing BM CD34+ hematopoietic SCs and generating PBSCs in the peripheral bloodstream. In preclinical animal trials, G-CSF was found to stimulate PBSCs production and penetrate into the central nervous system where they generated neural cells 
+                <xref ref-type="bibr" rid="bibl25">[25]</xref>
+                . G-CSF is administered subcutaneously. It is non-invasive and does not require immunosuppression, limiting the risk of infections. However, the downside of such an intervention is the lack of evidence regarding central nervous system (CNS) penetration. Secondly, BM-MSCs are another source of SCs used in many trials. These cells are multipotent and retain the ability to differentiate into many cell types. The use of BM-MSCs has shown promising results in preliminary studies with their ability to generate a neuroprotective environment by releasing different factors 
+                <xref ref-type="bibr" rid="bibl26">[26]</xref>
+                <xref ref-type="bibr" rid="bibl27">[27]</xref>
+                . As demonstrated by various studies, BM-MSCs can differentiate into variable cells, including neurons and glial cells. Similar to G-CSF, BM-MSCs do not require immunosuppression because they are autologous 
+                <xref ref-type="bibr" rid="bibl28">[28]</xref>
+                <xref ref-type="bibr" rid="bibl29">[29]</xref>
+                .</p>
+            <p>The introduction of SCs into the CNS comes with many challenges. Delivering therapeutic doses to target upper motor neurons, lower motor neurons, or spinal cord requires multiple injections, which increases the risk of AEs. Particularly with interventions that target the brain, a careful risk-to-benefit analysis must be conducted. Moreover, choosing the appropriate route of injection is equally important. Many trials have supported intrathecal injections of SCs as safe and efficacious 
+                <xref ref-type="bibr" rid="bibl17">[17]</xref>
+                <xref ref-type="bibr" rid="bibl30">[30]</xref>
+                <xref ref-type="bibr" rid="bibl31">[31]</xref>
+                <xref ref-type="bibr" rid="bibl32">[32]</xref>
+                . It allows for better distribution and potentially increases the delivery of cells into the subarachnoid space and access to the brain parenchyma. The intrathecal approach also allows repeated injections of SCs to be considered a minimally invasive procedure with a good side effect profile. Microglial cells have been implicated in the progression of ALS by accelerating neuronal death. Intrathecal MSCs have been proposed to induce an anti-inflammatory state, particularly by switching the phenotype of microglial cells from the proinflammatory M1 to the anti-inflammatory M2 
+                <xref ref-type="bibr" rid="bibl33">[33]</xref>
+                . On the other hand, despite being considered safe, the intravenous delivery of MSCs has been found to have modest clinical outcomes compared to other routes 
+                <xref ref-type="bibr" rid="bibl34">[34]</xref>
+                . Therefore, all of these variables must be considered in developing an evidence-based protocol before the initiation of such treatment in patients with ALS.</p>
+            <p>We also examined the effect of SC therapy on FVC in this review. FVC was found to progress in a trajectory manner with three main trajectories: stable low, rapid progressor, and slow progressor 
+                <xref ref-type="bibr" rid="bibl35">[35]</xref>
+                . Due to these differences, it is a less reliable measure of treatment benefit. Two of the included studies analyzed differences in FVC between the two arms. Although not statistically significant, both studies showed a higher decline in FVC for the treatment groups. A possible explanation for this phenomenon could be the disturbance of the respiratory function by SC injections. This is similar to the acceleration of disease progression observed with surgery in ALS patients 
+                <xref ref-type="bibr" rid="bibl36">[36]</xref>
+                . However, SC therapy is a minor procedure, which could indicate some potential off-target effects of injected SCs as another reason for this phenomenon.</p>
+            <p>Early clinical trials have made great progress in delineating the safety of SC therapy in the treatment of ALS. Current studies on this topic seem to lack a unified approach, whether it will be the study design or the lack of agreed-upon inclusion criteria. The question of critical importance includes determining how effective SCs are compared to other forms of therapy. It is also equally important to determine the answer to the following questions: what type of SCs produces better outcomes?; what is the appropriate method and dose? and which approach is the safest? Moreover, outlining the therapeutic window is also crucial, and this includes knowing who will benefit the most from such therapy and if it is only an option in the early period of the disease. Future studies should subanalyze their patients into various disease variants according to their presentation due to the heterogeneity of the disease. The current data of SC therapy hold great promise, but more properly designed clinical trials are needed to truly verify their benefit.</p>
+        </sec>
+        <sec>
+            <title>Data Availability Statement</title>
+            <p>The original contributions presented in the study are included in the article/supplementary material, further inquiries can be directed to the corresponding author/s.</p>
+        </sec>
+        <sec>
+            <title>Conflict of Interest</title>
+            <p>The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.</p>
+            <p>Citation: Aljabri A, Halawani A, Bin Lajdam G, Labban S, Alshehri S and Felemban R (2021) The Safety and Efficacy of Stem Cell Therapy as an Emerging Therapy for ALS: A Systematic Review of Controlled Clinical Trials. Front. Neurol. 12:783122. doi: 10.3389/fneur.2021.783122</p>
+            <p>Received: 25 September 2021; Accepted: 26 October 2021; Published: 01 December 2021.</p>
+            <p>Edited by: Angelo Schenone, University of Genoa, Italy</p>
+            <p>Reviewed by: Giambattista Bonanno, University of Genoa, Italy</p>
+            <p>Claudia Caponnetto, Azienda Ospedaliera Universitaria San Martino (IRCCS), Italy</p>
+        </sec>
+        <sec>
+            <title>References</title>
+            <p content-type="bibl">1. Brotman RG, Moreno-Escobar MC, Joseph J, Pawar G. Amyotrophic Lateral Sclerosis. StatPearls: StatPearls Publishing (2021).</p>
+            <p content-type="bibl">2. Xu L, Liu T, Liu L, Yao X, Chen L, Fan D, et al. Global variation in prevalence and incidence of amyotrophic lateral sclerosis: a systematic review and meta-analysis. J Neurol. (2020) 267:944–53. doi: 10.1007/s00415-019-09652-y</p>
+            <p content-type="bibl">3. Masrori P, Van Damme P. Amyotrophic lateral sclerosis: a clinical review. Euro J Neurol. (2020) 27:1918–29. doi: 10.1111/ene.14393</p>
+            <p content-type="bibl">4. Al-Chalabi A, Calvo A, Chio A, Colville S, Ellis CM, Hardiman O, et al. Analysis of amyotrophic lateral sclerosis as a multistep process: A population-based modelling study. Lancet Neurol. (2014) 13:1108–13. doi: 10.1016/S1474-4422(14)70219-4</p>
+            <p content-type="bibl">5. Chiò A, Battistini S, Calvo A, Caponnetto C, Conforti FL, Corbo M, et al. Genetic counselling in ALS: Facts, uncertainties and clinical suggestions. J Neurol Neurosurg Psychiatry. (2014) 85:478–85. doi: 10.1136/jnnp-2013-305546</p>
+            <p content-type="bibl">6. Ellison D. Neuropathology E-Book: A Reference Text of CNS Pathology. Elsevier Health Sciences (2021).</p>
+            <p content-type="bibl">7. Arai T, Hasegawa M, Akiyama H, Ikeda K, Nonaka T, Mori H, et al. TDP-43 is a component of ubiquitin-positive tau-negative inclusions in frontotemporal lobar degeneration and amyotrophic lateral sclerosis. Biochem Biophys Res Commun. (2006) 351:602–11. doi: 10.1016/j.bbrc.2006.10.093</p>
+            <p content-type="bibl">8. Bensimon G, Lacomblez L, Meininger V. A controlled trial of riluzole in amyotrophic lateral sclerosis. N Engl J Med. (1994) 330:585–91. doi: 10.1056/NEJM199403033300901</p>
+            <p content-type="bibl">9. Hinchcliffe M, Smith A. Riluzole: real-world evidence supports significant extension of median survival times in patients with amyotrophic lateral sclerosis. Degener Neurol Neuromuscul Dis. (2017) 7:61–70. doi: 10.2147/DNND.S135748</p>
+            <p content-type="bibl">10. Abe K, Itoyama Y, Sobue G, Tsuji S, Aoki M, Doyu M, et al. Confirmatory double-blind, parallel-group, placebo-controlled study of efficacy and safety of edaravone (MCI-186) in amyotrophic lateral sclerosis patients. Amyotroph Lateral Scler Front Degener. (2014) 15:610–7. doi: 10.3109/21678421.2014.959024</p>
+            <p content-type="bibl">11. Beers DR, Appel SH. Immune dysregulation in amyotrophic lateral sclerosis: mechanisms and emerging therapies. Lancet Neurol. (2019) 18:211–20. doi: 10.1016/S1474-4422(18)30394-6</p>
+            <p content-type="bibl">12. Lunn JS, Sakowski SA, Feldman EL. Concise review: Stem cell therapies for amyotrophic lateral sclerosis: Recent advances and prospects for the future. Stem Cells. (2014) 32:1099–109. doi: 10.1002/stem.1628</p>
+            <p content-type="bibl">13. Martinez HR, Gonzalez-Garza MT, Moreno-Cuevas JE, Caro E, Gutierrez-Jimenez E, Segura JJ. Stem-cell transplantation into the frontal motor cortex in amyotrophic lateral sclerosis patients. Cytotherapy. (2009) 11:26–34. doi: 10.1080/14653240802644651</p>
+            <p content-type="bibl">14. Nefussy B, Artamonov I, Deutsch V, Naparstek E, Nagler A, Drory VE. Recombinant human granulocyte-colony stimulating factor administration for treating amyotrophic lateral sclerosis: A pilot study. Amyotrophic Lateral Sclerosis. (2010) 11:187–93. doi: 10.3109/17482960902933809</p>
+            <p content-type="bibl">15. Amirzagar N, Nafissi S, Tafakhori A, Modabbernia A, Amirzargar A, Ghaffarpour M, et al. Granulocyte colony-stimulating factor for amyotrophic lateral sclerosis: a randomized, double-blind, placebo-controlled study of Iranian patients. J Clin Neurol. (2015) 11:164–71. doi: 10.3988/jcn.2015.11.2.164</p>
+            <p content-type="bibl">16. Rushkevich YN, Kosmacheva SM, Zabrodets GV, Ignatenko SI, Goncharova NV, Severin IN, et al. The use of autologous mesenchymal stem cells for cell therapy of patients with amyotrophic lateral sclerosis in belarus. Bull Experi Biol Med. (2015) 159:576–81. doi: 10.1007/s10517-015-3017-3</p>
+            <p content-type="bibl">17. Oh KW, Noh MY, Kwon MS, Kim HY, Oh SI, Park J, et al. Repeated intrathecal mesenchymal stem cells for amyotrophic lateral sclerosis. Ann Neurol. (2018) 84:361–73. doi: 10.1002/ana.25302</p>
+            <p content-type="bibl">18. Berry JD, Cudkowicz ME, Windebank AJ, Staff NP, Owegi M, Nicholson K, et al. NurOwn, phase 2, randomized, clinical trial in patients with ALS: Safety, clinical, and biomarker results. Neurology. (2019) 93:E2294–305. doi: 10.1212/WNL.0000000000008620</p>
+            <p content-type="bibl">19. Cedarbaum JM, Stambler N, Malta E, Fuller C, Hilt D, Thurmond B, et al. The ALSFRS-R: a revised ALS functional rating scale that incorporates assessments of respiratory function. J Neurol Sci. (1999) 169:13–21. doi: 10.1016/S0022-510X(99)00210-5</p>
+            <p content-type="bibl">20. Elamin M, Bede P, Montuschi A, Pender N, Chio A, Hardiman O. Predicting prognosis in amyotrophic lateral sclerosis: a simple algorithm. J Neurol. (2015) 262:1447–54. doi: 10.1007/s00415-015-7731-6</p>
+            <p content-type="bibl">21. Rooney J, Burke T, Vajda A, Heverin M, Hardiman O. What does the ALSFRS-R really measure? A longitudinal and survival analysis of functional dimension subscores in amyotrophic lateral sclerosis. J Neurol Neurosurg Psychiatry. (2017) 88:381–5. doi: 10.1136/jnnp-2016-314661</p>
+            <p content-type="bibl">22. Morata-Tarifa C, Azkona G, Glass J, Mazzini L, Sanchez-Pernaute R. Looking backward to move forward: a meta-analysis of stem cell therapy in amyotrophic lateral sclerosis. NPJ Regene Med. (2021) 6:1. doi: 10.1038/s41536-021-00131-5</p>
+            <p content-type="bibl">23. Boulis NM, Federici T, Glass JD, Lunn JS, Sakowski SA, Feldman EL. Translational stem cell therapy for amyotrophic lateral sclerosis. Nat Rev Neurol. (2012) 8:172–6. doi: 10.1038/nrneurol.2011.191</p>
+            <p content-type="bibl">24. López-González R, Kunckles P, Velasco I. Transient recovery in a rat model of familial amyotrophic lateral sclerosis after transplantation of motor neurons derived from mouse embryonic stem cells. Cell Transplant. (2009) 18:1171–81. doi: 10.3727/096368909X12483162197123</p>
+            <p content-type="bibl">25. Deng J, Zou ZM, Zhou TL, Su YP, Ai GP, Wang JP, et al. Bone marrow mesenchymal stem cells can be mobilized into peripheral blood by G-CSF in vivo and integrate into traumatically injured cerebral tissue. Neurol Sci. (2011) 32:641–51. doi: 10.1007/s10072-011-0608-2</p>
+            <p content-type="bibl">26. Mazzini L, Mareschi K, Ferrero I, Vassallo E, Oliveri G, Nasuelli N, et al. Stem cell treatment in amyotrophic lateral sclerosis. J Neurol Sci. (2008) 265:78–83. doi: 10.1016/j.jns.2007.05.016</p>
+            <p content-type="bibl">27. Uccelli A, Moretta L, Pistoia V. Mesenchymal stem cells in health and disease. Nat Rev Immunol. (2008) 8:726–36. doi: 10.1038/nri2395</p>
+            <p content-type="bibl">28. Woodbury D, Schwarz EJ, Prockop DJ, Black IB. Adult rat and human bone marrow stromal cells differentiate into neurons. J Neurosci Res. (2000) 61:364–70. doi: 10.1002/1097-4547(20000815)61:4&lt;364::AID-JNR2&gt;3.0.CO;2-C</p>
+            <p content-type="bibl">29. Bossolasco P, Cova L, Calzarossa C, Rimoldi SG, Borsotti C, Deliliers GL, et al. Neuro-glial differentiation of human bone marrow stem cells in vitro. Experi Neurol. (2005) 193:312–25. doi: 10.1016/j.expneurol.2004.12.013</p>
+            <p content-type="bibl">30. Petrou P, Gothelf Y, Argov Z, Gotkine M, Levy YS, Kassis I, et al. Safety and clinical effects of mesenchymal stem cells secreting neurotrophic factor transplantation in patients with amyotrophic lateral sclerosis: results of Phase 1/2 and 2a clinical trials. JAMA Neurol. (2016) 73:337–44. doi: 10.1001/jamaneurol.2015.4321</p>
+            <p content-type="bibl">31. Glass JD, Hertzberg VS, Boulis NM, Riley J, Federici T, Polak M, et al. Transplantation of spinal cord-derived neural stem cells for ALS: Analysis of phase 1 and 2 trials. Neurology. (2016) 87:392–400. doi: 10.1212/WNL.0000000000002889</p>
+            <p content-type="bibl">32. Nabavi SM, Arab L, Jarooghi N, Bolurieh T, Abbasi F, Mardpour S, et al. Safety, feasibility of intravenous and intrathecal injection of autologous bone marrow derived mesenchymal stromal cells in patients with amyotrophic lateral sclerosis: An open label phase I clinical trial. Cell J. (2019) 20:592–8.</p>
+            <p content-type="bibl">33. Frakes AE, Ferraiuolo L, Haidet-Phillips AM, Schmelzer L, Braun L, Miranda CJ, et al. Microglia induce motor neuron death via the classical NF-κB pathway in amyotrophic lateral sclerosis. Neuron. (2014) 81:1009–23. doi: 10.1016/j.neuron.2014.01.013</p>
+            <p content-type="bibl">34. Giri J, Galipeau J. Mesenchymal stromal cell therapeutic potency is dependent upon viability, route of delivery, and immune match. Blood Adv. (2020) 4:1987–97. doi: 10.1182/bloodadvances.2020001711</p>
+            <p content-type="bibl">35. Ackrivo J, Hansen-Flaschen J, Jones BL, Wileyto EP, Schwab RJ, Elman L, et al. Classifying patients with amyotrophic lateral sclerosis by changes in FVC. A group-based trajectory analysis. Am J Respir Critical Care Med. (2019) 200:1513–21. doi: 10.1164/rccm.201902-0344OC</p>
+            <p content-type="bibl">36. Pinto S, Swash M, de Carvalho M. Does surgery accelerate progression of amyotrophic lateral sclerosis?. J Neurol Neurosurg Psychiatry. (2014) 85:643–6. doi: 10.1136/jnnp-2013-305770</p>
+        </sec>
+    </body>
+    <back>
+        <fn-group>
+            <fn fn-type="other" id="fn">
+                <label/>
+                <p>AA contributed to conducting the search strategy and writing the manuscript. RF supervised the research project. SA contributed to writing methodology and editing the manuscript. AH, GB, and SL participated in writing the manuscript and the data extraction process. All authors contributed to the article and approved the submitted version.</p>
+            </fn>
+            <fn fn-type="other" id="fn">
+                <label/>
+                <p>All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article, or claim that may be made by its manufacturer, is not guaranteed or endorsed by the publisher.</p>
+            </fn>
+        </fn-group>
+        <app-group/>
+        <ref-list>
+            <title>References</title>
+            <ref id="bibl01">
+                <mixed-citation>1. Brotman RG, Moreno-Escobar MC, Joseph J, Pawar G. Amyotrophic Lateral Sclerosis. StatPearls: StatPearls Publishing (2021).</mixed-citation>
+            </ref>
+            <ref id="bibl02">
+                <mixed-citation>2. Xu L, Liu T, Liu L, Yao X, Chen L, Fan D, et al. Global variation in prevalence and incidence of amyotrophic lateral sclerosis: a systematic review and meta-analysis. J Neurol. (2020) 267:944–53. doi: 10.1007/s00415-019-09652-y</mixed-citation>
+            </ref>
+            <ref id="bibl03">
+                <mixed-citation>3. Masrori P, Van Damme P. Amyotrophic lateral sclerosis: a clinical review. Euro J Neurol. (2020) 27:1918–29. doi: 10.1111/ene.14393</mixed-citation>
+            </ref>
+            <ref id="bibl04">
+                <mixed-citation>4. Al-Chalabi A, Calvo A, Chio A, Colville S, Ellis CM, Hardiman O, et al. Analysis of amyotrophic lateral sclerosis as a multistep process: A population-based modelling study. Lancet Neurol. (2014) 13:1108–13. doi: 10.1016/S1474-4422(14)70219-4</mixed-citation>
+            </ref>
+            <ref id="bibl05">
+                <mixed-citation>5. Chiò A, Battistini S, Calvo A, Caponnetto C, Conforti FL, Corbo M, et al. Genetic counselling in ALS: Facts, uncertainties and clinical suggestions. J Neurol Neurosurg Psychiatry. (2014) 85:478–85. doi: 10.1136/jnnp-2013-305546</mixed-citation>
+            </ref>
+            <ref id="bibl06">
+                <mixed-citation>6. Ellison D. Neuropathology E-Book: A Reference Text of CNS Pathology. Elsevier Health Sciences (2021).</mixed-citation>
+            </ref>
+            <ref id="bibl07">
+                <mixed-citation>7. Arai T, Hasegawa M, Akiyama H, Ikeda K, Nonaka T, Mori H, et al. TDP-43 is a component of ubiquitin-positive tau-negative inclusions in frontotemporal lobar degeneration and amyotrophic lateral sclerosis. Biochem Biophys Res Commun. (2006) 351:602–11. doi: 10.1016/j.bbrc.2006.10.093</mixed-citation>
+            </ref>
+            <ref id="bibl08">
+                <mixed-citation>8. Bensimon G, Lacomblez L, Meininger V. A controlled trial of riluzole in amyotrophic lateral sclerosis. N Engl J Med. (1994) 330:585–91. doi: 10.1056/NEJM199403033300901</mixed-citation>
+            </ref>
+            <ref id="bibl09">
+                <mixed-citation>9. Hinchcliffe M, Smith A. Riluzole: real-world evidence supports significant extension of median survival times in patients with amyotrophic lateral sclerosis. Degener Neurol Neuromuscul Dis. (2017) 7:61–70. doi: 10.2147/DNND.S135748</mixed-citation>
+            </ref>
+            <ref id="bibl10">
+                <mixed-citation>10. Abe K, Itoyama Y, Sobue G, Tsuji S, Aoki M, Doyu M, et al. Confirmatory double-blind, parallel-group, placebo-controlled study of efficacy and safety of edaravone (MCI-186) in amyotrophic lateral sclerosis patients. Amyotroph Lateral Scler Front Degener. (2014) 15:610–7. doi: 10.3109/21678421.2014.959024</mixed-citation>
+            </ref>
+            <ref id="bibl11">
+                <mixed-citation>11. Beers DR, Appel SH. Immune dysregulation in amyotrophic lateral sclerosis: mechanisms and emerging therapies. Lancet Neurol. (2019) 18:211–20. doi: 10.1016/S1474-4422(18)30394-6</mixed-citation>
+            </ref>
+            <ref id="bibl12">
+                <mixed-citation>12. Lunn JS, Sakowski SA, Feldman EL. Concise review: Stem cell therapies for amyotrophic lateral sclerosis: Recent advances and prospects for the future. Stem Cells. (2014) 32:1099–109. doi: 10.1002/stem.1628</mixed-citation>
+            </ref>
+            <ref id="bibl13">
+                <mixed-citation>13. Martinez HR, Gonzalez-Garza MT, Moreno-Cuevas JE, Caro E, Gutierrez-Jimenez E, Segura JJ. Stem-cell transplantation into the frontal motor cortex in amyotrophic lateral sclerosis patients. Cytotherapy. (2009) 11:26–34. doi: 10.1080/14653240802644651</mixed-citation>
+            </ref>
+            <ref id="bibl14">
+                <mixed-citation>14. Nefussy B, Artamonov I, Deutsch V, Naparstek E, Nagler A, Drory VE. Recombinant human granulocyte-colony stimulating factor administration for treating amyotrophic lateral sclerosis: A pilot study. Amyotrophic Lateral Sclerosis. (2010) 11:187–93. doi: 10.3109/17482960902933809</mixed-citation>
+            </ref>
+            <ref id="bibl15">
+                <mixed-citation>15. Amirzagar N, Nafissi S, Tafakhori A, Modabbernia A, Amirzargar A, Ghaffarpour M, et al. Granulocyte colony-stimulating factor for amyotrophic lateral sclerosis: a randomized, double-blind, placebo-controlled study of Iranian patients. J Clin Neurol. (2015) 11:164–71. doi: 10.3988/jcn.2015.11.2.164</mixed-citation>
+            </ref>
+            <ref id="bibl16">
+                <mixed-citation>16. Rushkevich YN, Kosmacheva SM, Zabrodets GV, Ignatenko SI, Goncharova NV, Severin IN, et al. The use of autologous mesenchymal stem cells for cell therapy of patients with amyotrophic lateral sclerosis in belarus. Bull Experi Biol Med. (2015) 159:576–81. doi: 10.1007/s10517-015-3017-3</mixed-citation>
+            </ref>
+            <ref id="bibl17">
+                <mixed-citation>17. Oh KW, Noh MY, Kwon MS, Kim HY, Oh SI, Park J, et al. Repeated intrathecal mesenchymal stem cells for amyotrophic lateral sclerosis. Ann Neurol. (2018) 84:361–73. doi: 10.1002/ana.25302</mixed-citation>
+            </ref>
+            <ref id="bibl18">
+                <mixed-citation>18. Berry JD, Cudkowicz ME, Windebank AJ, Staff NP, Owegi M, Nicholson K, et al. NurOwn, phase 2, randomized, clinical trial in patients with ALS: Safety, clinical, and biomarker results. Neurology. (2019) 93:E2294–305. doi: 10.1212/WNL.0000000000008620</mixed-citation>
+            </ref>
+            <ref id="bibl19">
+                <mixed-citation>19. Cedarbaum JM, Stambler N, Malta E, Fuller C, Hilt D, Thurmond B, et al. The ALSFRS-R: a revised ALS functional rating scale that incorporates assessments of respiratory function. J Neurol Sci. (1999) 169:13–21. doi: 10.1016/S0022-510X(99)00210-5</mixed-citation>
+            </ref>
+            <ref id="bibl20">
+                <mixed-citation>20. Elamin M, Bede P, Montuschi A, Pender N, Chio A, Hardiman O. Predicting prognosis in amyotrophic lateral sclerosis: a simple algorithm. J Neurol. (2015) 262:1447–54. doi: 10.1007/s00415-015-7731-6</mixed-citation>
+            </ref>
+            <ref id="bibl21">
+                <mixed-citation>21. Rooney J, Burke T, Vajda A, Heverin M, Hardiman O. What does the ALSFRS-R really measure? A longitudinal and survival analysis of functional dimension subscores in amyotrophic lateral sclerosis. J Neurol Neurosurg Psychiatry. (2017) 88:381–5. doi: 10.1136/jnnp-2016-314661</mixed-citation>
+            </ref>
+            <ref id="bibl22">
+                <mixed-citation>22. Morata-Tarifa C, Azkona G, Glass J, Mazzini L, Sanchez-Pernaute R. Looking backward to move forward: a meta-analysis of stem cell therapy in amyotrophic lateral sclerosis. NPJ Regene Med. (2021) 6:1. doi: 10.1038/s41536-021-00131-5</mixed-citation>
+            </ref>
+            <ref id="bibl23">
+                <mixed-citation>23. Boulis NM, Federici T, Glass JD, Lunn JS, Sakowski SA, Feldman EL. Translational stem cell therapy for amyotrophic lateral sclerosis. Nat Rev Neurol. (2012) 8:172–6. doi: 10.1038/nrneurol.2011.191</mixed-citation>
+            </ref>
+            <ref id="bibl24">
+                <mixed-citation>24. López-González R, Kunckles P, Velasco I. Transient recovery in a rat model of familial amyotrophic lateral sclerosis after transplantation of motor neurons derived from mouse embryonic stem cells. Cell Transplant. (2009) 18:1171–81. doi: 10.3727/096368909X12483162197123</mixed-citation>
+            </ref>
+            <ref id="bibl25">
+                <mixed-citation>25. Deng J, Zou ZM, Zhou TL, Su YP, Ai GP, Wang JP, et al. Bone marrow mesenchymal stem cells can be mobilized into peripheral blood by G-CSF in vivo and integrate into traumatically injured cerebral tissue. Neurol Sci. (2011) 32:641–51. doi: 10.1007/s10072-011-0608-2</mixed-citation>
+            </ref>
+            <ref id="bibl26">
+                <mixed-citation>26. Mazzini L, Mareschi K, Ferrero I, Vassallo E, Oliveri G, Nasuelli N, et al. Stem cell treatment in amyotrophic lateral sclerosis. J Neurol Sci. (2008) 265:78–83. doi: 10.1016/j.jns.2007.05.016</mixed-citation>
+            </ref>
+            <ref id="bibl27">
+                <mixed-citation>27. Uccelli A, Moretta L, Pistoia V. Mesenchymal stem cells in health and disease. Nat Rev Immunol. (2008) 8:726–36. doi: 10.1038/nri2395</mixed-citation>
+            </ref>
+            <ref id="bibl28">
+                <mixed-citation>28. Woodbury D, Schwarz EJ, Prockop DJ, Black IB. Adult rat and human bone marrow stromal cells differentiate into neurons. J Neurosci Res. (2000) 61:364–70. doi: 10.1002/1097-4547(20000815)61:4&lt;364::AID-JNR2&gt;3.0.CO;2-C</mixed-citation>
+            </ref>
+            <ref id="bibl29">
+                <mixed-citation>29. Bossolasco P, Cova L, Calzarossa C, Rimoldi SG, Borsotti C, Deliliers GL, et al. Neuro-glial differentiation of human bone marrow stem cells in vitro. Experi Neurol. (2005) 193:312–25. doi: 10.1016/j.expneurol.2004.12.013</mixed-citation>
+            </ref>
+            <ref id="bibl30">
+                <mixed-citation>30. Petrou P, Gothelf Y, Argov Z, Gotkine M, Levy YS, Kassis I, et al. Safety and clinical effects of mesenchymal stem cells secreting neurotrophic factor transplantation in patients with amyotrophic lateral sclerosis: results of Phase 1/2 and 2a clinical trials. JAMA Neurol. (2016) 73:337–44. doi: 10.1001/jamaneurol.2015.4321</mixed-citation>
+            </ref>
+            <ref id="bibl31">
+                <mixed-citation>31. Glass JD, Hertzberg VS, Boulis NM, Riley J, Federici T, Polak M, et al. Transplantation of spinal cord-derived neural stem cells for ALS: Analysis of phase 1 and 2 trials. Neurology. (2016) 87:392–400. doi: 10.1212/WNL.0000000000002889</mixed-citation>
+            </ref>
+            <ref id="bibl32">
+                <mixed-citation>32. Nabavi SM, Arab L, Jarooghi N, Bolurieh T, Abbasi F, Mardpour S, et al. Safety, feasibility of intravenous and intrathecal injection of autologous bone marrow derived mesenchymal stromal cells in patients with amyotrophic lateral sclerosis: An open label phase I clinical trial. Cell J. (2019) 20:592–8.</mixed-citation>
+            </ref>
+            <ref id="bibl33">
+                <mixed-citation>33. Frakes AE, Ferraiuolo L, Haidet-Phillips AM, Schmelzer L, Braun L, Miranda CJ, et al. Microglia induce motor neuron death via the classical NF-κB pathway in amyotrophic lateral sclerosis. Neuron. (2014) 81:1009–23. doi: 10.1016/j.neuron.2014.01.013</mixed-citation>
+            </ref>
+            <ref id="bibl34">
+                <mixed-citation>34. Giri J, Galipeau J. Mesenchymal stromal cell therapeutic potency is dependent upon viability, route of delivery, and immune match. Blood Adv. (2020) 4:1987–97. doi: 10.1182/bloodadvances.2020001711</mixed-citation>
+            </ref>
+            <ref id="bibl35">
+                <mixed-citation>35. Ackrivo J, Hansen-Flaschen J, Jones BL, Wileyto EP, Schwab RJ, Elman L, et al. Classifying patients with amyotrophic lateral sclerosis by changes in FVC. A group-based trajectory analysis. Am J Respir Critical Care Med. (2019) 200:1513–21. doi: 10.1164/rccm.201902-0344OC</mixed-citation>
+            </ref>
+            <ref id="bibl36">
+                <mixed-citation>36. Pinto S, Swash M, de Carvalho M. Does surgery accelerate progression of amyotrophic lateral sclerosis?. J Neurol Neurosurg Psychiatry. (2014) 85:643–6. doi: 10.1136/jnnp-2013-305770</mixed-citation>
+            </ref>
+        </ref-list>
+    </back>
+</article>

@@ -1,0 +1,954 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article
+  PUBLIC '-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.2 20190208//EN'
+  'https://jats.nlm.nih.gov/publishing/1.2/JATS-journalpublishing1.dtd'>
+<article article-type="research-article" dtd-version="1.2" specific-use="ojs-display" xml:lang="en">
+    <front>
+        <journal-meta>
+            <journal-id journal-id-type="publisher">Université de Paris</journal-id>
+            <issn/>
+            <publisher>
+                <publisher-name>Université de Paris</publisher-name>
+            </publisher>
+        </journal-meta>
+        <article-meta>
+            <article-id pub-id-type="other"/>
+            <article-categories>
+                <subj-group subj-group-type="display-channel">
+                    <subject>Research article</subject>
+                </subj-group>
+            </article-categories>
+            <title-group>
+                <article-title>Meta-topologies define distinct anatomical classes of brain tumors linked to histology and survival</article-title>
+                <trans-title-group xml:lang="fr">
+                    <trans-title>Des méta-topologies pour définir des classes de tumeur du cerveau distinctes corrélées à l’histologie et à la survie</trans-title>
+                </trans-title-group>
+            </title-group>
+            <contrib-group>
+                <contrib contrib-type="author">
+                    <contrib-id contrib-id-type="ORCID">0000-0002-0256-1923</contrib-id>
+                    <name>
+                        <surname>Kernbach</surname>
+                        <given-names>Julius</given-names>
+                    </name>
+                    <aff>
+                        <xref ref-type="aff" rid="aff03"/>
+                        <xref ref-type="aff" rid="aff02"/>
+                        <xref ref-type="aff" rid="aff01"/>
+                    </aff>
+                </contrib>
+                <contrib contrib-type="author">
+                    <contrib-id contrib-id-type="ORCID">0000-0001-9444-0178</contrib-id>
+                    <name>
+                        <surname>Delev</surname>
+                        <given-names>Daniel</given-names>
+                    </name>
+                    <aff>
+                        <xref ref-type="aff" rid="aff03"/>
+                        <xref ref-type="aff" rid="aff02"/>
+                        <xref ref-type="aff" rid="aff01"/>
+                    </aff>
+                </contrib>
+                <contrib contrib-type="author">
+                    <contrib-id contrib-id-type="ORCID">0000-0002-1978-9756</contrib-id>
+                    <name>
+                        <surname>Neuloh</surname>
+                        <given-names>Georg</given-names>
+                    </name>
+                    <aff>
+                        <xref ref-type="aff" rid="aff03"/>
+                        <xref ref-type="aff" rid="aff02"/>
+                    </aff>
+                </contrib>
+                <contrib contrib-type="author">
+                    <contrib-id contrib-id-type="ORCID">0000-0001-8258-9346</contrib-id>
+                    <name>
+                        <surname>Clusmann</surname>
+                        <given-names>Hans</given-names>
+                    </name>
+                    <aff>
+                        <xref ref-type="aff" rid="aff03"/>
+                        <xref ref-type="aff" rid="aff02"/>
+                    </aff>
+                </contrib>
+                <contrib contrib-type="author">
+                    <contrib-id contrib-id-type="ORCID">0000-0003-3466-6620</contrib-id>
+                    <contrib-id contrib-id-type="IDREF">250385546</contrib-id>
+                    <name>
+                        <surname>Bzdok</surname>
+                        <given-names>Danilo</given-names>
+                    </name>
+                    <aff>
+                        <xref ref-type="aff" rid="aff05"/>
+                        <xref ref-type="aff" rid="aff04"/>
+                    </aff>
+                </contrib>
+                <contrib contrib-type="author">
+                    <contrib-id contrib-id-type="ORCID">0000-0001-6363-2759</contrib-id>
+                    <contrib-id contrib-id-type="IDREF">185878393</contrib-id>
+                    <contrib-id contrib-id-type="VIAF">http://viaf.org/viaf/316671097</contrib-id>
+                    <name>
+                        <surname>Eickhoff</surname>
+                        <given-names>Simon</given-names>
+                    </name>
+                    <aff>
+                        <xref ref-type="aff" rid="aff07"/>
+                        <xref ref-type="aff" rid="aff06"/>
+                    </aff>
+                </contrib>
+                <contrib contrib-type="author">
+                    <contrib-id contrib-id-type="ORCID">0000-0003-1039-2098</contrib-id>
+                    <name>
+                        <surname>Staartjes</surname>
+                        <given-names>Victor</given-names>
+                    </name>
+                    <aff>
+                        <xref ref-type="aff" rid="aff08"/>
+                    </aff>
+                </contrib>
+                <contrib contrib-type="author">
+                    <contrib-id contrib-id-type="ORCID">0000-0002-8953-0862</contrib-id>
+                    <name>
+                        <surname>Vasella</surname>
+                        <given-names>Flavio</given-names>
+                    </name>
+                    <aff>
+                        <xref ref-type="aff" rid="aff08"/>
+                    </aff>
+                </contrib>
+                <contrib contrib-type="author">
+                    <contrib-id contrib-id-type="IDREF">194357112</contrib-id>
+                    <contrib-id contrib-id-type="ORCID">0000-0002-1748-174X</contrib-id>
+                    <contrib-id contrib-id-type="ISNI">000000010866191X</contrib-id>
+                    <contrib-id contrib-id-type="VIAF">http://viaf.org/viaf/6048705</contrib-id>
+                    <name>
+                        <surname>Weller</surname>
+                        <given-names>Michael</given-names>
+                    </name>
+                    <aff>
+                        <xref ref-type="aff" rid="aff09"/>
+                    </aff>
+                </contrib>
+                <contrib contrib-type="author">
+                    <contrib-id contrib-id-type="ORCID">0000-0003-4639-4474</contrib-id>
+                    <name>
+                        <surname>Regli</surname>
+                        <given-names>Luca</given-names>
+                    </name>
+                    <aff>
+                        <xref ref-type="aff" rid="aff08"/>
+                    </aff>
+                </contrib>
+                <contrib contrib-type="author">
+                    <contrib-id contrib-id-type="IDREF">243127669</contrib-id>
+                    <contrib-id contrib-id-type="ARK">http://catalogue.bnf.fr/ark:/12148/cb15841149x</contrib-id>
+                    <contrib-id contrib-id-type="VIAF">http://viaf.org/viaf/243948251</contrib-id>
+                    <contrib-id contrib-id-type="ORCID">0000-0002-7305-550X</contrib-id>
+                    <name>
+                        <surname>Serra</surname>
+                        <given-names>Carlo</given-names>
+                    </name>
+                    <aff>
+                        <xref ref-type="aff" rid="aff08"/>
+                    </aff>
+                </contrib>
+                <contrib contrib-type="author">
+                    <contrib-id contrib-id-type="ORCID">0000-0003-1089-221X</contrib-id>
+                    <name>
+                        <surname>Krayenbühl</surname>
+                        <given-names>Niklaus</given-names>
+                    </name>
+                    <aff>
+                        <xref ref-type="aff" rid="aff10"/>
+                        <xref ref-type="aff" rid="aff08"/>
+                    </aff>
+                </contrib>
+                <contrib contrib-type="author">
+                    <contrib-id contrib-id-type="ORCID">0000-0002-5946-4999</contrib-id>
+                    <name>
+                        <surname>Akeret</surname>
+                        <given-names>Kevin</given-names>
+                    </name>
+                    <aff>
+                        <xref ref-type="aff" rid="aff08"/>
+                    </aff>
+                </contrib>
+                <aff id="aff01">
+                    <institution-wrap>
+                        <institution-id institution-id-type="ROR">04xfq0f34</institution-id>
+                        <institution>Neurosurgical Artificial Intelligence Laboratory Aachen (NAILA), RWTH Aachen University Hospital, Aachen, Germany</institution>
+                    </institution-wrap>
+                </aff>
+                <aff id="aff02">
+                    <institution-wrap>
+                        <institution-id institution-id-type="ROR">04xfq0f34</institution-id>
+                        <institution>Department of Neurosurgery, Faculty of Medicine, RWTH Aachen University, Aachen, Germany</institution>
+                    </institution-wrap>
+                </aff>
+                <aff id="aff03">
+                    <institution-wrap>
+                        <institution>Center for Integrated Oncology, Universities Aachen, Bonn, Cologne, Düsseldorf (CIO ABCD), Germany</institution>
+                    </institution-wrap>
+                </aff>
+                <aff id="aff04">
+                    <institution-wrap>
+                        <institution-id institution-id-type="ROR">05ghs6f64</institution-id>
+                        <institution>Department of Biomedical Engineering, McConnell Brain Imaging Centre, Montreal Neurological Institute, Faculty of Medicine, School of Computer Science, McGill University, Montreal, Canada</institution>
+                    </institution-wrap>
+                </aff>
+                <aff id="aff05">
+                    <institution-wrap>
+                        <institution-id institution-id-type="ROR">05c22rx21</institution-id>
+                        <institution>Mila - Quebec Artificial Intelligence Institute, Montreal, Canada</institution>
+                    </institution-wrap>
+                </aff>
+                <aff id="aff06">
+                    <institution-wrap>
+                        <institution-id institution-id-type="ROR">02nv7yv05</institution-id>
+                        <institution>Institute of Neuroscience and Medicine (INM-7), Research Centre Jülich, Jülich, Germany</institution>
+                    </institution-wrap>
+                </aff>
+                <aff id="aff07">
+                    <institution-wrap>
+                        <institution-id institution-id-type="ROR">024z2rq82</institution-id>
+                        <institution>Institute of Systems Neuroscience, Medical Faculty, Heinrich Heine University Düsseldorf, Düsseldorf, Germany</institution>
+                    </institution-wrap>
+                </aff>
+                <aff id="aff08">
+                    <institution-wrap>
+                        <institution-id institution-id-type="ROR">01462r250</institution-id>
+                        <institution>Department of Neurosurgery, Clinical Neuroscience Center, University Hospital and University of Zurich, Frauenklinikstrasse 10, CH-8091 Zurich, Switzerland</institution>
+                    </institution-wrap>
+                </aff>
+                <aff id="aff09">
+                    <institution-wrap>
+                        <institution-id institution-id-type="ROR">01462r250</institution-id>
+                        <institution>Department of Neurology, Clinical Neuroscience Center, University Hospital and University of Zurich, Zurich, Switzerland</institution>
+                    </institution-wrap>
+                </aff>
+                <aff id="aff10">
+                    <institution-wrap>
+                        <institution-id institution-id-type="ROR">035vb3h42</institution-id>
+                        <institution>Division of Pediatric Neurosurgery, University Children’s Hospital, Zurich, Switzerland</institution>
+                    </institution-wrap>
+                </aff>
+            </contrib-group>
+            <author-notes>
+                <fn fn-type="COI-statement">
+                    <p>The authors declare that they have no conflict of interest.</p>
+                </fn>
+            </author-notes>
+            <pub-date>
+                <year/>
+            </pub-date>
+            <abstract>
+                <p>
+                    <bold>Background</bold>
+                </p>
+            </abstract>
+            <abstract>
+                <p>The current WHO classification integrates histological and molecular features of brain tumors. The aim of this study was to identify generalizable topological patterns with the potential to add an anatomical dimension to the classification of brain tumors.</p>
+            </abstract>
+            <abstract>
+                <p>
+                    <bold>Methods</bold>
+                </p>
+            </abstract>
+            <abstract>
+                <p>We applied non-negative matrix factorization as an unsupervised pattern discovery strategy to the finegrained topographic tumor profiles of 936 patients with primary and secondary brain tumors. From the anatomical features alone, this machine learning algorithm enabled the extraction of latent topological tumor patterns, termed 
+                    <italic>meta-topologies</italic>
+                    . The optimal parts-based representation was automatically determined in 10,000 split-half iterations. We further characterized each meta-topology’s unique histopathologic profile and survival probability, thus linking important biological and clinical information to the underlying anatomical patterns</p>
+            </abstract>
+            <abstract>
+                <p>
+                    <bold>Results</bold>
+                </p>
+            </abstract>
+            <abstract>
+                <p>In primary brain tumors, six meta-topologies were extracted, each detailing a transpallial pattern with distinct parenchymal and ventricular compositions. We identified one infratentorial, one allopallial, three neopallial (parieto-occipital, frontal, temporal) and one unisegmental meta-topology. Each metatopology mapped to distinct histopathologic and molecular profiles. The unisegmental meta-topology showed the strongest anatomical-clinical link demonstrating a survival advantage in histologically identical tumors. Brain metastases separated to an infra- and supratentorial meta-topology with anatomical patterns highlighting their affinity to the cortico-subcortical boundary of arterial watershed areas.</p>
+            </abstract>
+            <abstract>
+                <p>
+                    <bold>Conclusions</bold>
+                </p>
+            </abstract>
+            <abstract>
+                <p>Using a novel data-driven approach, we identified generalizable topological patterns in both primary and secondary brain tumors. Differences in the histopathologic profiles and prognosis of these anatomical tumor classes provide insights into the heterogeneity of tumor biology and might add to personalized clinical decision making.</p>
+            </abstract>
+            <trans-abstract xml:lang="fr">
+                <p>
+                    <bold>Contexte</bold>
+                </p>
+            </trans-abstract>
+            <trans-abstract xml:lang="fr">
+                <p>Victus universis caro ferina est lactisque abundans copia qua sustentantur, et herbae multiplices et siquae alites capi per aucupium possint, et plerosque mos vidimus frumenti usum et vini penitus ignorantes.</p>
+            </trans-abstract>
+            <trans-abstract xml:lang="fr">
+                <p>
+                    <bold>Méthodes</bold>
+                </p>
+            </trans-abstract>
+            <trans-abstract xml:lang="fr">
+                <p>Haec subinde Constantius audiens et quaedam referente Thalassio doctus, quem eum odisse iam conpererat lege communi, scribens ad Caesarem blandius adiumenta paulatim illi subtraxit, sollicitari se simulans ne, uti est militare otium fere tumultuosum, in eius perniciem conspiraret, solisque scholis iussit esse contentum palatinis et protectorum cum Scutariis et Gentilibus, et mandabat Domitiano, ex comite largitionum, praefecto ut cum in Syriam venerit, Gallum, quem crebro acciverat, ad Italiam properare blande hortaretur et verecunde.</p>
+            </trans-abstract>
+            <trans-abstract xml:lang="fr">
+                <p>
+                    <bold>Résultats</bold>
+                </p>
+            </trans-abstract>
+            <trans-abstract xml:lang="fr">
+                <p>Huic Arabia est conserta, ex alio latere Nabataeis contigua; opima varietate conmerciorum castrisque oppleta validis et castellis, quae ad repellendos gentium vicinarum excursus sollicitudo pervigil veterum per oportunos saltus erexit et cautos. haec quoque civitates habet inter oppida quaedam ingentes Bostram et Gerasam atque Philadelphiam murorum firmitate cautissimas. hanc provinciae inposito nomine rectoreque adtributo obtemperare legibus nostris Traianus conpulit imperator incolarum tumore saepe contunso cum glorioso marte Mediam urgeret et Parthos.</p>
+            </trans-abstract>
+            <trans-abstract xml:lang="fr">
+                <p>
+                    <bold>Conclusions</bold>
+                </p>
+            </trans-abstract>
+            <trans-abstract xml:lang="fr">
+                <p>Post hanc adclinis Libano monti Phoenice, regio plena gratiarum et venustatis, urbibus decorata magnis et pulchris; in quibus amoenitate celebritateque nominum Tyros excellit, Sidon et Berytus isdemque pares Emissa et Damascus saeculis condita priscis.</p>
+            </trans-abstract>
+            <kwd-group kwd-group-type="author-keywords" xml:lang="en">
+                <kwd>Anatomy</kwd>
+                <kwd>Artificial intelligence</kwd>
+                <kwd>Machine learning</kwd>
+                <kwd>Glioma</kwd>
+                <kwd>Metastases</kwd>
+            </kwd-group>
+            <kwd-group kwd-group-type="author-keywords" xml:lang="fr">
+                <kwd>Anatomie</kwd>
+                <kwd>Intelligence artificielle</kwd>
+                <kwd>Machine learning</kwd>
+                <kwd>Gliome</kwd>
+                <kwd>Métastases</kwd>
+            </kwd-group>
+        </article-meta>
+    </front>
+    <body>
+        <bold>Mots-clés</bold>: Anatomie, Intelligence artificielle, Machine learning, Gliome, Métastases
+        <p>
+            <bold>Funding </bold>
+            JMK and DD are supported by the Bundesministerium für Bildung und Forschung (BMBF COMPLS3- 022). KA is supported by the Prof. Dr. med. Karl und Rena Theiler-Haag foundation, Forschungskredit of the University of Zurich and the Theodor und Ida Herzog-Egli foundation.</p>
+        <sec>
+            <title>Introduction</title>
+            <p>Each year, over 300,000 people worldwide are diagnosed with brain tumors, which cause more than 200,000 deaths and 7,600,000 disability-adjusted life years 
+                <xref ref-type="bibr" rid="bibl01">[1]</xref>
+                . In recent decades, major advances in the histologic and molecular profiling of brain tumors have been achieved and implemented into classification systems and diagnostic guidelines 
+                <xref ref-type="bibr" rid="bibl02">[2]</xref>
+                , 
+                <xref ref-type="bibr" rid="bibl03">[3]</xref>
+                . The most recent WHO Classification of Tumors of the Central Nervous System further strengthens this integration of molecular and histological parameters 
+                <xref ref-type="bibr" rid="bibl04">[4]</xref>
+                , 
+                <xref ref-type="bibr" rid="bibl05">[5]</xref>
+                . The anatomical phenotype of brain tumors, however, is of minor relevance in this classification. Previous reports indicate an association between tumor location and biological tumor signature 
+                <xref ref-type="bibr" rid="bibl06">[6]</xref>
+                , 
+                <xref ref-type="bibr" rid="bibl07">[7]</xref>
+                , 
+                <xref ref-type="bibr" rid="bibl08">[8]</xref>
+                , [9]. We propose a unified data-driven framework tailored to identify generalizable topological patterns, which may enhance our understanding and the classification of brain tumors 
+                <xref ref-type="bibr" rid="bibl08">[8]</xref>
+                , 
+                <xref ref-type="bibr" rid="bibl09">[9]</xref>
+                . Specific anatomical patterns are found in numerous neurological diseases. Neurodegenerative disorders differ in their atrophy patterns 
+                <xref ref-type="bibr" rid="bibl10">[10]</xref>
+                , or autoinflammatory diseases preferentially affect distinct CNS structures 
+                <xref ref-type="bibr" rid="bibl11">[11]</xref>
+                . The molecular mechanisms behind this selective vulnerability of the brain, referred to as pathoclisis 
+                <xref ref-type="bibr" rid="bibl12">[12]</xref>
+                , remain largely elusive. In brain tumors, descriptions of topographic prevalence and relative spatial density also implicate differences in the anatomical phenotype 
+                <xref ref-type="bibr" rid="bibl08">[8]</xref>
+                , 
+                <xref ref-type="bibr" rid="bibl09">[9]</xref>
+                . Defining anatomical classes of brain tumors requires the identification of topological relationships that are consistent across patients. Topographic analyses can provide a description of the involvement of individual anatomical structures. However, analyzing each neuroanatomical location as a single unit deters intuitive interpretation by omitting interaction effects between spatially adjacent or distant areas. In contrast, studies on topology aim to incorporate the relative positions of the individual anatomical components to each other 
+                <xref ref-type="bibr" rid="bibl13">[13]</xref>
+                . We propose a novel framework tailored to identify generalizable patterns in brain tumor topology using non-negative matrix factorization (NNMF) 
+                <xref ref-type="bibr" rid="bibl14">[14]</xref>
+                . Factorization methods, including NNMF, are often applied in the analyses of genomic signatures across various cancer types 
+                <xref ref-type="bibr" rid="bibl15">[15]</xref>
+                , 
+                <xref ref-type="bibr" rid="bibl16">[16]</xref>
+                , 
+                <xref ref-type="bibr" rid="bibl17">[17]</xref>
+                and provide unique advantages for the purpose of the present study. The inherent non-negative constraint of the applied algorithm enables an intuitive and direct interpretation of the derived patterns. In contrast, alternative dimensionality reduction tools such as principal component analysis would hurt intuitive interpretation of any distributed effects by recovering patterns through incomprehensible combinations of positive and negative cancellations of the extracted low-dimensional patterns 
+                <xref ref-type="bibr" rid="bibl14">[14]</xref>
+                . Further, NNMF is considered a sum-of-parts approach. It purposefully can appreciate the mutual functional dependence between individual neuroanatomical locations and enables an interpretation on a topological level. In the present computational study, we design an unsupervised data-led approach using machine learning to identify an optimal factorization of latent neuroanatomical meta-patterns in brain tumors that we henceforth call 
+                <italic>meta-topologies</italic>
+                . First, we extract a low-dimensional embedding from the fine-grained neuroanatomical distributions using unsupervised pattern discovery. Second, we assess the subject-specific expression of the derived tumor configurations for their histopathologic identity and prognostic relevance. By introducing brain tumor meta-topologies, we intend to supplement our biological understanding and the individual profiling of brain tumors to inform individualized treatment decisions and assist in tailored therapy customized to the single patient 
+                <xref ref-type="bibr" rid="bibl18">[18]</xref>
+                , 
+                <xref ref-type="bibr" rid="bibl19">[19]</xref>
+                .</p>
+        </sec>
+        <sec>
+            <title>Materials and methods</title>
+            <p>This study was approved by the ethical review board of the Canton of Zurich, Switzerland (KEK ZH 01120). Reporting of results is in accordance with the STROBE statement [20].</p>
+            <sec>
+                <title>Data source</title>
+                <p>Topographic tumor profiles were obtained from a previously published and openly available singlecenter cohort of 
+                    <italic>n</italic>
+                    = 1000 consecutive patients with newly diagnosed primary or secondary brain tumors (
+                    <ext-link xlink:href="https://doi.org/10.5281/zenodo.5457402" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <underline>https://doi.org/10.5281/zenodo.5457402</underline></ext-link>) [9]. The eligibility criteria comprised: (i) first diagnosis with consecutive histopathologic confirmation of a primary or secondary brain tumor; (ii) no pretreatment or previous cranial surgery; (iii) intraparenchymal encephalic tumor location; (iv) availability of preoperative MRI data. We excluded 44 patients with primary central nervous system lymphoma due to considerations of statistical power and 20 tumors with indistinct gyral patterns for the analyses in this study. Each patient’s topographic tumor profile was based on a standardized whole-brain parcellation protocol [21] and contained 120 anatomical annotations (Supplemental Figure 2).</p>
+            </sec>
+            <sec>
+                <title>Data-led deconvolution of hidden tumor meta-topologies</title>
+                <p>We sought to explore coherent topological anatomical patterns that may be hidden in the rich spatial descriptions of the topographic phenotypes. We capitalized on NNMF as a lossy multivariate pattern discovery strategy [14]. This unsupervised machine learning algorithm can identify the form and patient-specific combination of latent topological patterns that together compose the individual neuroanatomical tumor phenotypes. These derived sum-of-parts representations are henceforth called 
+                    <italic>meta-topologies</italic>
+                    . More formally, NNMF achieves a low-rank approximation of the data 
+                    <italic>V</italic>
+                    , with 
+                    <italic>V </italic>
+                    reflecting the 120 topographic summaries, with dimensions of 
+                    <italic>m </italic>
+                    × 
+                    <italic>n </italic>
+                    (
+                    <italic>m </italic>
+                    = number of anatomical items, 
+                    <italic>n </italic>
+                    = number of patients), by partitioning the interindividual variation in anatomical items into a basic matrix 
+                    <italic>W </italic>
+                    of 
+                    <italic>k </italic>
+                    parts-based factor representations. The matrix of the latent factor loadings 
+                    <italic>H </italic>
+                    indicated how relevant each emerging meta-topology was to describe an individual patient’s tumor phenotype. Accordingly, 
+                    <italic>W </italic>
+                    and 
+                    <italic>H </italic>
+                    carried 
+                    <italic>m </italic>
+                    × 
+                    <italic>k </italic>
+                    and 
+                    <italic>k </italic>
+                    × 
+                    <italic>n </italic>
+                    dimensions, respectively. Given by 
+                    <italic>V = WH</italic>
+                    , the latent factorization decomposed the actual tumor phenotype in a particular patient into a part-based representation.</p>
+            </sec>
+            <sec>
+                <title>Optimal factorization based on quantitative model evaluation</title>
+                <p>To find the optimal parts-based representation, we capitalized on robustness measures and the ability to generalize to new populations. We applied a data-driven out-of-sample evaluation strategy to determine the most robust and generalizable representations of tumor meta-topologies across 10,000 bootstrapped split-half iterations. We quantitatively assessed the resulting factorizations for (a) generalizability by measuring the increase in out-of-sample reconstruction error (RE) [22] and (b) stability using the adjusted Rand Index (aRI) [23], [24]. The optimal factorization should be reflected in both a lower increase in out-of-sample RE and a higher aRI in the majority of the iterations. We quantified the out-of-sample RE by projecting the data of one half onto the latent dimensions from the other half. The RE represents the absolute difference between the reconstructed and original matrix. Accordingly, the increase in out-of-sample RE demonstrates how much worse the data matrix is reconstructed by the basis matrix obtained from the model-unseen sample compared to the basis matrix recovered from the within-sample split. A lower increase in out-of-sample RE compared with the within-sample RE hence indicates better generalizability. Stability was assessed using the aRI. As a modified version of the Rand Index, the aRI is stricter and allows for improved discrimination [23], [24]. The aRI is adjusted for chance; that is, the aRI penalizes for the placement of two data points from different true clusters into the same cluster. The aRI is ensured to have values close to 0 for random labeling and yields a value between -1 and +1, with negative values when the index is less than the expected index. In this study, the aRI was used to measure the correspondence between the factorizations derived from the two split-samples based on the assignment of the anatomical items to the parts-based meta-topologies. Higher values of aRI indicate better correspondence between the two factorizations derived in separate split-half realizations, and a value of 1 represents an identical assignment. We selected the most generalizable and robust factorization with rank 
+                    <italic>k </italic>
+                    when the mean increase in outof- sample RE of the all 10,000 split-half realizations was minimized, while the mean aRI was maximized.</p>
+            </sec>
+            <sec>
+                <title>Statistical analysis</title>
+                <p>The Kaplan Meier method was used to estimate survival probabilities of tumor meta-topologies, and the log-rank test with Bonferroni-Holm correction for multiple testing was applied for pairwise comparisons [25]. Multivariable survival analysis was performed using the Cox proportional hazards regression model [26], [27] Unadjusted models were compared to models with adjustment for histopathologic tumor subtype. Given the exploratory nature of this study, the results were interpreted based on the level of evidence without the definition of a level of statistical significance: 
+                    <italic>p</italic>
+                    &lt; 0.001: very strong evidence; 
+                    <italic>p</italic>
+                    &lt; 0.01: strong evidence; 
+                    <italic>p</italic>
+                    &lt; 0.05 evidence; 
+                    <italic>p </italic>
+                    &lt; 0.1 weak evidence; 
+                    <italic>p</italic>
+                    &gt; 0.1: no evidence [28].</p>
+            </sec>
+            <sec>
+                <title>Code availability</title>
+                <p>Data analyses were conducted in Python 3.8.5 (IPython 7.21.0) and R 4.0.0 (RStudio 1.3.1093) environments. Full codes are available online (
+                    <ext-link xlink:href="https://doi.org/10.5281/zenodo.5515356" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <underline>https://doi.org/10.5281/zenodo.5515356</underline></ext-link>).</p>
+            </sec>
+        </sec>
+        <sec>
+            <title>Results</title>
+            <p>Detailed demographic, histopathologic, and clinical cohort characteristics are provided in Supplemental Table 1. We quantitatively assessed the most robust and generalizable NNMF factorization for primary brain tumors and brain metastases separately by combining the maximized mean aRI and the out-ofsample RE with the least relative increase (Supplemental Figure 1). We extracted the optimal factorization as 
+                <italic>k </italic>
+                = 6 meta-topologies in primary brain tumors (Supplemental Figure 1A) and 
+                <italic>k </italic>
+                = 2 in brain metastases (Supplemental Figure 1B).</p>
+            <sec>
+                <title>Meta-topologies in primary brain tumors</title>
+                <p>
+                    <graphic xlink:href="data/emergneurol_01_01_kernbach_fig01.jpg" xmlns:xlink="http://www.w3.org/1999/xlink"/>Figure 1.</p>
+                <fig>
+                    <label>Meta-topologies in primary brain tumors
+                        <bold>.</bold></label>
+                </fig>
+                <p>We identified six meta-topologies in primary brain tumors. Each meta-topology showed a distinct composition of anatomical items (
+                    <xref rid="figure1">
+                        <underline>Figure 1</underline></xref>, Supplemental Figure 2A, Supplemental Table 2) and level of gyrality (Supplemental Table 3) that informed post-hoc naming. Meta-topologies 1-5 predominantly reflected supratentorial anatomy. Infratentorial structures were captured in meta-topology 6. Distinct combinations of gyral, ventricular, and radial tumor anatomy characterized the unique constellations of meta-topologies 1-5: we identified three meta-topologies with neopallial mapping (parieto-occipital, frontal, temporal), one with predominantly allopallial enrichment and one meta-topology lacking a gyral pattern (unisegmental).</p>
+                <p>
+                    <italic>Parieto-occipital neopallial primary brain tumors </italic>(meta-topology 1, 
+                    <xref rid="figure1">
+                        <underline>Figure 1B</underline></xref>): Most relevant anatomical items included the atrium of the lateral ventricle (loading weight 1.19), diffuse involvement of the wall of the lateral ventricle (1.17), all cerebral white matter sectors (lobar and gyral 1.11, subgyral 1.10, subcortical 1.09) and the cerebral cortex (1.07). In addition, meta-topology 1 mapped to the occipital horn and the body of the lateral ventricle, the subependymal corpus callosum, and gyri of the parieto-occipital neopallium (supramarginal, precuneus, angular, middle occipital, superior parietal, cuneus). Primary brain tumors characterized primarily by the parieto-occipital neopallial meta-topology 1 (
+                    <italic>n </italic>
+                    = 141) were multigyral in 46.1% (
+                    <italic>n </italic>
+                    = 65), unigyral in 49.6% (
+                    <italic>n </italic>
+                    = 70), and affected no cerebral gyrus in 4.3% (
+                    <italic>n </italic>
+                    = 6)</p>
+                <p>
+                    <italic>Frontal neopallial primary brain tumors </italic>(meta-topology 2, 
+                    <xref rid="figure1">
+                        <underline>Figure 1C</underline></xref>): The frontal horn of the lateral ventricle featured the highest loading weight (0.82), followed by the body of the lateral ventricle (0.52), diffuse involvement of the wall of the lateral ventricle (0.52), and the cerebral lobar white matter sector (0.43). Meta-topology 2 was located in the gyral, subgyral, and subcortical white matter sectors, the cerebral cortex, and gyri of the fronto-medial neopallium (superior, middle, and inferior frontal gyri, anterior cingulate gyrus). Primary brain tumor characterized by the frontal neopallial meta-topology 2 (
+                    <italic>n </italic>
+                    = 115), showed a multigyral involvement in 57.4% (
+                    <italic>n </italic>
+                    = 66), unigyral in 27.8% (
+                    <italic>n </italic>
+                    = 32), and no gyral involvement in 14.8% (
+                    <italic>n </italic>
+                    = 17).</p>
+                <p>
+                    <italic>Temporal neopallial primary brain tumors </italic>(meta-topology 3, 
+                    <xref rid="figure1">
+                        <underline>Figure 1D</underline></xref>): Meta-topology 3 was uniquely defined by the temporal horn of the lateral ventricle (0.86), diffuse involvement of the wall of the lateral ventricle (0.53), and the cerebral lobar white matter sector (0.52). Meta-topology 3 also mapped to the other cerebral radial sectors (gyral, subgyral, subcortical), the cerebral cortex, and temporal neopallial gyri (superior, middle, and inferior temporal, fusiform). The atrium of the lateral ventricle was also affected, yet to a lesser extent than the temporal horn. Primary brain tumors mapping predominantly on the temporal neopallial meta-topology 3 (
+                    <italic>n </italic>
+                    = 69) were multigyral in 56.5% (
+                    <italic>n </italic>
+                    = 39), unigyral in 39.1% (
+                    <italic>n </italic>
+                    = 27) and involved no gyrus in 4.3% (
+                    <italic>n </italic>
+                    = 3).</p>
+                <p>
+                    <italic>Unisegmental primary brain tumors </italic>(meta-topology 4, 
+                    <xref rid="figure1">
+                        <underline>Figure 1E</underline></xref>): Meta-topology 4 represented supratentorial primary brain tumors mapping to the cerebral cortex (1.58) and all cerebral white matter sectors (subcortical 1.57, subgyral 1.54, gyral 1.41, lobar 1.07). Ventricular involvement was primarily limited to focal contact to the wall of the lateral ventricle (1.25), specifically in the frontal horn of the lateral ventricle (0.30). Gyral constellations showed no relevant contribution to meta-topology 4. Notably, primary brain tumors belonging to meta-topology 4 (
+                    <italic>n </italic>
+                    = 179) were dominated by a pronounced unigyral character (82.1%, 
+                    <italic>n </italic>
+                    = 147; 17.9 % (
+                    <italic>n </italic>
+                    = 32) multigyral).</p>
+                <p>
+                    <italic>Allopallial primary brain tumors </italic>(meta-topology 5, 
+                    <xref rid="figure1">
+                        <underline>Figure 1F</underline></xref>): Meta-topology 5 was dominated by the amygdala (0.65), the hippocampus (0.62), long (0.61) and short (0.60) insular gyri, the temporal horn of the lateral ventricle (0.57), temporal pole (0.56), parahippocampal gyrus (0.47), innominate substance (0.44), as well as extreme (0.43) and external (0.41) capsules. Meta-topology 5 additionally mapped to the claustrum, posterior orbital gyrus, subcallosal area, planum polare, and thalamus, as well as the frontal horn of the lateral ventricle and the third ventricle. Diffuse involvement of the wall of the lateral ventricle added more relevantly to the constellation of the meta-topology than a focal ventricular contact. Primary brain tumors mapping predominantly on the allopallial meta-topology 5 (
+                    <italic>n </italic>
+                    = 70) were multigyral in 55.7% (
+                    <italic>n </italic>
+                    = 39), unigyral in 12.9% (
+                    <italic>n </italic>
+                    = 9) and involved no gyrus in 31.4% (
+                    <italic>n </italic>
+                    = 22).</p>
+                <p>
+                    <italic>Infratentorial primary brain tumors </italic>(meta-topology 6, 
+                    <xref rid="figure1">
+                        <underline>Figure 1G</underline></xref>): The last meta-topology was determined by infratentorial structures: the cerebellar cortex (1.37), the lateral recess of the fourth ventricle (1.35), as well as the cerebellar white matter sectors (subcortical 1.34, sublobular 1.34, lobular 1.33, lobar 1.27). Both the vermian and the hemispheric lobules contributed to the neuroanatomical constellation of meta-topology 6. Of the primary brain tumors matching best on meta-topology 6 (
+                    <italic>n </italic>
+                    = 72), 98% (
+                    <italic>n </italic>
+                    = 71) did not involve a cerebral gyrus. There was only one tumor (1.4%) with multigyral anatomy. Collectively, all identified meta-topologies in primary brain tumors involved distinct ventricular segments and shared a characteristic transpallial pattern. Each supratentorial meta-topology presented a distinct gyral pattern except for meta-topology 4, which was predominantly unigyral in nature. The unigyral character of meta-topology 4 was uniquely associated with a strong contribution of a focal contact to the ventricle wall, while all other supratentorial meta-topologies depicted a diffuse ventricular involvement.</p>
+            </sec>
+            <sec>
+                <title>Meta-topologies in brain metastases</title>
+                <p>
+                    <graphic xlink:href="data/emergneurol_01_01_kernbach_fig02.jpg" xmlns:xlink="http://www.w3.org/1999/xlink"/>Figure 2.</p>
+                <fig>
+                    <label>Meta-topologies in brain metastases
+                        <bold>.</bold></label>
+                </fig>
+                <p>
+                    <italic>Infratentorial brain metastases </italic>(meta-topology 1, 
+                    <xref rid="figure2">
+                        <underline>Figure 2B</underline></xref>): The topological pattern was dominated by the cerebellar cortex (2.18) and the superficial cerebellar white matter sectors (subcortical 2.17, sublobular 1.94, lobular 1.49). In addition, meta-topology 1 mapped strongly to the inferior semilunar/gracilis lobule (1.24) and, although less pronounced, to the superior semilunar (0.47), biventer (0.45), and anterior quadrangular (0.19) lobules. There was also discrete enrichment in specific supratentorial items, such as the precentral, postcentral, paracentral, angular gyri, and the cerebral cortex and cerebral subcortical white matter sector.</p>
+                <p>
+                    <italic>Supratentorial brain metastases </italic>(meta-topology 2, 
+                    <xref rid="figure2">
+                        <underline>Figure 2C</underline></xref>): Meta-topology 2 was again determined by superficial structures, namely the cerebral cortex (2.83) and cerebral subcortical white matter sector (2.83), followed by the cerebral subgyral white matter sector (2.30). Weaker enrichment was seen in the cerebral gyral (1.03) and lobar (0.37) white matter sectors. On a gyral level, we found the strongest factor contribution in the middle occipital (0.36), precentral (0.34), posterior third of the superior frontal (0.32), and posterior third of the middle frontal (0.30) gyri. Meta-topology 2 also mapped to the anterior third of the superior frontal, anterior two-thirds of the middle frontal, the postcentral and supramarginal gyri, the superior parietal lobule, precuneus, and cuneus. We observed focal contact to the wall of the lateral ventricle (0.26) but no diffuse involvement. In summary, both meta-topologies in brain metastases showed a strong affinity to the cortex (cerebellar or cerebral) and superficial white matter sectors (especially subcortical). The observed cerebellar lobular and cerebral gyral patterns were consistent with the expected anatomical locations of arterial border zones, i.e., watershed areas. The gyral pattern seen in meta-topology 2 was weakly represented in meta-topology 1, likely due to synchronous supra- and infratentorial metastases. Unlike in primary brain tumors, ventricular segments and deep white matter sectors were not associated with metatopologies in brain metastases.</p>
+            </sec>
+            <sec>
+                <title>Brain tumor meta-topologies map to distinct histopathologic and molecular profiles</title>
+                <p>
+                    <graphic xlink:href="data/emergneurol_01_01_kernbach_fig03.jpg" xmlns:xlink="http://www.w3.org/1999/xlink"/>Figure 3.</p>
+                <fig>
+                    <label>Histopathologic and molecular profiling of brain tumor meta-topologies.</label>
+                </fig>
+                <p>The dominant histopathologic entities in primary brain tumors were glioblastoma (60.7%) and gliomas of WHO grade 3 (16.8%) and 2 (8.0%) (
+                    <xref rid="figure3">
+                        <underline>Figure 3A</underline></xref>). The histopathologic entities spread differently to the identified meta-topologies in primary brain tumors. Glioblastoma, WHO grade 3 and 2 gliomas, and developmental tumors mapped primarily to supratentorial meta-topologies. Ependymoma appeared in both supra- and infratentorial meta-topologies, while pilocytic astrocytoma and medulloblastoma were almost exclusively associated with the infratentorial pattern (meta-topology 6). Glioblastoma mapped to all neopallial (parieto-occipital (1), frontal (2), and temporal (3)), and the unisegmental (4) metatopology but showed distinct molecular patterns. A high proliferation index (MIB-1 monoclonal antibodies) was associated predominantly with meta-topologies 1 (parieto-occipital neopallial) and 3 (temporal neopallial). Tumors mapping to meta-topology 3 (temporal neopallial) showed a preference for MGMT promoter methylation. IDH-1 mutations mapped strongly to meta-topology 4 (unisegmental) and, although less prominently, to meta-topology 2 (frontal neopallial) and 5 (allopallial). IDH-1 wildtype status was prominent in meta-topology 1 (parieto-occipital neopallial) and, to a lesser extent, in meta-topology 3 (temporal neopallial). 1p19q co-deletion status was associated with meta-topology 2 (frontal neopallial). WHO grade 3 gliomas mapped prominently to metatopologies 2 and 4, 
+                    <italic>i.e.</italic>
+                    , the frontal neopallial and unisegmental types. Their contribution to metatopology 5 (allopallial) and meta-topology 1 (parieto-occipital neopallial) was intermediate. WHO grade 2 glioma showed a similar pattern of factor contribution with dominance in meta-topologies 2 (frontal neopallial), 4 (unisegmental), and 5 (allopallial) and intermediate weight in meta-topology 1 (parieto-occipital neopallial). Brain metastases most frequently arose from lung cancer (48.6%), melanoma (15.2%), or gastrointestinal cancer (12.8%) (
+                    <xref rid="figure3">
+                        <underline>Figure 3B</underline></xref>). Brain metastases from lung, gastrointestinal or breast cancer contributed relevantly to both meta-topologies. However, there was a pronounced preference of brain metastases from melanoma and urogenital cancer to meta-topology 2, i.e., the supratentorial type.</p>
+            </sec>
+            <sec>
+                <title>Brain tumor meta-topologies uncover survival differences</title>
+                <p>
+                    <graphic xlink:href="data/emergneurol_01_01_kernbach_fig04.jpg" xmlns:xlink="http://www.w3.org/1999/xlink"/>Figure 4
+                    <fig/>
+                    .</p>
+                <fig>
+                    <label>Brain tumor meta-topologies and patient survival.</label>
+                </fig>
+                <p>For survival analysis, patients were individually assigned to their highest expressed meta-topology (Supplemental Table 5-6). In primary brain tumors, meta-topology 6 (infratentorial) showed the highest survival probability (hazard ratio 0.12, 95% confidence interval: 0.07 to 0.23, 
+                    <italic>p</italic>
+                    &lt; 0.0001; 
+                    <xref rid="figure4">
+                        <underline>Figure 4A</underline></xref>, Supplemental Table 7A), thus supporting the NNMF results, which predominantly mapped ependymoma and pilocytic astrocytoma to this meta-topology. Poorest prognosis was seen in patients with tumors of meta-topologies 1 (parieto-occipital neopallial, reference for Cox proportional hazards analysis) or 3 (temporal neopallial, hazard ratio 1.07, 95% confidence interval: 0.77 to 1.49, 
+                    <italic>p</italic>
+                    = 0.69) consistent with the histopathologic findings as both meta-topologies specifically mapped to glioblastoma. The analysis emphasizes the histopathologic- and anatomical-clinical link uncovered by the unsupervised and data-led analysis strategy. To capture hidden information beyond the histopathologic characteristics that might be directly linked to the clinical course, we adjusted for the histopathologic entities and showed that patients with tumors classified as meta-topology 4 (unisegmental) demonstrated a survival advantage (hazard ratio 0.65, 95% confidence interval: 0.49 to 0.87, 
+                    <italic>p</italic>
+                    = 0.004). The survival analysis in glioblastoma (
+                    <xref rid="figure4">
+                        <underline>Figure 4B</underline></xref>, Supplemental Table 7B) provided further evidence that patient with tumors matching to meta-topology 4 (unisegmental) show a better overall survival (hazard ratio 0.65, 95% confidence interval: 0.48 to 0.89, 
+                    <italic>p</italic>
+                    = 0.007), underlining the anatomical-clinical link within histopathologically identical tumors. In contrast, brain metastases showed no evidence for a difference in survival between patients with assigned to the infra- or supratentorial meta-topology across all analyses (brain metastases overall unadjusted or adjusted for origin, and lung cancer brain metastases) (
+                    <xref rid="figure4">
+                        <underline>Figure 4C-D</underline></xref>).</p>
+            </sec>
+        </sec>
+        <sec>
+            <title>Discussion</title>
+            <p>We present a novel data-led approach using machine learning to explore generalizable topological patterns across different entities of brain tumors. Using a quantitative out-of-sample evaluation strategy, we extracted six distinct meta-topologies in primary brain tumors and two meta-topologies in brain metastases in a cohort of 936 patients with fine-grained anatomical tumor annotations. The anatomical configuration of meta-topologies and their unique histopathologic profiles and prognoses provide insights into tumor biology and may enrich the current classification of brain tumors supporting more personalized clinical decision making. The notion of latent meta-topologies with distinct histologic and molecular profiles in primary brain tumors emphasizes the concept of pathoclisis encountered in various other neurological disorders [10], [11], [12]. The interpretation of their spatial architecture could enhance our biological understanding of tumor origin and evolution. First, all meta-topologies in primary brain tumors shared a transpallial character, i.e., all radial sectors between the cortex and ventricle were equally relevant. This was contrasted by the radial pattern in metastases with cerebellar (meta-topology 1) and cerebral (meta-topology 2) corticosubcortical dominance and a ventriculopetal gradient. These findings are consistent with previous descriptions of the metastatic preference for the cortico-medullary boundary [29] and a spatiotemporal behavior of primary brain tumors within ventriculocortical radial units [8], [9]. Second, except for metatopology 4, the supratentorial meta-topologies identified in primary brain tumors demonstrated sharply defined gyral patterns, implying a segmental parenchymal growth behavior. Phylogenetic factors may contribute to segmental boundaries since meta-topology 5 mapped predominantly to allopallial structures (archipallium, paleopallium, and mesopallium), while meta-topologies 1-3 showed distinct neopallial patterns (parieto-occipital, frontal and temporal) [30]. In contrast, the parenchymal patterns in brain metastases corresponded to the border zones between the major cerebellar (meta-topology 1) and cerebral (meta-topology 2) arteries, consistent with previous descriptions of the metastatic tendency of origin in arterial watershed areas [29]. Third, the meta-topologies in primary brain tumors were strongly defined by distinct ventricular segments, while the ventricles did not contribute relevantly to the metatopologies in brain metastases. In contrast to earlier beliefs, niches of neuroepithelial stem cells seem to persist in the adult brain serving as a source of continuous cell replenishment. Such specialized niches have been identified in the dentate gyrus and the subventricular zone of the lateral ventricles. It has been further hypothesized that glioblastoma, the most common primary brain tumor, may arise from such stem cell niches. This might also apply to other or even all tumors of neuroepithelial origin. Stem cell niches of distinct localizations could explain the association between the automatically extracted meta-topologies and specific segments of the ventricular system. The metatopologies identified in this study were characterized in particular by the frontal horn, atrium, temporal horn/dentate gyrus, and the lateral recess of the 4th ventricle. These locations are reminiscent of the periventricular niches harboring stem cells and radial glia cells. Based on our patient-based findings, we thus hypothesize that specific radial ventriculo-cortical units are determined by their periventricular neuroepithelial stem cells and radial glial cells and potentially inform and shape the topological anatomy of primary brain tumors [9]. Patients with primary brain tumors mapping to meta-topology 4 had a survival advantage after adjustment for tumor histology. This finding was confirmed within the group of patients with glioblastoma. Meta-topology 4 showed a transpallial character, comparable to the other supratentorial meta-topologies in primary brain tumors, but lacked a specific parenchymal pattern. The unigyral character of meta-topology 4 explains its lack of a specific gyral pattern, since topological analyses depend on the interrelationships between structures, but not their mere involvement [13]. Meta-topology 4 rather constitutes a less advanced tumor stage than a separate entity with the potential to progress to a specific topological pattern. Meta-topology 4 was determined by a focal tumor contact to the ventricle wall, distinguishing it from the other supratentorial meta-topologies associated with diffuse ventricle wall involvement. The contact pattern to the ventricular system was shown to be a relevant prognostic factor and constitutes a cornerstone of a previously proposed anatomical staging of primary brain tumors [9]. In brain metastases, melanoma and urogenital tract metastases contributed almost exclusively to the supratentorial meta-topology. The predominant supratentorial distribution is in accordance with previous studies suggesting a relative underrepresentation of melanoma metastases to the cerebellum. There was no evidence for a difference in survival between the infra- and supratentorial meta-topologies in brain metastases. The similarity may be explained by the fact that the presence of a specific brain tumor meta-topology is prognostically less critical than the stage and adjuvant treatment options of the underlying primary disease. The observation that meta-topologies do not offer a survival stratification in brain metastases is consistent with previous reports that the location of brain metastases is of minor overall prognostic significance. We introduce the concept of a data-driven analysis of topological classes in primary and secondary brain tumors. The proposed machine learning framework offers an unsupervised approach to identifying latent brain tumor meta-topologies in a data-centric fashion. That is, the algorithm learns without labels directly from the raw anatomical profiles. Notably, information about the individual histology, molecular pathology, or clinical parameters is at no stage available to the algorithm. Yet, we show that coherent and plausible patterns can be analytically retrieved based on the anatomical structure alone. The addition of a macroscopic level to the current molecular and histological dimensions may complement primary brain tumor classification. The stratification by meta-topology – in addition to histological and molecular entities – offers new approaches to personalized medicine. Surgical or radiotherapeutic interventions may be tailored to the patient-specific expression of meta-topologies in primary brain tumors. Based on the hypothesis that primary brain tumors, given their neuroepithelial nature, orient along defined radial ventriculo-cortical units, local therapy could potentially target the entire affected anatomical segment. Meta-topologies may provide insights into the spatial behavior of primary brain tumors and argue for an segmentally tailored and functionally limited resection followed by focused irradiation rather than unselective supratotal resections, the latter being currently an emerging concept with limited evidence.</p>
+            <p>
+                <bold>Contributions </bold>Conception and design of the study: KA, JMK, DD. Data collection: KA, CS. Analysis and/or interpretation of data: JMK, KA, DD. Drafting the manuscript: KA, JMK, DD. Review and revision of the manuscript: GN, HC, DB, SBE, VES, FV, MW, LR, CS, NK. Approval of the version of the manuscript to be published: JMK, DD, GN, HC, DB, SBE, VES, FV, MW, LR, CS, NK, KA.</p>
+        </sec>
+        <sec>
+            <title>References</title>
+            <p content-type="bibl">[1] Patel AP, Fisher JL, Nichols E, et al. Global, regional, and national burden of brain and other CNS cancer, 1990–2016: a systematic analysis for the Global Burden of Disease Study 2016. Lancet Neurol. 2019;18:376-393. 
+                <ext-link xlink:href="https://doi.org/10.1016/S1474-4422(18)30468-X" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <underline>https://doi.org/10.1016/S1474-4422(18)30468-X</underline></ext-link>
+            </p>
+            <p content-type="bibl">[2] Aldape K, Brindle KM, Chesler L, et al. Challenges to curing primary brain tumours. Nat Rev Clin Oncol. 2019;16:509-520. 
+                <ext-link xlink:href="https://doi.org/10.1038/s41571-019-0177-5" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <underline>https://doi.org/10.1038/s41571-019-0177-5</underline></ext-link>
+            </p>
+            <p content-type="bibl">[3] Weller M, van den Bent M, Preusser M, et al. EANO guidelines on the diagnosis and treatment of diffuse gliomas of adulthood. Nat Rev Clin Oncol. 2020;18:170-186. 
+                <ext-link xlink:href="https://doi.org/10.1038/s41571-020-00447-z" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <underline>https://doi.org/10.1038/s41571-020-00447-z</underline></ext-link>
+            </p>
+            <p content-type="bibl">[4] Louis DN, Perry A, Reifenberger G, et al. The 2016 World Health Organization Classification of Tumors of the Central Nervous System: a summary. Acta Neuropathol. 2016;131:803-820. 
+                <ext-link xlink:href="https://doi.org/10.1007/s00401-016-1545-1" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <underline>https://doi.org/10.1007/s00401-016-1545-1</underline></ext-link>
+            </p>
+            <p content-type="bibl">[5] Louis DN, Perry A, Wesseling P, et al. The 2021 WHO classification of tumors of the Central Nervous System: A summary. Neuro Oncol. 2021;23:1231-1251. 
+                <ext-link xlink:href="https://doi.org/10.1093/neuonc/noab106" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <underline>https://doi.org/10.1093/neuonc/noab106</underline></ext-link>
+            </p>
+            <p content-type="bibl">[6] Paldor I, Pearce FC, Drummond KJ, Kaye AH. Frontal glioblastoma multiforme may be biologically distinct from non-frontal and multilobar tumors. J Clin Neurosci. 2016;34:128-132. 
+                <ext-link xlink:href="https://doi.org/10.1016/j.jocn.2016.05.017" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <underline>https://doi.org/10.1016/j.jocn.2016.05.017</underline></ext-link>
+            </p>
+            <p content-type="bibl">[7] Altieri R, Zenga F, Ducati A, et al. Tumor location and patient age predict biological signatures of high-grade gliomas. Neurosurg Rev. 2018;41:599-604. 
+                <ext-link xlink:href="https://doi.org/10.1007/s10143-017-0899-8" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <underline>https://doi.org/10.1007/s10143-017-0899-8</underline></ext-link>
+            </p>
+            <p content-type="bibl">[8] Akeret K, Staartjes VE, Vasella F, et al. Distinct topographic-anatomical patterns in primary and secondary brain tumors and their therapeutic potential. J Neurooncol. 2020;149:73-85. 
+                <ext-link xlink:href="https://doi.org/10.1007/s11060-020-03574-w" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <underline>https://doi.org/10.1007/s11060-020-03574-w</underline></ext-link>
+            </p>
+            <p content-type="bibl">[9] Akeret K, Vasella F, Staartjes VE, et al. Anatomical phenotyping and staging of brain tumours. Brain. Published online September 23 2021. 
+                <ext-link xlink:href="http://doi.org/10.1093/brain/awab352" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <underline>http://doi.org/10.1093/brain/awab352</underline></ext-link>
+            </p>
+            <p content-type="bibl">[10] Saxena S, Caroni P. Selective neuronal vulnerability in neurodegenerative diseases: from stressor thresholds to degeneration. Neuron. 2011;71:35-48. 
+                <ext-link xlink:href="https://doi.org/10.1016/j.neuron.2011.06.031" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <underline>https://doi.org/10.1016/j.neuron.2011.06.031</underline></ext-link>
+            </p>
+            <p content-type="bibl">[11] Dalmau J, Graus F. Antibody-Mediated Encephalitis. 
+                <italic>N Engl J Med.</italic>
+                2018;378:840-851. 
+                <ext-link xlink:href="https://doi.org/10.1016/j.neuron.2011.06.031" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <underline>https://doi.org/10.1016/j.neuron.2011.06.031</underline></ext-link>
+            </p>
+            <p content-type="bibl">[12] Vogt O, Vogt C. Erkrankungen der Grosshirnrinde im Lichte der Topistik, Pathoklise und Pathoarchitektonik, von Cécile und Oskar Vogt. J.A. Barth; 1922.</p>
+            <p content-type="bibl">[13] Puelles L, Harrison M, Paxinos G, Watson C. A developmental ontology for the mammalian brain based on the prosomeric model. 
+                <italic>Trends Neurosci.</italic>
+                2013;36:570-578. 
+                <ext-link xlink:href="https://doi.org/10.1016/j.tins.2013.06.004" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <underline>https://doi.org/10.1016/j.tins.2013.06.004</underline></ext-link>
+            </p>
+            <p content-type="bibl">[14] Lee DD, Sebastian Seung H. Learning the parts of objects by non-negative matrix factorization. 
+                <italic>Nature.</italic>
+                1999;401:788-791. 
+                <ext-link xlink:href="https://doi.org/10.1038/44565" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <underline>https://doi.org/10.1038/44565</underline></ext-link>
+            </p>
+            <p content-type="bibl">[15] Kim J, Mouw KW, Polak P, et al. Somatic ERCC2 mutations are associated with a distinct genomic signature in urothelial tumors. 
+                <italic>Nat Genet.</italic>
+                2016;48:600-606. 
+                <ext-link xlink:href="https://doi.org/10.1038/ng.3557" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <underline>https://doi.org/10.1038/ng.3557</underline></ext-link>
+            </p>
+            <p content-type="bibl">[16] Hofree M, Shen JP, Carter H, Gross A, Ideker T. Network-based stratification of tumor mutations. 
+                <italic>Nat Methods.</italic>
+                2013;10:1108-1115. 
+                <ext-link xlink:href="https://doi.org/10.1038/nmeth.2651" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <underline>https://doi.org/10.1038/nmeth.2651</underline></ext-link>
+            </p>
+            <p content-type="bibl">[17] Sadanandam A, Lyssiotis CA, Homicsko K, et al. A colorectal cancer classification system that associates cellular phenotype and responses to therapy. 
+                <italic>Nat Med.</italic>
+                2013;19:619-625. 
+                <ext-link xlink:href="https://doi.org/10.1038/nm.3175" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <underline>https://doi.org/10.1038/nm.3175</underline></ext-link>
+            </p>
+            <p content-type="bibl">[18] Longo DL. Tumor heterogeneity and personalized medicine. 
+                <italic>N Engl J Med.</italic>
+                2012;366:956-957. 
+                <ext-link xlink:href="https://doi.org/10.1056/NEJMe1200656" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <underline>https://doi.org/10.1056/NEJMe1200656</underline></ext-link>
+            </p>
+            <p content-type="bibl">[19] Hamburg MA, Collins FS. The path to personalized medicine. 
+                <italic>N Engl J Med.</italic>
+                2010;363:301-304. 
+                <ext-link xlink:href="https://doi.org/10.1056/NEJMp1006304" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <underline>https://doi.org/10.1056/NEJMp1006304</underline></ext-link>
+            </p>
+            <p content-type="bibl">[20] von Elm E, Altman DG, Egger M, et al. The Strengthening the Reporting of Observational Studies in Epidemiology statement: guidelines for reporting observational studies. 
+                <italic>Lancet.</italic>
+                2007;370:1453-1457. 
+                <ext-link xlink:href="https://doi.org/10.1016/S0140-6736(07)61602-X" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <underline>https://doi.org/10.1016/S0140-6736(07)61602-X</underline></ext-link>
+            </p>
+            <p content-type="bibl">[21] Akeret K, van Niftrik CHB, Sebök M, et al. Topographic volume-standardization atlas of the human brain. 
+                <italic>Brain Struct Funct.</italic>
+                2021;226:1699–1711. 
+                <ext-link xlink:href="https://doi.org/10.1007/s00429-021-02280-1" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <underline>https://doi.org/10.1007/s00429-021-02280-1</underline></ext-link>
+            </p>
+            <p content-type="bibl">[22] Chen J, Patil KR, Weis S, et al. Neurobiological Divergence of the positive and negative schizophrenia subtypes identified on a new factor structure of psychopathology using nonnegative factorization: an international machine learning study. 
+                <italic>Biol Psychiatry.</italic>
+                2020;87:282-293. 
+                <ext-link xlink:href="https://doi.org/10.1016/j.biopsych.2019.08.031" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <underline>https://doi.org/10.1016/j.biopsych.2019.08.031</underline></ext-link>
+            </p>
+            <p content-type="bibl">[23] Steinley D. Properties of the Hubert-Arabie adjusted Rand index. 
+                <italic>Psychol Methods.</italic>
+                2004;9:386-396. 
+                <ext-link xlink:href="https://doi.org/10.1037/1082-989X.9.3.386" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <underline>https://doi.org/10.1037/1082-989X.9.3.386</underline></ext-link>
+            </p>
+            <p content-type="bibl">[24] Hubert L, Arabie P. Comparing partitions. 
+                <italic>J Classification.</italic>
+                1985;2:193-218. 
+                <ext-link xlink:href="https://doi.org/10.1007/BF01908075" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <underline>https://doi.org/10.1007/BF01908075</underline></ext-link>
+            </p>
+            <p content-type="bibl">[25] Kassambara A, Kosinski M, Biecek P, Survminer FS. Drawing Survival Curves using “ggplot2.” Published online 2019.</p>
+            <p content-type="bibl">[26] Grambsch PM, Therneau TM. Modeling survival data: extending the Cox model. 
+                <italic>Stat Biol Health.</italic>
+                Published online 2000. 
+                <ext-link xlink:href="https://doi.org/10.1007/978-1-4757-3294-8" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <underline>https://doi.org/10.1007/978-1-4757-3294-8</underline></ext-link>
+            </p>
+            <p content-type="bibl">[27] Therneau T. A Package for Survival Analysis in R. R package version 3.1--12 . Published online 2020.</p>
+            <p content-type="bibl">[28] Bland M. 
+                <italic>An Introduction to Medical Statistics</italic>
+                . Oxford University Press; 2015.</p>
+            <p content-type="bibl">[29] Hwang TL, Close TP, Grego JM, Brannon WL, Gonzales F. Predilection of brain metastasis in gray and white matter junction and vascular border zones. 
+                <italic>Cancer.</italic>
+                1996;77:1551-1555.</p>
+            <p content-type="bibl">[30] Mai JK, Paxinos G. 
+                <italic>The Human Nervous System</italic>
+                . Academic Press; 2011.</p>
+            <p content-type="bibl"/>
+        </sec>
+    </body>
+    <back>
+        <app-group/>
+        <ref-list>
+            <title>References</title>
+            <ref id="bibl01">
+                <mixed-citation>[1] Patel AP, Fisher JL, Nichols E, et al. Global, regional, and national burden of brain and other CNS cancer, 1990–2016: a systematic analysis for the Global Burden of Disease Study 2016. Lancet Neurol. 2019;18:376-393. 
+                    <ext-link xlink:href="https://doi.org/10.1016/S1474-4422(18)30468-X" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <underline>https://doi.org/10.1016/S1474-4422(18)30468-X</underline></ext-link>
+                </mixed-citation>
+            </ref>
+            <ref id="bibl02">
+                <mixed-citation>[2] Aldape K, Brindle KM, Chesler L, et al. Challenges to curing primary brain tumours. Nat Rev Clin Oncol. 2019;16:509-520. 
+                    <ext-link xlink:href="https://doi.org/10.1038/s41571-019-0177-5" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <underline>https://doi.org/10.1038/s41571-019-0177-5</underline></ext-link>
+                </mixed-citation>
+            </ref>
+            <ref id="bibl03">
+                <mixed-citation>[3] Weller M, van den Bent M, Preusser M, et al. EANO guidelines on the diagnosis and treatment of diffuse gliomas of adulthood. Nat Rev Clin Oncol. 2020;18:170-186. 
+                    <ext-link xlink:href="https://doi.org/10.1038/s41571-020-00447-z" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <underline>https://doi.org/10.1038/s41571-020-00447-z</underline></ext-link>
+                </mixed-citation>
+            </ref>
+            <ref id="bibl04">
+                <mixed-citation>[4] Louis DN, Perry A, Reifenberger G, et al. The 2016 World Health Organization Classification of Tumors of the Central Nervous System: a summary. Acta Neuropathol. 2016;131:803-820. 
+                    <ext-link xlink:href="https://doi.org/10.1007/s00401-016-1545-1" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <underline>https://doi.org/10.1007/s00401-016-1545-1</underline></ext-link>
+                </mixed-citation>
+            </ref>
+            <ref id="bibl05">
+                <mixed-citation>[5] Louis DN, Perry A, Wesseling P, et al. The 2021 WHO classification of tumors of the Central Nervous System: A summary. Neuro Oncol. 2021;23:1231-1251. 
+                    <ext-link xlink:href="https://doi.org/10.1093/neuonc/noab106" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <underline>https://doi.org/10.1093/neuonc/noab106</underline></ext-link>
+                </mixed-citation>
+            </ref>
+            <ref id="bibl06">
+                <mixed-citation>[6] Paldor I, Pearce FC, Drummond KJ, Kaye AH. Frontal glioblastoma multiforme may be biologically distinct from non-frontal and multilobar tumors. J Clin Neurosci. 2016;34:128-132. 
+                    <ext-link xlink:href="https://doi.org/10.1016/j.jocn.2016.05.017" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <underline>https://doi.org/10.1016/j.jocn.2016.05.017</underline></ext-link>
+                </mixed-citation>
+            </ref>
+            <ref id="bibl07">
+                <mixed-citation>[7] Altieri R, Zenga F, Ducati A, et al. Tumor location and patient age predict biological signatures of high-grade gliomas. Neurosurg Rev. 2018;41:599-604. 
+                    <ext-link xlink:href="https://doi.org/10.1007/s10143-017-0899-8" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <underline>https://doi.org/10.1007/s10143-017-0899-8</underline></ext-link>
+                </mixed-citation>
+            </ref>
+            <ref id="bibl08">
+                <mixed-citation>[8] Akeret K, Staartjes VE, Vasella F, et al. Distinct topographic-anatomical patterns in primary and secondary brain tumors and their therapeutic potential. J Neurooncol. 2020;149:73-85. 
+                    <ext-link xlink:href="https://doi.org/10.1007/s11060-020-03574-w" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <underline>https://doi.org/10.1007/s11060-020-03574-w</underline></ext-link>
+                </mixed-citation>
+            </ref>
+            <ref id="bibl09">
+                <mixed-citation>[9] Akeret K, Vasella F, Staartjes VE, et al. Anatomical phenotyping and staging of brain tumours. Brain. Published online September 23 2021. 
+                    <ext-link xlink:href="http://doi.org/10.1093/brain/awab352" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <underline>http://doi.org/10.1093/brain/awab352</underline></ext-link>
+                </mixed-citation>
+            </ref>
+            <ref id="bibl10">
+                <mixed-citation>[10] Saxena S, Caroni P. Selective neuronal vulnerability in neurodegenerative diseases: from stressor thresholds to degeneration. Neuron. 2011;71:35-48. 
+                    <ext-link xlink:href="https://doi.org/10.1016/j.neuron.2011.06.031" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <underline>https://doi.org/10.1016/j.neuron.2011.06.031</underline></ext-link>
+                </mixed-citation>
+            </ref>
+            <ref id="bibl11">
+                <mixed-citation>[11] Dalmau J, Graus F. Antibody-Mediated Encephalitis. 
+                    <italic>N Engl J Med.</italic>
+                    2018;378:840-851. 
+                    <ext-link xlink:href="https://doi.org/10.1016/j.neuron.2011.06.031" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <underline>https://doi.org/10.1016/j.neuron.2011.06.031</underline></ext-link>
+                </mixed-citation>
+            </ref>
+            <ref id="bibl12">
+                <mixed-citation>[12] Vogt O, Vogt C. Erkrankungen der Grosshirnrinde im Lichte der Topistik, Pathoklise und Pathoarchitektonik, von Cécile und Oskar Vogt. J.A. Barth; 1922.</mixed-citation>
+            </ref>
+            <ref id="bibl13">
+                <mixed-citation>[13] Puelles L, Harrison M, Paxinos G, Watson C. A developmental ontology for the mammalian brain based on the prosomeric model. 
+                    <italic>Trends Neurosci.</italic>
+                    2013;36:570-578. 
+                    <ext-link xlink:href="https://doi.org/10.1016/j.tins.2013.06.004" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <underline>https://doi.org/10.1016/j.tins.2013.06.004</underline></ext-link>
+                </mixed-citation>
+            </ref>
+            <ref id="bibl14">
+                <mixed-citation>[14] Lee DD, Sebastian Seung H. Learning the parts of objects by non-negative matrix factorization. 
+                    <italic>Nature.</italic>
+                    1999;401:788-791. 
+                    <ext-link xlink:href="https://doi.org/10.1038/44565" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <underline>https://doi.org/10.1038/44565</underline></ext-link>
+                </mixed-citation>
+            </ref>
+            <ref id="bibl15">
+                <mixed-citation>[15] Kim J, Mouw KW, Polak P, et al. Somatic ERCC2 mutations are associated with a distinct genomic signature in urothelial tumors. 
+                    <italic>Nat Genet.</italic>
+                    2016;48:600-606. 
+                    <ext-link xlink:href="https://doi.org/10.1038/ng.3557" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <underline>https://doi.org/10.1038/ng.3557</underline></ext-link>
+                </mixed-citation>
+            </ref>
+            <ref id="bibl16">
+                <mixed-citation>[16] Hofree M, Shen JP, Carter H, Gross A, Ideker T. Network-based stratification of tumor mutations. 
+                    <italic>Nat Methods.</italic>
+                    2013;10:1108-1115. 
+                    <ext-link xlink:href="https://doi.org/10.1038/nmeth.2651" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <underline>https://doi.org/10.1038/nmeth.2651</underline></ext-link>
+                </mixed-citation>
+            </ref>
+            <ref id="bibl17">
+                <mixed-citation>[17] Sadanandam A, Lyssiotis CA, Homicsko K, et al. A colorectal cancer classification system that associates cellular phenotype and responses to therapy. 
+                    <italic>Nat Med.</italic>
+                    2013;19:619-625. 
+                    <ext-link xlink:href="https://doi.org/10.1038/nm.3175" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <underline>https://doi.org/10.1038/nm.3175</underline></ext-link>
+                </mixed-citation>
+            </ref>
+            <ref id="bibl18">
+                <mixed-citation>[18] Longo DL. Tumor heterogeneity and personalized medicine. 
+                    <italic>N Engl J Med.</italic>
+                    2012;366:956-957. 
+                    <ext-link xlink:href="https://doi.org/10.1056/NEJMe1200656" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <underline>https://doi.org/10.1056/NEJMe1200656</underline></ext-link>
+                </mixed-citation>
+            </ref>
+            <ref id="bibl19">
+                <mixed-citation>[19] Hamburg MA, Collins FS. The path to personalized medicine. 
+                    <italic>N Engl J Med.</italic>
+                    2010;363:301-304. 
+                    <ext-link xlink:href="https://doi.org/10.1056/NEJMp1006304" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <underline>https://doi.org/10.1056/NEJMp1006304</underline></ext-link>
+                </mixed-citation>
+            </ref>
+            <ref id="bibl20">
+                <mixed-citation>[20] von Elm E, Altman DG, Egger M, et al. The Strengthening the Reporting of Observational Studies in Epidemiology statement: guidelines for reporting observational studies. 
+                    <italic>Lancet.</italic>
+                    2007;370:1453-1457. 
+                    <ext-link xlink:href="https://doi.org/10.1016/S0140-6736(07)61602-X" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <underline>https://doi.org/10.1016/S0140-6736(07)61602-X</underline></ext-link>
+                </mixed-citation>
+            </ref>
+            <ref id="bibl21">
+                <mixed-citation>[21] Akeret K, van Niftrik CHB, Sebök M, et al. Topographic volume-standardization atlas of the human brain. 
+                    <italic>Brain Struct Funct.</italic>
+                    2021;226:1699–1711. 
+                    <ext-link xlink:href="https://doi.org/10.1007/s00429-021-02280-1" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <underline>https://doi.org/10.1007/s00429-021-02280-1</underline></ext-link>
+                </mixed-citation>
+            </ref>
+            <ref id="bibl22">
+                <mixed-citation>[22] Chen J, Patil KR, Weis S, et al. Neurobiological Divergence of the positive and negative schizophrenia subtypes identified on a new factor structure of psychopathology using nonnegative factorization: an international machine learning study. 
+                    <italic>Biol Psychiatry.</italic>
+                    2020;87:282-293. 
+                    <ext-link xlink:href="https://doi.org/10.1016/j.biopsych.2019.08.031" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <underline>https://doi.org/10.1016/j.biopsych.2019.08.031</underline></ext-link>
+                </mixed-citation>
+            </ref>
+            <ref id="bibl23">
+                <mixed-citation>[23] Steinley D. Properties of the Hubert-Arabie adjusted Rand index. 
+                    <italic>Psychol Methods.</italic>
+                    2004;9:386-396. 
+                    <ext-link xlink:href="https://doi.org/10.1037/1082-989X.9.3.386" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <underline>https://doi.org/10.1037/1082-989X.9.3.386</underline></ext-link>
+                </mixed-citation>
+            </ref>
+            <ref id="bibl24">
+                <mixed-citation>[24] Hubert L, Arabie P. Comparing partitions. 
+                    <italic>J Classification.</italic>
+                    1985;2:193-218. 
+                    <ext-link xlink:href="https://doi.org/10.1007/BF01908075" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <underline>https://doi.org/10.1007/BF01908075</underline></ext-link>
+                </mixed-citation>
+            </ref>
+            <ref id="bibl25">
+                <mixed-citation>[25] Kassambara A, Kosinski M, Biecek P, Survminer FS. Drawing Survival Curves using “ggplot2.” Published online 2019.</mixed-citation>
+            </ref>
+            <ref id="bibl26">
+                <mixed-citation>[26] Grambsch PM, Therneau TM. Modeling survival data: extending the Cox model. 
+                    <italic>Stat Biol Health.</italic>
+                    Published online 2000. 
+                    <ext-link xlink:href="https://doi.org/10.1007/978-1-4757-3294-8" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <underline>https://doi.org/10.1007/978-1-4757-3294-8</underline></ext-link>
+                </mixed-citation>
+            </ref>
+            <ref id="bibl27">
+                <mixed-citation>[27] Therneau T. A Package for Survival Analysis in R. R package version 3.1--12 . Published online 2020.</mixed-citation>
+            </ref>
+            <ref id="bibl28">
+                <mixed-citation>[28] Bland M. 
+                    <italic>An Introduction to Medical Statistics</italic>
+                    . Oxford University Press; 2015.</mixed-citation>
+            </ref>
+            <ref id="bibl29">
+                <mixed-citation>[29] Hwang TL, Close TP, Grego JM, Brannon WL, Gonzales F. Predilection of brain metastasis in gray and white matter junction and vascular border zones. 
+                    <italic>Cancer.</italic>
+                    1996;77:1551-1555.</mixed-citation>
+            </ref>
+            <ref id="bibl30">
+                <mixed-citation>[30] Mai JK, Paxinos G. 
+                    <italic>The Human Nervous System</italic>
+                    . Academic Press; 2011.</mixed-citation>
+            </ref>
+            <ref id="bibl31">
+                <mixed-citation/>
+            </ref>
+        </ref-list>
+    </back>
+</article>

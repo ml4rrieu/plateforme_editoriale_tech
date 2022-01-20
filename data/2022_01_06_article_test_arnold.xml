@@ -1,0 +1,716 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article
+  PUBLIC '-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.2 20190208//EN'
+  'https://jats.nlm.nih.gov/publishing/1.2/JATS-journalpublishing1.dtd'>
+<article article-type="research-article" dtd-version="1.2" specific-use="ojs-display" xml:lang="en">
+    <front>
+        <journal-meta>
+            <journal-id journal-id-type="publisher"/>
+            <issn/>
+            <publisher>
+                <publisher-name/>
+            </publisher>
+        </journal-meta>
+        <article-meta>
+            <article-id pub-id-type="other"/>
+            <article-categories>
+                <subj-group subj-group-type="display-channel">
+                    <subject>Research article</subject>
+                </subj-group>
+            </article-categories>
+            <title-group>
+                <article-title>Persistent neuromuscular junction transmission defects in adults with spinal muscular atrophy treated with nusinersen</article-title>
+                <trans-title-group xml:lang="fr">
+                    <trans-title>Défauts de transmission persistants de la jonction neuromusculaire chez des adultes atteints d'amyotrophie spinale et traités au nusinersen</trans-title>
+                </trans-title-group>
+            </title-group>
+            <contrib-group>
+                <contrib contrib-type="author">
+                    <contrib-id contrib-id-type="ORCID">0000-0001-9889-7036</contrib-id>
+                    <name>
+                        <surname>Arnold</surname>
+                        <given-names>W David</given-names>
+                    </name>
+                    <aff id="aff01">
+                        <institution-wrap>
+                            <institution-id institution-id-type="ROR">00c01js51</institution-id>
+                            <institution>Neurology, The Ohio State University Wexner Medical Center, Columbus, Ohio, USA</institution>
+                        </institution-wrap>
+                    </aff>
+                </contrib>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Severyn</surname>
+                        <given-names>Steven</given-names>
+                    </name>
+                    <aff id="aff02">
+                        <institution-wrap>
+                            <institution-id institution-id-type="ROR">00c01js51</institution-id>
+                            <institution>Anesthesiology, The Ohio State University Wexner Medical Center, Columbus, Ohio, USA</institution>
+                        </institution-wrap>
+                    </aff>
+                </contrib>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Zhao</surname>
+                        <given-names>Songzhu</given-names>
+                    </name>
+                    <aff id="aff03">
+                        <institution-wrap>
+                            <institution-id institution-id-type="ROR">00rs6vg23</institution-id>
+                            <institution>Biomedical Informatics and Center for Biostatistics, The Ohio State University, Columbus, Ohio, USA</institution>
+                        </institution-wrap>
+                    </aff>
+                </contrib>
+                <contrib contrib-type="author">
+                    <contrib-id contrib-id-type="ORCID">0000-0001-6183-3303</contrib-id>
+                    <name>
+                        <surname>Kline</surname>
+                        <given-names>David</given-names>
+                    </name>
+                    <aff>Biomedical Informatics and Center for Biostatistics, The Ohio State University, Columbus, Ohio, USA</aff>
+                </contrib>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Linsenmayer</surname>
+                        <given-names>Matthew</given-names>
+                    </name>
+                    <aff id="aff04">
+                        <institution-wrap>
+                            <institution-id institution-id-type="ROR">00c01js51</institution-id>
+                            <institution>Assistive Technology Department, The Ohio State University Wexner Medical Center, Columbus, Ohio, USA</institution>
+                        </institution-wrap>
+                    </aff>
+                </contrib>
+                <contrib contrib-type="author">
+                    <contrib-id contrib-id-type="ORCID">0000-0002-2151-0873</contrib-id>
+                    <name>
+                        <surname>Kelly</surname>
+                        <given-names>Kristina</given-names>
+                    </name>
+                    <aff id="aff01">
+                        <institution-wrap>
+                            <institution-id institution-id-type="ROR">00c01js51</institution-id>
+                            <institution>Neurology, The Ohio State University Wexner Medical Center, Columbus, Ohio, USA</institution>
+                        </institution-wrap>
+                    </aff>
+                </contrib>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Tellez</surname>
+                        <given-names>Marco</given-names>
+                    </name>
+                    <aff id="aff01">
+                        <institution-wrap>
+                            <institution-id institution-id-type="ROR">00c01js51</institution-id>
+                            <institution>Neurology, The Ohio State University Wexner Medical Center, Columbus, Ohio, USA</institution>
+                        </institution-wrap>
+                    </aff>
+                </contrib>
+                <contrib contrib-type="author">
+                    <contrib-id contrib-id-type="ORCID">0000-0001-8825-8951</contrib-id>
+                    <name>
+                        <surname>Bartlett</surname>
+                        <given-names>Amy</given-names>
+                    </name>
+                    <aff id="aff01">
+                        <institution-wrap>
+                            <institution-id institution-id-type="ROR">00c01js51</institution-id>
+                            <institution>Neurology, The Ohio State University Wexner Medical Center, Columbus, Ohio, USA</institution>
+                        </institution-wrap>
+                    </aff>
+                </contrib>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Heintzman</surname>
+                        <given-names>Sarah</given-names>
+                    </name>
+                    <aff id="aff01">
+                        <institution-wrap>
+                            <institution-id institution-id-type="ROR">00c01js51</institution-id>
+                            <institution>Neurology, The Ohio State University Wexner Medical Center, Columbus, Ohio, USA</institution>
+                        </institution-wrap>
+                    </aff>
+                </contrib>
+                <contrib contrib-type="author">
+                    <contrib-id contrib-id-type="ORCID">0000-0003-1223-9206</contrib-id>
+                    <name>
+                        <surname>Reynolds</surname>
+                        <given-names>Jerry</given-names>
+                    </name>
+                    <aff id="aff01">
+                        <institution-wrap>
+                            <institution-id institution-id-type="ROR">00c01js51</institution-id>
+                            <institution>Neurology, The Ohio State University Wexner Medical Center, Columbus, Ohio, USA</institution>
+                        </institution-wrap>
+                    </aff>
+                </contrib>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Sterling</surname>
+                        <given-names>Gary</given-names>
+                    </name>
+                    <aff id="aff01">
+                        <institution-wrap>
+                            <institution-id institution-id-type="ROR">00c01js51</institution-id>
+                            <institution>Neurology, The Ohio State University Wexner Medical Center, Columbus, Ohio, USA</institution>
+                        </institution-wrap>
+                    </aff>
+                </contrib>
+                <contrib contrib-type="author">
+                    <contrib-id contrib-id-type="ORCID">0000-0001-6746-1926</contrib-id>
+                    <name>
+                        <surname>Weaver</surname>
+                        <given-names>Tristan</given-names>
+                    </name>
+                    <aff id="aff02">
+                        <institution-wrap>
+                            <institution-id institution-id-type="ROR">00c01js51</institution-id>
+                            <institution>Anesthesiology, The Ohio State University Wexner Medical Center, Columbus, Ohio, USA</institution>
+                        </institution-wrap>
+                    </aff>
+                </contrib>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Rajneesh</surname>
+                        <given-names>Kiran</given-names>
+                    </name>
+                    <aff id="aff01">
+                        <institution-wrap>
+                            <institution-id institution-id-type="ROR">00c01js51</institution-id>
+                            <institution>Neurology, The Ohio State University Wexner Medical Center, Columbus, Ohio, USA</institution>
+                        </institution-wrap>
+                    </aff>
+                </contrib>
+                <contrib contrib-type="author">
+                    <contrib-id contrib-id-type="ORCID">0000-0001-9031-1555</contrib-id>
+                    <name>
+                        <surname>Burghes</surname>
+                        <given-names>Arthur H M</given-names>
+                    </name>
+                    <aff id="aff05">
+                        <institution-wrap>
+                            <institution-id institution-id-type="ROR">00rs6vg23</institution-id>
+                            <institution>Department of Biological Chemistry and Pharmacology, The Ohio State University, Columbus, Ohio, USA</institution>
+                        </institution-wrap>
+                    </aff>
+                </contrib>
+                <contrib contrib-type="author">
+                    <contrib-id contrib-id-type="ORCID">0000-0002-8503-8459</contrib-id>
+                    <name>
+                        <surname>Kolb</surname>
+                        <given-names>Stephen J</given-names>
+                    </name>
+                    <aff id="aff01">
+                        <institution-wrap>
+                            <institution-id institution-id-type="ROR">00c01js51</institution-id>
+                            <institution>Neurology, The Ohio State University Wexner Medical Center, Columbus, Ohio, USA</institution>
+                        </institution-wrap>
+                    </aff>
+                    <aff id="aff05">
+                        <institution-wrap>
+                            <institution-id institution-id-type="ROR">00rs6vg23</institution-id>
+                            <institution>Department of Biological Chemistry and Pharmacology, The Ohio State University, Columbus, Ohio, USA</institution>
+                        </institution-wrap>
+                    </aff>
+                </contrib>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Elsheikh</surname>
+                        <given-names>Bakri</given-names>
+                    </name>
+                    <aff id="aff01">
+                        <institution-wrap>
+                            <institution-id institution-id-type="ROR">00c01js51</institution-id>
+                            <institution>Neurology, The Ohio State University Wexner Medical Center, Columbus, Ohio, USA</institution>
+                        </institution-wrap>
+                    </aff>
+                </contrib>
+            </contrib-group>
+            <pub-date>
+                <year/>
+            </pub-date>
+            <abstract>
+                <p>Objective : Spinal muscular atrophy (SMA) is a motor neuron disease caused by low levels of survival motor neuron (SMN) protein. Prior work in models and patients has demonstrated electrophysiological and morphological defects at the neuromuscular junction (NMJ). Therapeutic development has resulted in clinically available therapies to increase SMN protein levels in patients and improve muscle function. Here we aimed to investigate the effect of SMN restoration (via nusinersen) on NMJ transmission in adults with SMA.</p>
+            </abstract>
+            <abstract>
+                <p>Methods : Participants undergoing nusinersen treatment underwent 3 Hz repetitive nerve stimulation (RNS) of the spinal accessory nerve to assess compound muscle action potential amplitude decrement. Maximum voluntary isometric contraction (MVICT), Revised Upper Limb Module (RULM), and 6 min walk test (6MWT) were assessed for correlations with decrement.</p>
+            </abstract>
+            <abstract>
+                <p>Results : Data from 13 ambulatory (7 men/6 women, mean age 40±11 years) and 11 non-ambulatory (3 men/8 women, mean age 38±12 years) participants were analysed. Cross-sectional analyses of RNS decrement were similar at 14 months of nusinersen (−14.2%±11.5%, n=17) vs baseline (−11.9%±8.3%, n=15) (unpaired t-test, p=0.5202). Longitudinal comparison of decrement in eight participants showed no change at 14 months (−13.9%±6.7%) vs baseline (−16.9%±13.4%) (paired t-test, p=0.5863). Decrement showed strong correlations with measures of MVICT, RULM and 6MWT but not age or disease duration.</p>
+            </abstract>
+            <abstract>
+                <p>Conclusion : Adults with SMA had significant NMJ transmission defects that were not corrected with 14 months of nusinersen treatment. NMJ defects were negatively associated with physical function, and thus may represent a promising target for additive or combinatorial treatments.</p>
+            </abstract>
+            <trans-abstract xml:lang="fr">
+                <p>Objectif : L'amyotrophie spinale (SMA) est une maladie du motoneurone causée par de faibles niveaux de la protéine SMN (survival motor neuron). Des travaux antérieurs sur des modèles et des patients ont démontré des défauts électrophysiologiques et morphologiques au niveau de la jonction neuromusculaire (NMJ). Le développement thérapeutique a permis de mettre au point des thérapies cliniquement disponibles pour augmenter les niveaux de protéine SMN chez les patients et améliorer la fonction musculaire. Nous avons voulu étudier l'effet de la restauration du SMN (via le nusinersen) sur la transmission de la NMJ chez les adultes atteints de SMA.</p>
+            </trans-abstract>
+            <trans-abstract xml:lang="fr">
+                <p>Méthodes : Les participants sous traitement au nusinersen ont subi une stimulation nerveuse répétitive (RNS) de 3 Hz du nerf spinal accessoire pour évaluer la diminution de l'amplitude du potentiel d'action musculaire composé. La contraction isométrique volontaire maximale (MVICT), le module révisé des membres supérieurs (RULM) et le test de marche de 6 minutes (6MWT) ont été évalués pour établir des corrélations avec le décrément.</p>
+            </trans-abstract>
+            <trans-abstract xml:lang="fr">
+                <p>Résultats : Les données de 13 participants ambulatoires (7 hommes/6 femmes, âge moyen 40±11 ans) et 11 non-ambulatoires (3 hommes/8 femmes, âge moyen 38±12 ans) ont été analysées. Les analyses transversales du décrément du RNS étaient similaires après 14 mois de nusinersen (-14,2 %±11,5 %, n=17) par rapport à la ligne de base (-11,9 %±8,3 %, n=15) (test t non apparié, p=0,5202). La comparaison longitudinale du décrément chez huit participants n'a montré aucun changement à 14 mois (-13,9 %±6,7 %) par rapport au départ (-16,9 %±13,4 %) (test t apparié, p=0,5863). La diminution a montré de fortes corrélations avec les mesures de MVICT, RULM et 6MWT mais pas avec l'âge ou la durée de la maladie.</p>
+            </trans-abstract>
+            <trans-abstract xml:lang="fr">
+                <p>Conclusion : Les adultes atteints de SMA présentaient des défauts de transmission NMJ significatifs qui n'ont pas été corrigés avec 14 mois de traitement au nusinersen. Les défauts du NMJ étaient négativement associés à la fonction physique, et pourraient donc représenter une cible prometteuse pour des traitements additifs ou combinatoires.</p>
+            </trans-abstract>
+        </article-meta>
+    </front>
+    <body>
+        <sec>
+            <title>Background</title>
+            <p>Spinal muscular atrophy (SMA) is an autosomal recessive disorder of the alpha motor neuron that results in muscle atrophy, weakness and fatigue.
+                <xref ref-type="bibr" rid="bibl01">[1]</xref>
+                <xref ref-type="bibr" rid="bibl02">[2]</xref>
+                SMA is caused by homozygous loss or mutation of the SMN1 gene. The low levels of full-length survival motor neuron (SMN) protein produced by SMN2 are insufficient for motor neuron survival and normal motor function.
+                <xref ref-type="bibr" rid="bibl03">[3]</xref>
+                SMN2 copy number varies, and patients with more SMN2 copies usually have less severe muscle weakness and later clinical onset.
+                <xref ref-type="bibr" rid="bibl04">[4]</xref>
+                <xref ref-type="bibr" rid="bibl05">[5]</xref>
+                <xref ref-type="bibr" rid="bibl06">[6]</xref>
+                Progress in the field of SMA has resulted in the clinical implementation of three different therapeutics that can increase SMN protein. Nusinersen (Spinraza) is an antisense oligonucleotide therapy that is delivered intrathecally to increase full-length SMN protein production from the SMN2 gene.
+                <xref ref-type="bibr" rid="bibl07">[7]</xref>
+                <xref ref-type="bibr" rid="bibl08">[8]</xref>
+                <xref ref-type="bibr" rid="bibl09">[9]</xref>
+                <xref ref-type="bibr" rid="bibl10">[10]</xref>
+                <xref ref-type="bibr" rid="bibl11">[11]</xref>
+                Onasemnogene abeparvovec-xioi (Zolgensma) is an adeno-associated subtype 9 viral delivery of the SMN cDNA to express full-length SMN protein.
+                <xref ref-type="bibr" rid="bibl12">[12]</xref>
+                Risdiplam (EVRYSDI) is a small molecule drug that is delivered orally to increase full-length SMN protein production from SMN2.
+                <xref ref-type="bibr" rid="bibl13">[13]</xref>
+                <xref ref-type="bibr" rid="bibl14">[14]</xref>
+                While these SMN-restoring treatments can result in dramatic, positive clinical responses, the therapeutic effects correlate negatively with delayed intervention (ie, after motor neuron dysfunction).
+                <xref ref-type="bibr" rid="bibl07">[7]</xref>
+                <xref ref-type="bibr" rid="bibl08">[8]</xref>
+                <xref ref-type="bibr" rid="bibl09">[9]</xref>
+                <xref ref-type="bibr" rid="bibl10">[10]</xref>
+                <xref ref-type="bibr" rid="bibl11">[11]</xref>
+                <xref ref-type="bibr" rid="bibl12">[12]</xref>
+                Thus, there are ongoing needs for additional therapeutic options for patients treated at later stages of disease progression.</p>
+            <p>Prior preclinical and clinical studies have shown that neuromuscular junction (NMJ) transmission defects are evident in animal models of SMA and patients affected by SMA, but the impact of SMN restoration on these defects is less clear, particularly in patients.
+                <xref ref-type="bibr" rid="bibl15">[15]</xref>
+                <xref ref-type="bibr" rid="bibl16">[16]</xref>
+                <xref ref-type="bibr" rid="bibl17">[17]</xref>
+                <xref ref-type="bibr" rid="bibl18">[18]</xref>
+                The objective of this study was to perform a secondary analysis in a subset of 24 participants with SMA who underwent repetitive nerve stimulation (RNS) assessment of NMJ transmission as part of a pair of prospective, open-label studies that investigated the effects of nusinersen in non-ambulatory and ambulatory adults with SMA when administered in the symptomatic phase.</p>
+        </sec>
+        <sec>
+            <title>Methods</title>
+            <sec>
+                <title>Study overview</title>
+                <p>This substudy was performed as part of two prospective, open-label studies (clinicaltrials.gov: NCT04139343 and NCT04591678) that were conducted at the Ohio State University Wexner Medical Centre between June 2017 and January 2020.
+                    <xref ref-type="bibr" rid="bibl19">[19]</xref>
+                    <ext-link xlink:href="" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <xref ref-type="bibr" rid="bibl20">[20]</xref></ext-link>Data collection for this substudy was conducted between May 2019 and October 2020. All procedures were approved by the institutional review board, and before enrolment, written informed consent was obtained. Inclusion criteria included age 18 or older, genetically confirmed 5q SMA, and insurance approval for treatment with nusinersen or qualification for free drug. Exclusion criteria included history of bacterial meningitis or encephalitis, investigational treatment for SMA in the last 6 months, treatment with gene therapy, stem cell or antisense oligonucleotide and investigator opinion that the participant was mentally or legally unable to provide informed consent.</p>
+                <p>The outcome assessment of primary interest in this analysis was per cent (%) compound muscle action potential (CMAP) amplitude decrement during RNS of the spinal accessory nerve at 3 Hz. Participants were seen at a screening baseline assessment to determine eligibility and to obtain outcome assessments prior to initiation of nusinersen treatment. This baseline assessment was performed within 4 weeks of starting nusinersen therapy. Following determination of eligibility, participants were enrolled and completed induction of intrathecal nusinersen treatment on days 1, 15, 29 and 60 followed by maintenance doses every 4 months. Participants underwent repeated outcome assessments at 2, 6, 10 and 14 months of nusinersen treatment. In a subset of participants, RNS was performed at baseline and 14 months postnusinersen treatment, and other outcome assessments obtained at baseline and 14 months were also analysed in this study.</p>
+            </sec>
+            <sec>
+                <title>Procedures and outcome measures</title>
+                <p>The primary outcome assessment for this study was % CMAP amplitude decrement during RNS of the spinal accessory nerve at 3 Hz. RNS was performed by recording CMAP amplitude from the trapezius muscle during at train of 10 supramaximal stimuli delivered to the spinal accessory nerve.
+                    <xref ref-type="bibr" rid="bibl16">[16]</xref>
+                    <xref ref-type="bibr" rid="bibl17">[17]</xref>
+                    CMAP decrement was calculated as follows: CMAP decrement %=(fourth CMAP–first CMAP amplitude)/(first CMAP amplitude)×100%. A decrement of CMAP amplitude of 10% or more was considered abnormal.
+                    <xref ref-type="bibr" rid="bibl21">[21]</xref></p>
+                <p>Other outcome measures analysed included maximum voluntary isometric contraction testing (MVICT) of bilateral elbow flexion and extension, hand grip, key pinch, and knee flexion and extension, which were averaged for a single value for each joint movement, 6 min walk test (6MWT) total distance and fatigue (fatigue ratio: distance during the final minute divided by the first minute=6 min distance/1 min distance),
+                    <xref ref-type="bibr" rid="bibl01">[1]</xref>
+                    <xref ref-type="bibr" rid="bibl22">[22]</xref>
+                    Hammersmith Functional Rating Scale Expanded (HFMSE) score,
+                    <xref ref-type="bibr" rid="bibl23">[23]</xref>
+                    Revised Upper Limb Module (RULM),
+                    <xref ref-type="bibr" rid="bibl24">[24]</xref>
+                    ulnar CMAP amplitude, ulnar single motor unit potential (SMUP) amplitude and motor unit number estimation (MUNE). Testing methodologies for strength measurement and functional assessments were consistent with prior published trials.
+                    <xref ref-type="bibr" rid="bibl25">[25]</xref>
+                    Ulnar CMAP amplitude was assessed using standard techniques.
+                    <xref ref-type="bibr" rid="bibl25">[25]</xref>
+                    Multipoint incremental MUNE technique is used to obtain the SMUP and MUNE.
+                    <xref ref-type="bibr" rid="bibl08">[8]</xref></p>
+            </sec>
+            <sec>
+                <title>Statistical analysis</title>
+                <p>Descriptive statistics were performed to characterise the study population and demographics. As spinal accessory RNS and CMAP were only obtained at the baseline and 14-month visits in a subset of participants, these data were analysed in two ways: cross-sectional (all participants, regardless if data was only obtained at one visit) and longitudinal (only participants with both baseline and month 14 data). Spinal accessory RNS decrement and CMAP amplitude were compared cross-sectionally using unpaired t-test between all untreated participants who underwent testing versus all participants who underwent testing following 14 months of treatment. In a proportion of patients, RNS and CMAP amplitude testing were obtained both at baseline (pretreatment) and following 14 months of treatment, and in these participants, RNS decrement and CMAP amplitude were compared using paired t-tests. Assumptions required for a t-test were checked and verified.</p>
+                <p>Pearson correlation coefficients between spinal accessory RNS decrement and CMAP amplitude (in all patients at 14 months of nusinersen treatment) were calculated versus age and disease duration. Additionally, spinal accessory RNS decrement and CMAP amplitudes were compared between ambulatory and non-ambulatory patients at 14 months of treatment with nusinersen using unpaired t-test. SMN2 copy number was compared in participants with and without &gt;10% CMAP amplitude loss (decrement) on RNS using unpaired t-test.</p>
+                <p>Associations between muscle strength and physical function were investigated in ambulatory patients (following 14 months of nusinersen treatment) by calculating Pearson correlation coefficients between RNS % CMAP decrement versus electrophysiological testing, MVICT testing, 6MWT distance, 6MWT fatigue, RULM and HFMSE score. For all comparisons, p&lt;0.05 was considered significant. Statistical analyses were performed with GraphPad Prism V.8.4.3 (GraphPad Software, San Diego, California, USA).</p>
+            </sec>
+        </sec>
+        <sec>
+            <title>Results</title>
+            <sec>
+                <title>Cohort description</title>
+                <p>Data from 24 participants were analysed (
+                    <xref rid="Figure1">
+                        <underline>figure 1</underline></xref>) . Of these, 13 were ambulatory (7 men/6 women, mean age 40±11 years, mean SMN2 copy number 3.8±0.6 (3 copies, n=4, 31%; four copies, n=8, 62%; five copies=1, 8%)) and 11 were non-ambulatory (3 men/8 women, mean age 38±12 years, mean SMN2 copy number 3.2±0.4 (3 copies, n=9, 82%; four copies, n=2, 18%)). RNS assessments were initiated as a substudy following the enrolment of some participants, baseline RNS values were not obtained in a proportion of participants. Additionally, COVID-19-related restrictions led to missing RNS data at the month 14 visit in a proportion of participants. A total of 17 participants (7 ambulatory) were assessed at baseline, and a total of 15 participants (9 ambulatory) were assessed at 14 months of nusinersen treatment. Of the 24 participants, a total of 8 (3 ambulatory) underwent NMJ assessment both prior to nusinersen treatment and also at 14 months of nusinersen treatment. A total of 16 participants lacked longitudinal data (data at baseline and month 14 visits). Eight participants did not have baseline assessments as they had already initiated nusinersen at the start of this substudy. Five participants lacked month 14 visit data (two due to COVID-19 restrictions and three for study withdrawal). In three participants, the month 14 visit occurred after data lock and analyses (10/2020). One participant was taking oral albuterol 4 mg/day. No other participants were taking any agents that might impact NMJ transmission including pyridostigmine or 3,4-diaminopyridine.</p>
+                <p>
+                    <graphic xlink:href="data/neuro_01_06_fig1.jpg" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+                </p>
+                <fig id="Figure1">
+                    <label>Figure 1</label>
+                </fig>
+            </sec>
+            <sec>
+                <title>Impact of nusinersen on CMAP decrement and CMAP amplitude</title>
+                <p>Spinal accessory CMAP decrement during RNS and CMAP amplitude were analysed cross-sectionally (all participants with assessment at baseline and/or month 14) and longitudinally (only participants with assessments at baseline and month 14), pre-14 months and post-14 months of nusinersen treatment (
+                    <xref rid="Figure2">
+                        <underline>figure 2A,B</underline></xref>). Accordingly, there were no significant changes in severity of CMAP amplitude decrement following treatment. After 14 months of nusinersen treatment, 9 of 15 (60%) participants had &gt;10% CMAP amplitude decrement.</p>
+                <p>
+                    <graphic xlink:href="data/neuro_01_06_fig2.jpg" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+                </p>
+                <fig id="Figure2">
+                    <label>Figure 2</label>
+                </fig>
+                <p>In contrast, longitudinal CMAP amplitude was significantly increased at 14 months compared with baseline (
+                    <xref rid="Figure2">
+                        <underline>figure 2C,D</underline></xref>), and increases in CMAP were seen in all participants except one non-ambulatory participant who showed a reduction from 2.0 mV at baseline to 1.8 mV at 14 months. In two participants studied longitudinally (both ambulatory), CMAP amplitude decrement worsened (baseline to 14 months: +4.4% to −17.8% and −11.6% to −21.2%), but interestingly, both of these participants showed increases in CMAP amplitude (baseline to 14 months: 5.4 mV to 6.5 mV and 3.4 mV to 4.3 mV, respectively). In the ambulatory participants who were studied longitudinally, there was a variable increase in 6MWT distance at 14 months compared with baseline (baseline to 14 months: 374 m to 380 m, 404 m to 500 m, and 121 m to 132 m; paired t-test; p=0.3261).</p>
+            </sec>
+            <sec>
+                <title>Impact of age, disease duration and ambulatory ability on CMAP decrement and amplitude</title>
+                <p>Correlation analysis between CMAP decrement versus both age and disease duration demonstrated no significant associations (
+                    <xref rid="Figure3">
+                        <underline>figure 3A,B</underline></xref>). Mean SMN2 copy number in participants with abnormal decrement (−10% or more) after 14 months of nusinersen treatment was similar to those with normal RNS findings (abnormal RNS decrement: 3.4±0.5 SMN2 copies vs normal RNS: 3.6±0.5 SMN2 copies; unpaired t-test, p=0.4829) (data not shown). Furthermore, CMAP decrement was similar in non-ambulatory and ambulatory participants (all assessed following 14 months of nusinersen treatment). Similarly, CMAP amplitude did not show significant correlations with age or disease duration, but CMAP was significantly different between ambulatory and non-ambulatory patients (all at 14 months of nusinersen treatment) (
+                    <xref rid="Figure4">
+                        <underline>figure 4A–C</underline></xref>). CMAP amplitude was also significantly different between ambulatory and non-ambulatory patients at baseline prior to nusinersen treatment (ambulatory, n=7: mean=7.2±2.8 mV vs non-ambulatory, n=10: mean=2.2±2.0 mV; unpaired t-test, p=0.0005) (data not shown).</p>
+                <p>
+                    <graphic xlink:href="data/neuro_01_06_fig3.jpg" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+                </p>
+                <fig id="Figure3">
+                    <label>Figure 3</label>
+                </fig>
+                <p>
+                    <graphic xlink:href="data/neuro_01_06_fig4.jpg" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+                </p>
+                <fig id="Figure4">
+                    <label>Figure 4</label>
+                </fig>
+            </sec>
+            <sec>
+                <title>Muscle strength and function are associated with CMAP decrement in ambulatory participants with SMA</title>
+                <p>To understand the associations between NMJ transmission defects and function in a uniform population, rather than across subtypes of SMA, correlation coefficients were analysed in ambulatory participants after 14 months of nusinersen treatment. Another rationale for analysing the ambulatory participant group was that the majority of the participants in this group could perform all outcome assessments (in contrast to the non-ambulatory cohort where some assessments were not possible). CMAP decrement showed associations with measures of upper and lower limb muscle strength on MVICT (
+                    <xref rid="Figure5">
+                        <underline>figure 5A–F</underline></xref>). Similarly, CMAP decrement was associated with upper limb function as assessed by RULM (
+                    <xref rid="Figure6">
+                        <underline>figure 6A</underline></xref>). Similar to that which has been shown in untreated ambulatory patients, CMAP decrement was associated with 6MWT distance and fatigue on the 6MWT as quantified as a ratio between the distance walked for 6 min vs 1 min of the test (
+                    <xref rid="Figure6">
+                        <underline>figure 6B,C</underline></xref>).[17] CMAP decrement (not shown) showed no significant associations with ulnar nerve motor unit electrophysiological testing including abductor digiti minimi CMAP amplitude (r2=0.1094, p=0.3846), average SMUP (r2=0.3053, p=0.1229) or MUNE (r2=0.3715, p=0.0814).</p>
+                <p>
+                    <graphic xlink:href="data/neuro_01_06_fig5.jpg" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+                </p>
+                <fig id="Figure5">
+                    <label>Figure 5</label>
+                </fig>
+                <p>
+                    <graphic xlink:href="data/neuro_01_06_fig6.jpg" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+                </p>
+                <fig id="Figure6">
+                    <label>Figure 6</label>
+                </fig>
+            </sec>
+        </sec>
+        <sec>
+            <title>Discussion</title>
+            <p>In the current study, we found a high frequency of NMJ transmission abnormalities (as measured with RNS CMAP amplitude decrement) in adult participants with SMA. Similar to prior studies, NMJ transmission defects were prevalent in our cohort of untreated SMA.
+                <xref ref-type="bibr" rid="bibl17">[17]</xref>
+                <xref ref-type="bibr" rid="bibl26">[26]</xref>
+                Importantly, we showed that nusinersen treatment did not impact NMJ transmission defects. Furthermore, the NMJ defects that persisted following treatment were similar between groups of adult patients with differing severities, did not appear linked to SMN2 copy number, and were not related to age and disease duration. Yet, when we investigated the relationships between NMJ transmission defects and measures of muscle strength and function in a more uniform group, we found surprisingly strong associations.</p>
+            <sec>
+                <title>Nusinersen improves neuromuscular function but not NMJ transmission defects</title>
+                <p>Prior studies in infants, children and adults have shown that nusinersen results in consistent improvements in neuromuscular function as measured by motor outcomes and electrophysiological measures such as CMAP amplitude.
+                    <xref ref-type="bibr" rid="bibl10">[10]</xref>
+                    <xref ref-type="bibr" rid="bibl11">[11]</xref>
+                    <xref ref-type="bibr" rid="bibl27">[27]</xref>
+                    <xref ref-type="bibr" rid="bibl28">[28]</xref>
+                    <xref ref-type="bibr" rid="bibl29">[29]</xref>
+                    <xref ref-type="bibr" rid="bibl30">[30]</xref>
+                    <xref ref-type="bibr" rid="bibl31">[31]</xref>
+                    <xref ref-type="bibr" rid="bibl32">[32]</xref>
+                    We found robust effects of nusinersen when analysing trapezius CMAP amplitude following 14 months of nusinersen. In fact, all but one non-ambulatory participant showed increased CMAP amplitude. In our cohort, a total of 16 participants were analysed prior to nusinersen treatment, and as a group had a mean decrement of &gt;10% in the trapezius muscle. In these 16 participants assessed prior to treatment, 9 had &gt;10% decrement, and decrement of &gt;10% amplitude is generally considered pathological and indicative of NMJ transmission defects.
+                    <xref ref-type="bibr" rid="bibl21">[21]</xref>
+                    These findings are similar to prior studies that have investigated NMJ transmission using RNS assessment in untreated patients with SMA.
+                    <xref ref-type="bibr" rid="bibl16">[16]</xref>
+                    <xref ref-type="bibr" rid="bibl17">[17]</xref>
+                    Wadman and colleagues reported that roughly half of the patients with type II and III SMA in their study had pathological levels of CMAP decrement (&gt;10%).
+                    <xref ref-type="bibr" rid="bibl16">[16]</xref>
+                    Following nusinersen treatment, we found no evidence for significant improvements in RNS CMAP amplitude decrement following nusinersen treatment. In two participants, both ambulatory, we observed worsening of RNS CMAP amplitude decrement, but in both of these participants, CMAP amplitude increased. When analysed cross-sectionally and longitudinally, we found no clear evidence that SMN restoration (via nusinersen for 14 months) impacted RNS CMAP decrement. Therefore, our study supports the findings of prior studies that have shown that NMJ transmission defects are common in untreated patients with SMA. Furthermore, our study supports that nusinersen does not impact NMJ transmission.</p>
+            </sec>
+            <sec>
+                <title>SMN therapeutic interventions: importance of timing and distribution?</title>
+                <p>The current study was a substudy of two open-label studies that were designed to assess the tolerability and impact of nusinersen in ambulatory and non-ambulatory adults with SMA. There is building evidence that SMN restoration, even in later-onset SMA and at late-symptomatic stages of disease, contributes to improvements in patients.
+                    <xref ref-type="bibr" rid="bibl10">[10]</xref>
+                    <xref ref-type="bibr" rid="bibl11">[11]</xref>
+                    <xref ref-type="bibr" rid="bibl27">[27]</xref>
+                    <xref ref-type="bibr" rid="bibl28">[28]</xref>
+                    <xref ref-type="bibr" rid="bibl29">[29]</xref>
+                    <xref ref-type="bibr" rid="bibl30">[30]</xref>
+                    <xref ref-type="bibr" rid="bibl31">[31]</xref>
+                    <xref ref-type="bibr" rid="bibl32">[32]</xref>
+                    However, it is clear based on preclinical and clinical data that earlier SMN interventions have resulted in greater impact on SMA disease phenotype.
+                    <xref ref-type="bibr" rid="bibl12">[12]</xref>
+                    <xref ref-type="bibr" rid="bibl18">[18]</xref>
+                    Here we investigated SMN restoration at very late stages in the disease course, yet, similar to other studies in adult patients with SMA, we saw favourable response on CMAP amplitudes and other outcomes, although less robust compared with those seen in infants and children.
+                    <xref ref-type="bibr" rid="bibl07">[7]</xref>
+                    <xref ref-type="bibr" rid="bibl10">[10]</xref>
+                    <xref ref-type="bibr" rid="bibl11">[11]</xref>
+                    <xref ref-type="bibr" rid="bibl12">[12]</xref>
+                    <xref ref-type="bibr" rid="bibl27">[27]</xref>
+                    <xref ref-type="bibr" rid="bibl28">[28]</xref>
+                    <xref ref-type="bibr" rid="bibl29">[29]</xref>
+                    <xref ref-type="bibr" rid="bibl30">[30]</xref>
+                    <xref ref-type="bibr" rid="bibl31">[31]</xref>
+                    <xref ref-type="bibr" rid="bibl32">[32]</xref></p>
+                <p>Similarly, we saw improvements of CMAP amplitude in the current study supporting improvement of neuromuscular function. These improvements did not extend to NMJ transmission as measured by RNS in the spinal accessory nerve. While we saw no significant impact on NMJ transmission in the current study, we would predict that earlier interventions would result in greater motor neuron preservation, as measured by CMAP and MUNE, and thus may have impact on NMJ function. This is an unanswered question that deserves further attention.</p>
+                <p>Another aspect that deserves additional attention in future studies is where SMN protein restoration is required for adequate NMJ transmission. There are mainly preclinical data and very limited or indirect clinical evidence that high levels of SMN are needed in extraneuronal tissues, but this topic is highly debated.
+                    <xref ref-type="bibr" rid="bibl33">[33]</xref>
+                    The distribution of SMN restoration effects following nusinersen, risdiplam and onasemnogene abeparvovec-xioi vary, and thus this will likely result in varied tissue distribution of SMN-level increases.
+                    <xref ref-type="bibr" rid="bibl13">[13]</xref>
+                    Nusinersen is intrathecally delivered and significant SMN increases are not expected in the periphery. Thus, it is possible that increasing SMN levels at the NMJ (disease-modifying agents that act systemically to increase SMN protein) may have more impact on NMJ transmission reliability in patients with SMA.</p>
+            </sec>
+            <sec>
+                <title>Persistent NMJ defects are linked to physical function but not linked to SMA phenotype</title>
+                <p>Prior studies in untreated patients with SMA of relatively uniform severity have demonstrated that RNS decrement is associated with physical function and fatigue during sustained tasks.
+                    <xref ref-type="bibr" rid="bibl17">[17]</xref>
+                    We were interested in investigating these associations in ambulatory participants following 14 months of nusinersen treatment. We analysed the associations between other outcomes including ulnar motor unit electrophysiology, muscle strength and physical function versus RNS CMAP decrement. We found strong associations between muscle strength and function versus the CMAP amplitude decrement on RNS. This suggests that NMJ transmission defects may contribute to functional impairment in patients with SMA even following SMN restoration with nusinersen. Our study in treated ambulatory participants with SMA, similar to prior studies in untreated patients wtih SMA, demonstrated associations between NMJ transmission defects and fatigability on the 6MWT.
+                    <xref ref-type="bibr" rid="bibl17">[17]</xref></p>
+                <p>A more recent study in children and adults showed that while fatigue is linked to SMA phenotype, findings of NMJ transmission failure on RNS were not, but notably, this study assessed a relatively heterogeneous cohort of SMA compared with our study and others.
+                    <xref ref-type="bibr" rid="bibl34">[34]</xref>
+                    Our correlation analyses, and prior studies, showed strong correlations when assessed in more uniform populations with regard to physical function, namely, ambulatory patients, and thus, this may explain the difference between studies.
+                    <xref ref-type="bibr" rid="bibl17">[17]</xref>
+                    <xref ref-type="bibr" rid="bibl34">[34]</xref></p>
+                <p>A primary role of SMN protein at the NMJ during development, maintenance and repair has been proposed.
+                    <xref ref-type="bibr" rid="bibl35">[35]</xref>
+                    Interestingly, we did not see any differences in RNS decrement between non-ambulatory and ambulatory patients. This is similar to the study by Wadman et al
+                    <xref ref-type="bibr" rid="bibl16">[16]</xref>
+                    in that they saw no associations with disease duration or clinical scores when analysing type II, III and IV patients together. This supports that NMJ transmission defects are not primarily related to SMA pathogenesis but are a secondary effect of motor neuron and motor unit loss and compensatory remodelling at the NMJ.</p>
+                <p>Whether NMJ defects are primary to SMN deficiency or secondary to motor neuron degeneration and associated collateral sprouting and remodelling requires further study. In support of the possibility of secondary process, prior studies in other motor neuron disorders including amyotrophic lateral sclerosis, poliomyelitis/postpolio syndrome and Kennedy disease have shown striking NMJ transmission defects in each of these disorders.
+                    <xref ref-type="bibr" rid="bibl36">[36]</xref>
+                    <xref ref-type="bibr" rid="bibl37">[37]</xref>
+                    <xref ref-type="bibr" rid="bibl38">[38]</xref>
+                    It is possible that an individual’s ability to maintain connectivity (via compensation/sprouting) at the NMJ irrespective of SMA severity is an SMN independent modifier of phenotype related to other intrinsic factors within individuals. In other words, the ability of an individual’s neuromuscular system to maintain NMJ transmission in the face of motor neuron loss may be a modifier of SMA severity. Yet, possibly arguing against this is the fact that we also did not see significant correlations between RNS decrement versus motor unit numbers (MUNE) and average motor unit size (SMUP), but these measurements were performed in a different muscle.</p>
+                <p>Regardless of whether NMJ defects are primary or secondary to SMA pathogenesis, the strong association between NMJ transmission defects and function suggests that modulation of NMJ transmission using agents used in myasthenic disorders may be of benefit in patients in SMA. Interestingly, there is some evidence that salbutamol, an agent commonly used in congenital myasthenic disorders, is beneficial in SMA.
+                    <xref ref-type="bibr" rid="bibl39">[39]</xref>
+                    Additionally, there are studies with pending results that have investigated other agents such as pyridostigmine.
+                    <xref ref-type="bibr" rid="bibl40">[40]</xref>
+                    Thus, NMJ transmission modulation may be a promising additive therapeutic target in SMA. Additional study is needed to understand if the SMA-related NMJ transmission defects, which are most likely related to motor neuron loss and NMJ remodelling, will respond in a similar manner as compared with primary disorders of the NMJ.</p>
+            </sec>
+        </sec>
+        <sec>
+            <title>Conclusions</title>
+            <p>Our results suggest that a high percentage of adults with SMA have NMJ transmission defects as measured by RNS at 3 Hz stimulation of the spinal accessory nerve. The findings of significant correlations between RNS and other functional assessments including measures of muscle strength and mobility suggest that NMJ transmission contributes to physical function impairment. Our preliminary data suggest that NMJ transmission defects may persist despite treatment with nusinersen, but our findings should be considered in the context of the small sample size and short duration of the study. Additionally, the effect of other therapeutic strategies and earlier intervention deserve additional attention and study. This study provides the first data in humans in support of NMJ modulation as a possible SMN-independent target for additive pharmacological interventions.</p>
+        </sec>
+        <sec>
+            <title>Data availability statement</title>
+            <p>We will make all data available to qualified investigators upon reasonable request.</p>
+        </sec>
+        <sec>
+            <title>Ethics statements</title>
+            <p>Patient consent for publication</p>
+            <p>Not required.</p>
+        </sec>
+        <sec>
+            <title>Ethics approval</title>
+            <p>Ethics approval was obtained from the The Ohio State University Institutional Review Board (2006H0207).</p>
+        </sec>
+        <sec>
+            <title>References</title>
+            <p content-type="bibl">1 Bartels B, Habets LE, Stam M, et al. Assessment of fatigability in patients with spinal muscular atrophy: development and content validity of a set of endurance tests. BMC Neurol 2019;19:21.
+                <ext-link xlink:href="https://doi.org/10.1186/s12883-019-1244-3" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <underline>doi: 10.1186/s12883-019-1244-3</underline></ext-link>
+            </p>
+            <p content-type="bibl">2 Crawford TO, Pardo CA. The neurobiology of childhood spinal muscular atrophy. Neurobiol Dis 1996;3:97–110.
+                <ext-link xlink:href="https://doi.org/10.1006/nbdi.1996.0010" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <underline>doi:10.1006/nbdi.1996.0010</underline></ext-link>
+            </p>
+            <p content-type="bibl">3 Burghes AHM, Beattie CE. Spinal muscular atrophy: why do low levels of survival motor neuron protein make motor neurons sick? Nat Rev Neurosci 2009;10:597–609.
+                <ext-link xlink:href="https://doi.org/10.1038/nrn2670" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <underline>doi:10.1038/nrn2670</underline></ext-link>
+            </p>
+            <p content-type="bibl">4 Kolb SJ, Coffey CS, Yankey JW, et al. Natural history of infantile‐onset spinal muscular atrophy. Ann Neurol 2017;82:883–91.
+                <ext-link xlink:href="https://doi.org/10.1002/ana.25101" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <underline>doi:10.1002/ana.25101</underline></ext-link>
+            </p>
+            <p content-type="bibl">5 Elsheikh B, Prior T, Zhang X, et al. An analysis of disease severity based on SMN2 copy number in adults with spinal muscular atrophy. Muscle Nerve 2009;40:652-6.
+                <ext-link xlink:href="https://doi.org/10.1002/mus.21350" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <underline>doi:10.1002/mus.21350</underline></ext-link>
+            </p>
+            <p content-type="bibl">6 Swoboda KJ, Prior TW, Scott CB, et al. Natural history of denervation in SMA: relation to age, SMN2 copy number, and function. Ann Neurol 2005;57:704–12.
+                <ext-link xlink:href="https://doi.org/10.1002/ana.20473" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <underline>doi:10.1002/ana.20473</underline></ext-link>
+            </p>
+            <p content-type="bibl">7 Finkel RS, Mercuri E, Darras BT, et al. Nusinersen versus sham control in infantile-onset spinal muscular atrophy. N Engl J Med 2017;377:1723–32.
+                <ext-link xlink:href="https://doi.org/10.1056/nejmoa1702752" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <underline>doi:10.1056/NEJMoa1702752</underline></ext-link>
+            </p>
+            <p content-type="bibl">8 Darras BT, Chiriboga CA, Iannaccone ST, et al. Nusinersen in later-onset spinal muscular atrophy. Neurology 2019;92:e2492–506.
+                <ext-link xlink:href="https://doi.org/10.1212/wnl.0000000000007527" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <underline>doi:10.1212/WNL.0000000000007527</underline></ext-link>
+            </p>
+            <p content-type="bibl">9 Mercuri E, Darras BT, Chiriboga CA, et al. Nusinersen versus sham control in Later-Onset spinal muscular atrophy. N Engl J Med 2018;378:625–35.
+                <ext-link xlink:href="https://doi.org/10.1056/nejmoa1710504" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <underline>doi:10.1056/NEJMoa1710504</underline></ext-link>
+            </p>
+            <p content-type="bibl">10 Walter MC, Wenninger S, Thiele S, et al. Safety and treatment effects of nusinersen in longstanding adult 5q-SMA Type 3 - a prospective observational study. J Neuromuscul Dis 2019;6:453–65.
+                <ext-link xlink:href="https://doi.org/10.3233/jnd-190416" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <underline>doi:10.3233/JND-190416</underline></ext-link>
+            </p>
+            <p content-type="bibl">11 Hagenacker T, Wurster CD, Günther R, et al. Nusinersen in adults with 5q spinal muscular atrophy: a non-interventional, multicentre, observational cohort study. Lancet Neurol 2020;19:317–25.
+                <ext-link xlink:href="https://doi.org/10.1016/s1474-4422(20)30037-5" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <underline>doi:10.1016/S1474-4422(20)30037-5</underline></ext-link>
+            </p>
+            <p content-type="bibl">12 Mendell JR, Al-Zaidy S, Shell R, et al. Single-Dose Gene-Replacement therapy for spinal muscular atrophy. N Engl J Med 2017;377:1713–22.
+                <ext-link xlink:href="https://www.nejm.org/doi/full/10.1056/nejmoa1706198" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <underline>doi:10.1056/NEJMoa1706198</underline></ext-link>
+            </p>
+            <p content-type="bibl">13 Poirier A, Weetall M, Heinig K, et al. Risdiplam distributes and increases SMN protein in both the central nervous system and peripheral organs. Pharmacol Res Perspect 2018;6:e00447.doi:10.1002/prp2.447</p>
+            <p content-type="bibl">14 Ratni H, Ebeling M, Baird J, et al. Discovery of Risdiplam, a Selective Survival of Motor Neuron-2 (SMN2) Gene Splicing Modifier for the Treatment of Spinal Muscular Atrophy (SMA). J Med Chem 2018;61:6501–17.doi:10.1021/acs.jmedchem.8b00741</p>
+            <p content-type="bibl">15 Kong L, Wang X, Choe DW, et al. Impaired synaptic vesicle release and immaturity of neuromuscular junctions in spinal muscular atrophy mice. J Neurosci 2009;29:842–51.doi:10.1523/JNEUROSCI.4434-08.2009</p>
+            <p content-type="bibl">16 Wadman RI, Vrancken AFJE, van den Berg LH, et al. Dysfunction of the neuromuscular junction in spinal muscular atrophy types 2 and 3. Neurology 2012;79:2050–5.doi:10.1212/WNL.0b013e3182749eca</p>
+            <p content-type="bibl">17 Pera MC, Luigetti M, Pane M, et al. 6MWT can identify type 3 SMA patients with neuromuscular junction dysfunction. Neuromuscul Disord 2017;27:879–82.doi:10.1016/j.nmd.2017.07.007</p>
+            <p content-type="bibl">18 Foust KD, Wang X, McGovern VL, et al. Rescue of the spinal muscular atrophy phenotype in a mouse model by early postnatal delivery of SMN. Nat Biotechnol 2010;28:271–4.doi:10.1038/nbt.1610</p>
+            <p content-type="bibl">19 Elsheikh B, Severyn S, Zhao S, et al. Safety, tolerability, and effect of nusinersen in Non-ambulatory adults with spinal muscular atrophy. Front Neurol 2021;12:650532. doi:10.3389/fneur.2021.650532</p>
+            <p content-type="bibl">20 Elsheikh B, Severyn S, Zhao S, et al. Safety, tolerability, and effect of nusinersen treatment in ambulatory adults with 5q-SMA. Front Neurol 2021;12:650535. doi:10.3389/fneur.2021.650535</p>
+            <p content-type="bibl">21 Juel VC. Evaluation of neuromuscular junction disorders in the electromyography laboratory. Neurol Clin 2012;30:621–39.doi:10.1016/j.ncl.2011.12.012</p>
+            <p content-type="bibl">22 Montes J, McDermott MP, Martens WB, et al. Six-Minute walk test demonstrates motor fatigue in spinal muscular atrophy. Neurology 2010;74:833–8.doi:10.1212/WNL.0b013e3181d3e308</p>
+            <p content-type="bibl">23 Krosschell KJ, Maczulski JA, Crawford TO, et al. A modified Hammersmith functional motor scale for use in multi-center research on spinal muscular atrophy. Neuromuscul Disord 2006;16:417–26.doi:10.1016/j.nmd.2006.03.015</p>
+            <p content-type="bibl">24 Mazzone ES, Mayhew A, Montes J, et al. Revised upper limb module for spinal muscular atrophy: development of a new module. Muscle Nerve 2017;55:869–74.doi:10.1002/mus.25430</p>
+            <p content-type="bibl">25 Elsheikh B, King W, Peng J, et al. Outcome measures in a cohort of ambulatory adults with spinal muscular atrophy. Muscle Nerve 2020;61:187–91.doi:10.1002/mus.26756</p>
+            <p content-type="bibl">26 Wadman RI, Vrancken AFJE, van den Berg LH, et al. Dysfunction of the neuromuscular junction in spinal muscular atrophy types 2 and 3. Neurology 2012;79:2050–5.doi:10.1212/WNL.0b013e3182749eca</p>
+            <p content-type="bibl">27 Veerapandiyan A, Eichinger K, Guntrum D, et al. Nusinersen for older patients with spinal muscular atrophy: a real-world clinical setting experience. Muscle Nerve 2020;61:222–6.doi:10.1002/mus.26769</p>
+            <p content-type="bibl">28 Jochmann E, Steinbach R, Jochmann T, et al. Experiences from treating seven adult 5q spinal muscular atrophy patients with nusinersen. Ther Adv Neurol Disord 2020;13:1756286420907803. doi:10.1177/1756286420907803</p>
+            <p content-type="bibl">29 Yeo CJJ, Simeone SD, Townsend EL, et al. Prospective cohort study of nusinersen treatment in adults with spinal muscular atrophy. J Neuromuscul Dis 2020;7:257–68.doi:10.3233/JND-190453</p>
+            <p content-type="bibl">30 Moshe-Lilie O, Visser A, Chahin N, et al. Nusinersen in adult patients with spinal muscular atrophy: observations from a single center. Neurology 2020;95:e413–6.doi:10.1212/WNL.0000000000009914</p>
+            <p content-type="bibl">31 De Wel B, Goosens V, Sobota A, et al. Nusinersen treatment significantly improves hand grip strength, hand motor function and MRC sum scores in adult patients with spinal muscular atrophy types 3 and 4. J Neurol 2021;268:923–35.doi:10.1007/s00415-020-10223-9</p>
+            <p content-type="bibl">32 Maggi L, Bello L, Bonanno S, et al. Nusinersen safety and effects on motor function in adult spinal muscular atrophy type 2 and 3. J Neurol Neurosurg Psychiatry 2020;91:1166–74.doi:10.1136/jnnp-2020-323822</p>
+            <p content-type="bibl">33 Yeo CJJ, Darras BT, Yeo DBT. Yeo and Darras: extraneuronal phenotypes of spinal muscular atrophy. Ann Neurol 2021;89:24–6.doi:10.1002/ana.25930</p>
+            <p content-type="bibl">34 Bartels B, de Groot JF, Habets LE, et al. Correlates of fatigability in patients with spinal muscular atrophy. Neurology 2021;96:10.1212/WNL.0000000000011230. doi:10.1212/WNL.0000000000011230</p>
+            <p content-type="bibl">35 Kariya S, Obis T, Garone C, et al. Requirement of enhanced survival motoneuron protein imposed during neuromuscular junction maturation. J Clin Invest 2014;124:785–800.doi:10.1172/JCI72017</p>
+            <p content-type="bibl">36 Onodera K, Shimojo D, Ishihara Y, et al. Unveiling synapse pathology in spinal bulbar muscular atrophy by genome-wide transcriptome analysis of purified motor neurons derived from disease specific iPSCs. Mol Brain 2020;13:18. doi:10.1186/s13041-020-0561-1</p>
+            <p content-type="bibl">37 Fu L-L, Yin H-X, Liu M-S, et al. Study on variation trend of repetitive nerve stimulation waveform in amyotrophic lateral sclerosis. Chin Med J 2019;132:542. doi:10.1097/CM9.0000000000000117</p>
+            <p content-type="bibl">38 Howard RS. Poliomyelitis and the postpolio syndrome. BMJ 2005;330:1314–8.doi:10.1136/bmj.330.7503.1314</p>
+            <p content-type="bibl">39 Pera MC, Luigetti M, Sivo S, et al. Does albuterol have an effect on neuromuscular junction dysfunction in spinal muscular atrophy? Neuromuscul Disord 2018;28:863–4.doi:10.1016/j.nmd.2018.07.013</p>
+            <p content-type="bibl">40 Stam M, Wadman RI, Wijngaarde CA, et al. Protocol for a phase II, monocentre, double-blind, placebo-controlled, cross-over trial to assess efficacy of pyridostigmine in patients with spinal muscular atrophy types 2-4 (space trial). BMJ Open 2018;8:e019932. doi:10.1136/bmjopen-2017-019932</p>
+        </sec>
+    </body>
+    <back>
+        <app-group/>
+        <ref-list>
+            <title>References</title>
+            <ref id="bibl01">
+                <mixed-citation>1 Bartels B, Habets LE, Stam M, et al. Assessment of fatigability in patients with spinal muscular atrophy: development and content validity of a set of endurance tests. BMC Neurol 2019;19:21. doi:10.1186/s12883-019-1244-3</mixed-citation>
+            </ref>
+            <ref id="bibl02">
+                <mixed-citation>2 Crawford TO, Pardo CA. The neurobiology of childhood spinal muscular atrophy. Neurobiol Dis 1996;3:97–110.doi:10.1006/nbdi.1996.0010</mixed-citation>
+            </ref>
+            <ref id="bibl03">
+                <mixed-citation>3 Burghes AHM, Beattie CE. Spinal muscular atrophy: why do low levels of survival motor neuron protein make motor neurons sick? Nat Rev Neurosci 2009;10:597–609.doi:10.1038/nrn2670</mixed-citation>
+            </ref>
+            <ref id="bibl04">
+                <mixed-citation>4 Kolb SJ, Coffey CS, Yankey JW, et al. Natural history of infantile‐onset spinal muscular atrophy. Ann Neurol 2017;82:883–91.doi:10.1002/ana.25101</mixed-citation>
+            </ref>
+            <ref id="bibl05">
+                <mixed-citation>5 Elsheikh B, Prior T, Zhang X, et al. An analysis of disease severity based on SMN2 copy number in adults with spinal muscular atrophy. Muscle Nerve 2009;40:652-6.doi:10.1002/mus.21350</mixed-citation>
+            </ref>
+            <ref id="bibl06">
+                <mixed-citation>6 Swoboda KJ, Prior TW, Scott CB, et al. Natural history of denervation in SMA: relation to age, SMN2 copy number, and function. Ann Neurol 2005;57:704–12.doi:10.1002/ana.20473</mixed-citation>
+            </ref>
+            <ref id="bibl07">
+                <mixed-citation>7 Finkel RS, Mercuri E, Darras BT, et al. Nusinersen versus sham control in infantile-onset spinal muscular atrophy. N Engl J Med 2017;377:1723–32.doi:10.1056/NEJMoa1702752</mixed-citation>
+            </ref>
+            <ref id="bibl08">
+                <mixed-citation>8 Darras BT, Chiriboga CA, Iannaccone ST, et al. Nusinersen in later-onset spinal muscular atrophy. Neurology 2019;92:e2492–506.doi:10.1212/WNL.0000000000007527</mixed-citation>
+            </ref>
+            <ref id="bibl09">
+                <mixed-citation>9 Mercuri E, Darras BT, Chiriboga CA, et al. Nusinersen versus sham control in Later-Onset spinal muscular atrophy. N Engl J Med 2018;378:625–35.doi:10.1056/NEJMoa1710504</mixed-citation>
+            </ref>
+            <ref id="bibl10">
+                <mixed-citation>10 Walter MC, Wenninger S, Thiele S, et al. Safety and treatment effects of nusinersen in longstanding adult 5q-SMA Type 3 - a prospective observational study. J Neuromuscul Dis 2019;6:453–65.doi:10.3233/JND-190416</mixed-citation>
+            </ref>
+            <ref id="bibl11">
+                <mixed-citation>11 Hagenacker T, Wurster CD, Günther R, et al. Nusinersen in adults with 5q spinal muscular atrophy: a non-interventional, multicentre, observational cohort study. Lancet Neurol 2020;19:317–25.doi:10.1016/S1474-4422(20)30037-5</mixed-citation>
+            </ref>
+            <ref id="bibl12">
+                <mixed-citation>12 Mendell JR, Al-Zaidy S, Shell R, et al. Single-Dose Gene-Replacement therapy for spinal muscular atrophy. N Engl J Med 2017;377:1713–22.doi:10.1056/NEJMoa1706198</mixed-citation>
+            </ref>
+            <ref id="bibl13">
+                <mixed-citation>13 Poirier A, Weetall M, Heinig K, et al. Risdiplam distributes and increases SMN protein in both the central nervous system and peripheral organs. Pharmacol Res Perspect 2018;6:e00447.doi:10.1002/prp2.447</mixed-citation>
+            </ref>
+            <ref id="bibl14">
+                <mixed-citation>14 Ratni H, Ebeling M, Baird J, et al. Discovery of Risdiplam, a Selective Survival of Motor Neuron-2 (SMN2) Gene Splicing Modifier for the Treatment of Spinal Muscular Atrophy (SMA). J Med Chem 2018;61:6501–17.doi:10.1021/acs.jmedchem.8b00741</mixed-citation>
+            </ref>
+            <ref id="bibl15">
+                <mixed-citation>15 Kong L, Wang X, Choe DW, et al. Impaired synaptic vesicle release and immaturity of neuromuscular junctions in spinal muscular atrophy mice. J Neurosci 2009;29:842–51.doi:10.1523/JNEUROSCI.4434-08.2009</mixed-citation>
+            </ref>
+            <ref id="bibl16">
+                <mixed-citation>16 Wadman RI, Vrancken AFJE, van den Berg LH, et al. Dysfunction of the neuromuscular junction in spinal muscular atrophy types 2 and 3. Neurology 2012;79:2050–5.doi:10.1212/WNL.0b013e3182749eca</mixed-citation>
+            </ref>
+            <ref id="bibl17">
+                <mixed-citation>17 Pera MC, Luigetti M, Pane M, et al. 6MWT can identify type 3 SMA patients with neuromuscular junction dysfunction. Neuromuscul Disord 2017;27:879–82.doi:10.1016/j.nmd.2017.07.007</mixed-citation>
+            </ref>
+            <ref id="bibl18">
+                <mixed-citation>18 Foust KD, Wang X, McGovern VL, et al. Rescue of the spinal muscular atrophy phenotype in a mouse model by early postnatal delivery of SMN. Nat Biotechnol 2010;28:271–4.doi:10.1038/nbt.1610</mixed-citation>
+            </ref>
+            <ref id="bibl19">
+                <mixed-citation>19 Elsheikh B, Severyn S, Zhao S, et al. Safety, tolerability, and effect of nusinersen in Non-ambulatory adults with spinal muscular atrophy. Front Neurol 2021;12:650532. doi:10.3389/fneur.2021.650532</mixed-citation>
+            </ref>
+            <ref id="bibl20">
+                <mixed-citation>20 Elsheikh B, Severyn S, Zhao S, et al. Safety, tolerability, and effect of nusinersen treatment in ambulatory adults with 5q-SMA. Front Neurol 2021;12:650535. doi:10.3389/fneur.2021.650535</mixed-citation>
+            </ref>
+            <ref id="bibl21">
+                <mixed-citation>21 Juel VC. Evaluation of neuromuscular junction disorders in the electromyography laboratory. Neurol Clin 2012;30:621–39.doi:10.1016/j.ncl.2011.12.012</mixed-citation>
+            </ref>
+            <ref id="bibl22">
+                <mixed-citation>22 Montes J, McDermott MP, Martens WB, et al. Six-Minute walk test demonstrates motor fatigue in spinal muscular atrophy. Neurology 2010;74:833–8.doi:10.1212/WNL.0b013e3181d3e308</mixed-citation>
+            </ref>
+            <ref id="bibl23">
+                <mixed-citation>23 Krosschell KJ, Maczulski JA, Crawford TO, et al. A modified Hammersmith functional motor scale for use in multi-center research on spinal muscular atrophy. Neuromuscul Disord 2006;16:417–26.doi:10.1016/j.nmd.2006.03.015</mixed-citation>
+            </ref>
+            <ref id="bibl24">
+                <mixed-citation>24 Mazzone ES, Mayhew A, Montes J, et al. Revised upper limb module for spinal muscular atrophy: development of a new module. Muscle Nerve 2017;55:869–74.doi:10.1002/mus.25430</mixed-citation>
+            </ref>
+            <ref id="bibl25">
+                <mixed-citation>25 Elsheikh B, King W, Peng J, et al. Outcome measures in a cohort of ambulatory adults with spinal muscular atrophy. Muscle Nerve 2020;61:187–91.doi:10.1002/mus.26756</mixed-citation>
+            </ref>
+            <ref id="bibl26">
+                <mixed-citation>26 Wadman RI, Vrancken AFJE, van den Berg LH, et al. Dysfunction of the neuromuscular junction in spinal muscular atrophy types 2 and 3. Neurology 2012;79:2050–5.doi:10.1212/WNL.0b013e3182749eca</mixed-citation>
+            </ref>
+            <ref id="bibl27">
+                <mixed-citation>27 Veerapandiyan A, Eichinger K, Guntrum D, et al. Nusinersen for older patients with spinal muscular atrophy: a real-world clinical setting experience. Muscle Nerve 2020;61:222–6.doi:10.1002/mus.26769</mixed-citation>
+            </ref>
+            <ref id="bibl28">
+                <mixed-citation>28 Jochmann E, Steinbach R, Jochmann T, et al. Experiences from treating seven adult 5q spinal muscular atrophy patients with nusinersen. Ther Adv Neurol Disord 2020;13:1756286420907803. doi:10.1177/1756286420907803</mixed-citation>
+            </ref>
+            <ref id="bibl29">
+                <mixed-citation>29 Yeo CJJ, Simeone SD, Townsend EL, et al. Prospective cohort study of nusinersen treatment in adults with spinal muscular atrophy. J Neuromuscul Dis 2020;7:257–68.doi:10.3233/JND-190453</mixed-citation>
+            </ref>
+            <ref id="bibl30">
+                <mixed-citation>30 Moshe-Lilie O, Visser A, Chahin N, et al. Nusinersen in adult patients with spinal muscular atrophy: observations from a single center. Neurology 2020;95:e413–6.doi:10.1212/WNL.0000000000009914</mixed-citation>
+            </ref>
+            <ref id="bibl31">
+                <mixed-citation>31 De Wel B, Goosens V, Sobota A, et al. Nusinersen treatment significantly improves hand grip strength, hand motor function and MRC sum scores in adult patients with spinal muscular atrophy types 3 and 4. J Neurol 2021;268:923–35.doi:10.1007/s00415-020-10223-9</mixed-citation>
+            </ref>
+            <ref id="bibl32">
+                <mixed-citation>32 Maggi L, Bello L, Bonanno S, et al. Nusinersen safety and effects on motor function in adult spinal muscular atrophy type 2 and 3. J Neurol Neurosurg Psychiatry 2020;91:1166–74.doi:10.1136/jnnp-2020-323822</mixed-citation>
+            </ref>
+            <ref id="bibl33">
+                <mixed-citation>33 Yeo CJJ, Darras BT, Yeo DBT. Yeo and Darras: extraneuronal phenotypes of spinal muscular atrophy. Ann Neurol 2021;89:24–6.doi:10.1002/ana.25930</mixed-citation>
+            </ref>
+            <ref id="bibl34">
+                <mixed-citation>34 Bartels B, de Groot JF, Habets LE, et al. Correlates of fatigability in patients with spinal muscular atrophy. Neurology 2021;96:10.1212/WNL.0000000000011230. doi:10.1212/WNL.0000000000011230</mixed-citation>
+            </ref>
+            <ref id="bibl35">
+                <mixed-citation>35 Kariya S, Obis T, Garone C, et al. Requirement of enhanced survival motoneuron protein imposed during neuromuscular junction maturation. J Clin Invest 2014;124:785–800.doi:10.1172/JCI72017</mixed-citation>
+            </ref>
+            <ref id="bibl36">
+                <mixed-citation>36 Onodera K, Shimojo D, Ishihara Y, et al. Unveiling synapse pathology in spinal bulbar muscular atrophy by genome-wide transcriptome analysis of purified motor neurons derived from disease specific iPSCs. Mol Brain 2020;13:18. doi:10.1186/s13041-020-0561-1</mixed-citation>
+            </ref>
+            <ref id="bibl37">
+                <mixed-citation>37 Fu L-L, Yin H-X, Liu M-S, et al. Study on variation trend of repetitive nerve stimulation waveform in amyotrophic lateral sclerosis. Chin Med J 2019;132:542. doi:10.1097/CM9.0000000000000117</mixed-citation>
+            </ref>
+            <ref id="bibl38">
+                <mixed-citation>38 Howard RS. Poliomyelitis and the postpolio syndrome. BMJ 2005;330:1314–8.doi:10.1136/bmj.330.7503.1314</mixed-citation>
+            </ref>
+            <ref id="bibl39">
+                <mixed-citation>39 Pera MC, Luigetti M, Sivo S, et al. Does albuterol have an effect on neuromuscular junction dysfunction in spinal muscular atrophy? Neuromuscul Disord 2018;28:863–4.doi:10.1016/j.nmd.2018.07.013</mixed-citation>
+            </ref>
+            <ref id="bibl40">
+                <mixed-citation>40 Stam M, Wadman RI, Wijngaarde CA, et al. Protocol for a phase II, monocentre, double-blind, placebo-controlled, cross-over trial to assess efficacy of pyridostigmine in patients with spinal muscular atrophy types 2-4 (space trial). BMJ Open 2018;8:e019932. doi:10.1136/bmjopen-2017-019932</mixed-citation>
+            </ref>
+        </ref-list>
+    </back>
+</article>
