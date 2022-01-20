@@ -5,9 +5,9 @@
 ## Declaration des images
 
 
-### pb balises `<label>` & `<caption>`
+### Problème balises `<label>` & `<caption>`
 
-mémo : Label doit contenir son "identitiant littéraire : Figure 2" et caption la légende, laquelle peut contenir un titre avec `<title>` [voir exemple JATS4R](#example-jats4r-image-avec-doi)
+mémo : Label doit contenir son "identitiant littéraire" : Figure 2 et caption la légende, laquelle peut contenir un titre avec `<title>` [voir exemple JATS4R](#example-jats4r-image-avec-doi)
 
 
 Article Kernbach
@@ -20,12 +20,12 @@ Figure 1.</p>
 </fig>
 ```
 
- > Figure 1. devrait être à l'intérieur de `<label>` et `Meta-topologies in primary brain tumors` dans `<caption>`
+ > Commentaire Erwan : Figure 1. devrait être à l'intérieur de `<label>` et `Meta-topologies in primary brain tumors` dans `<caption>`
 
 
 ### Présence de la balise `<caption>`
 
-Liu 
+Article Liu 
 ```xml
 <fig>
     <label>Figure 1.</label>
@@ -37,9 +37,9 @@ Liu
 ```
 
 
-### pb mineur : une déclaration d'image sans label
+### Problèmes mineurs : une déclaration d'image sans label
 
-Liu 
+Article Liu 
 ```xml
 <p>
     <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="data/neuro_01_08_table3.jpg" />
@@ -47,13 +47,13 @@ Liu
 ```
 
 
-### pb mineur : une image non déclarée
+### Problème mineur : une image non déclarée
 
 Liu 
 > Erwan commentaire : image "neuro_01_08_table2.jpg" n'est déclaré nulle part bien qu'étant présent parmi les images dépendentes et étant fait "référence" dans le jats 
 
 
-### pb mineur : une balise autofermante inutile 
+### Problème mineur : une balise autofermante inutile 
 
 
 Article Kernbach
@@ -70,11 +70,12 @@ Article Kernbach
 ```
 
 <br />
+<br />
 
 ## Déclaration et référence des table
 
 
- Dans l'article Kernbach (METATOPOLOGIES) il est fait référence à 4 tables mais il n'y a qu'une table de déclarée en tant que telle sous la balise `<table>`, les autres tables étant introduites comme des images de table, sous la balise `<graphic>` donc, ce qui est très problématique...
+> Erwan : Dans l'article Kernbach il est fait référence à 4 tables mais il n'y a qu'une table de déclarée en tant que telle sous la balise `<table>`, les autres tables étant introduites comme des images de table, sous la balise `<graphic>` donc, ce qui est très problématique...
 
 Reference
 ```xml
@@ -100,10 +101,11 @@ Declaration
 
 ### Des variations dans l'identifian `rid`
 
-```rid=
-    figX
-    figureX
-    FigureX
+```
+rid=
+    fig1
+    figure1
+    Figure1
 ```
 
 ### Exemple
