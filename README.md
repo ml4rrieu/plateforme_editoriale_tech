@@ -12,7 +12,7 @@ La déclaration d'une figure doit contenir un identifiant, nécessaire pour la v
 <fig id='monIdentifiant'>
     <label>Figure 1.</label>
     <caption>
-        <p>Figure 1. Receiver operating characteristic (ROC) curve of the monocyte/high-density lipoprotein ratio (MHR) for intracranial and extracranial atherosclerotic stenosis.</p>
+        <p>Receiver operating characteristic (ROC) curve of the monocyte/high-density lipoprotein ratio (MHR) for intracranial and extracranial atherosclerotic stenosis.</p>
     </caption>
     <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="data/neuro_01_08_fig1.jpg" />
 </fig>
@@ -24,7 +24,7 @@ Or aucun n'apparait dans la déclaration des images. (Par contre on en trouve da
 
 ### Problème balises `<label>` & `<caption>`
 
-mémo : Label doit contenir son "identitiant littéraire" : Figure 2 et caption la légende, laquelle peut contenir un titre avec `<title>` [voir exemple JATS4R](#example-jats4r-image-avec-doi)
+mémo : Label doit contenir son "identitiant littéraire" : Figure 2 et caption la légende, laquelle peut contenir un titre avec `<title>` (voir exemple dessous)
 
 
 Article Kernbach
@@ -39,7 +39,7 @@ Figure 1.</p>
 
  > Commentaire Erwan : Figure 1. devrait être à l'intérieur de `<label>` et `Meta-topologies in primary brain tumors` dans `<caption>`
 
-**Examples JATS4R**
+**Exemple JATS4R**
 
 [source](https://jats4r.org/display-objects-figures-tables-boxed-text-etc/#example-3-a-figure-with-alternative-graphical-representations)
 
@@ -67,9 +67,9 @@ Article Liu
 ```
 
 
-### Problèmes liés
+### Problèmes divers
 
-**déclaration d'image sans label**
+**Déclaration d'image sans label**
 
 Article Liu 
 ```xml
@@ -79,7 +79,7 @@ Article Liu
 ```
 
 
-**une image non déclarée**
+**Une image non déclarée**
 
 Liu 
 > Erwan commentaire : image "neuro_01_08_table2.jpg" n'est déclaré nulle part bien qu'étant présent parmi les images dépendentes et étant fait "référence" dans le jats 
