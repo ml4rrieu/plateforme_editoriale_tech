@@ -117,7 +117,7 @@ Article Arnold
 <br />
 <br />
 
-## Déclaration et référence des table
+## Déclaration et référence des tables
 
 
 Dans l'article Liu il est fait référence à 4 tables. La première est bien déclarée (cf infra); la seconde est par contre absente, sans déclaration, et les deux suivantes le sont en tant que figure.

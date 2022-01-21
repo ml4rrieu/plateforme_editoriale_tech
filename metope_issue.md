@@ -7,7 +7,7 @@ Métopes v3
 
 ## Transformation TEI vers JATS : perte de la fusion des cellules d'un tableau
 
-l'indication de la fusion des cellules est bien présente dans la TEI mais n'est pas retranscrite dans la JATS. 
+l'indication de la fusion des cellules est bien présente dans la TEI mais n'est pas retranscrite dans le JATS. 
 
 Fichier `2022-01-04_article_test_diamenti__TEI.xml` ligne 548
 ```xml
