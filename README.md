@@ -4,6 +4,23 @@
 
 ## Declaration des images
 
+### Problème majeur : il manque l'identifiant 
+
+La déclaration d'une figure doit contenir un identifiant, nécessaire pour la validation du DTD. exemple : 
+
+```xml
+<fig id='monIdentifiant'>
+    <label>Figure 1.</label>
+    <caption>
+        <p>Figure 1. Receiver operating characteristic (ROC) curve of the monocyte/high-density lipoprotein ratio (MHR) for intracranial and extracranial atherosclerotic stenosis.</p>
+    </caption>
+    <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="data/neuro_01_08_fig1.jpg" />
+</fig>
+```
+
+Or aucun n'apparait dans la déclaration des images. (Par contre on en trouve dans les tables `<table id="Tableau1">`)
+
+
 
 ### Problème balises `<label>` & `<caption>`
 
@@ -22,8 +39,21 @@ Figure 1.</p>
 
  > Commentaire Erwan : Figure 1. devrait être à l'intérieur de `<label>` et `Meta-topologies in primary brain tumors` dans `<caption>`
 
+**Examples JATS4R**
 
-### Présence de la balise `<caption>`
+[source](https://jats4r.org/display-objects-figures-tables-boxed-text-etc/#example-3-a-figure-with-alternative-graphical-representations)
+
+```xml
+<fig id="elementa.000120.f001" position="float">
+      <object-id pub-id-type="doi">10.12952/journal.elementa.000120.f001</object-id>
+      <label>Figure 1. </label>
+      <caption><title>Map of the study area and location of sampling sites in 2013 and 2014.</title>
+           <p>Samples were taken in (A) Kanajorsuit Bay, Greenland (N 64.44632, W 51.57724), between 27 March and 5 April, 2013, and in (B) Kobbefjord, Greenland (N 64.15340, W 51.42275), between 12 and 21 March, 2014.</p></caption>
+     <graphic position="float" mimetype="image" xlink:type="simple" xlink:href="journal.elementa.000120.f001.png"/>
+</fig>
+```
+
+**Exemple de la balise `<caption>` en sortie de Métopes**
 
 Article Liu 
 ```xml
@@ -37,7 +67,9 @@ Article Liu
 ```
 
 
-### Problèmes mineurs : une déclaration d'image sans label
+### Problèmes liés
+
+**déclaration d'image sans label**
 
 Article Liu 
 ```xml
@@ -47,13 +79,13 @@ Article Liu
 ```
 
 
-### Problème mineur : une image non déclarée
+**une image non déclarée**
 
 Liu 
 > Erwan commentaire : image "neuro_01_08_table2.jpg" n'est déclaré nulle part bien qu'étant présent parmi les images dépendentes et étant fait "référence" dans le jats 
 
 
-### Problème mineur : une balise autofermante inutile 
+**Une balise autofermante inutile**
 
 également : 
 - `Figure 4` dans label 
@@ -88,7 +120,7 @@ rid=
     Figure1
 ```
 
-### Exemple
+**Exemple**
 
 Article Aljabri
 ```xml
@@ -119,10 +151,9 @@ Article Arnold
 
 ## Déclaration et référence des tables
 
+Les id et rid ne correspondent pas
 
-Dans l'article Liu il est fait référence à 4 tables. La première est bien déclarée (cf infra); la seconde est par contre absente, sans déclaration, et les deux suivantes le sont en tant que figure.
-
-Reference
+Article Liu
 ```xml
 <xref rid="table1">
     <underline>Table 1</underline>
@@ -141,22 +172,46 @@ Declaration
 ```
 
 
+
+<br />
+<br />
+
+## Valider le schématron de JATS4R si possible
+
+Fichier aljabri
+
+* la balise `<body>` ne peut pas contenir directement des <sec> ... les mots clés sont à placer dans un `<p>`
+
+* `<fn-type="other">` deux identifiants fn
+
+* sur les références bibliographiques
+
+ > `<mixed-citation>` does not have a publication-type attribute.
+
+ > Where possible `<mixed-citation>` should always have a child `<person-group>` which hold the contributors for that work, with their role being specified in the attribute person-group-type. This `<mixed-citation>` does not have a `<person-group person-group-type="...">`.
+
+
+
 <br />
 <br />
 
 ----
 
-## Example JATS4R image avec DOI
+## Affichage
 
-[source](https://jats4r.org/display-objects-figures-tables-boxed-text-etc/#example-3-a-figure-with-alternative-graphical-representations)
+### exposant
 
+cela provoque une référence sans déclaration dans le JATS : 
+LIU 
 ```xml
-<fig id="elementa.000120.f001" position="float">
-      <object-id pub-id-type="doi">10.12952/journal.elementa.000120.f001</object-id>
-      <label>Figure 1. </label>
-      <caption><title>Map of the study area and location of sampling sites in 2013 and 2014.</title>
-           <p>Samples were taken in (A) Kanajorsuit Bay, Greenland (N 64.44632, W 51.57724), between 27 March and 5 April, 2013, and in (B) Kobbefjord, Greenland (N 64.15340, W 51.42275), between 12 and 21 March, 2014.</p></caption>
-     <graphic position="float" mimetype="image" xlink:type="simple" xlink:href="journal.elementa.000120.f001.png"/>
-</fig>
+<xref rid="a">
+    <underline>
+    <sup>a</sup></underline>
+</xref>
 ```
 
+### pb affichage dans le PDF 
+
+LIU : 
+Table 1 : comparison of facors between the non ... 
+le contenu de la cellule (col="p", row = CRP) est vide
