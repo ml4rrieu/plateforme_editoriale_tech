@@ -1,10 +1,19 @@
 
-# Métopes & JATS working progress
+# Métopes & JATS
 
 
-[1. Problèmes Métopes dans la production du JATS](1.-problemes-Metopes-dans-la-production-du-JATS)
+[1. Problèmes Métopes dans la production du JATS](#1-problèmes-métopes-dans-la-production-du-jats)
 
-[2. Balises à ajouter manuellement pour un JATS de qualité (manquantes à Métopes)](#2.-balises-a-ajouter-manuellement-pour-un-JATS-de-qualite-(manquantes-a-metopes))
+[2. Balises à ajouter manuellement pour un JATS de qualité (manquantes à Métopes)](#2-balises-à-ajouter-manuellement-pour-un-jats-de-qualité-manquantes-à-métopes)
+
+[3. Correspondances teminologiques entre le menu de Métopes (word) et les bases JATS](#3-correspondances-teminologiques-entre-le-menu-de-métopes-word-et-les-bases-jats)
+
+[4. Problèmes rencontrés dans les JATS envoyés](#4-problèmes-rencontrés-dans-les-jats-envoyés)
+
+[5. Vers une validation des recommandations du JATS4R](#5-vers-une-validation-des-recommandations-du-JATS4R)
+
+<br />
+<br />
 
 
 ## 1. Problèmes Métopes dans la production du JATS
@@ -179,7 +188,7 @@ Declaration
 ```
 
 
-## 5. Vers une validation du Schématron de JATS4R
+## 5. Vers une validation des recommandations du JATS4R
 
 ### Fichier aljabri
 
