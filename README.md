@@ -1,10 +1,16 @@
 
-# Métopes et JATS : notes de travail
+# Métopes & JATS working progress
 
 
-## Declaration des images
+[1. Problèmes Métopes dans la production du JATS](1.-problemes-Metopes-dans-la-production-du-JATS)
 
-### Problème majeur : il manque l'identifiant 
+[2. Balises à ajouter manuellement pour un JATS de qualité (manquantes à Métopes)](#2.-balises-a-ajouter-manuellement-pour-un-JATS-de-qualite-(manquantes-a-metopes))
+
+
+## 1. Problèmes Métopes dans la production du JATS
+
+
+* Absence d'identifiant dans la déclaration des images
 
 La déclaration d'une figure doit contenir un identifiant, nécessaire pour la validation du DTD. exemple : 
 
@@ -18,11 +24,24 @@ La déclaration d'une figure doit contenir un identifiant, nécessaire pour la v
 </fig>
 ```
 
-Or aucun n'apparait dans la déclaration des images. (Par contre on en trouve dans les tables `<table id="Tableau1">`)
+Aucun identifiants présents dans les images, par contre on en trouve dans les tables `<table id="Tableau1">`
 
+<br />
+<br />
 
+## 2. Balises à ajouter manuellement pour un JATS de qualité (manquantes à Métopes)
 
-### Problème balises `<label>` & `<caption>`
+* l'identifiant ROR dans les affiliations
+
+<br />
+<br />
+
+## 3. Correspondances teminologiques entre le menu de Métopes (word) et les bases JATS
+
+* Balise `label`
+
+* Balise `Caption`
+
 
 mémo : Label doit contenir son "identitiant littéraire" : Figure 2 et caption la légende, laquelle peut contenir un titre avec `<title>` (voir exemple dessous)
 
@@ -66,10 +85,12 @@ Article Liu
 </fig>
 ```
 
+<br />
+<br />
 
-### Problèmes divers
+## 4. Problèmes rencontrés dans les JATS envoyés  
 
-**Déclaration d'image sans label**
+* Déclaration d'image sans label
 
 Article Liu 
 ```xml
@@ -79,13 +100,13 @@ Article Liu
 ```
 
 
-**Une image non déclarée**
+* Une image non déclarée
 
 Liu 
 > Erwan commentaire : image "neuro_01_08_table2.jpg" n'est déclaré nulle part bien qu'étant présent parmi les images dépendentes et étant fait "référence" dans le jats 
 
 
-**Une balise autofermante inutile**
+* Une balise autofermante inutile
 
 également : 
 - `Figure 4` dans label 
@@ -105,13 +126,7 @@ Article Kernbach
 </fig>
 ```
 
-
-<br />
-<br />
-
-## Référence des images
-
-### Des variations dans l'identifian `rid`
+* Variations dans l'idenfant de référence `rid`
 
 ```
 rid=
@@ -120,7 +135,6 @@ rid=
     Figure1
 ```
 
-**Exemple**
 
 Article Aljabri
 ```xml
@@ -144,14 +158,7 @@ Article Arnold
 </xref>
 ```
 
-
-
-<br />
-<br />
-
-## Déclaration et référence des tables
-
-Les id et rid ne correspondent pas
+* id et rid de table qui ne correspondent pas
 
 Article Liu
 ```xml
@@ -172,13 +179,9 @@ Declaration
 ```
 
 
+## 5. Vers une validation du Schématron de JATS4R
 
-<br />
-<br />
-
-## Valider le schématron de JATS4R si possible
-
-Fichier aljabri
+### Fichier aljabri
 
 * la balise `<body>` ne peut pas contenir directement des <sec> ... les mots clés sont à placer dans un `<p>`
 
@@ -190,27 +193,16 @@ Fichier aljabri
 
  > Where possible `<mixed-citation>` should always have a child `<person-group>` which hold the contributors for that work, with their role being specified in the attribute person-group-type. This `<mixed-citation>` does not have a `<person-group person-group-type="...">`.
 
+### Fichier LIU
 
+l'exposant provoque une référence sans déclaration dans le JATS : 
 
-<br />
-<br />
-
-----
-
-## Affichage
-
-### exposant
-
-cela provoque une référence sans déclaration dans le JATS : 
-LIU 
 ```xml
 <xref rid="a">
     <underline>
     <sup>a</sup></underline>
 </xref>
 ```
-
-### pb affichage dans le PDF 
 
 LIU : 
 Table 1 : comparison of facors between the non ... 
