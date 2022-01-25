@@ -8,7 +8,7 @@
 
 [3. Correspondances teminologiques entre le menu de Métopes (word) et les bases JATS](#3-correspondances-teminologiques-entre-le-menu-de-métopes-word-et-les-bases-jats)
 
-[4. Problèmes rencontrés dans les JATS envoyés](#4-problèmes-rencontrés-dans-les-jats-envoyés)
+[4. Problèmes rencontrés dans les JATS produits](#4-problèmes-rencontrés-dans-les-jats-produits)
 
 [5. Vers une validation des recommandations du JATS4R](#5-vers-une-validation-des-recommandations-du-JATS4R)
 
@@ -154,7 +154,7 @@ mémo : Label doit contenir son "identitiant littéraire" : "Figure 2" et captio
 <br />
 <br />
 
-## 4. Problèmes rencontrés dans les JATS envoyés à la production
+## 4. Problèmes rencontrés dans les JATS produits
 
 * Déclaration d'image sans label
 
