@@ -4,7 +4,7 @@
 
 [1. Problèmes Métopes dans la production du JATS](#1-problèmes-métopes-dans-la-production-du-jats)
 
-[2. Balises à ajouter manuellement pour un JATS de qualité (manquantes à Métopes)](#2-balises-à-ajouter-manuellement-pour-un-jats-de-qualité-manquantes-à-métopes)
+[2. Balises à ajouter manuellement pour un JATS de qualité (manquantes à Métopes)](#2-balises-à-ajouter-manuellement-pour-un-jats-riche-manquantes-à-métopes)
 
 [3. Correspondances teminologiques entre le menu de Métopes (word) et les bases JATS](#3-correspondances-teminologiques-entre-le-menu-de-métopes-word-et-les-bases-jats)
 
