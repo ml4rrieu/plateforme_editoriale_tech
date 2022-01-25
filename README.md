@@ -19,28 +19,103 @@
 ## 1. Problèmes Métopes dans la production du JATS
 
 
-* Absence d'identifiant dans la déclaration des images
+* Les mots-clés traduits, dans une langue différente de l'article, apparaissent en double : une fois en format structuré et une 2e fois directement après la balise `<body>`, ce qui crée une erreur DTD.
 
-La déclaration d'une figure doit contenir un identifiant, nécessaire pour la validation du DTD. exemple : 
-
+Article dharamsi
+fichier `2022-01-25-10h30__article_test__dharamsi__JATS.xml`
 ```xml
-<fig id='monIdentifiant'>
-    <label>Figure 1.</label>
-    <caption>
-        <p>Receiver operating characteristic (ROC) curve of the monocyte/high-density lipoprotein ratio (MHR) for intracranial and extracranial atherosclerotic stenosis.</p>
-    </caption>
-    <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="data/neuro_01_08_fig1.jpg" />
-</fig>
+<kwd-group kwd-group-type="author-keywords" xml:lang="fr">
+    <kwd>Électroencéphalogramme</kwd>
+    <kwd>Télé-EEG</kwd>
+    <kwd>EEG</kwd>
+</kwd-group>
+```
+```xml
+<body>Mots-clés : Électroencéphalogramme, Télé-EEG, EEG
+    <p>Acknowledgments. This work was conducted under the auspices of the IBM Science for Social Good initiative.</p>
 ```
 
-Aucun identifiants présents dans les images, par contre on en trouve dans les tables `<table id="Tableau1">`
+* Lorsqu'une adresse email est indiquée pour un auteur, elle est dupliquée à chacun les auteurs dans la TEI et absente de tous les auteurs dans le JATS
+ 
+Article dharamsi TEI
+```xml
+<byline style="auteur_Courriel">
+    <email>
+        <ref target="mailto:auteur@duckduckgo.com">auteur@duckduckgo.com</ref>
+    </email>
+</byline>
+<docAuthor style="txt_auteur">Payel DAS</docAuthor>
+<byline style="auteur_Courriel">
+    <email>
+        <ref target="mailto:auteur@duckduckgo.com">auteur@duckduckgo.com</ref>
+    </email>
+</byline>
+```
+
+Article dharamsi JATS
+```xml
+<contrib contrib-type="author">
+    <name>
+        <surname>DHARAMSI</surname>
+        <given-names>Tejas</given-names>
+    </name>
+    <aff/>
+</contrib>
+<contrib contrib-type="author">
+    <name>
+        <surname>DAS</surname>
+        <given-names>Payel</given-names>
+    </name>
+    <aff/>
+</contrib>
+```
+
+
+* Balise `<article>` ne possède pas les namespace
+
+```xml  
+<article article-type="research-article" dtd-version="1.2" specific-use="ojs-display" xml:lang="en">
+```
+
+JATS4R rajoute les éléments suivants
+```xml  
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" article-type="research-article" dtd-version="1.2" specific-use="ojs-display" xml:lang="en">
+```
+
 
 <br />
 <br />
 
-## 2. Balises à ajouter manuellement pour un JATS de qualité (manquantes à Métopes)
+## 2. Balises à ajouter manuellement pour un JATS riche (manquantes à Métopes)
 
-* l'identifiant ROR dans les affiliations
+* Ajout des ORCIDs des auteurs (nécessaire pour les auteurs qui n'ont pas de IDREF)
+
+```xml
+<contrib-id contrib-id-type="ORCID">0000-0001-6042-1358</contrib-id>
+    <name>
+        <surname>Diamanti</surname>
+        <given-names>Luca</given-names>
+    </name>
+    <aff>
+        <xref ref-type="aff" rid="aff02"/>
+        <xref ref-type="aff" rid="aff01"/>
+   </aff>
+</contrib>
+```
+
+
+* Ajout des identifians ROR dans les affiliations
+
+```xml
+ <aff id="aff01">
+    <institution-wrap>
+        <institution-id institution-id-type="ROR">04tfzc498</institution-id>
+        <institution>Neuroradiology Department, Advanced Imaging and Radiomics Center, Istituto di Ricovero e Cura di Carattere Scientifico (IRCCS) Mondino Foundation, Pavia, Italy</institution>
+     </institution-wrap>
+ </aff>
+```
+
+
 
 <br />
 <br />
@@ -52,24 +127,18 @@ Aucun identifiants présents dans les images, par contre on en trouve dans les t
 * Balise `Caption`
 
 
-mémo : Label doit contenir son "identitiant littéraire" : Figure 2 et caption la légende, laquelle peut contenir un titre avec `<title>` (voir exemple dessous)
+mémo : Label doit contenir son "identitiant littéraire" : "Figure 2" et caption la légende
 
-
-Article Kernbach
 ```xml
-<graphic xlink:href="data/emergneurol_01_01_kernbach_fig01.jpg" xmlns:xlink="http://www.w3.org/1999/xlink"/>
-Figure 1.</p>
-<fig>
-    <label>Meta-topologies in primary brain tumors
-        <bold>.</bold></label>
+<fig id="fig1">
+    <label>Figure 1.</label>
+    <caption><p>Flow diagram.</p></caption>
+    <graphic xlink:href="data/2022-01-21__article_test__dharamsi-fig1.jpg"/>
 </fig>
 ```
 
- > Commentaire Erwan : Figure 1. devrait être à l'intérieur de `<label>` et `Meta-topologies in primary brain tumors` dans `<caption>`
 
 **Exemple JATS4R**
-
-[source](https://jats4r.org/display-objects-figures-tables-boxed-text-etc/#example-3-a-figure-with-alternative-graphical-representations)
 
 ```xml
 <fig id="elementa.000120.f001" position="float">
@@ -80,24 +149,12 @@ Figure 1.</p>
      <graphic position="float" mimetype="image" xlink:type="simple" xlink:href="journal.elementa.000120.f001.png"/>
 </fig>
 ```
-
-**Exemple de la balise `<caption>` en sortie de Métopes**
-
-Article Liu 
-```xml
-<fig>
-    <label>Figure 1.</label>
-    <caption>
-        <p>Figure 1. Receiver operating characteristic (ROC) curve of the monocyte/high-density lipoprotein ratio (MHR) for intracranial and extracranial atherosclerotic stenosis.</p>
-    </caption>
-    <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="data/neuro_01_08_fig1.jpg" />
-</fig>
-```
+[source](https://jats4r.org/display-objects-figures-tables-boxed-text-etc/#example-3-a-figure-with-alternative-graphical-representations)
 
 <br />
 <br />
 
-## 4. Problèmes rencontrés dans les JATS envoyés  
+## 4. Problèmes rencontrés dans les JATS envoyés à la production
 
 * Déclaration d'image sans label
 
@@ -107,13 +164,6 @@ Article Liu
     <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="data/neuro_01_08_table3.jpg" />
 </p>
 ```
-
-
-* Une image non déclarée
-
-Liu 
-> Erwan commentaire : image "neuro_01_08_table2.jpg" n'est déclaré nulle part bien qu'étant présent parmi les images dépendentes et étant fait "référence" dans le jats 
-
 
 * Une balise autofermante inutile
 
@@ -133,38 +183,6 @@ Article Kernbach
 <fig>
     <label>Brain tumor meta-topologies and patient survival.</label>
 </fig>
-```
-
-* Variations dans l'idenfant de référence `rid`
-
-```
-rid=
-    fig1
-    figure1
-    Figure1
-```
-
-
-Article Aljabri
-```xml
-<xref rid="fig1">
-    <underline>Figure 1</underline>
-</xref>
-```
-
-Article Kernbach 
-
-```xml
-<xref rid="figure1">
-    <underline>Figure 1</underline>
-</xref>
-```
-
-Article Arnold
-```xml
-<xref rid="Figure1">
-    <underline>figure 1</underline>
-</xref>
 ```
 
 * id et rid de table qui ne correspondent pas
