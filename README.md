@@ -90,12 +90,9 @@ plusieurs déclarations selon les auteurs, cf. [jats4r.org](https://jats4r.org/c
 
 ## 3. Correspondances teminologiques entre le menu de Métopes (Word) et les bases JATS
 
-* Balise `label`
+ `<label>` doit contenir l' "identitiant littéraire" de l'image, "Figure 2". 
 
-* Balise `Caption`
-
-
-mémo : Label doit contenir son "identitiant littéraire" : "Figure 2" et caption la légende
+`<caption>` doit contenir la légende.
 
 ```xml
 <fig id="fig1">
@@ -104,9 +101,6 @@ mémo : Label doit contenir son "identitiant littéraire" : "Figure 2" et captio
     <graphic xlink:href="data/2022-01-21__article_test__dharamsi-fig1.jpg"/>
 </fig>
 ```
-
-
-**Exemple JATS4R**
 
 ```xml
 <fig id="elementa.000120.f001" position="float">
@@ -117,6 +111,6 @@ mémo : Label doit contenir son "identitiant littéraire" : "Figure 2" et captio
      <graphic position="float" mimetype="image" xlink:type="simple" xlink:href="journal.elementa.000120.f001.png"/>
 </fig>
 ```
-[source](https://jats4r.org/display-objects-figures-tables-boxed-text-etc/#example-3-a-figure-with-alternative-graphical-representations)
+[source JATS4R](https://jats4r.org/display-objects-figures-tables-boxed-text-etc/#example-3-a-figure-with-alternative-graphical-representations)
 
 
