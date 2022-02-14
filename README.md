@@ -2,27 +2,21 @@
 # Métopes & JATS
 
 
-[1. Problèmes Métopes dans la production du JATS](#1-problèmes-métopes-dans-la-production-du-jats)
+## 1. Problèmes Métopes dans la production du JATS v
 
-[2. Balises à ajouter manuellement pour un JATS de qualité (manquantes à Métopes)](#2-balises-à-ajouter-manuellement-pour-un-jats-riche-manquantes-à-métopes)
-
-[3. Correspondances teminologiques entre le menu de Métopes (word) et les bases JATS](#3-correspondances-teminologiques-entre-le-menu-de-métopes-word-et-les-bases-jats)
-
-[4. Problèmes rencontrés dans les JATS produits](#4-problèmes-rencontrés-dans-les-jats-produits)
-
-[5. Vers une validation des recommandations du JATS4R](#5-vers-une-validation-des-recommandations-du-JATS4R)
-
-<br />
-<br />
+voir les issues
 
 
-## 1. Problèmes Métopes dans la production du JATS
+
+<!--
+
+TITRE Mots-clés traduits apparaissent en double
+
+contenu  
+Les mots-clés traduits, dans une langue différente de l'article, apparaissent en double : une fois en format structuré et une 2e fois directement après la balise `<body>`, ce qui crée une erreur DTD.
 
 
-* Les mots-clés traduits, dans une langue différente de l'article, apparaissent en double : une fois en format structuré et une 2e fois directement après la balise `<body>`, ce qui crée une erreur DTD.
-
-Article dharamsi
-fichier `2022-01-25-10h30__article_test__dharamsi__JATS.xml`
+exemple `2022-01-25-10h30__article_test__dharamsi__JATS.xml`
 ```xml
 <kwd-group kwd-group-type="author-keywords" xml:lang="fr">
     <kwd>Électroencéphalogramme</kwd>
@@ -31,62 +25,14 @@ fichier `2022-01-25-10h30__article_test__dharamsi__JATS.xml`
 </kwd-group>
 ```
 ```xml
-<body>Mots-clés : Électroencéphalogramme, Télé-EEG, EEG
+<body>Mots-clés : Électroencéphalogramme, Télé-EEG, EEG
     <p>Acknowledgments. This work was conducted under the auspices of the IBM Science for Social Good initiative.</p>
 ```
 
-* Lorsqu'une adresse email est indiquée pour un auteur, elle est dupliquée à chacun les auteurs dans la TEI et absente de tous les auteurs dans le JATS
- 
-Article dharamsi TEI
-```xml
-<byline style="auteur_Courriel">
-    <email>
-        <ref target="mailto:auteur@duckduckgo.com">auteur@duckduckgo.com</ref>
-    </email>
-</byline>
-<docAuthor style="txt_auteur">Payel DAS</docAuthor>
-<byline style="auteur_Courriel">
-    <email>
-        <ref target="mailto:auteur@duckduckgo.com">auteur@duckduckgo.com</ref>
-    </email>
-</byline>
-```
-
-Article dharamsi JATS
-```xml
-<contrib contrib-type="author">
-    <name>
-        <surname>DHARAMSI</surname>
-        <given-names>Tejas</given-names>
-    </name>
-    <aff/>
-</contrib>
-<contrib contrib-type="author">
-    <name>
-        <surname>DAS</surname>
-        <given-names>Payel</given-names>
-    </name>
-    <aff/>
-</contrib>
-```
+-->
 
 
-* Balise `<article>` ne possède pas les namespace
-
-```xml  
-<article article-type="research-article" dtd-version="1.2" specific-use="ojs-display" xml:lang="en">
-```
-
-JATS4R rajoute les éléments suivants
-```xml  
-<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" article-type="research-article" dtd-version="1.2" specific-use="ojs-display" xml:lang="en">
-```
-
-
-<br />
-<br />
-
-## 2. Balises à ajouter manuellement pour un JATS riche (manquantes à Métopes)
+## 2. Balises à ajouter manuellement pour un JATS riche (non présentes dans Métopes)
 
 * Ajout des ORCIDs des auteurs (nécessaire pour les auteurs qui n'ont pas de IDREF)
 
@@ -115,12 +61,34 @@ JATS4R rajoute les éléments suivants
  </aff>
 ```
 
+* Volume, Issue
+
+introuvables dans le JATS
+
+* Dates de soumission (et acceptation ? )
+ 
+non trouvable dans Métopes
+
+
+* Declaration of interest
+
+une seule déclaration pour l'ensemble des auteurs
+```xml
+<author-notes>
+    <fn fn-type="coi-statement">
+        <p>Competing Interests: The authors have declared that no competing interests exist.</p>
+    </fn>
+</author-notes>
+```
+
+plusieurs déclarations selon les auteurs, cf. [jats4r.org](https://jats4r.org/conflict-of-interest-statements/#examples)
+
 
 
 <br />
 <br />
 
-## 3. Correspondances teminologiques entre le menu de Métopes (word) et les bases JATS
+## 3. Correspondances teminologiques entre le menu de Métopes (Word) et les bases JATS
 
 * Balise `label`
 
@@ -151,86 +119,4 @@ mémo : Label doit contenir son "identitiant littéraire" : "Figure 2" et captio
 ```
 [source](https://jats4r.org/display-objects-figures-tables-boxed-text-etc/#example-3-a-figure-with-alternative-graphical-representations)
 
-<br />
-<br />
 
-## 4. Problèmes rencontrés dans les JATS produits
-
-* Déclaration d'image sans label
-
-Article Liu 
-```xml
-<p>
-    <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="data/neuro_01_08_table3.jpg" />
-</p>
-```
-
-* Une balise autofermante inutile
-
-également : 
-- `Figure 4` dans label 
-- `Brain tumor  ...` dans caption
-- balise `<graphic ` à placer à l'intérieur de `<fig>`
-
-Article Kernbach
-```xml
-<p>
-    <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="data/emergneurol_01_01_kernbach_fig04.jpg" />
-    Figure 4
-    <fig />
-    .
-</p>
-<fig>
-    <label>Brain tumor meta-topologies and patient survival.</label>
-</fig>
-```
-
-* id et rid de table qui ne correspondent pas
-
-Article Liu
-```xml
-<xref rid="table1">
-    <underline>Table 1</underline>
-</xref>
-```
-
-Declaration
-```xml
-<table-wrap specific-use="frame">
-    <table id="Tableau1">
-        [...]
-    </table>
-</table-wrap>
-<p content-type="table-caption">Table 1</p>
-<p content-type="table-legend">Table 1. Comparison of factors between the non-stenosis group and the atherosclerotic stenosis group.</p>
-```
-
-
-## 5. Vers une validation des recommandations du JATS4R
-
-### Fichier aljabri
-
-* la balise `<body>` ne peut pas contenir directement des <sec> ... les mots clés sont à placer dans un `<p>`
-
-* `<fn-type="other">` deux identifiants fn
-
-* sur les références bibliographiques
-
- > `<mixed-citation>` does not have a publication-type attribute.
-
- > Where possible `<mixed-citation>` should always have a child `<person-group>` which hold the contributors for that work, with their role being specified in the attribute person-group-type. This `<mixed-citation>` does not have a `<person-group person-group-type="...">`.
-
-### Fichier LIU
-
-l'exposant provoque une référence sans déclaration dans le JATS : 
-
-```xml
-<xref rid="a">
-    <underline>
-    <sup>a</sup></underline>
-</xref>
-```
-
-LIU : 
-Table 1 : comparison of facors between the non ... 
-le contenu de la cellule (col="p", row = CRP) est vide

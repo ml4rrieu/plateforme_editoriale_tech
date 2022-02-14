@@ -1,693 +1,317 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI
-change="metopes_publication#jats"
-xmlns="http://www.tei-c.org/ns/1.0"
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xmlns:xs="http://www.w3.org/2001/XMLSchema"
-xmlns:xlink="http://www.w3.org/1999/xlink"
-xmlns:xi="http://www.w3.org/2001/XInclude"
-xmlns:ns="http://www.tei-c.org/ns/1.0"
-xmlns:mathml="http://www.w3.org/1998/Math/MathML"
-xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0"
-xmlns:dcr="http://www.isocat.org/ns/dcr"
-><teiHeader
-><fileDesc
-><titleStmt
-><title
-type="main"
->Neurology-as-a-service for the developing world</title
-><author
-role="aut"
-><name
->Tejas DHARAMSI</name
-><affiliation
-><ref
-target="#aff01"
-type="affiliation"
-></ref
-></affiliation
-></author
-><author
-role="aut"
-><name
->Payel DAS</name
-><affiliation
-><ref
-target="#aff01"
-type="affiliation"
-></ref
-></affiliation
-></author
-><author
-role="aut"
-><name
->Tejaswini PEDAPATI</name
-><affiliation
-><ref
-target="#aff02"
-type="affiliation"
-></ref
-></affiliation
-><affiliation
-><ref
-target="#aff01"
-type="affiliation"
-></ref
-></affiliation
-></author
-><author
-role="aut"
-><name
->Gregory BRAMBLE</name
-><affiliation
-><ref
-target="#aff02"
-type="affiliation"
-></ref
-></affiliation
-><affiliation
-><ref
-target="#aff01"
-type="affiliation"
-></ref
-></affiliation
-></author
-><author
-role="aut"
-><name
->Vinod MUTHUSAMY</name
-><affiliation
-><ref
-target="#aff02"
-type="affiliation"
-></ref
-></affiliation
-></author
-><author
-role="aut"
-><name
->Horst SAMULOWITZ</name
-><affiliation
-><ref
-target="#aff02"
-type="affiliation"
-></ref
-></affiliation
-></author
-><author
-role="aut"
-><name
->Kush R. VARSHNEY</name
-><affiliation
-><ref
-target="#aff01"
-type="affiliation"
-></ref
-></affiliation
-></author
-><author
-role="aut"
-><name
->Yuvaraj RAJAMANICKAM</name
-><affiliation
-><ref
-target="#aff02"
-type="affiliation"
-></ref
-></affiliation
-><affiliation
-><ref
-target="#aff01"
-type="affiliation"
-></ref
-></affiliation
-></author
-><author
-role="aut"
-><name
->John THOMAS</name
-><affiliation
-><ref
-target="#aff02"
-type="affiliation"
-></ref
-></affiliation
-></author
-><author
-role="aut"
-><name
->Justin DAUWELS</name
-><affiliation
-><ref
-target="#aff01"
-type="affiliation"
-></ref
-></affiliation
-></author
-></titleStmt
-><editionStmt
-><edition
-><date
->2022-01-21T09:13:00</date
-></edition
-></editionStmt
-><publicationStmt
-><publisher
-></publisher
-><ab
-type="papier"
-><dimensions
-><dim
-type="pagination"
-></dim
-></dimensions
-><date
-></date
-></ab
-><idno
-type="book"
-></idno
-><ab
-type="lodel"
-><date
-></date
-></ab
-></publicationStmt
-><sourceDesc
-><p
->Version Métopes : 3.0</p
-><p
->Written by OpenOffice</p
-></sourceDesc
-></fileDesc
-><encodingDesc
-><tagsDecl
-><rendition
-scheme="css"
-xml:id="Cell1.A1"
->border-bottom:1pt solid #000000;border-left:none;border-right:none;border-top:1pt solid #000000;</rendition
-><rendition
-scheme="css"
-xml:id="Cell1.A2"
->border-bottom:none;border-left:none;border-right:none;border-top:1pt solid #000000;</rendition
-><rendition
-scheme="css"
-xml:id="Cell1.A3"
->border:none;</rendition
-><rendition
-scheme="css"
-xml:id="Cell1.A6"
->border-bottom:0.5pt solid #000000;border-left:none;border-right:none;border-top:none;</rendition
-></tagsDecl
-></encodingDesc
-><profileDesc
-><langUsage
-><language
-ident="en-EN"
-></language
-></langUsage
-><textClass
-><keywords
-scheme="keyword"
-xml:lang="en"
-><list
-><item
->Electroencephalography</item
-><item
->TeleEEG</item
-><item
->EEG</item
-></list
-></keywords
-><keywords
-scheme="keyword"
-xml:lang="fr"
-><list
-><item
->Électroencéphalogramme</item
-><item
->Télé-EEG</item
-><item
->EEG</item
-></list
-></keywords
-></textClass
-></profileDesc
-><revisionDesc
-><change
-when="2022-01-25T09:24:00"
-who="Vincent Colpin"
->Révision</change
-></revisionDesc
-></teiHeader
-><text
-xml:id="text"
-><front
-><titlePage
-><docTitle
-><titlePart
-style="T_3_Article"
-type="main"
->Neurology-as-a-service for the developing world</titlePart
-></docTitle
-><docAuthor
-style="txt_auteur"
->Tejas DHARAMSI</docAuthor
-><byline
-style="auteur_Courriel"
-><email
-><ref
-target="mailto:auteur@duckduckgo.com"
->auteur@duckduckgo.com</ref
-></email
-></byline
-><docAuthor
-style="txt_auteur"
->Payel DAS</docAuthor
-><byline
-style="auteur_Courriel"
-><email
-><ref
-target="mailto:auteur@duckduckgo.com"
->auteur@duckduckgo.com</ref
-></email
-></byline
-><docAuthor
-style="txt_auteur"
->Tejaswini PEDAPATI</docAuthor
-><byline
-style="auteur_Courriel"
-><email
-><ref
-target="mailto:auteur@duckduckgo.com"
->auteur@duckduckgo.com</ref
-></email
-></byline
-><docAuthor
-style="txt_auteur"
->Gregory BRAMBLE</docAuthor
-><byline
-style="auteur_Courriel"
-><email
-><ref
-target="mailto:auteur@duckduckgo.com"
->auteur@duckduckgo.com</ref
-></email
-></byline
-><docAuthor
-style="txt_auteur"
->Vinod MUTHUSAMY</docAuthor
-><byline
-style="auteur_Courriel"
-><email
-><ref
-target="mailto:auteur@duckduckgo.com"
->auteur@duckduckgo.com</ref
-></email
-></byline
-><docAuthor
-style="txt_auteur"
->Horst SAMULOWITZ</docAuthor
-><byline
-style="auteur_Courriel"
-><email
-><ref
-target="mailto:auteur@duckduckgo.com"
->auteur@duckduckgo.com</ref
-></email
-></byline
-><docAuthor
-style="txt_auteur"
->Kush R. VARSHNEY</docAuthor
-><byline
-style="auteur_Courriel"
-><email
-><ref
-target="mailto:auteur@duckduckgo.com"
->auteur@duckduckgo.com</ref
-></email
-></byline
-><docAuthor
-style="txt_auteur"
->Yuvaraj RAJAMANICKAM</docAuthor
-><byline
-style="auteur_Courriel"
-><email
-><ref
-target="mailto:auteur@duckduckgo.com"
->auteur@duckduckgo.com</ref
-></email
-></byline
-><docAuthor
-style="txt_auteur"
->John THOMAS</docAuthor
-><docAuthor
-style="txt_auteur"
->Justin DAUWELS</docAuthor
-><byline
-style="auteur_Institution"
-><affiliation
-xml:id="aff01"
->IBM Research AI, Thomas J. Watson Research Center Yorktown Heights, NY 10598, USA</affiliation
-></byline
-><byline
-style="auteur_Institution"
-><affiliation
-xml:id="aff02"
->School of Electrical and Electronic Engineering Nanyang Technological University, Singapore 639798</affiliation
-></byline
-></titlePage
-><div
-type="resume_motscles"
-><p
-style="txt_Resume"
->Electroencephalography (EEG) is an extensively-used and well-studied technique in the field of medical diagnostics and treatment for brain disorders, including epilepsy, migraines, and tumors. The analysis and interpretation of EEGs require physicians to have specialized training, which is not common even among most doctors in the developed world, let alone the developing world where physician shortages plague society. This problem can be addressed by teleEEG that uses remote EEG analysis by experts or by local computer processing of EEGs. However, both of these options are prohibitively expensive and the second option requires abundant computing resources and infrastructure, which is another concern in developing countries where there are resource constraints on capital and computing infrastructure. In this work, we present a cloud-based deep neural network approach to provide decision support for non-specialist physicians in EEG analysis and interpretation. Named ‘neurology-as-a-service,’ the approach requires almost no manual intervention in feature engineering and in the selection of an optimal architecture and hyperparameters of the neural network. In this study, we deploy a pipeline that includes moving EEG data to the cloud and getting optimal models for various classification tasks. Our initial prototype has been tested only in developed world environments to-date, but our intention is to test it in developing world environments in future work. We demonstrate the performance of our proposed approach using the BCI2000 EEG MMI dataset, on which our service attains 63.4% accuracy for the task of classifying real vs. imaginary activity performed by the subject, which is significantly higher than what is obtained with a shallow approach such as support vector machines.</p
-><p
-style="txt_Motclef"
->Keywords: Electroencephalography, TeleEEG, EEG</p
-><p
-style="txt_Resume_italique"
-xml:lang="fr"
->Quam ob rem ut ii qui superiores sunt submittere se debent in amicitia, sic quodam modo inferiores extollere. Sunt enim quidam qui molestas amicitias faciunt, cum ipsi se contemni putant; quod non fere contingit nisi iis qui etiam contemnendos se arbitrantur; qui hac opinione non modo verbis sed etiam opere levandi sunt.</p
-><p
-style="txt_Motclef_italique"
->Mots-clés : Électroencéphalogramme, Télé-EEG, EEG</p
-></div
-><div
-type="prelim"
-><p
-style="txt_remerciements"
->Acknowledgments. This work was conducted under the auspices of the IBM Science for Social Good initiative.</p
-></div
-></front
-><body
-><div
-type="chapitre"
-xml:id="mainDiv"
-><div
-type="section1"
-><head
-style="T_1"
-subtype="level1"
->1. Introduction</head
-><p
-style="txt_Normal"
->Classification of EEGs is an important application used in various fields, such as brain function monitoring, medical diagnostics for epilepsy, seizures, and brain computer interfaces (BCI). EEG detects voltage fluctuations at the scalp, which is related to the neuronal activity in the brain, over time. A sophisticated setup that includes advanced computing infrastructure and trained physicians is often needed on-site for EEG interpretation for diagnostics and treatment. EEG is most often used to diagnose epilepsy that causes spikes or abnormal activities in the EEG recordings. According to WHO reports [1], epilepsy is a disorder more prominent in developing countries than developed countries and majority of patients in developing countries do not receive necessary treatment due to lack of skilled physicians and computing resources, resulting in a so-called treatment gap. Lack of training and skill among physicians can also lead to misdiagnosis of epilepsy, resulting in adverse outcomes.</p
-><p
-style="txt_Normal"
->One way to automate the EEG-based classification is to use machine learning techniques. In the past, several machine learning techniques have been proposed for EEG-based feature learning/classification of brain states by carefully engineering features from the signals. An experienced and skillful scientist with domain knowledge is often required for hand engineering the features, as these features from the EEG recordings may not generalize to different subjects or tasks/situations. Moreover, it is a time consuming process.</p
-><figure
-><graphic
-url="../icono/br/2022-01-21__article_test__dharamsi-fig1.jpg"
-></graphic
-><head
-style="titre_figure"
->Figure 1.</head
-><p
-style="txt_Legende"
->Flow diagram.</p
-></figure
-><p
-style="txt_Normal"
->Deep Neural Networks are characterized for EEG feature learning [8,9]. Also, with the advent of cloud computing in providing cost-effective way of performing software-as-a-service, we propose an economical way for analysis of EEGs in the cloud using deep neural networks to help physicians make better diagnoses. The patient’s EEG recording trials are moved to the cloud after data acquisition. The collected data goes through a minimal preprocessing step involving bandpass filtering and power spectogram generation which uses short term Fourier transform changing the signal into frequency time domain. This 3D data with electrodes, frequency and time are fed to convolutional neural network with optimal hyperparameter setting. The results of the classification task are returned to the physician for his analysis to better his judgment. In this study, we describe our results on task classification on a BCI EEG dataset. Our motivation is to create and test a system that can be utilized by physicians around the world with minimal human intervention.</p
-></div
-><div
-type="section1"
-><head
-style="T_1"
-subtype="level1"
->2. Method</head
-><p
-style="txt_Normal"
->In our experiments, we utilized Physionet’s [2] BCI2000 EEG MMI dataset [3] that consists of 1500 trials from 109 subjects, who performed tasks such as opening or closing of their fists or feet, or doing both, or imagining doing so. Data was collected using 64 electrodes as per a 10-10 international system as shown in <ref
-target="#fig1"
-><hi
-rend="underline"
-style="typo_souligne"
->Figure 1</hi
-></ref
->. The sampling frequency for EEG data acquisition was 160 Hz. Out of 14 tasks to be performed by each subject, we considered 12 tasks which involved the subject to either perform a movement or imagine a movement. We used EEGs for 103 subjects in the study since 6 subjects had data annotations different from the dataset description.</p
-><p
-style="txt_Normal"
->Data preprocessing of the raw EEG signals is an essential task prior to feeding it to any machine learning system due to presence of noise and artifacts. Therefore, we applied a bandpass filter with the range of 3 Hz - 30 Hz on the raw EEG data to filter out uninteresting frequency ranges. In order to treat each annotated trial segment (4.1 seconds long) as a sequence of stacked images, we generate spectrogram associated with each channel in the input trial with time segments of length 0.8 sec and sliding window of 0.05 sec. We used hanning window and NFFT of size 128 for spectogram computation. We averaged the power values over a frequency band of 2.5 Hz for the entire frequency range and computed the relative log power for each time segment. Relative power (RP) for ith frequency band is defined as real power (P) in a frequency band over sum of real log power in all the frequency band.</p
-><p
-style="txt_Normal"
-><graphic
-url="../icono/br/2022-01-21__article_test__dharamsi-eq.jpg"
-></graphic
-></p
-><p
-style="txt_Normal"
->These aforementioned pre-processing steps are standard signal processing tasks and can be applied as an automated process to all incoming EEG recordings without any manual intervention. This pre-processing resulted in a 3D representation of the EEG input data, in which the dimensions are electrode channels, frequency bands, and time segments <ref
-target="#fig1"
-><hi
-rend="underline"
-style="typo_souligne"
->(Figure 1)</hi
-></ref
->.</p
-><p
-style="txt_Normal"
->The prepared data on cloud was fed to a convolutional neural network (CNN). We utilized an automated mechanism to select optimal hyperparameters for CNN’s architecture [4]. In our study, we used random optimizer [6,7] with the mechanism mentioned above. Parameters, such as number of layers, learning rate, type of layers, number of filters, and their size for the convolutional layer, probability range for dropouts were explored. Input to the optimizer were lower bound and upper bound for each of those hyperparameters. This model selection mechanism uses IBM "Deep Learning as a Service" [5], a cloud-based service to run deep learning models. The pipeline returned a model with best validation accuracy for the classification task at hand.</p
-></div
-><div
-type="section1"
-><head
-style="T_1"
-subtype="level1"
->3. Results</head
-><p
-style="txt_Normal"
->In our study, to create end-to-end pipeline for ‘neurology-as-a-service,’ we performed a classification task to determine if the movement of a subject is real or imaginary using the dataset discussed above. The prepared data consisted of 17 232 samples and was split at the ratio of 7:3 for training and testing. A random optimizer was used for hyperparameter fine-tuning. The service returned a best accuracy of 63.4% by choosing the optimal model after 750 iterations. The layer configuration of the optimal model had 3 hidden layers: convolutional (conv) layer with 61 filters of size 5×5, a second conv layer with 69 filters of size 8×8, and a max-pooling layer (pool) with filter size 5×5 applied with a stride of 2 and learning rate of 0.001. <ref
-target="#fig2"
-><hi
-rend="underline"
-style="typo_souligne"
->Figure 2</hi
-></ref
-> shows the accuracy obtained using different hyper-parameter configurations as a function of iteration step using the random optimizer. Zero accuracy in some iterations indicates that the hyperparameter chosen by the optimizer did not result in a feasible network.</p
-><p
-style="txt_Normal"
->We also employed the hand-crafted 3D CNN model used in EEG classification reported in ref [10], which comprises of 3 pairs of conv (filter size 3×3) and max-pooling layer (2×2, stride 2) with number of filters in conv layer being 32, 64, and 128 respectively followed by a fully-connected (fc) layer with size 512. This model returned an accuracy of 58.21% on validation set. The training accuracy obtained was 95.39%, suggesting that the automatically optimized 3DCNN model performs better in terms of overfitting compared to a hand-crafted architecture. In addition, our approach generates several different models yielding comparable performance.</p
-><p
-style="txt_Normal"
->In order to compare our results, we also ran a standard SVM on a 500-dimensional space, as obtained by performing principal component analysis (PCA) on the pre-processed data, which resulted in an accuracy of 56%. Thus, higher prediction accuracy obtained using a CNN model, in which hyperparameters are automatically fine-tuned using an optimizer, shows the potential of our proposed framework.</p
-><p
-style="txt_Normal"
-><ref
-target="#tab1"
-><hi
-rend="underline"
-style="typo_souligne"
->Table 1</hi
-></ref
-> shows the top five model configurations. Layer configurations are indicated with layer type and their corresponding attributes like number of filters, filter size, keep-probability are shown within parentheses.</p
-></div
-><div
-type="section1"
-><head
-style="T_1"
-subtype="level1"
->4. Conclusion and future work</head
-><p
-style="txt_Normal"
->For the task of EEG classification we have proposed a cost- and time-efficient framework that requires minimal human intervention, which uses deep neural networks processed over cloud computing infrastructure and can be deployed in developing countries for diagnostics and treatment of brain disorders.</p
-><table
-cols="3"
-rend="frame"
-rows="6"
-xml:id="Tableau1"
-><head
-><anchor
-xml:id="tab1"
-></anchor
->Table 1.</head
-><row
-><cell
-rend="text-align:start;"
-rendition="#Cell1.A1"
->No. of hidden layers</cell
-><cell
-rend="text-align:start;"
-rendition="#Cell1.A1"
->Layer Configuration</cell
-><cell
-rend="text-align:start;"
-rendition="#Cell1.A1"
->Best Accuracy</cell
-></row
-><row
-><cell
-rend="text-align:start;"
-rendition="#Cell1.A2"
->3</cell
-><cell
-rend="text-align:start;"
-rendition="#Cell1.A2"
->conv(61,5x5), conv(69,8x8), pool(5x5,2)</cell
-><cell
-rend="text-align:start;"
-rendition="#Cell1.A2"
->63.4</cell
-></row
-><row
-><cell
-rend="text-align:start;"
-rendition="#Cell1.A3"
->4</cell
-><cell
-rend="text-align:start;"
-rendition="#Cell1.A3"
->conv(210,5x5), fc(828), dropout(0.71), fc(18)</cell
-><cell
-rend="text-align:start;"
-rendition="#Cell1.A3"
->62.23</cell
-></row
-><row
-><cell
-rend="text-align:start;"
-rendition="#Cell1.A3"
->1</cell
-><cell
-rend="text-align:start;"
-rendition="#Cell1.A3"
->fc(2266)</cell
-><cell
-rend="text-align:start;"
-rendition="#Cell1.A3"
->62.2</cell
-></row
-><row
-><cell
-rend="text-align:start;"
-rendition="#Cell1.A3"
->2</cell
-><cell
-rend="text-align:start;"
-rendition="#Cell1.A3"
->fc(664), fc(1025)</cell
-><cell
-rend="text-align:start;"
-rendition="#Cell1.A3"
->62.0</cell
-></row
-><row
-><cell
-rend="text-align:start;"
-rendition="#Cell1.A6"
->2</cell
-><cell
-rend="text-align:start;"
-rendition="#Cell1.A6"
->pool(4x4,2), conv(247,11x11)</cell
-><cell
-rend="text-align:start;"
-rendition="#Cell1.A6"
->61.9</cell
-></row
-></table
-><p
-style="txt_Legende"
->Top five 3DCNN model configurations and their accuracy.</p
-><figure
-><graphic
-url="../icono/br/2022-01-21__article_test__dharamsi-fig2.jpg"
-></graphic
-><head
-style="titre_figure"
->Figure 2.</head
-><p
-style="txt_Legende"
->Variation in accuracy over optimizer iterations.</p
-></figure
-><p
-style="txt_Normal"
->As part of our next steps, we plan to use this framework on a dataset aimed at classification of epileptic seizures and/or pathological/normal EEG. We further aim to test the framework in developing work environment and improve the existing framework accordingly. We would also like to see how the framework performs using other hyperparameter optimization techniques including Bayesian optimization.</p
-></div
-></div
-></body
-><back
-><div
-type="bibliographie"
-><head
-style="T_1"
->References</head
-><listBibl
-><bibl
-style="txt_Bibliographie"
-type="orig"
-xml:id="bibl01"
->[1] <ref
-target="http://www.who.int/mediacentre/factsheets/fs999/en/"
-><hi
-rend="underline"
-style="typo_souligne"
->http://www.who.int/mediacentre/factsheets/fs999/en/</hi
-></ref
-></bibl
-><bibl
-style="txt_Bibliographie"
-type="orig"
-xml:id="bibl02"
->[2] Goldberger AL et al., "PhysioBank, PhysioToolkit, and PhysioNet: Components of a New Research Resource for Complex Physiologic Signals." Circulation 101(23):e215-e220 [Circulation Electronic Pages; <ref
-target="http://circ.ahajournals.org/cgi/content/full/101/23/e215"
-><hi
-rend="underline"
-style="typo_souligne"
->http://circ.ahajournals.org/cgi/content/full/101/23/e215]; </hi
-></ref
->2000 (June 13).</bibl
-><bibl
-style="txt_Bibliographie"
-type="orig"
-xml:id="bibl03"
->[3] Schalk, G. et al., "BCI2000: A General-Purpose Brain-Computer Interface (BCI) System." IEEE Transactions on Biomedical Engineering 51(6):1034-1043, 2004.</bibl
-><bibl
-style="txt_Bibliographie"
-type="orig"
-xml:id="bibl04"
->[4] Diaz G. I., Fokoue-Nkoutche A., Nannicini G. and Samulowitz H., "An effective algorithm for hyperparameter optimization of neural networks", IBM Journal of Research and Development 61(4):9, 2017</bibl
-><bibl
-style="txt_Bibliographie"
-type="orig"
-xml:id="bibl05"
->[5] Bhattacharjee B. et al., "IBM Deep Learning Service", IBM Journal of Research and Development 61(4):10, 2017</bibl
-><bibl
-style="txt_Bibliographie"
-type="orig"
-xml:id="bibl06"
->[6] Bergstra J. et al., "Algorithms for Hyper-Parameter Optimization", Advances in Neural Information Process- ing Systems 24: 2546–2554, 2011</bibl
-><bibl
-style="txt_Bibliographie"
-type="orig"
-xml:id="bibl07"
->[7] Bergstra J. and Bengio Y. "Random search for hyper-parameter optimization", Journal of Machine Learning Research 13:281-305, 2012</bibl
-><bibl
-style="txt_Bibliographie"
-type="orig"
-xml:id="bibl08"
->[8] Bashivan P., Rish I., Yeasin M. and Codella N., "Learning Representations from EEG with Deep Recurrent- Convolutional Neural Networks", arXiv preprint <ref
-target="http://arxiv.org/abs/1511.06448"
-><hi
-rend="underline"
-style="typo_souligne"
->arXiv:1511.06448, </hi
-></ref
->2015</bibl
-><bibl
-style="txt_Bibliographie"
-type="orig"
-xml:id="bibl09"
->[9] Schirrmeister, R.T., Springenberg, J.T., Fiederer, L.D.J., Glasstetter, M., Eggensperger, K., Tangermann, M., Hutter, F., Burgard, W. and Ball, T., "Deep learning with convolutional neural networks for EEG decoding and visualization", Human Brain Mapping 38(11): 5391–5420, 2017</bibl
-><bibl
-style="txt_Bibliographie"
-type="orig"
-xml:id="bibl10"
->[10] Hung Y., Wang Y., Prasad M., Lin C., "Brain Dynamic States Analysis based on 3D Convolutional Neural Network", IEEE International Conference on Systems, Man, and Cybernetics (SMC), 2017.</bibl
-></listBibl
-></div
-></back
-></text
-></TEI
->
+<TEI change="metopes_publication#jats" xmlns="http://www.tei-c.org/ns/1.0" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Neurology-as-a-service for the developing world</title>
+                <author role="aut">
+                    <name>Tejas DHARAMSI</name>
+                    <affiliation>
+                        <ref target="#aff01" type="affiliation"/>
+                    </affiliation>
+                </author>
+                <author role="aut">
+                    <name>Payel DAS</name>
+                    <affiliation>
+                        <ref target="#aff01" type="affiliation"/>
+                    </affiliation>
+                </author>
+                <author role="aut">
+                    <name>Tejaswini PEDAPATI</name>
+                    <affiliation>
+                        <ref target="#aff02" type="affiliation"/>
+                    </affiliation>
+                    <affiliation>
+                        <ref target="#aff01" type="affiliation"/>
+                    </affiliation>
+                </author>
+                <author role="aut">
+                    <name>Gregory BRAMBLE</name>
+                    <affiliation>
+                        <ref target="#aff02" type="affiliation"/>
+                    </affiliation>
+                    <affiliation>
+                        <ref target="#aff01" type="affiliation"/>
+                    </affiliation>
+                </author>
+                <author role="aut">
+                    <name>Vinod MUTHUSAMY</name>
+                    <affiliation>
+                        <ref target="#aff02" type="affiliation"/>
+                    </affiliation>
+                </author>
+                <author role="aut">
+                    <name>Horst SAMULOWITZ</name>
+                    <affiliation>
+                        <ref target="#aff02" type="affiliation"/>
+                    </affiliation>
+                </author>
+                <author role="aut">
+                    <name>Kush R. VARSHNEY</name>
+                    <affiliation>
+                        <ref target="#aff01" type="affiliation"/>
+                    </affiliation>
+                </author>
+                <author role="aut">
+                    <name>Yuvaraj RAJAMANICKAM</name>
+                    <affiliation>
+                        <ref target="#aff02" type="affiliation"/>
+                    </affiliation>
+                    <affiliation>
+                        <ref target="#aff01" type="affiliation"/>
+                    </affiliation>
+                </author>
+                <author role="aut">
+                    <name>John THOMAS</name>
+                    <affiliation>
+                        <ref target="#aff02" type="affiliation"/>
+                    </affiliation>
+                </author>
+                <author role="aut">
+                    <name>Justin DAUWELS</name>
+                    <affiliation>
+                        <ref target="#aff01" type="affiliation"/>
+                    </affiliation>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-01-21T09:13:00</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher/>
+                <ab type="papier">
+                    <dimensions>
+                        <dim type="pagination"/>
+                    </dimensions>
+                    <date/>
+                </ab>
+                <idno type="book"/>
+                <ab type="lodel">
+                    <date/>
+                </ab>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Version Métopes : 3.0</p>
+                <p>Written by OpenOffice</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <tagsDecl>
+                <rendition scheme="css" xml:id="Cell1.A1">border-bottom:1pt solid #000000;border-left:none;border-right:none;border-top:1pt solid #000000;</rendition>
+                <rendition scheme="css" xml:id="Cell1.A2">border-bottom:none;border-left:none;border-right:none;border-top:1pt solid #000000;</rendition>
+                <rendition scheme="css" xml:id="Cell1.A3">border:none;</rendition>
+                <rendition scheme="css" xml:id="Cell1.A6">border-bottom:0.5pt solid #000000;border-left:none;border-right:none;border-top:none;</rendition>
+            </tagsDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en-EN"/>
+            </langUsage>
+            <textClass>
+                <keywords scheme="keyword" xml:lang="en">
+                    <list>
+                        <item>Electroencephalography</item>
+                        <item>TeleEEG</item>
+                        <item>EEG</item>
+                    </list>
+                </keywords>
+                <keywords scheme="keyword" xml:lang="fr">
+                    <list>
+                        <item>Électroencéphalogramme</item>
+                        <item>Télé-EEG</item>
+                        <item>EEG</item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2022-01-25T09:24:00" who="Vincent Colpin">Révision</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:id="text">
+        <front>
+            <titlePage>
+                <docTitle>
+                    <titlePart style="T_3_Article" type="main">Neurology-as-a-service for the developing world</titlePart>
+                </docTitle>
+                <docAuthor style="txt_auteur">Tejas DHARAMSI</docAuthor>
+                <byline style="auteur_Courriel">
+                    <email>
+                        <ref target="mailto:auteur@duckduckgo.com">auteur@duckduckgo.com</ref>
+                    </email>
+                </byline>
+                <docAuthor style="txt_auteur">Payel DAS</docAuthor>
+                <byline style="auteur_Courriel">
+                    <email>
+                        <ref target="mailto:auteur@duckduckgo.com">auteur@duckduckgo.com</ref>
+                    </email>
+                </byline>
+                <docAuthor style="txt_auteur">Tejaswini PEDAPATI</docAuthor>
+                <byline style="auteur_Courriel">
+                    <email>
+                        <ref target="mailto:auteur@duckduckgo.com">auteur@duckduckgo.com</ref>
+                    </email>
+                </byline>
+                <docAuthor style="txt_auteur">Gregory BRAMBLE</docAuthor>
+                <byline style="auteur_Courriel">
+                    <email>
+                        <ref target="mailto:auteur@duckduckgo.com">auteur@duckduckgo.com</ref>
+                    </email>
+                </byline>
+                <docAuthor style="txt_auteur">Vinod MUTHUSAMY</docAuthor>
+                <byline style="auteur_Courriel">
+                    <email>
+                        <ref target="mailto:auteur@duckduckgo.com">auteur@duckduckgo.com</ref>
+                    </email>
+                </byline>
+                <docAuthor style="txt_auteur">Horst SAMULOWITZ</docAuthor>
+                <byline style="auteur_Courriel">
+                    <email>
+                        <ref target="mailto:auteur@duckduckgo.com">auteur@duckduckgo.com</ref>
+                    </email>
+                </byline>
+                <docAuthor style="txt_auteur">Kush R. VARSHNEY</docAuthor>
+                <byline style="auteur_Courriel">
+                    <email>
+                        <ref target="mailto:auteur@duckduckgo.com">auteur@duckduckgo.com</ref>
+                    </email>
+                </byline>
+                <docAuthor style="txt_auteur">Yuvaraj RAJAMANICKAM</docAuthor>
+                <byline style="auteur_Courriel">
+                    <email>
+                        <ref target="mailto:auteur@duckduckgo.com">auteur@duckduckgo.com</ref>
+                    </email>
+                </byline>
+                <docAuthor style="txt_auteur">John THOMAS</docAuthor>
+                <docAuthor style="txt_auteur">Justin DAUWELS</docAuthor>
+                <byline style="auteur_Institution">
+                    <affiliation xml:id="aff01">IBM Research AI, Thomas J. Watson Research Center Yorktown Heights, NY 10598, USA</affiliation>
+                </byline>
+                <byline style="auteur_Institution">
+                    <affiliation xml:id="aff02">School of Electrical and Electronic Engineering Nanyang Technological University, Singapore 639798</affiliation>
+                </byline>
+            </titlePage>
+            <div type="resume_motscles">
+                <p style="txt_Resume">Electroencephalography (EEG) is an extensively-used and well-studied technique in the field of medical diagnostics and treatment for brain disorders, including epilepsy, migraines, and tumors. The analysis and interpretation of EEGs require physicians to have specialized training, which is not common even among most doctors in the developed world, let alone the developing world where physician shortages plague society. This problem can be addressed by teleEEG that uses remote EEG analysis by experts or by local computer processing of EEGs. However, both of these options are prohibitively expensive and the second option requires abundant computing resources and infrastructure, which is another concern in developing countries where there are resource constraints on capital and computing infrastructure. In this work, we present a cloud-based deep neural network approach to provide decision support for non-specialist physicians in EEG analysis and interpretation. Named ‘neurology-as-a-service,’ the approach requires almost no manual intervention in feature engineering and in the selection of an optimal architecture and hyperparameters of the neural network. In this study, we deploy a pipeline that includes moving EEG data to the cloud and getting optimal models for various classification tasks. Our initial prototype has been tested only in developed world environments to-date, but our intention is to test it in developing world environments in future work. We demonstrate the performance of our proposed approach using the BCI2000 EEG MMI dataset, on which our service attains 63.4% accuracy for the task of classifying real vs. imaginary activity performed by the subject, which is significantly higher than what is obtained with a shallow approach such as support vector machines.</p>
+                <p style="txt_Motclef">Keywords: Electroencephalography, TeleEEG, EEG</p>
+                <p style="txt_Resume_italique" xml:lang="fr">Quam ob rem ut ii qui superiores sunt submittere se debent in amicitia, sic quodam modo inferiores extollere. Sunt enim quidam qui molestas amicitias faciunt, cum ipsi se contemni putant; quod non fere contingit nisi iis qui etiam contemnendos se arbitrantur; qui hac opinione non modo verbis sed etiam opere levandi sunt.</p>
+                <p style="txt_Motclef_italique">Mots-clés : Électroencéphalogramme, Télé-EEG, EEG</p>
+            </div>
+            <div type="prelim">
+                <p style="txt_remerciements">Acknowledgments. This work was conducted under the auspices of the IBM Science for Social Good initiative.</p>
+            </div>
+        </front>
+        <body>
+            <div type="chapitre" xml:id="mainDiv">
+                <div type="section1">
+                    <head style="T_1" subtype="level1">1. Introduction</head>
+                    <p style="txt_Normal">Classification of EEGs is an important application used in various fields, such as brain function monitoring, medical diagnostics for epilepsy, seizures, and brain computer interfaces (BCI). EEG detects voltage fluctuations at the scalp, which is related to the neuronal activity in the brain, over time. A sophisticated setup that includes advanced computing infrastructure and trained physicians is often needed on-site for EEG interpretation for diagnostics and treatment. EEG is most often used to diagnose epilepsy that causes spikes or abnormal activities in the EEG recordings. According to WHO reports [1], epilepsy is a disorder more prominent in developing countries than developed countries and majority of patients in developing countries do not receive necessary treatment due to lack of skilled physicians and computing resources, resulting in a so-called treatment gap. Lack of training and skill among physicians can also lead to misdiagnosis of epilepsy, resulting in adverse outcomes.</p>
+                    <p style="txt_Normal">One way to automate the EEG-based classification is to use machine learning techniques. In the past, several machine learning techniques have been proposed for EEG-based feature learning/classification of brain states by carefully engineering features from the signals. An experienced and skillful scientist with domain knowledge is often required for hand engineering the features, as these features from the EEG recordings may not generalize to different subjects or tasks/situations. Moreover, it is a time consuming process.</p>
+                    <figure>
+                        <graphic url="../icono/br/2022-01-21__article_test__dharamsi-fig1.jpg"/>
+                        <head style="titre_figure">Figure 1.</head>
+                        <p style="txt_Legende">Flow diagram.</p>
+                    </figure>
+                    <p style="txt_Normal">Deep Neural Networks are characterized for EEG feature learning [8,9]. Also, with the advent of cloud computing in providing cost-effective way of performing software-as-a-service, we propose an economical way for analysis of EEGs in the cloud using deep neural networks to help physicians make better diagnoses. The patient’s EEG recording trials are moved to the cloud after data acquisition. The collected data goes through a minimal preprocessing step involving bandpass filtering and power spectogram generation which uses short term Fourier transform changing the signal into frequency time domain. This 3D data with electrodes, frequency and time are fed to convolutional neural network with optimal hyperparameter setting. The results of the classification task are returned to the physician for his analysis to better his judgment. In this study, we describe our results on task classification on a BCI EEG dataset. Our motivation is to create and test a system that can be utilized by physicians around the world with minimal human intervention.</p>
+                </div>
+                <div type="section1">
+                    <head style="T_1" subtype="level1">2. Method</head>
+                    <p style="txt_Normal">In our experiments, we utilized Physionet’s [2] BCI2000 EEG MMI dataset [3] that consists of 1500 trials from 109 subjects, who performed tasks such as opening or closing of their fists or feet, or doing both, or imagining doing so. Data was collected using 64 electrodes as per a 10-10 international system as shown in 
+                        <ref target="#fig1">
+                            <hi rend="underline" style="typo_souligne">Figure 1</hi></ref>. The sampling frequency for EEG data acquisition was 160 Hz. Out of 14 tasks to be performed by each subject, we considered 12 tasks which involved the subject to either perform a movement or imagine a movement. We used EEGs for 103 subjects in the study since 6 subjects had data annotations different from the dataset description.</p>
+                    <p style="txt_Normal">Data preprocessing of the raw EEG signals is an essential task prior to feeding it to any machine learning system due to presence of noise and artifacts. Therefore, we applied a bandpass filter with the range of 3 Hz - 30 Hz on the raw EEG data to filter out uninteresting frequency ranges. In order to treat each annotated trial segment (4.1 seconds long) as a sequence of stacked images, we generate spectrogram associated with each channel in the input trial with time segments of length 0.8 sec and sliding window of 0.05 sec. We used hanning window and NFFT of size 128 for spectogram computation. We averaged the power values over a frequency band of 2.5 Hz for the entire frequency range and computed the relative log power for each time segment. Relative power (RP) for ith frequency band is defined as real power (P) in a frequency band over sum of real log power in all the frequency band.</p>
+                    <p style="txt_Normal">
+                        <graphic url="../icono/br/2022-01-21__article_test__dharamsi-eq.jpg"/>
+                    </p>
+                    <p style="txt_Normal">These aforementioned pre-processing steps are standard signal processing tasks and can be applied as an automated process to all incoming EEG recordings without any manual intervention. This pre-processing resulted in a 3D representation of the EEG input data, in which the dimensions are electrode channels, frequency bands, and time segments 
+                        <ref target="#fig1">
+                            <hi rend="underline" style="typo_souligne">(Figure 1)</hi></ref>.</p>
+                    <p style="txt_Normal">The prepared data on cloud was fed to a convolutional neural network (CNN). We utilized an automated mechanism to select optimal hyperparameters for CNN’s architecture [4]. In our study, we used random optimizer [6,7] with the mechanism mentioned above. Parameters, such as number of layers, learning rate, type of layers, number of filters, and their size for the convolutional layer, probability range for dropouts were explored. Input to the optimizer were lower bound and upper bound for each of those hyperparameters. This model selection mechanism uses IBM &quot;Deep Learning as a Service&quot; [5], a cloud-based service to run deep learning models. The pipeline returned a model with best validation accuracy for the classification task at hand.</p>
+                </div>
+                <div type="section1">
+                    <head style="T_1" subtype="level1">3. Results</head>
+                    <p style="txt_Normal">In our study, to create end-to-end pipeline for ‘neurology-as-a-service,’ we performed a classification task to determine if the movement of a subject is real or imaginary using the dataset discussed above. The prepared data consisted of 17 232 samples and was split at the ratio of 7:3 for training and testing. A random optimizer was used for hyperparameter fine-tuning. The service returned a best accuracy of 63.4% by choosing the optimal model after 750 iterations. The layer configuration of the optimal model had 3 hidden layers: convolutional (conv) layer with 61 filters of size 5×5, a second conv layer with 69 filters of size 8×8, and a max-pooling layer (pool) with filter size 5×5 applied with a stride of 2 and learning rate of 0.001. 
+                        <ref target="#fig2">
+                            <hi rend="underline" style="typo_souligne">Figure 2</hi></ref>shows the accuracy obtained using different hyper-parameter configurations as a function of iteration step using the random optimizer. Zero accuracy in some iterations indicates that the hyperparameter chosen by the optimizer did not result in a feasible network.</p>
+                    <p style="txt_Normal">We also employed the hand-crafted 3D CNN model used in EEG classification reported in ref [10], which comprises of 3 pairs of conv (filter size 3×3) and max-pooling layer (2×2, stride 2) with number of filters in conv layer being 32, 64, and 128 respectively followed by a fully-connected (fc) layer with size 512. This model returned an accuracy of 58.21% on validation set. The training accuracy obtained was 95.39%, suggesting that the automatically optimized 3DCNN model performs better in terms of overfitting compared to a hand-crafted architecture. In addition, our approach generates several different models yielding comparable performance.</p>
+                    <p style="txt_Normal">In order to compare our results, we also ran a standard SVM on a 500-dimensional space, as obtained by performing principal component analysis (PCA) on the pre-processed data, which resulted in an accuracy of 56%. Thus, higher prediction accuracy obtained using a CNN model, in which hyperparameters are automatically fine-tuned using an optimizer, shows the potential of our proposed framework.</p>
+                    <p style="txt_Normal">
+                        <ref target="#tab1">
+                            <hi rend="underline" style="typo_souligne">Table 1</hi>
+                        </ref>shows the top five model configurations. Layer configurations are indicated with layer type and their corresponding attributes like number of filters, filter size, keep-probability are shown within parentheses.</p>
+                </div>
+                <div type="section1">
+                    <head style="T_1" subtype="level1">4. Conclusion and future work</head>
+                    <p style="txt_Normal">For the task of EEG classification we have proposed a cost- and time-efficient framework that requires minimal human intervention, which uses deep neural networks processed over cloud computing infrastructure and can be deployed in developing countries for diagnostics and treatment of brain disorders.</p>
+                    <table cols="3" rend="frame" rows="6" xml:id="Tableau1">
+                        <head>
+                            <anchor xml:id="tab1"/>Table 1.</head>
+                        <row>
+                            <cell rend="text-align:start;" rendition="#Cell1.A1">No. of hidden layers</cell>
+                            <cell rend="text-align:start;" rendition="#Cell1.A1">Layer Configuration</cell>
+                            <cell rend="text-align:start;" rendition="#Cell1.A1">Best Accuracy</cell>
+                        </row>
+                        <row>
+                            <cell rend="text-align:start;" rendition="#Cell1.A2">3</cell>
+                            <cell rend="text-align:start;" rendition="#Cell1.A2">conv(61,5x5), conv(69,8x8), pool(5x5,2)</cell>
+                            <cell rend="text-align:start;" rendition="#Cell1.A2">63.4</cell>
+                        </row>
+                        <row>
+                            <cell rend="text-align:start;" rendition="#Cell1.A3">4</cell>
+                            <cell rend="text-align:start;" rendition="#Cell1.A3">conv(210,5x5), fc(828), dropout(0.71), fc(18)</cell>
+                            <cell rend="text-align:start;" rendition="#Cell1.A3">62.23</cell>
+                        </row>
+                        <row>
+                            <cell rend="text-align:start;" rendition="#Cell1.A3">1</cell>
+                            <cell rend="text-align:start;" rendition="#Cell1.A3">fc(2266)</cell>
+                            <cell rend="text-align:start;" rendition="#Cell1.A3">62.2</cell>
+                        </row>
+                        <row>
+                            <cell rend="text-align:start;" rendition="#Cell1.A3">2</cell>
+                            <cell rend="text-align:start;" rendition="#Cell1.A3">fc(664), fc(1025)</cell>
+                            <cell rend="text-align:start;" rendition="#Cell1.A3">62.0</cell>
+                        </row>
+                        <row>
+                            <cell rend="text-align:start;" rendition="#Cell1.A6">2</cell>
+                            <cell rend="text-align:start;" rendition="#Cell1.A6">pool(4x4,2), conv(247,11x11)</cell>
+                            <cell rend="text-align:start;" rendition="#Cell1.A6">61.9</cell>
+                        </row>
+                    </table>
+                    <p style="txt_Legende">Top five 3DCNN model configurations and their accuracy.</p>
+                    <figure>
+                        <graphic url="../icono/br/2022-01-21__article_test__dharamsi-fig2.jpg"/>
+                        <head style="titre_figure">Figure 2.</head>
+                        <p style="txt_Legende">Variation in accuracy over optimizer iterations.</p>
+                    </figure>
+                    <p style="txt_Normal">As part of our next steps, we plan to use this framework on a dataset aimed at classification of epileptic seizures and/or pathological/normal EEG. We further aim to test the framework in developing work environment and improve the existing framework accordingly. We would also like to see how the framework performs using other hyperparameter optimization techniques including Bayesian optimization.</p>
+                </div>
+            </div>
+        </body>
+        <back>
+            <div type="bibliographie">
+                <head style="T_1">References</head>
+                <listBibl>
+                    <bibl style="txt_Bibliographie" type="orig" xml:id="bibl01">[1] 
+                        <ref target="http://www.who.int/mediacentre/factsheets/fs999/en/">
+                            <hi rend="underline" style="typo_souligne">http://www.who.int/mediacentre/factsheets/fs999/en/</hi></ref>
+                    </bibl>
+                    <bibl style="txt_Bibliographie" type="orig" xml:id="bibl02">[2] Goldberger AL et al., &quot;PhysioBank, PhysioToolkit, and PhysioNet: Components of a New Research Resource for Complex Physiologic Signals.&quot; Circulation 101(23):e215-e220 [Circulation Electronic Pages; 
+                        <ref target="http://circ.ahajournals.org/cgi/content/full/101/23/e215">
+                            <hi rend="underline" style="typo_souligne">http://circ.ahajournals.org/cgi/content/full/101/23/e215]; </hi></ref>2000 (June 13).</bibl>
+                    <bibl style="txt_Bibliographie" type="orig" xml:id="bibl03">[3] Schalk, G. et al., &quot;BCI2000: A General-Purpose Brain-Computer Interface (BCI) System.&quot; IEEE Transactions on Biomedical Engineering 51(6):1034-1043, 2004.</bibl>
+                    <bibl style="txt_Bibliographie" type="orig" xml:id="bibl04">[4] Diaz G. I., Fokoue-Nkoutche A., Nannicini G. and Samulowitz H., &quot;An effective algorithm for hyperparameter optimization of neural networks&quot;, IBM Journal of Research and Development 61(4):9, 2017</bibl>
+                    <bibl style="txt_Bibliographie" type="orig" xml:id="bibl05">[5] Bhattacharjee B. et al., &quot;IBM Deep Learning Service&quot;, IBM Journal of Research and Development 61(4):10, 2017</bibl>
+                    <bibl style="txt_Bibliographie" type="orig" xml:id="bibl06">[6] Bergstra J. et al., &quot;Algorithms for Hyper-Parameter Optimization&quot;, Advances in Neural Information Process- ing Systems 24: 2546–2554, 2011</bibl>
+                    <bibl style="txt_Bibliographie" type="orig" xml:id="bibl07">[7] Bergstra J. and Bengio Y. &quot;Random search for hyper-parameter optimization&quot;, Journal of Machine Learning Research 13:281-305, 2012</bibl>
+                    <bibl style="txt_Bibliographie" type="orig" xml:id="bibl08">[8] Bashivan P., Rish I., Yeasin M. and Codella N., &quot;Learning Representations from EEG with Deep Recurrent- Convolutional Neural Networks&quot;, arXiv preprint 
+                        <ref target="http://arxiv.org/abs/1511.06448">
+                            <hi rend="underline" style="typo_souligne">arXiv:1511.06448, </hi></ref>2015</bibl>
+                    <bibl style="txt_Bibliographie" type="orig" xml:id="bibl09">[9] Schirrmeister, R.T., Springenberg, J.T., Fiederer, L.D.J., Glasstetter, M., Eggensperger, K., Tangermann, M., Hutter, F., Burgard, W. and Ball, T., &quot;Deep learning with convolutional neural networks for EEG decoding and visualization&quot;, Human Brain Mapping 38(11): 5391–5420, 2017</bibl>
+                    <bibl style="txt_Bibliographie" type="orig" xml:id="bibl10">[10] Hung Y., Wang Y., Prasad M., Lin C., &quot;Brain Dynamic States Analysis based on 3D Convolutional Neural Network&quot;, IEEE International Conference on Systems, Man, and Cybernetics (SMC), 2017.</bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>
