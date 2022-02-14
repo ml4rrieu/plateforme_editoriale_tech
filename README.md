@@ -2,7 +2,7 @@
 # Métopes & JATS
 
 
-## 1. Problèmes Métopes dans la production du JATS v
+## 1. Problèmes Métopes dans la production du JATS
 
 voir les issues
 
