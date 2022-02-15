@@ -9,7 +9,7 @@ voir les issues
 
 ## 2. Balises à ajouter manuellement pour un JATS riche (non présentes dans Métopes)
 
-Voir document dédié [balises-ajout-manuel-pour-JATS-riche.md](balises-ajout-manuel-pour-JATS-riche.md)
+Voir document dédié [balises-ajout-manuel-pour-JATS-riche.md](balises ajout manuel pour JATS riche.md)
 
 * Ajout des ORCIDs (nécessaire pour les auteurs qui n'ont pas de IDREF)
 
