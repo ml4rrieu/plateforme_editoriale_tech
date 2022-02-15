@@ -1,4 +1,3 @@
-
 # Métopes & JATS
 
 
@@ -8,87 +7,35 @@ voir les issues
 
 
 
-<!--
-
-TITRE Mots-clés traduits apparaissent en double
-
-contenu  
-Les mots-clés traduits, dans une langue différente de l'article, apparaissent en double : une fois en format structuré et une 2e fois directement après la balise `<body>`, ce qui crée une erreur DTD.
-
-
-exemple `2022-01-25-10h30__article_test__dharamsi__JATS.xml`
-```xml
-<kwd-group kwd-group-type="author-keywords" xml:lang="fr">
-    <kwd>Électroencéphalogramme</kwd>
-    <kwd>Télé-EEG</kwd>
-    <kwd>EEG</kwd>
-</kwd-group>
-```
-```xml
-<body>Mots-clés : Électroencéphalogramme, Télé-EEG, EEG
-    <p>Acknowledgments. This work was conducted under the auspices of the IBM Science for Social Good initiative.</p>
-```
-
--->
-
-
 ## 2. Balises à ajouter manuellement pour un JATS riche (non présentes dans Métopes)
 
-* Ajout des ORCIDs des auteurs (nécessaire pour les auteurs qui n'ont pas de IDREF)
+Voir document dédié [balises-ajout-manuel-pour-JATS-riche.md](balises-ajout-manuel-pour-JATS-riche.md)
 
-```xml
-<contrib-id contrib-id-type="ORCID">0000-0001-6042-1358</contrib-id>
-    <name>
-        <surname>Diamanti</surname>
-        <given-names>Luca</given-names>
-    </name>
-    <aff>
-        <xref ref-type="aff" rid="aff02"/>
-        <xref ref-type="aff" rid="aff01"/>
-   </aff>
-</contrib>
-```
-
+* Ajout des ORCIDs (nécessaire pour les auteurs qui n'ont pas de IDREF)
 
 * Ajout des identifians ROR dans les affiliations
 
-```xml
- <aff id="aff01">
-    <institution-wrap>
-        <institution-id institution-id-type="ROR">04tfzc498</institution-id>
-        <institution>Neuroradiology Department, Advanced Imaging and Radiomics Center, Istituto di Ricovero e Cura di Carattere Scientifico (IRCCS) Mondino Foundation, Pavia, Italy</institution>
-     </institution-wrap>
- </aff>
-```
+* journal-meta
 
-* Volume, Issue
+* DOI
 
-introuvables dans le JATS
+* Volume, Issue, Page
 
-* Dates de soumission (et acceptation ? )
+* Dates de soumission, acceptation
  
-non trouvable dans Métopes
+* licence `<persmissions>`
 
+* Corresponding author
+
+* Ethics Statements
+
+* Data Availability (le cas échéant)
 
 * Declaration of interest
 
-une seule déclaration pour l'ensemble des auteurs
-```xml
-<author-notes>
-    <fn fn-type="coi-statement">
-        <p>Competing Interests: The authors have declared that no competing interests exist.</p>
-    </fn>
-</author-notes>
-```
-
-plusieurs déclarations selon les auteurs, cf. [jats4r.org](https://jats4r.org/conflict-of-interest-statements/#examples)
 
 
-
-<br />
-<br />
-
-## 3. Correspondances teminologiques entre le menu de Métopes (Word) et les bases JATS
+## 3. Correspondance teminologique entre le menu de Métopes (Word) et les bases JATS
 
  `<label>` doit contenir l' "identitiant littéraire" de l'image, "Figure 2". 
 
