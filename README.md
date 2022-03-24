@@ -11,7 +11,7 @@ voir les issues
 
 Voir document dédié [balises-ajout-manuel-pour-JATS-riche.md](./balises-ajout-manuel-pour-JATS-riche.md)
 
-* Ajout des ORCIDs (nécessaire pour les auteurs qui n'ont pas de IDREF)
+* Ajout des ORCIDs (lorsque les auteurs n'ont pas d'IDREF)
 
 * Ajout des identifians ROR dans les affiliations
 
@@ -21,11 +21,9 @@ Voir document dédié [balises-ajout-manuel-pour-JATS-riche.md](./balises-ajout-
 
 * Volume, Issue, Page
 
-* Dates de soumission, acceptation
- 
 * licence `<persmissions>`
 
-* Corresponding author
+* Corresponding author (pour indique l'email)
 
 * Ethics Statements
 
